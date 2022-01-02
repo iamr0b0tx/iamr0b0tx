@@ -1,0 +1,18 @@
+.work{
+    font-family: inherit;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--text-light-color);
+}
+.image-carousel{
+    margin: 100px;
+    width:50%;
+    height: 100%;
+background-color: var(--text-light-color);
+    display:flex;
+    justify-content: space-between;
+}
+img{
+    height: 200px;
+    width: 200px;
+}

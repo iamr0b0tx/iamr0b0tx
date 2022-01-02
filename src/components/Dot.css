@@ -1,0 +1,15 @@
+.dot{
+    width:16px;
+    height:16px;
+    background-color:var(--bg-green-color);
+    border-radius:50%;
+    position:absolute;
+    left:calc(50% - 8px);
+    top:10px;
+    
+}
+    @media screen and (max-width:700px) {
+        .dot{
+            left:0;
+    }
+}

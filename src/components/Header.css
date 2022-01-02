@@ -1,0 +1,22 @@
+.header{
+    color:red;
+    min-height: 100vh;
+    background-color: var(--text-light-color);
+}
+.code-items{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width:50%;
+    height: 50% ;
+}
+
+.code:nth-child(1){
+    font-size: 4rem;
+    color:var(--bg-color);
+    transform: rotate(90deg);
+}
+.code:nth-child(2){
+    font-size: 5rem;
+    color: var(--bg-green-color);
+}

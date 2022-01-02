@@ -1,0 +1,82 @@
+.about{
+    font-family: "Roboto", sans-serif;
+    width:100%;
+    min-height: 100%;
+    color: var(--bg-color);
+    background-color: var(--text-light-color);
+}
+.landing-about{
+    margin: 100px 0 0 100px;
+    display:flex;
+    justify-items:space-around;
+    align-content: center;
+    width: 80%;
+    min-height: 100vh;
+}
+
+.left-about{
+
+color: var(--bg-color);
+width:60%;
+padding:80px;
+
+}
+.img-box{
+    width:250px;
+    height: 250px;
+    border:1px solid var(--bg-indigo-color);
+    position: relative;
+    border-radius: 8px;
+    z-index: 1;
+    background-color: var(--bg-color);
+}
+.image{
+    width: 250px;
+    border: 3px solid var(--bg-green-color);
+    height: 250px;
+    position: relative;
+    border-radius: 8px;
+    z-index: 2;
+    top: -280px;
+    left: -30px;
+}
+a:visited{
+color: var(--text-light-color);
+}
+.right-about{
+   background-color: var(--text-light-color);
+   width: 30%;
+   height:50%;
+   margin-left: 10px;
+   padding: 100px 80px;
+
+}
+.fatah{
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+hr{
+    width: 50px;
+    margin: 10px 50px 0 0;
+}
+.about-fatah{
+    text-transform: none;
+    font-size: 1.4rem;
+    opacity: 0.8;
+
+}
+.skills{
+    margin-top: 30px;
+
+    font-size: 1.5rem;
+}
+.skillset{
+    font-size: 1.4rem;
+    margin: 20px;
+}
+.image-box{
+    width:500px;
+    height: 50%; 
+    
+}
+

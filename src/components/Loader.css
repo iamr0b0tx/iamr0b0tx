@@ -1,0 +1,33 @@
+.loader{
+background-color: var(--bg-color);
+width:50%;
+height: 50vh;
+display: flex;
+justify-content: center;
+align-content: center;
+
+}
+
+.inner-loader {
+width: 300px;
+height: 300px;
+border:  2px solid var(--bg-indigo-color);
+border-radius: 50% ;
+display: flex;
+justify-content: center;
+margin: 100px 50px;
+}
+.fa {
+    color: var(--bg-green-color);
+    font-size: 5rem;
+    padding: 70px;
+    transition: .5s ease-in;
+      
+    
+}
+.f{
+    transform: translateX(20%);
+}
+.a{
+    transform: translateY(40%);
+}

@@ -1,0 +1,105 @@
+@keyframes cube {
+    from {
+        transform: scale(0) rotate(0deg) translate(-50%, -50%);
+        opacity: 1;
+    }
+    to {
+        transform: scale(20) rotate(960deg) translate(-50%, -50%);
+        opacity: 0;
+    }
+}
+
+.background {
+    position:sticky;
+    width: 100%;
+    height:inherit;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: var;
+}
+.background li {
+position: absolute;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border:     solid 1px transparent;
+    color: transparent;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 7s ease-in forwards infinite;
+}
+
+.background li:nth-child(0) {
+    animation-delay: 0s;
+    left: 14vw;
+    top: 86vh;
+    border-color: var(--text-light-color);
+}
+
+.background li:nth-child(1) {
+    animation-delay: 2s;
+    left: 93vw;
+    top: 38vh;
+    border-color: var(--bg-indigo-color);
+}
+
+.background li:nth-child(2) {
+    animation-delay: 4s;
+    left: 9vw;
+    top: 22vh;
+    border-color: var(--text-light-color);
+}
+
+.background li:nth-child(3) {
+    animation-delay: 6s;
+    left: 46vw;
+    top: 43vh;
+    border-color:var(--bg-color);
+}
+
+.background li:nth-child(4) {
+    animation-delay: 8s;
+    left: 65vw;
+    top: 66vh;
+    border-color: var(--bg-green-color);
+}
+
+.background li:nth-child(5) {
+    animation-delay: 10s;
+    left: 35vw;
+    top: 77vh;
+    border-color: var(--text-light-color);
+}
+
+.background li:nth-child(6) {
+    animation-delay: 12s;
+    left: 80vw;
+    top: 94vh;
+    border-color: var(--bg-indigo-color);
+}
+
+.background li:nth-child(7) {
+    animation-delay: 14s;
+    left: 72vw;
+    top: 11vh;
+    border-color: var(--text-light-color);
+}
+
+.background li:nth-child(8) {
+    animation-delay: 16s;
+    left: 27vw;
+    top: 51vh;
+    border-color: var(--bg-green-color);
+}
+
+.background li:nth-child(9) {
+    animation-delay: 18s;
+    left: 54vw;
+    top: 1vh;
+    border-color: var(--text-light-color);
+}
+
