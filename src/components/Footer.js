@@ -1,11 +1,10 @@
 import React from 'react'
 import { AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillMail, AiFillPhone, AiFillRedditSquare, AiFillTwitterSquare } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
-import Home from '../routes/Home'
 import "./Footer.css"
 
 const Footer = () => {
-    return (
+    return(
         
         <div className='footer'>
     <section class="semicircle">
@@ -20,11 +19,11 @@ const Footer = () => {
     <div className='footer-nav'>
     <ul className='social'>
             <li><a href='https://www.reddit.com/uiser/amr0b0tx'><AiFillRedditSquare/></a></li>
-             <li><a href="#"><AiFillTwitterSquare/></a></li>
-             <li><a href="#"><AiFillFacebook/></a></li>
+             <li><a href="https://twitter.com/iamr0b0tx"><AiFillTwitterSquare/></a></li>
+             <li><a href="https://web.facebook.com/abduladeneye"><AiFillFacebook/></a></li>
             <li><a href="https://www.github.com/iamr0b0tx"><AiFillGithub/></a></li>
            <li> <a href="https://www.linkedin.com/in/abduladeneye/"><AiFillLinkedin/></a></li>
-            <li><a href='#'><AiFillInstagram/></a></li>
+            <li><a href='https://www.instagram.com/iamr0b0tx/'><AiFillInstagram/></a></li>
             </ul>
     <ul className='nav-social'>
         <li> <Link to="/">Home</Link></li>
