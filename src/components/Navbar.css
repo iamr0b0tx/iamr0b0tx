@@ -10,21 +10,18 @@ padding: 3rem ;
 z-index: 10;
 }
 .navbar-bg{
-    background-color: var(--bg-color);
+    background-color: inherit;
 }
 
 
-.letter-f{
+.letter-fa{
     margin-left: 60px;
     font-weight: 500;
     font-size: 3.0rem;
     color:var(--bg-green-color);
     cursor: pointer;
 }
-.color-a{
-    color: var(--text-light-color);
-    
-}
+
 .nav{
     display:flex;
     
@@ -52,7 +49,7 @@ z-index: 10;
 .times, .menu{
     transition: 0.4s ease-in;
     font-size: 35px;
-    color: var(--text-color);
+    color: var(--bg-green-color);
 }
  
 @media screen  and (min-width:1600px) {
@@ -79,12 +76,6 @@ z-index: 10;
 background-color: transparent;
 border: none;
 }
-.letter-f,
-.color-a{
-    color: var(--bg-green-color);
-    
-    
-}
 .nav li{
     
     padding: 1rem ;
@@ -92,6 +83,9 @@ border: none;
 .nav a{
     font-size: 2rem;
     color: var(--bg-color);
+}
+.nav a:hover{
+    color: var(--bg-green-color);
 }
 .nav.active{
     left: 65%;
@@ -121,13 +115,9 @@ border: none;
     
     
     }
-    .letter-f{
+    .letter-fa{
         color: var(--bg-green-color);
-        margin-left: 10px;
-    }
-    .color-a{
-        color: var(--bg-green-color);
-        
+        margin-left: 3px;
     }
     .nav li{
         padding: 1rem 0;

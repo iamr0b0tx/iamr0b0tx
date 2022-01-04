@@ -2,7 +2,6 @@
     font-family: inherit;
     width: 100%;
     min-height: 100vh;
-    background-color: var(--text-light-color);
 }
 .image-carousel{
     margin: 100px;

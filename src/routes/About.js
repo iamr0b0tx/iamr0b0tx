@@ -1,24 +1,29 @@
 import React from 'react'
 import Heading from '../components/Heading'
 
+
 import "./About.css"
+import {AiFillRightCircle} from 'react-icons/ai';
 
 const About = ({text}) => {
     return (
         <div className='about'>
-            <Heading text={"About"}/>
+            <Heading text={"About Me"}/>
             <div className='landing-about'>
                <div className='left-about'>
-        < h2 className='fatah'>Hi, my name is Abdulfatah. 
+        <p className='fatah'>Hi, my name is Abdulfatah. 
         <br/>I am very meticulous about my work, I like to understand the most fundamental details about any project that I could work on to deliver a successful result. I am very interested in technology trends and things cutting edge to stay on top like blockchain, quantum computing, and Artificial intelligence.
 
-</h2>
+</p>
     
-            <h3 class="skills">Here are the technology  I am familiar with</h3>
+            <p class="skills">Few technologies I am familiar with:</p>
             <hr/>
             <div className='skillset'>
-               <h4> python
-                </h4>
+               <p><AiFillRightCircle style={{color:"var(--bg-green-color)"}}/> Python</p>
+               <p><AiFillRightCircle style={{color:"var(--bg-green-color)"}}/> Reactjs</p>
+               <p><AiFillRightCircle style={{color:"var(--bg-green-color)"}}/> Java</p> 
+               <p><AiFillRightCircle style={{color:"var(--bg-green-color)"}}/> C/C++</p> 
+               <p><AiFillRightCircle style={{color:"var(--bg-green-color)"}}/> PHP</p>
             </div>
         </div>
         

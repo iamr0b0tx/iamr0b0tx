@@ -25,7 +25,7 @@ setClick(!click);
     return (
         <div className={color ? "navbar navbar-bg" : "navbar"}>
             <Link to='/'>
-        <h1 className="letter-f">F<span className="color-a">A.</span></h1>
+        <h1 className="letter-fa">FA</h1>
             </Link>
 <ul className={click ? "nav active" : "nav"}>
     <li>

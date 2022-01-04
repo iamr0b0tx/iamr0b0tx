@@ -7,8 +7,8 @@ import Navbar from '../components/Navbar'
 
 import "./Home.css"
 import About from './About'
-import Contact from './Contact'
 import Work from './Work'
+import Contact from "./Contact"
 
 const Home = () => {
     return (

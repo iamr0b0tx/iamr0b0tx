@@ -6,7 +6,7 @@
 .heading{
     position: relative;
     margin: 0 10px 0 20px;
-    color: var(--bg-color);
+    color: var(--text-light-color);
     font-size:3rem;
         font-weight:1000;
         opacity: 0.8;

@@ -1,5 +1,5 @@
 
-button{
+.secondary{
 padding: .7rem 1rem;
   font-size: 1.0rem;
   margin-right:10px;
@@ -8,15 +8,17 @@ padding: .7rem 1rem;
 background-color: var(--bg-green-color);
   letter-spacing: 1px;
   border-radius: 10px;
+  
   outline:none;
   cursor:pointer;
   transition: 0.4s ease-in-out ;
   border: 3px solid var(--bg-green-color);
 }
-  button:hover{
-    background-color:transparent;
+  .secondary:hover{
+    background-color:var(--bg-color);
     transition:all ease 0.4s;
     border: 3px solid  var(--bg-green-color);
+    color: var(--bg-green-color);
 }
 @media screen and (max-width: 700px){
 button{font-size:1.0rem;

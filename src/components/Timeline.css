@@ -1,8 +1,6 @@
 .timeline{
     padding:70px 5px;
     margin-top: 100px;
-    opacity: 1;
-    background-color: var(--text-color);
 }
 .experience-items{
     width: 1000px;;
@@ -16,7 +14,7 @@
     position:absolute;
     width:2px;
     height:100%;
-    background-color:var(--bg-color);
+    background-color:var(--bg-green-color);
     left:calc(50% - 1px);
     
     
@@ -44,8 +42,7 @@
 .experience-content{
     padding:30px;
     border-radius:30px;
-    color: var(--text-color);
-    background-color:var(--bg-color);
+    color: var(--text-light-color);
     border: 2px solid var(--bg-green-color);
 }
 @media screen and (max-width:700px) {

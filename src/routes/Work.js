@@ -5,7 +5,7 @@ import "./Work.css"
 const Work = ({text}) => {
     return (
         <div className='work'>
-            <Heading text={"Projects"}/>
+            <Heading text={"Project"}/>
         
         <div className='image-carousel'>
        <img src={require("../assets/regressioh-krigging-for-geodata.jpg")} alt="project-regression"/>

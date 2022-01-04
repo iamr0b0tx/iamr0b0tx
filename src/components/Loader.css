@@ -1,21 +1,20 @@
 .loader{
 background-color: var(--bg-color);
-width:50%;
-height: 50vh;
+width:500px;
+height: 500px;
+line-height: 50vh;
 display: flex;
 justify-content: center;
-align-content: center;
+align-items: center;
 
 }
 
 .inner-loader {
-width: 300px;
-height: 300px;
-border:  2px solid var(--bg-indigo-color);
+width: 40px;
+height: 40px;
 border-radius: 50% ;
-display: flex;
-justify-content: center;
-margin: 100px 50px;
+background-color: var(--bg-green-color);
+margin: 1.5rem;
 }
 .fa {
     color: var(--bg-green-color);

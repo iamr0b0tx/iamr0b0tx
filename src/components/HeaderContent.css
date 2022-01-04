@@ -10,7 +10,7 @@
 }
 .left{
  margin: 200px 150px;
- width:50%;
+ width:60%;
  
     
 }
@@ -21,7 +21,7 @@
 
     }
     .big{
-        font-size: 4rem;
+        font-size: 4.5rem;
         font-weight: 300;
         margin:0 0 10px 0;
     
@@ -30,13 +30,10 @@
         color: var(--bg-green-color);
     }
     .medium{
-    
         font-size: 2.8rem;
-        color: var;
-        opacity: 0.8;
+        opacity: 0.6;
     }
     .para{
-        color:var(--text);
         font-size: 1.2rem;
     }
     
@@ -67,10 +64,9 @@
     justify-content: center;
  }
  .left{
-
+margin-left:100px ;
     
  }
-
 
  
  .small{

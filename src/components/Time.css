@@ -2,7 +2,7 @@
 {
 font-size:20px;
 font-weight:500;
-color:var(--bg-color);
+color:var(--text-light-color);
 background-color:transparent;
 margin:6px 0 15px;
 }

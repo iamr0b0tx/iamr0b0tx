@@ -24,49 +24,60 @@
     bottom: 0px;
   }
 .connect{
-display:flex ;
-margin: 50px;
-justify-content: space-around;
-font-size: 3.8rem;
+margin-top: 50px;
+text-align: center;
+font-size: 4rem;
 letter-spacing: 3px;
 color:var(--text-light-color);
 
+}
+.para-connect{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    color: var(--text-light-color);
 }
 .email{
     display: flex;
     justify-content:center ;
     align-content: center;
-    margin: 0 80px 0 80px;
+    margin: 30px 80px 0 80px;
     color: var(--text-light-color);
-    opacity: 0.7;
+    
 
 }
 .email-un{
     padding-right: 100px;
-    font-size: 1.3rem;
-    
+    font-size: 1.4rem;
+    opacity: 0.8;
 }
 .email-do{
     padding-left: 100px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    opacity: 0.8;
 }
 .un{
-padding-right:10px ;
+padding: 0 5px;
 font-size: 2.5rem;
 color: var(--bg-green-color);
 opacity: 1;
 }
 .do{
-padding-left: 10px;
+padding:0 5px;
 font-size: 2.5rem;
 color: var(--bg-green-color);
 opacity: 1;
 
 }
+.footer-menu{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
 .social{
-    width: 100%;
 color:var(--bg-color);
-height: 100px;
     display: flex;
     justify-content:center ;
     align-content: center;
@@ -76,22 +87,41 @@ height: 100px;
 
 }
 .social li a{
-padding:1rem;
+    font-size: 3.5rem;
+padding:0.5rem;
+color: var(--bg-color);
     
+}
+.social li a:visited{
+    color: var(--bg-color);
 }
 .nav-social{
-    width:500px;
-    background-color:var(--bg-color);
-    font-size: 2rem;
-        margin: 50px;
-        padding: 50px;
-    
+    display: flex;
+    justify-content:center ;
+    align-content: center;
+    margin: 100px 80px 0 80px;
+   font-size: 2rem;
 }
 .nav-social li{
-    color: var(--bg-indigo-color);
+    padding : 1rem 2rem;
 }
+.nav-social li a:hover{
+background-color: var(--bg-color);
+padding:0.5rem  1rem;
+border-radius: 8px;
+color: var(--text-light-color);
+}
+.coder{
+    margin: 20px 0;
+    padding: 20px;
 
-
+    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--bg-green-color);
+}
+.coder p{
+    font-size: 2rem;
+}
 @media screen  and (min-width:700px){
     
 }

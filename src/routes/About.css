@@ -3,7 +3,7 @@
     width:100%;
     min-height: 100%;
     color: var(--bg-color);
-    background-color: var(--text-light-color);
+    background-color: var(--bg-color);
 }
 .landing-about{
     margin: 100px 0 0 100px;
@@ -15,24 +15,26 @@
 }
 
 .left-about{
-
-color: var(--bg-color);
+opacity: 0.7;
+color: var(--text-light-color);
 width:60%;
 padding:80px;
+letter-spacing: 2px;
+line-height: 1.5;
 
 }
 .img-box{
     width:250px;
     height: 250px;
-    border:1px solid var(--bg-indigo-color);
+    border:2px solid var(--bg-green-color);
     position: relative;
-    border-radius: 8px;
+    border-radius: 10px;
     z-index: 1;
     background-color: var(--bg-color);
 }
 .image{
     width: 250px;
-    border: 3px solid var(--bg-green-color);
+    border: 5px solid var(--text-light-color);
     height: 250px;
     position: relative;
     border-radius: 8px;
@@ -40,11 +42,9 @@ padding:80px;
     top: -280px;
     left: -30px;
 }
-a:visited{
-color: var(--text-light-color);
-}
+
 .right-about{
-   background-color: var(--text-light-color);
+   background-color: transparent;
    width: 30%;
    height:50%;
    margin-left: 10px;
@@ -53,15 +53,15 @@ color: var(--text-light-color);
 }
 .fatah{
     color: var(--text-color);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 hr{
-    width: 50px;
+    width: 30%;
     margin: 10px 50px 0 0;
 }
 .about-fatah{
     text-transform: none;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     opacity: 0.8;
 
 }
@@ -71,8 +71,10 @@ hr{
     font-size: 1.5rem;
 }
 .skillset{
-    font-size: 1.4rem;
     margin: 20px;
+}
+.skillset p{
+    font-size: 1.4rem;
 }
 .image-box{
     width:500px;
