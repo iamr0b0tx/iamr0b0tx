@@ -14,7 +14,7 @@ const HeaderContent = () => {
             <p className='para'>A Solution hacker that is enthusiastic about technology.</p>
             <div className='btn'>
             <SecondaryButton name={"Resume"}/>
-            <PrimaryButton name={"Contact Me"}/>
+            <PrimaryButton name={"Contact"}/>
             </div>
       
             </div>
