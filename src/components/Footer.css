@@ -2,13 +2,13 @@
     width: 100%;
     
     color: var(--bg-green-color);
-    min-height: 90vh;
+    min-height: 100vh;
     background-color:var(--text-light-color);
 }
 .semicircle {
     position: relative;
     background: var(--bg-color);
-    height: 40vh;
+    height: 50vh;
   }
   
   .semicircle::before {
@@ -123,7 +123,7 @@ background-color: var(--bg-color);
 }
 
 .coder{
-    margin: 40px 0;
+    margin: 40px 0 20px 0;
     padding: 20px;
     text-align: center;
     background-color: var(--bg-color);

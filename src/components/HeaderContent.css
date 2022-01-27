@@ -82,8 +82,8 @@
     justify-content: center;
  }
  .left{
-margin-left:100px;
-width: 60%;
+margin-left:150px;
+width: 70%;
  }
 
  
@@ -91,7 +91,7 @@ width: 60%;
      font-size: 1.2rem
  }
  .big{
-     font-size: 4rem;
+     font-size: 2rem;
  }
  .medium{
      font-size: 2rem;
@@ -106,8 +106,8 @@ width: 60%;
      margin:60px 0 0 5px;
  }
  .right{
-    margin-left: 130px;
-     width: 60%;
+    margin-left: 50px;
+     width: 30%;
 
  }
 
