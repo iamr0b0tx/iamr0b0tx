@@ -9,7 +9,7 @@
     background-color: var(--bg-color);
 }
 .left{
- margin: 100px 0 0 100px;
+ margin: 150px 0 0 100px;
  width:40%;
  
     
@@ -45,6 +45,7 @@
     width: 40%;
     display: flex;
     justify-content: space-around;
+    margin: 0 0 0 100px ;
 
 }
 .quote-fatah{
@@ -83,7 +84,7 @@
  }
  .left{
 margin-left:100px;
-width: 60%;
+width: 70%;
  }
 
  
