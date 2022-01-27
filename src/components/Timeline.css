@@ -1,6 +1,7 @@
 .timeline{
     padding:70px 5px;
-    margin-top: 100px;
+    margin: 100px 0;
+    
 }
 .experience-items{
     width: 1000px;;
@@ -26,10 +27,7 @@
    
     
 }
-.experience-item:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-}
+
 .experience-item:nth-child(odd){
     padding-right:calc(50% + 30px);
     text-align:right;
@@ -37,6 +35,12 @@
 }
 .experience-item:nth-child(even){
     padding-left:calc(50% + 30px);
+}
+.experience-content:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    margin: 20px;
+    padding: 30px;
 }
 
 .experience-content{
@@ -47,10 +51,10 @@
 }
 @media screen and (max-width:700px) {
     .experience-items:before{
-    left:7px;
+    left: 7px;
 }
 .experience-items{
-    width:90%;
+    width:85%;
 }
 .experience-item:nth-child(odd){
 padding-left:37px;

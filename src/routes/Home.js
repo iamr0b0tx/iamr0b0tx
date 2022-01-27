@@ -12,7 +12,7 @@ import Contact from "./Contact"
 
 const Home = () => {
     return (
-        <div className='home'>
+        <div className='home animate__animated animate__fadeInUp'>
             <Navbar/>
             <HeaderContent/>
             <About/>

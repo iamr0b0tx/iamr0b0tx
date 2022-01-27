@@ -1,11 +1,14 @@
 import React from 'react'
-import "./PrimaryButton.css"
 
+import "./PrimaryButton.css"
 
 const PrimaryButton = ({name}) => {
     return (
         <div>
-         <button className='primary'>{name}</button>   
+        <button className='primary'>
+        <a href="mailto:abdulfatahadeneye@gmail.com">{name}
+        </a>
+         </button>   
         </div>
     )
 }

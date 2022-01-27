@@ -36,7 +36,7 @@ color:var(--text-light-color);
     text-align: center;
     font-size: 1.8rem;
     letter-spacing: 3px;
-    color: var(--text-light-color);
+    color: var(--text-dark-color);
 }
 .email{
     display: flex;
@@ -57,27 +57,19 @@ color:var(--text-light-color);
     font-size: 1.4rem;
     opacity: 0.8;
 }
-.un{
-padding: 0 5px;
-font-size: 2.5rem;
-color: var(--bg-green-color);
-opacity: 1;
-}
-.do{
-padding:0 5px;
-font-size: 2.5rem;
-color: var(--bg-green-color);
-opacity: 1;
+.footer-nav{
+    width: 100%;
 
 }
 .footer-menu{
     width: 1000px;
     display: flex;
-    justify-content: space-around;
-    align-content: center;
+    flex-direction: column;
+    margin: 50px 250px;
+    justify-content:space-around ;
+    align-items: center;
 }
 .social{
-color:var(--bg-color);
     display: flex;
     justify-content:center ;
     align-content: center;
@@ -86,14 +78,28 @@ color:var(--bg-color);
     
 
 }
+.social li{
+    margin: 10px 20px; 
+    
+    
+                           
+
+}
 .social li a{
-    font-size: 3.5rem;
-padding:0.5rem;
-color: var(--bg-color);
+    font-size: 3rem;
+padding:1rem .5rem 0 .5rem;
+border-radius: 50%;
+                            
+
     
 }
-.social li a:visited{
+.social li a:link, .social li a:visited{
+    color: var(--text-light-color);
+    background-color:var(--bg-color);
+}
+.social li a:hover{
     color: var(--bg-color);
+    background-color: var(--text-light-color);
 }
 .nav-social{
     display: flex;
@@ -104,24 +110,150 @@ color: var(--bg-color);
 }
 .nav-social li{
     padding : 1rem 2rem;
+    
+}
+.nav-social li a {
+    color:var(--bg-color);
 }
 .nav-social li a:hover{
-background-color: var(--bg-color);
 padding:0.5rem  1rem;
-border-radius: 8px;
+border: 3px solid var(--bg-color);
 color: var(--text-light-color);
+background-color: var(--bg-color);
+}
+.nav-social li a:visited{
+    
 }
 .coder{
     margin: 20px 0;
     padding: 20px;
-
     text-align: center;
     background-color: var(--bg-color);
-    color: var(--bg-green-color);
+    color: var(--text-dark-color);
 }
 .coder p{
     font-size: 2rem;
 }
-@media screen  and (min-width:700px){
+@media screen  and (max-width:700px){
+    .footer{
+        width: 100%;
+    }
+
+    .semicircle {
+        position: relative;
+        background: var(--bg-color);
+        height: 50vh;
+      }
+      
+      .semicircle::before {
+        position: absolute;
+        content: '';
+        left: 50%;
+        z-index: 10;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: var(--bg-color);
+        transform: translateX(-50%) translateY(50%);
+        
+      }
+    .connect{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color:var(--text-light-color);
     
+    }
+    .para-connect{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+        color: var(--text-light-color);
+    }
+    .email{
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        margin: 50px 100px;
+        color: var(--text-light-color);
+        
+    }
+    .email-un{
+        padding-right: 100px;
+        font-size: 1.4rem;
+        opacity: 0.8;
+    }
+    .email-do{
+        padding-left: 100px;
+        font-size: 1.4rem;
+        opacity: 0.8;
+    }
+    .un{
+    padding: 0 5px;
+    font-size: 2.5rem;
+    color: var(--bg-green-color);
+    opacity: 1;
+    }
+    .do{
+    padding:0 5px;
+    font-size: 2.5rem;
+    color: var(--bg-green-color);
+    opacity: 1;
+    
+    }.footer-nav{
+        width:100%;    
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin: 0;
+        
+    }
+    
+    .social{
+    flex-direction: column;
+        
+    
+    }
+    .social li a{
+        font-size: 3rem;
+    padding:0.5rem;
+    color: var(--bg-color);
+        
+    }
+    .social li a:visited, .social li a:link{
+    
+        color: var(--bg-color);
+        background-color: var(--text-light-color);
+    }
+    
+
+    .nav-social{
+    flex-direction: column;
+       font-size: 1.5rem;
+    }
+    .nav-social li{
+        padding :0.5rem 0;
+        margin: .5rem;
+    }
+    .nav-social li a{
+        padding: 0.5rem 1rem;
+    }
+    .nav-social li a:hover{
+        transition: 0.4s;
+ color: var(--text-light-color);
+background-color: var(--bg-color);
+      
+
+    }
+    .coder{
+        margin: 20px 0;
+        padding: 20px;
+    }
+    .coder p{
+        font-size: 1rem;
+    
+    }
 }

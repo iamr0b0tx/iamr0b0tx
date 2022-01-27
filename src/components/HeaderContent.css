@@ -4,13 +4,13 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin:50px 0 0 0 ;
+    margin:50px 0 0 0;
     letter-spacing: 3px;
     background-color: var(--bg-color);
 }
 .left{
- margin: 200px 150px;
- width:60%;
+ margin: 200px 0 0 150px;
+ width:40%;
  
     
 }
@@ -36,11 +36,29 @@
     .para{
         font-size: 1.2rem;
     }
-    
+    .arrow{
+        font-size: 10px;
+        color: var(--bg-green-color);
+    }
 
 .right{
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.quote-fatah{
+    font-size: 50px;
+    font-weight: 300;
+    margin: 100px 5px;
+    padding: 100px;
+    opacity: 0.1;
+    letter-spacing: 0.1rem;
+    color: var(--bg-green-color);
+}
+.quote-fatah:hover{
+    opacity: 1;
+    transition: .2s ease;
 
 }
 
@@ -54,18 +72,18 @@
     justify-content: c;
     align-content: center;
 }
-@media screen and (max-width:760px){
+@media screen and (max-width:700px){
     .landing{
         margin-top: 5px;
-        width:80%;
-        margin-left: 20px;
+        width: 100%;
+        margin-left: 0px;
     flex-direction:column;   
-    align-items:center;
+    align-content:center;
     justify-content: center;
  }
  .left{
-margin-left:100px ;
-    
+margin-left:130px;
+width: 60%;
  }
 
  
@@ -88,9 +106,8 @@ margin-left:100px ;
      margin:60px 0 0 5px;
  }
  .right{
-     background-color: var(--bg-green-color);
-     width: 30%;
-     height: 50%;
+    margin-left: 130px;
+     width: 60%;
 
  }
 

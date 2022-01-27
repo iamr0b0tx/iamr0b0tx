@@ -4,9 +4,14 @@ import "./Loader.css"
 const Loader = () => {
     return (
         <div className='loader'>
-            <div className='inner-loader'></div>
-            <div className='inner-loader'></div>
-            <div className='inner-loader'></div>
+ <ul className='load'>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+            </ul>
             </div>
     )
 }

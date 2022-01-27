@@ -1,25 +1,25 @@
 import React from 'react'
-import { AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillMail, AiFillPhone, AiFillRedditSquare, AiFillTwitterSquare } from 'react-icons/ai'
+import { AiFillFacebook, AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiFillInstagram, AiFillRedditCircle } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+import Button from '../routes/Button'
 import "./Footer.css"
 
-const Footer = () => {
+const today = new Date()
+const Footer = ({text}) => {
     return(
         
         <div className='footer'>
     <section class="semicircle">
     <h1 className='connect'>Let's connect</h1>
- <p className='para-connect'>Would you like to stay confeel free to message me.</p>
+ <p className='para-connect'>Would you like to stay connected, feel free to message me.</p>
  <div className='email'>
-     <h2 className='email-un'><AiFillMail className='un'/>abduladeneye@gmail.com</h2>
-     <h2 className='email-do'><AiFillPhone className='do'/>+2348037428664</h2>
- </div>
-
+     <Button text={"Say hello"}/>
+     </div>
     </section>
     <div className='footer-nav'>
     <ul className='social'>
-            <li><a href='https://www.reddit.com/uiser/amr0b0tx'><AiFillRedditSquare/></a></li>
-             <li><a href="https://twitter.com/iamr0b0tx"><AiFillTwitterSquare/></a></li>
+            <li><a href='https://www.reddit.com/uiser/amr0b0tx'><AiFillRedditCircle/></a></li>
+             <li><a href="https://twitter.com/iamr0b0tx"><AiFillTwitterCircle/></a></li>
              <li><a href="https://web.facebook.com/abduladeneye"><AiFillFacebook/></a></li>
             <li><a href="https://www.github.com/iamr0b0tx"><AiFillGithub/></a></li>
            <li> <a href="https://www.linkedin.com/in/abduladeneye/"><AiFillLinkedin/></a></li>
@@ -33,8 +33,10 @@ const Footer = () => {
         <li><Link to="/contact">Contact</Link></li>
     </ul>
     </div>
-    <div className='coder'>
-        <p>&copy; motuncoded 2020</p>
+    <div className='coder' data-aos="flip-up">
+        <p className='copy'>&copy; Abdulfatah Adeneye {today.getFullYear()}
+        </p>
+        <p>Designed and coded by motuncoded</p>
     </div>
             </div>
         

@@ -4,15 +4,15 @@
     margin-top: 100px;
 }
 form{
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content:space-around;
     align-content: center;
-    margin: 100px 200px;
+    margin: 100px 250px 0 250px;
     font-size: 3rem;
-    padding: 50px;
+    padding: 40px;
     
 }
 label{
@@ -20,18 +20,41 @@ label{
     margin-top: 100px;
     
 }
-input, textarea{
+input{
     width:80%;
+    font-size: 1.5rem;
+    color: var(--text-light-color);
     height:30px;
     padding: 20px 10px;
     background: none;
     border: none;
     outline: none;
-    border-bottom: 3px solid var(--bg-green-color);
+    border-bottom: 2px solid var(--bg-green-color);
 }
 input::placeholder{
     font-size: 1.5rem;
 }
 .tertiary-button{
     text-align: center;
+    margin: 50px 0;
+}
+@media screen and (max-width:700px){
+    .contact{
+        width:85%;
+        margin: 100px 40px;
+        
+    }
+   form{ 
+       width:100%;
+       margin: 0;
+       padding: 0;
+}
+input{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.tertiary-button{
+    margin: 50px 0;
+}
 }

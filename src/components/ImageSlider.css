@@ -1,0 +1,234 @@
+.slideContainer{
+    margin: 100px 0;
+}
+.slideshow{
+    position: relative;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width:50%;
+ margin:10% 25%;
+ padding:  0;
+ box-sizing: border-box;
+ height: 70%;
+}
+
+.slideshowSlider{
+    position: relative;
+    letter-spacing: .1rem;
+ padding: 5% 5%;
+    overflow: hidden;
+    transition: .5s;
+    margin: 3% 2%;
+    line-height: 2.5;
+    width:120%;
+    height: 80%;
+    transform: scale(1);
+    background-color:var(--bg-color);
+    box-shadow: 10px 20px 30px rgba(0,0,0, 1);                                   
+}
+.slideshowSlider img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 2% 2% 2% 4%;
+    border-radius: 10px;
+
+
+}
+
+
+.slideshowSlider h1{
+    font-size: 2rem;
+    
+}
+
+ .slideshowSlider div{
+    display: flex;
+    margin: 0;
+    color:var(--bg-green-color);
+    font-size: 2.0rem;
+    padding-right: 30px;
+    margin: 0px  5px;
+ }
+    
+
+ div h3{
+padding-right: 40px;
+font-size: 2rem;
+}
+
+div h3:hover{
+    color: var(--text-light-color);
+
+}
+.slider{
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding:10px 25px;
+}
+
+.right-arrow{
+    position: absolute;
+    top:0;
+    right: 40%;
+    font-size: 3rem;
+    color: var(--text-light-color);
+    z-index: 10;
+    padding: 10px;
+    cursor:pointer;
+    user-select: none;
+
+
+
+}
+.left-arrow{
+    position: absolute;
+    top:0;
+    left: 40%;
+    font-size: 3rem;
+    color: var(--text-light-color);
+    z-index: 10;
+    cursor:pointer;
+    user-select: none;
+    border-radius:50%;
+    padding: 10px ;
+    
+}
+.left-arrow,
+.right-arrow{
+     border:  3px solid var(--bg-green-color) ;
+     border-radius: 50%;
+}
+.right-arrow:hover,
+.left-arrow:hover{
+    background-color: var(--bg-green-color);
+}
+.slide{
+    opacity: 0;
+    transition: 1s ease;
+}
+.slide.active{
+    opacity: 1;
+    transition: 1s;
+    transform: scale(1);
+}
+@media screen and(max-width:700px){
+    .slideshow{
+
+    margin:10% 25%;
+    padding:  0;
+    height: 30%;
+   }
+   
+   .slideshowSlider{
+       position: relative;
+       letter-spacing: .1rem;
+    padding: 5% 5%;
+       overflow: hidden;
+       transition: .5s;
+       margin: 3% 2%;
+       line-height: 2.5;
+       width:120%;
+       height: 80%;
+       transform: scale(1);
+       background-color:var(--bg-color);
+       box-shadow: 10px 20px 30px rgba(0,0,0, 1);                                   
+   }
+   .slideshowSlider img{
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+       padding: 2% 2% 2% 4%;
+       border-radius: 10px;
+   
+   
+   }
+   
+   
+   .slider h1{
+       font-size: 1.2rem;
+       
+   }
+   
+    .sli div{
+       display: flex;
+       margin: 0;
+       color:var(--bg-green-color);
+       font-size: 2.0rem;
+       padding-right: 30px;
+       margin: 0px  5px;
+    }
+       
+   
+    .slider div h3{
+   padding-right: 40px;
+   font-size: 1rem;
+   }
+   
+   .slide  div h3:hover{
+       color: var(--text-light-color);
+   
+   }
+   .slider{
+       position: relative;
+       width: 100%;
+       height: 5vh;
+       display: flex;
+       justify-content: center;
+       align-content: center;
+       padding:10px 25px;
+   }
+   
+   .right-arrow{
+       position: absolute;
+       top:0;
+       right: 20%;
+       font-size: 2rem;
+       color: var(--text-light-color);
+       z-index: 10;
+       padding: 10px;
+       cursor:pointer;
+       user-select: none;
+   
+   
+   
+   }
+   .left-arrow{
+       position: absolute;
+       top:0;
+       left: 40%;
+       font-size: 3rem;
+       color: var(--text-light-color);
+       z-index: 10;
+       cursor:pointer;
+       user-select: none;
+       border-radius:50%;
+       padding: 10px ;
+       
+   }
+   .left-arrow,
+   .right-arrow{
+        border:  3px solid var(--bg-green-color) ;
+        border-radius: 50%;
+   }
+   .right-arrow:hover,
+   .left-arrow:hover{
+       background-color: var(--bg-green-color);
+   }
+   .slide{
+       opacity: 0;
+       transition: 1s ease;
+   }
+   .slide.active{
+       opacity: 1;
+       transition: 1s;
+       transform: scale(1);
+   }
+   
+}

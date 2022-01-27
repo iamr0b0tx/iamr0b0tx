@@ -6,7 +6,7 @@
     background-color: var(--bg-color);
 }
 .landing-about{
-    margin: 100px 0 0 100px;
+    margin: 100px 0 0 200px;
     display:flex;
     justify-items:space-around;
     align-content: center;
@@ -66,19 +66,53 @@ hr{
 
 }
 .skills{
-    margin-top: 30px;
+    margin-top: 10px;
 
     font-size: 1.5rem;
 }
 .skillset{
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+
 }
-.skillset p{
-    font-size: 1.4rem;
+.skillset form{
+    margin: 0;
+    width: 16em;
+    position: relative;
+    background-color: var(--bg-color);
+}
+.skillset li{
+    font-size: 1rem;    
+
 }
 .image-box{
     width:500px;
     height: 50%; 
     
+}
+@media screen and (max-width:700px) {
+    .landing-about{
+    
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-content: center;
+    margin: 0;
+        
+}
+.left-about{
+    width:90%;
+    margin:50px 0px 0 95px;
+    padding: 0 ;
+
+    
+}
+.right-about{
+    width:30%;
+    padding: 0;
+    margin: 100px 0 500px 150px;
+}
 }
 

@@ -1,24 +1,24 @@
 .primary{
-    padding: .7rem 1rem;
+    padding: .9rem;
     margin-left: 30px;
-      font-size: 1.0rem;
+      font-size: 1rem;
       text-transform: uppercase;
       font-weight: 500;
-      color:var(--bg-green-color) ;
     background-color: transparent;
       letter-spacing: 1px;
-      border-radius: 10px;
+      border-radius: 20px;
       outline:none;
       cursor:pointer;
       transition: 0.4s ease-in-out ;
-      border: 2px solid var(--bg-green-color);
+      border: 1px solid var(--bg-green-color);
     }
       .primary:hover{
-        color:var(--bg-green-color) ;
-        transition:all ease 0.4s;
-    }
+        background-color: var(--bg-green-color);
+        transition: ease 0.4s;
+      }
     @media screen and (max-width: 700px){
-    .primary{font-size:1rem;
+    .primary{font-size:1.0rem;
+    
       
     }
     }

@@ -5,6 +5,8 @@ import Heading from '../components/Heading'
 import "./About.css"
 import {AiFillRightCircle} from 'react-icons/ai';
 
+import Accordion from '../components/Accordion';
+
 const About = ({text}) => {
     return (
         <div className='about'>
@@ -16,16 +18,12 @@ const About = ({text}) => {
 
 </p>
     
-            <p class="skills">Few technologies I am familiar with:</p>
-            <hr/>
+            <p class="skills">I am familiar with </p>         
             <div className='skillset'>
-               <p><AiFillRightCircle style={{color:"var(--bg-green-color)"}}/> Python</p>
-               <p><AiFillRightCircle style={{color:"var(--bg-green-color)"}}/> Reactjs</p>
-               <p><AiFillRightCircle style={{color:"var(--bg-green-color)"}}/> Java</p> 
-               <p><AiFillRightCircle style={{color:"var(--bg-green-color)"}}/> C/C++</p> 
-               <p><AiFillRightCircle style={{color:"var(--bg-green-color)"}}/> PHP</p>
+                <Accordion/>
             </div>
-        </div>
+            </div>
+        
         
             <div className="right-about">
          <div className='img-box'>
