@@ -9,7 +9,7 @@
     background-color: var(--bg-color);
 }
 .left{
- margin: 200px 0 0 150px;
+ margin: 200px 0 0 100px;
  width:40%;
  
     
@@ -82,7 +82,7 @@
     justify-content: center;
  }
  .left{
-margin-left:130px;
+margin-left:100px;
 width: 60%;
  }
 

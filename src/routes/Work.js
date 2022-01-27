@@ -11,7 +11,7 @@ const Work = ({text}) => {
     return (
         <div className='work'>
             <Heading text={"Projects"}/>  
-               <ImageSlider slides={ImageLog,ImageTicket,ImageGuitar}/>
+               <ImageSlider slides={(ImageLog,ImageTicket,ImageGuitar)}/>
                
                
         

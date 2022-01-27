@@ -1,14 +1,14 @@
 .footer{
     width: 100%;
-    position: relative;
+    
     color: var(--bg-green-color);
-    min-height: 100vh;
+    min-height: 90vh;
     background-color:var(--text-light-color);
 }
 .semicircle {
     position: relative;
     background: var(--bg-color);
-    height: 50vh;
+    height: 40vh;
   }
   
   .semicircle::before {
@@ -121,18 +121,17 @@ border: 3px solid var(--bg-color);
 color: var(--text-light-color);
 background-color: var(--bg-color);
 }
-.nav-social li a:visited{
-    
-}
+
 .coder{
-    margin: 20px 0;
+    margin: 40px 0;
     padding: 20px;
     text-align: center;
     background-color: var(--bg-color);
-    color: var(--text-dark-color);
+    
 }
-.coder p{
-    font-size: 2rem;
+.coder .copy{
+    color:var(--text-dark-color);
+    font-size: 1.5rem;
 }
 @media screen  and (max-width:700px){
     .footer{

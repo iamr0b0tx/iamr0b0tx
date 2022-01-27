@@ -2,8 +2,7 @@ import React from 'react'
 import Heading from '../components/Heading'
 
 
-import "./About.css"
-import {AiFillRightCircle} from 'react-icons/ai';
+import "./About.css";
 
 import Accordion from '../components/Accordion';
 

@@ -33,10 +33,10 @@ const Footer = ({text}) => {
         <li><Link to="/contact">Contact</Link></li>
     </ul>
     </div>
-    <div className='coder' data-aos="flip-up">
+    <div className='coder'>
         <p className='copy'>&copy; Abdulfatah Adeneye {today.getFullYear()}
         </p>
-        <p>Designed and coded by motuncoded</p>
+        <p className='copy'> Designed and coded by motuncoded</p>
     </div>
             </div>
         

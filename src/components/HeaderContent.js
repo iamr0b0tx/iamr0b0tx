@@ -7,7 +7,7 @@ import PrimaryButton from "./PrimaryButton"
 const HeaderContent = () => {
     return ( 
         <div className='landing'>
-            <div className='left' data-aos="fade-right">
+            <div className='left'>
             <h1 className='small'>Hi, I am </h1>
             <h2 className='big'> <span>Abdulfatah</span> Adeneye</h2>
             <h3 className='medium'>Software developer.</h3>
