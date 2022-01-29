@@ -37,8 +37,8 @@
     padding-left:calc(50% + 30px);
 }
 .experience-content:hover{
-    transform: scale(1.1);
-    transition: 0.4s;
+    transform: scale(1);
+    transition:all ease-in-out 0.4s;
     margin: 20px;
     padding: 30px;
 }
@@ -64,7 +64,5 @@ padding-left:37px;
     .experience-item:nth-child(even){
     padding-left:37px;
 }
-.experience-item:hover{
-    transform: none;
-}
+
 }

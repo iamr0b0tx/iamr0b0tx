@@ -19,11 +19,12 @@ const HeaderContent = () => {
       
             </div>
             
-            <div className='right'> 
+            <div className='right'>
+                <div className='quote'></div>
             <h1 className='quote-fatah'>
-                I usually know what I am doing until I don't 
+                <span className='big'>"</span>I usually know what I am doing until I don't 
                 and then... <br/>
-                I do.
+                I do.<span className='big'>"</span>
             </h1>
     
             </div>

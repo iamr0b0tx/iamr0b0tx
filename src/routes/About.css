@@ -1,26 +1,27 @@
 .about{
     font-family: "Roboto", sans-serif;
     width:100%;
-    min-height: 100%;
+    min-height: 100vh;
     color: var(--bg-color);
     background-color: var(--bg-color);
 }
 .landing-about{
-    margin: 100px 0 0 200px;
+    margin: 150px 0 0 200px;
     display:flex;
     justify-items:space-around;
     align-content: center;
-    width: 80%;
-    min-height: 100vh;
+    width: 90%;
+    
 }
 
 .left-about{
 opacity: 0.7;
 color: var(--text-light-color);
 width:60%;
-padding:80px;
+height: 100%;
+margin: 100px 0;
 letter-spacing: 2px;
-line-height: 1.5;
+line-height: 2;
 
 }
 .img-box{
@@ -44,11 +45,11 @@ line-height: 1.5;
 }
 
 .right-about{
-   background-color: transparent;
+   
    width: 30%;
    height:50%;
-   margin-left: 10px;
-   padding: 100px 80px;
+   margin: 100px 50px;
+
 
 }
 .fatah{
@@ -66,7 +67,7 @@ hr{
 
 }
 .skills{
-    margin-top: 10px;
+    margin-top: 3rem;
 
     font-size: 1.5rem;
 }
@@ -99,12 +100,12 @@ hr{
         flex-direction: column;
         align-content: center;
         align-content: center;
-    margin: 0;
+margin: 100px 0;
         
 }
 .left-about{
-    width:90%;
-    margin:50px 0px 0 95px;
+    width:60%;
+    margin:50px 0px 0 150px;
     padding: 0 ;
 
     
@@ -112,7 +113,7 @@ hr{
 .right-about{
     width:30%;
     padding: 0;
-    margin: 100px 0 0px 150px;
+    margin: 250px 0 0 150px;
 }
 }
 

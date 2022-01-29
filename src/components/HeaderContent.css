@@ -9,6 +9,7 @@
     background-color: var(--bg-color);
 }
 .left{
+    padding: 4rem 0;
  margin: 150px 0 0 100px;
  width:40%;
  
@@ -21,8 +22,8 @@
 
     }
     .big{
-        font-size: 3rem;
-        font-weight: 300;
+        font-size: 3.5rem;
+        font-weight: 500;
         margin:0 0 10px 0;
     
     }
@@ -30,11 +31,11 @@
         color: var(--bg-green-color);
     }
     .medium{
-        font-size: 2.8rem;
+        font-size: 3rem;
         opacity: 0.6;
     }
     .para{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .arrow{
         font-size: 10px;
@@ -44,16 +45,27 @@
 .right{
     width: 40%;
     display: flex;
+background-color: var(--bg-color);
     justify-content: space-around;
-    margin: 0 0 0 100px ;
+    margin: 0 0 0 80px ;
+    padding: 100px;
 
 }
+.quote{
+margin: 0px;
+padding: 100px;
+    width:500px;
+    height: 500px;
+    background-color: var(--bg-body-color);
+    
+}
 .quote-fatah{
-    font-size: 50px;
+    font-size: 3.5rem;
     font-weight: 300;
-    margin: 100px 5px;
-    padding: 100px;
-    opacity: 0.1;
+position: absolute;
+margin: 150px 50px;
+    
+    
     letter-spacing: 0.1rem;
     color: var(--bg-green-color);
 }
@@ -75,16 +87,15 @@
 }
 @media screen and (max-width:700px){
     .landing{
-        margin-top: 5px;
-        width: 100%;
+        margin-top: 10px;
+
         margin-left: 0px;
     flex-direction:column;   
     align-content:center;
     justify-content: center;
  }
  .left{
-margin-left:120px;
-width: 40%;
+padding: 1rem 2rem;
  }
 
  
@@ -107,10 +118,19 @@ width: 40%;
      margin:60px 0 0 5px;
  }
  .right{
-    margin-left: 150px;
-     width: 30%;
-     height: 1000px;
+     width: 400px;
+    margin: 100px 120px;
 
+     
+
+ }
+ .quote{
+     width:300px;
+     height: 300px;
+ }
+ .quote-fatah{
+     font-size: 1.5rem;
+     margin: 80px 180px;
  }
 
 }

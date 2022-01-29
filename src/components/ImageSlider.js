@@ -41,8 +41,8 @@ const  ImageSlider = ({slides}) => {
     }
     return (
         <div>
-        <div className='slideshow'>
-            <div className='slideshowSlider'>
+        <div className='slide-show'>
+            <div className='slide-show-slider'>
             
                 {ImageLog.map((item, index) =>{
 
@@ -73,8 +73,8 @@ const  ImageSlider = ({slides}) => {
                 </div>
                 </div>
     
-                <div className='slideshow'>
-            <div className='slideshowSlider'>
+                <div className='slide-show'>
+            <div className='slide-show-slider'>
             
                 {ImageTicket.map((item, index) =>{
 
@@ -109,8 +109,8 @@ const  ImageSlider = ({slides}) => {
 </div>
 
 
-        <div className='slideshow'>
-            <div className='slideshowSlider'>
+        <div className='slide-show'>
+            <div className='slide-show-slider'>
             
                 {ImageGuitar.map((item, index) =>{
 

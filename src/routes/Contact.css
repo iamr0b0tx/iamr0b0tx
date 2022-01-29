@@ -3,6 +3,10 @@
     min-height: 100vh;
     margin-top: 100px;
 }
+.contact-wrapper{
+    margin: 150px 200px 0 200px;
+
+}
 form{
     width: 80%;
     display: flex;
@@ -10,10 +14,11 @@ form{
     text-align: center;
     justify-content:space-around;
     align-content: center;
-    margin: 100px 250px 0 250px;
     font-size: 3rem;
-    padding: 40px;
-    
+    padding: 40px 10px;
+    height: 100%;
+    margin: 150px 0 0 200px;
+
 }
 label{
     color: var(--text-light-color);
@@ -44,9 +49,12 @@ input::placeholder{
         margin: 100px 40px;
         
     }
+    .contact-wrapper{
+        margin: 150px 0;
+    }
    form{ 
        width:100%;
-       margin: 0;
+       margin: 150px 0 ;
        padding: 0;
 }
 input{

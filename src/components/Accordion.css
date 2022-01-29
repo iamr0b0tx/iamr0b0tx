@@ -18,7 +18,8 @@ width:500px;
 
 }
 .container .item{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 .container .wrap{
     display: flex;

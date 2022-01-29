@@ -23,10 +23,14 @@ html{
 }
 
 body{
+  
   background-color: var(--bg-color);
   color:var(--text-light-color);
   font-size:1.2rem;
   font-family:"Roboto", calibar;
+}
+body::-webkit-scrollbar{
+  display: none;
 }
 a, li{
   text-decoration: none;

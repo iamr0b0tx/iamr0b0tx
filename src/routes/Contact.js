@@ -6,7 +6,7 @@ const Contact = ({text}) => {
     return (
         <div className='contact'>
              <Heading text={"Contact"}/>
-             <div className='contact'>
+             <div className='contact-wrapper'>
              <form>
               <input className="" type="text" placeholder='Abdulfatah Adeneye'/>
               <label htmlFor='name'/>
