@@ -56,7 +56,7 @@ margin: 0px;
 padding: 100px;
     width:500px;
     height: 500px;
-    background-color: var(--bg-body-color);
+    
     
 }
 .quote-fatah{
@@ -67,7 +67,7 @@ margin: 150px 50px;
     
     
     letter-spacing: 0.1rem;
-    color: var(--bg-green-color);
+    color: var(--text-light-color);
 }
 .quote-fatah:hover{
     opacity: 1;
@@ -88,14 +88,12 @@ margin: 150px 50px;
 @media screen and (max-width:700px){
     .landing{
         margin-top: 10px;
-
-        margin-left: 0px;
     flex-direction:column;   
     align-content:center;
     justify-content: center;
  }
  .left{
-padding: 1rem 2rem;
+padding: 1rem 0;
  }
 
  
@@ -118,19 +116,19 @@ padding: 1rem 2rem;
      margin:60px 0 0 5px;
  }
  .right{
-     width: 400px;
-    margin: 100px 120px;
+    padding: 1rem 0;
+    
 
      
 
  }
  .quote{
-     width:300px;
-     height: 300px;
+     
+     padding: 0;
  }
  .quote-fatah{
-     font-size: 1.5rem;
-     margin: 80px 180px;
+     font-size: 1.75rem;
+     margin: 100px;
  }
 
 }

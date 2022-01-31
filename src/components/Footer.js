@@ -36,7 +36,7 @@ const Footer = ({text}) => {
     <div className='coder'>
         <p className='copy'>&copy; Abdulfatah Adeneye {today.getFullYear()}
         </p>
-        <p className='copy'> Designed and coded by motuncoded</p>
+        <p className='copy one'> Designed and coded by motuncoded</p>
     </div>
             </div>
         

@@ -100,20 +100,19 @@ hr{
         flex-direction: column;
         align-content: center;
         align-content: center;
-margin: 100px 0;
+margin:  0;
         
 }
 .left-about{
-    width:60%;
-    margin:50px 0px 0 150px;
-    padding: 0 ;
+
+margin-left: 100px;
 
     
 }
 .right-about{
-    width:30%;
-    padding: 0;
-    margin: 250px 0 0 150px;
+    
+    padding: 50px;
+    margin: 200px 0 0 100px;
 }
 }
 

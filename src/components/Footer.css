@@ -135,7 +135,7 @@ background-color: var(--bg-color);
 @media screen  and (max-width:700px){
     .footer{
     margin: 0;
-        width: 100%;
+        
     }
 
     .semicircle {
@@ -167,47 +167,20 @@ background-color: var(--bg-color);
     .para-connect{
         margin-top: 50px;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1rem;
         letter-spacing: 3px;
-        color: var(--text-light-color);
-    }
-    .email{
-        display: flex;
-        flex-direction: column;
-        justify-content:center ;
-        align-items: center;
-        margin: 50px 100px;
-        color: var(--text-light-color);
+        color: var(--text-dark-color);
         
-    }
-    .email-un{
-        padding-right: 100px;
-        font-size: 1.4rem;
-        opacity: 0.8;
-    }
-    .email-do{
-        padding-left: 100px;
-        font-size: 1.4rem;
-        opacity: 0.8;
-    }
-    .un{
-    padding: 0 5px;
-    font-size: 2.5rem;
-    color: var(--bg-green-color);
-    opacity: 1;
-    }
-    .do{
-    padding:0 5px;
-    font-size: 2.5rem;
-    color: var(--bg-green-color);
-    opacity: 1;
+
+
     
     }.footer-nav{
-        width:100%;    
+           
         display: flex;
-        justify-content: space-between;
+        
         align-content: center;
         margin: 0;
+        padding: 0;
         
     }
     
@@ -251,8 +224,11 @@ background-color: var(--bg-color);
         margin: 20px 0;
         padding: 20px;
     }
-    .coder p{
-        font-size: 1rem;
+    .coder .copy{
+        font-size: 1.2rem;
     
+    }
+    .coder .one{
+        font-size: .8rem;
     }
 }
