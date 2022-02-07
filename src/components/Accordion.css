@@ -57,7 +57,7 @@ width:500px;
 }
 @media screen and (max-width:700px) {
     .accordion .container{
-        width:400px;
+        width:300px;
     }
 
 .wrap h2{
