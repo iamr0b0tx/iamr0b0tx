@@ -2,6 +2,7 @@
     width: 100%;
     color: var(--bg-green-color);
     min-height: 100vh;
+    margin-top:50px ;
     background-color:var(--text-light-color);
 }
 .semicircle {
@@ -87,18 +88,18 @@ color:var(--text-light-color);
 .social li a{
     font-size: 3rem;
 padding:1rem .5rem 0 .5rem;
-border-radius: 50%;
                             
 
     
 }
 .social li a:link, .social li a:visited{
-    color: var(--text-light-color);
-    background-color:var(--bg-color);
+    color: var(--bg-color);
+    
 }
 .social li a:hover{
     color: var(--bg-color);
-    background-color: var(--text-light-color);
+    font-size:3.5rem;
+    transition: .3s ease;
 }
 .nav-social{
     display: flex;

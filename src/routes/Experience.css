@@ -1,6 +1,7 @@
 .experience{
 width:100%;
 min-height:100vh;
+margin-top: 100px;
 background-color: transparent;
 color: var(--text-light-color);
 }

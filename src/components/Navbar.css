@@ -85,12 +85,10 @@ z-index: 10;
     transition: 0.5s;
     z-index: -1;
     
-    
-    
 
 }
 .nav li a:hover{
-background-color: transparent;
+
 border: none;
 }
 .nav li{
@@ -98,11 +96,9 @@ border: none;
 }
 .nav a{
     font-size: 2rem;
-    color: var(--bg-color);
+    color: var(--text-light-color);
 }
-.nav a:hover{
-    color: var(--bg-green-color);
-}
+
 .nav.active{
     left: 0%;
 }
@@ -123,7 +119,7 @@ border: none;
         text-align: center;
         width:30%;
         height: 100vh;
-        background-color:var(--text-light-color);
+        background-color:var(--text-dark-color);
         transition: 0.5s;
         z-index: -1;
         color: var(--text-color);
@@ -188,7 +184,7 @@ border: none;
     }
     .letter-fa{
         margin: 50px;
-        color: red;
+
     }
     }
 
