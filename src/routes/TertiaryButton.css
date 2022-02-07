@@ -1,21 +1,21 @@
 
 .tertiary{
-    padding: .7rem 1rem;
+    padding: .9rem 1rem;
       font-size: 1.0rem;
       text-transform: uppercase;
       font-weight: 500;
     background-color: var(--bg-green-color);
       letter-spacing: 1px;
-      border-radius: 10px;
+      border-radius: 5px;
       outline:none;
       cursor:pointer;
       transition: 0.4s ease-in-out ;
-      border: 3px solid var(--bg-green-color);
+      border: 1px solid var(--bg-green-color);
     }
       .tertiary:hover{
         background-color:var(--bg-color);
         transition:all ease 0.4s;
-        border: 3px solid  var(--bg-green-color);
+        border: 1px solid  var(--bg-green-color);
         color: var(--bg-green-color);
     }
     @media screen and (max-width: 700px){

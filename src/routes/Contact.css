@@ -34,7 +34,11 @@ input{
     background: none;
     border: none;
     outline: none;
-    border-bottom: 2px solid var(--bg-green-color);
+    border-bottom: 3px solid var(--bg-body-color);
+}
+input:focus{
+    
+    border-bottom: 1px solid var(--bg-green-color);
 }
 input::placeholder{
     font-size: 1.5rem;
@@ -61,6 +65,10 @@ input{
     width: 100%;
     margin: 0;
     padding: 0;
+    
+}
+input::placeholder{
+    font-size: 1rem;
 }
 .tertiary-button{
     margin: 50px 0;

@@ -11,14 +11,14 @@
 }
 .accordion .container{
     position: absolute;
-    top:2%;
+    top:3%;
     left: 0;
     box-shadow: 2px 10px 35px 1px rgba(0, 0, 0, .8);
 width:500px;
 
 }
 .container .item{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border-radius: 10px;
 }
 .container .wrap{
@@ -59,4 +59,11 @@ width:500px;
     .accordion .container{
         width:400px;
     }
+
+.wrap h2{
+font-size: 1rem;
+}
+.dropdown p{
+    font-size: 1rem;
+}
 }

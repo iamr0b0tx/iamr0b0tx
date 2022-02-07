@@ -177,8 +177,9 @@ background-color: var(--bg-color);
     }.footer-nav{
            
         display: flex;
+        justify-content: space-around;
+        align-items: center;
         
-        align-content: center;
         
         
     }
@@ -186,11 +187,14 @@ background-color: var(--bg-color);
     .social{
     flex-direction: column;
     margin: 0;
+    padding: 0;
         
     
     }
     .social li{
         
+          
+    
     }
     .social li a{
         font-size: 3rem;
@@ -211,11 +215,11 @@ background-color: var(--bg-color);
        font-size: 1.5rem;
     }
     .nav-social li{
-        padding :0.5rem 0;
+        padding :1rem 0;
     
     }
     .nav-social li a{
-        padding: 0.5rem 1rem;
+        padding: .5rem 1rem;
     }
     .nav-social li a:hover{
         transition: 0.4s;
@@ -233,6 +237,6 @@ background-color: var(--bg-color);
     
     }
     .coder .one{
-        font-size: .8rem;
+        font-size: 1rem;
     }
 }

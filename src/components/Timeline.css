@@ -46,8 +46,8 @@
 .experience-content{
     padding:30px;
     border-radius:30px;
-    color: var(--text-light-color);
-    border: 2px solid var(--bg-green-color);
+    color: var(--text-dark-color);
+    border: 1px solid var(--bg-green-color);
 }
 @media screen and (max-width:700px) {
     .experience-items:before{
@@ -57,7 +57,7 @@
     width:85%;
 }
 .experience-item:nth-child(odd){
-padding-left:37px;
+padding-left:35px;
         padding-right:0;
         text-align:left;
     }

@@ -9,12 +9,14 @@
 }
 .place{
     font-size:15px;
+    color: var(--text-light-color);
     text-transform:capitalize;
     margin:10px 0; 
 }
 .article{
-    font-size:15px;
+    font-size:18px;
     font-weight:800;
+color: var(--text-light-color)
 }
 p{
     list-style-type:none;

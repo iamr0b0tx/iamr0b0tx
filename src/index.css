@@ -28,6 +28,7 @@ body{
   color:var(--text-light-color);
   font-size:1.2rem;
   font-family:"Roboto", calibar;
+  
 }
 body::-webkit-scrollbar{
   display: none;

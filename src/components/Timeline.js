@@ -11,7 +11,7 @@ const Timeline = () => {
                 <Dot/>
                 <Time name={"June, 2021 - Present"}/>
                 <div className="experience-content">
-                <Profile title={"MobileXcetera"} place={"Lagos,Nigeria"} article={"Lead Backend Engineer"} list={"Oversee, design, develop with development team working on various projects."}
+                <Profile title={"MobileXcetera"} place={"Lagos, Nigeria"} article={"Lead Backend Engineer"} list={"Oversee, design, develop with development team working on various projects."}
 />
                 </div>
             </div>
@@ -19,7 +19,7 @@ const Timeline = () => {
                 <Dot/>
                <Time name={"June, 2021 - Present"}/>
                 <div className="experience-content">
-                <Profile title={"Liberty Assured"} place={"Lagos,Nigeria"}article={"Software Engineering Conslutant"} list={"Train and advise development team working on in-house products."}/>
+                <Profile title={"Liberty Assured"} place={"Lagos, Nigeria"}article={"Software Engineering Conslutant"} list={"Train and advise development team working on in-house products."}/>
                 </div>
             </div>
             <div className="experience-item">

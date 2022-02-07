@@ -58,6 +58,7 @@ const  ImageSlider = ({slides}) => {
             <AiOutlineArrowRight className='right-arrow' onClick={nextLogSlide} />
 
 </div>
+
                 {ImageLog.map((text, index) => {
                     return(
                     <h1 key={index}>{text.heading}</h1>
