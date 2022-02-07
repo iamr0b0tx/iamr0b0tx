@@ -3,6 +3,7 @@
     width:100%;
     min-height: 100vh;
     color: var(--bg-color);
+    margin-top: 100px;
     background-color: var(--bg-color);
 }
 .landing-about{
