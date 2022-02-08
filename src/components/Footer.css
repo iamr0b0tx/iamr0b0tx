@@ -176,7 +176,7 @@ background-color: var(--bg-color);
 
     
     }.footer-nav{
-           
+           padding: 20px;
         display: flex;
         justify-content: space-around;
         align-items: center;

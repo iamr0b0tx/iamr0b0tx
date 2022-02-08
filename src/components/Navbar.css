@@ -14,16 +14,21 @@ z-index: 10;
 .navbar-bg{
     background-color: rgba(26,36,60,1)
 }
-
+.letter{
+    margin-left: 20px;
+    border: 1px solid var(--bg-green-color);
+    margin-top: 10px;
+    padding: .5rem;
+}
 
 .letter-fa{
-    margin-left: 60px;
+    
     padding: 5px;
     font-weight: 300;
     font-size: 3.0rem;
     color:var(--bg-green-color);
     cursor: pointer;
-    border: 2px  solid var(--bg-green-color);
+
 }
 
 .navbar >.nav{
@@ -61,6 +66,7 @@ z-index: 10;
 .hamburger-menu{
     display: block;
     padding: 0 1rem;
+    margin-top: 20px;
     
 }
 .times, .menu{
@@ -76,15 +82,19 @@ z-index: 10;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    top:0;
+    top:0%;
     left:100%;
     text-align: center;
     width:100%;
     height: 100vh;
-    background-color:var(--text-light-color);
+    background-color:var(--text-dark-color);
     transition: 0.5s;
     z-index: -1;
     
+
+}
+.letter{
+    padding: 0 .2rem;
 
 }
 .nav li a:hover{
@@ -96,16 +106,18 @@ border: none;
 }
 .nav a{
     font-size: 2rem;
-    color: var(--text-light-color);
+    color: var(--bg-color);
 }
 
 .nav.active{
-    left: 0%;
+    left: 0;
 }
 .letter-fa{
-    margin: 10px;
+    margin: 5px;
 }
-
+.hamburger-menu{
+    margin-top: 0;
+}
 }
 @media screen and (min-width:1200px){ 
     
@@ -127,6 +139,10 @@ border: none;
 
     
     
+    }
+    .letter{
+        margin-top: 20px;
+        padding: 10px;
     }
     .letter-fa{
         color: var(--text-light-color);
@@ -181,6 +197,10 @@ border: none;
     }
     .nav.active{
         left:70%;
+    }
+    .letter{
+        padding: 0;
+        margin-top: 20px;
     }
     .letter-fa{
         margin: 50px;

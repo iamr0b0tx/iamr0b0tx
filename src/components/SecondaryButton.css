@@ -21,11 +21,13 @@ background-color: var(--bg-green-color);
     
 
 }
+
 .secondary a:visited{
 color:var(--bg-color);
 opacity:1;
 }
 @media screen and (max-width: 700px){
-button{font-size:1.0rem;
+.secondary{font-size:1.0rem;
+  padding: .8rem 1rem;
 }
 }

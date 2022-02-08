@@ -8,6 +8,7 @@ import Experience from "./routes/Experience";
 import Work from "./routes/Work"
 import { useState, useEffect} from "react"
 import Loader from "./components/Loader";
+import NotFound from "./components/NotFound";
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/experience" element={<Experience/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/work" element={<Work/>}/>
+      <Route path="/notfound" element={<NotFound/>}/>
       </Routes>
 
 }

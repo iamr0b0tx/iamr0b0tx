@@ -1,17 +1,35 @@
 import React from 'react'
 import "./ImageSlider.css"
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import ImageLog  from './ImageLog'
 import  ImageGuitar from './ImageGuitar'
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
+import { BiLeftArrow, BiRightArrow } from 'react-icons/bi'
 import ImageTicket from './ImageTicket'
+import Loader from './Loader'
 
 
 const  ImageSlider = ({slides}) => {
+
     const [guitar, setGuitar] = useState(0)
     const [log,setLog] = useState(0);
     const [ticket, setTicket] = useState(0);
+    
+        
+    
+      
+        
 
+
+    const [loading, setLoading] = useState(false);
+    
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() =>{
+    setLoading(false)
+    }, 4000)
+    }, [])
+    
+    
     const length = slides.length;
     const nextTicketSlide = () =>{
         setTicket(ticket === length - 1 ? 0 :ticket + 1 )
@@ -39,26 +57,40 @@ const  ImageSlider = ({slides}) => {
     if(!Array.isArray(slides) || slides.length <= 0){
         return null;
     }
+    
     return (
-        <div>
+        <>
         <div className='slide-show'>
             <div className='slide-show-slider'>
+               
             
-                {ImageLog.map((item, index) =>{
 
-                return(
-                    <div className={index === log ? "slide active" : "slide"} key={index}>
+ {ImageLog.map((item, index) =>{
+                  return(
+
+                <div className={index === log ? "slide active" : "slide"} key={index}>
+                    
              {index ===log && (
-              <img key={index} src={item.image} alt="project"/>)}
-                </div>)
+              <img key={index} src={item.image} alt="project" loader={<Loader/>}/>
+             )
+ }</div>)
+})} 
                 
-                })}
-            <div className='slider'>
-            <AiOutlineArrowLeft className='left-arrow' onClick={prevLogSlide}/>
-            <AiOutlineArrowRight className='right-arrow' onClick={nextLogSlide} />
 
+              
+            <div className='slider'>
+                
+            <div className="left-arrow">           
+
+            <BiLeftArrow onClick={prevLogSlide}/>
+              </div>
+
+            <div className='right-arrow'><BiRightArrow  onClick={nextLogSlide} />
+                       </div>
+            
 </div>
 
+               
                 {ImageLog.map((text, index) => {
                     return(
                     <h1 key={index}>{text.heading}</h1>
@@ -72,7 +104,7 @@ const  ImageSlider = ({slides}) => {
             </div> )  
          })}
                 </div>
-                </div>
+</div>
     
                 <div className='slide-show'>
             <div className='slide-show-slider'>
@@ -80,22 +112,28 @@ const  ImageSlider = ({slides}) => {
                 {ImageTicket.map((item, index) =>{
 
                 return(
+                
     <div className={index === ticket ? "slide active" : "slide"} key={index}>
 {index ===ticket && (
+    
 <img key={index} src={item.image} alt="project"/>)}
+
 </div>)
 
 })}
 <div className='slider'>
-<AiOutlineArrowLeft className='left-arrow' onClick={prevTicketSlide}/>
-<AiOutlineArrowRight className='right-arrow' onClick={nextTicketSlide} />
-
+<div className="left-arrow">
+            <BiLeftArrow onClick={prevTicketSlide}/>
+            </div>
+            <div className='right-arrow'><BiRightArrow  onClick={nextTicketSlide} />
+                        </div>
 </div>
 {ImageTicket.map((text, index) => {
     return(
     <h1 key={index}>{text.heading}</h1>
     )
 })}
+
 {ImageTicket.map((listItems, index) =>{
     return(
 <div>
@@ -122,10 +160,12 @@ const  ImageSlider = ({slides}) => {
 </div>)
 
 })}
-<div className='slider'>
-<AiOutlineArrowLeft className='left-arrow' onClick={prevGuitarSlide}/>
-<AiOutlineArrowRight className='right-arrow' onClick={nextGuitarSlide} />
-
+<div className='slider'> 
+<div className="left-arrow">
+            <BiLeftArrow onClick={prevGuitarSlide}/>
+            </div>
+            <div className='right-arrow'><BiRightArrow  onClick={nextGuitarSlide} />
+                        </div>
 </div>
 {ImageGuitar.map((text, index) => {
     return(
@@ -147,7 +187,7 @@ const  ImageSlider = ({slides}) => {
 
 
 
-</div>
+</>
 
     )}
     export default ImageSlider

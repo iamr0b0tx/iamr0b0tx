@@ -23,9 +23,10 @@ const handleClick = () =>
 setClick(!click);
     return (
         <div className={color ?"navbar navbar-bg" :"navbar"} onClick={handleColor}>
-            <Link to='/'>
+            <div className='letter'>
+                <Link to='/'>
         <h1 className="letter-fa">A</h1>
-            </Link>
+            </Link></div>
 <ul className={click ? "nav active" : "nav"}>
     <li>
         <Link to="/about" className='active' >About</Link>

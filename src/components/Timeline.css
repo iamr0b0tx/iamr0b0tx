@@ -37,9 +37,9 @@
     padding-left:calc(50% + 30px);
 }
 .experience-content:hover{
-    
+    transform: scaleY(1.1);
     transition:all ease-in-out 0.4s;
-    padding: 20px;
+
 
 }
 

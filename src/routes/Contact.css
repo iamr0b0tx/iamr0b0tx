@@ -50,7 +50,7 @@ input::placeholder{
 @media screen and (max-width:700px){
     .contact{
         width:85%;
-        margin: 100px 40px;
+        margin: 100px 30px;
         
     }
     .contact-wrapper{
