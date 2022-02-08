@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ImageSlider.css"
-import { useState, useEffect } from 'react'
+import { useState,  } from 'react'
 import ImageLog  from './ImageLog'
 import  ImageGuitar from './ImageGuitar'
 import { BiLeftArrow, BiRightArrow } from 'react-icons/bi'
@@ -17,17 +17,7 @@ const  ImageSlider = ({slides}) => {
         
     
       
-        
 
-
-    const [loading, setLoading] = useState(false);
-    
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() =>{
-    setLoading(false)
-    }, 4000)
-    }, [])
     
     
     const length = slides.length;
