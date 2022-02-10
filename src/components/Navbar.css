@@ -17,8 +17,8 @@ z-index: 10;
 .letter{
     margin-left: 20px;
     border: 1px solid var(--bg-green-color);
-    margin-top: 10px;
-    padding: .5rem;
+    margin-top: 5px;
+    padding: .1rem;
 }
 
 .letter-fa{
@@ -141,8 +141,8 @@ border: none;
     
     }
     .letter{
-        margin-top: 20px;
-        padding: 10px;
+        margin-top: 10px;
+        padding: 5px;
     }
     .letter-fa{
         color: var(--text-light-color);

@@ -1,5 +1,5 @@
-.slideContainer{
-    margin: 100px 0;
+.slide-container{
+    margin: 100px 0 200px 0;
 }
 .slide-show{
     position: relative;
@@ -24,7 +24,7 @@
     line-height: 2.5;
     width:120%;
     height: 80%;
-    transform: scale(1);
+    
     background-color:var(--bg-color);
     box-shadow: 10px 20px 30px rgba(0,0,0, 1);                                   
 }
@@ -34,6 +34,9 @@
     object-fit: cover;
     padding: 2% 2% 2% 4%;
     border-radius: 10px;
+    
+    
+    
 
 
 }
@@ -48,7 +51,7 @@
     display: flex;
     margin: 0;
     color:var(--bg-green-color);
-    font-size: 2.0rem;
+    font-size: 2rem;
     padding-right: 30px;
     margin: 0px  5px;
  }
@@ -66,12 +69,13 @@ div h3:hover{
 .slider{
     position: relative;
     width: 100%;
-    height: 5vh;
+    height: 8vh;
     display: flex;
-
+    
     justify-content: center;
     align-items: center;
-    padding:5px;
+    padding:20px;
+    
 }
 
 .right-arrow{
@@ -81,7 +85,7 @@ div h3:hover{
     font-size: 3rem;
     color: var(--text-light-color);
     z-index: 10;
-    
+    margin: 10px;
     cursor:pointer;
     user-select: none;
 
@@ -108,13 +112,12 @@ div h3:hover{
     color: var(--text-light-color);
 }
 .slide{
-    opacity: 0;
-    transition: 1s ease;
+    transition-duration: 1s ease;
 }
 .slide.active{
     opacity: 1;
-    transition: 1s;
-    transform: scale(1);
+    transition-duration: 1s;
+    
 }
 @media screen and (max-width:700px){
     .slide-show{
@@ -125,17 +128,16 @@ div h3:hover{
    }
    
    .slide-show-slider{
-       font-size: 4rem;
        position: relative;
        letter-spacing: .1rem;
-    padding: 5% 5%;
+    padding: 10px;
        overflow: hidden;
        transition: .5s;
        margin: 3% 2%;
        line-height: 2.5;
        width:120%;
        height: 80%;
-       transform: scale(1);
+       
        background-color:var(--bg-color);
        box-shadow: 10px 20px 30px rgba(0,0,0, 1);                                   
    }
@@ -143,7 +145,7 @@ div h3:hover{
        width: 100%;
        height: 100%;
        object-fit: cover;
-       padding: 2% 2% 2% 4%;
+       padding:  10px;
        border-radius: 10px;
    
    
@@ -151,20 +153,20 @@ div h3:hover{
    
    
    .slide-show-slider  h1{
-       font-size: 1rem;
+       font-size: .8rem;
    }
    
     .slider div{
        display: flex;
        margin: 0;
        color:var(--bg-green-color);
-       font-size: 6.0rem;
-       padding-right: 30px;
-       margin: 0px  5px;
+       font-size: 1rem;
+       padding-right: 0px;
+       margin: 0px; 
     }
        
    
-    .slide-show-slider  h3{
+    .slide-show-slider  div h3{
    padding-right: 40px;
    font-size: 1rem;
    }
@@ -186,7 +188,7 @@ div h3:hover{
    .right-arrow{
        position: absolute;
        top:0;
-       right: 60%;
+       right: 45%;
        font-size: 1.2rem;
        color: var(--text-light-color);
        z-index: 10;
@@ -200,7 +202,7 @@ div h3:hover{
    .left-arrow{
        position: absolute;
        top:0;
-       left: 50%;
+       left: 35%;
        font-size: 1.2rem;
        color: var(--text-light-color);
        z-index: 10;
@@ -209,23 +211,19 @@ div h3:hover{
        border-radius:50%;
        padding: 0px ;
        
-   }
-   .left-arrow,
-   .right-arrow{
-        border:  3px solid var(--bg-green-color) ;
-        border-radius: 50%;
+   
    }
    .right-arrow:hover,
    .left-arrow:hover{
-       background-color: var(--bg-green-color);
+    color: var(--text-light-color);
    }
    .slide{
-       opacity: 0;
-       transition: 1s ease;
+
+       transition: 3s ease-in-out;
    }
    .slide.active{
-       opacity: 1;
-       transition: 1s;
+       
+       transition: 2s;
        transform: scale(1);
    }
    

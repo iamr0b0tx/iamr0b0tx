@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin:120px 0 0 0;
+    margin:130px 0 0 0;
     letter-spacing: 3px;
     background-color: var(--bg-color);
    animation: fade ease 1s;

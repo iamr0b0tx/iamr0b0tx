@@ -5,17 +5,16 @@ import ImageLog  from './ImageLog'
 import  ImageGuitar from './ImageGuitar'
 import { BiLeftArrow, BiRightArrow } from 'react-icons/bi'
 import ImageTicket from './ImageTicket'
-import Loader from './Loader'
+
+
 
 
 const  ImageSlider = ({slides}) => {
-
+    const [load, setLoad] = useState(false);
     const [guitar, setGuitar] = useState(0)
     const [log,setLog] = useState(0);
     const [ticket, setTicket] = useState(0);
-    
-        
-    
+
       
 
     
@@ -49,21 +48,28 @@ const  ImageSlider = ({slides}) => {
     }
     
     return (
-        <>
+        <div className='slide-container'>
         <div className='slide-show'>
             <div className='slide-show-slider'>
                
-            
-
  {ImageLog.map((item, index) =>{
                   return(
 
                 <div className={index === log ? "slide active" : "slide"} key={index}>
-                    
+                   
              {index ===log && (
-              <img key={index} src={item.image} alt="project" loader={<Loader/>}/>
+              <img key={index} src={item.image} alt="project" style={load ? {display: "block"}: {display: "none"}} onLoad={()=>{  
+                  setLoad(true)}}/>
+                  
+        
+
+                  
              )
- }</div>)
+            
+
+ }      
+    
+ </div>)
 })} 
                 
 
@@ -177,7 +183,7 @@ const  ImageSlider = ({slides}) => {
 
 
 
-</>
+</div>
 
     )}
     export default ImageSlider
