@@ -176,7 +176,7 @@ background-color: var(--bg-color);
 
     
     }.footer-nav{
-        width: 100%;
+        
            padding: 0;
         display: flex;
         justify-items: center;
@@ -209,12 +209,11 @@ background-color: var(--bg-color);
 
     .nav-social{
     flex-direction: column;
-    padding: 1rem;
-    width: 100%;
+    padding: 1rem ;
        font-size: 1.5rem;
     }
     .nav-social li{
-        padding:1rem ;
+        padding:1rem 0 ;
     
     }
     .nav-social li a{
@@ -229,7 +228,7 @@ background-color: var(--bg-color);
     }
     .coder{
         margin: 20px 0;
-        padding: 10px 20px 10px 20px;
+        padding: 10px 20px 5px 20px;
     }
     .coder .copy{
         font-size: 1.2rem;
@@ -237,6 +236,6 @@ background-color: var(--bg-color);
     }
     .coder .one{
         font-size: 1rem;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
     }
 }

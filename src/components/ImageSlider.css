@@ -122,7 +122,7 @@ div h3:hover{
 @media screen and (max-width:700px){
     .slide-show{
 
-    margin:10% 25%;
+    margin:10% 20%;
     padding:  0;
     height: 30%;
    }
@@ -153,8 +153,8 @@ div h3:hover{
    
    
    .slide-show-slider  h1{
-       width: 100%;
-       font-size: 1rem;
+       
+       font-size: .5rem;
        margin: 0;
        padding:0 20px;
    }
@@ -168,7 +168,7 @@ div h3:hover{
    
     .slide-show-slider  div h3{
    padding-right: 40px;
-   font-size: 1rem;
+   font-size: 15px;
    margin: 0;
    padding: 0 10px;
    }
@@ -191,8 +191,8 @@ div h3:hover{
   .slider >.right-arrow{
        position: absolute;
        top:0;
-       right: 50%;
-       font-size: 1rem;
+       right: 45%;
+       font-size: .8rem;
        color: var(--text-light-color);
        z-index: 10;
        padding: 0px;
@@ -206,7 +206,7 @@ div h3:hover{
        
        top:0;
        left: 35%;
-       font-size: 1rem;
+       font-size: .8rem;
        color: var(--text-light-color);
 
        padding: 0px ;
