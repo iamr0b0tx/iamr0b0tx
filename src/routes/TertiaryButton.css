@@ -1,6 +1,6 @@
 
 .tertiary{
-    padding: .9rem 1rem;
+    padding: .9rem 3rem;
       font-size: 1.0rem;
       text-transform: uppercase;
       font-weight: 500;
@@ -12,6 +12,7 @@
       transition: 0.4s ease-in-out ;
       border: 1px solid var(--bg-green-color);
     }
+    
       .tertiary:hover{
         background-color:var(--bg-color);
         transition:all ease 0.4s;
@@ -19,6 +20,9 @@
         color: var(--bg-green-color);
     }
     @media screen and (max-width: 700px){
-    button{font-size:1.0rem;
+    .tertiary{font-size:1.0rem;
+      margin-top: 0px;
+      padding: .9rem 1rem;
+
     }
     }

@@ -11,7 +11,7 @@
  margin:10% 25%;
  padding:  0;
  box-sizing: border-box;
- height: 70%;
+ height: 80%;
 }
 
 .slide-show-slider{
@@ -23,18 +23,18 @@
     margin: 3% 2%;
     line-height: 2.5;
     width:120%;
-    height: 80%;
+    height: 100%;
     
     background-color:var(--bg-color);
     box-shadow: 10px 20px 30px rgba(0,0,0, 1);                                   
 }
-.slide-show-slider img{
+.slide-show-slider  img{
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     padding: 2% 2% 2% 4%;
     border-radius: 10px;
-    
+    position: relative;
     
     
 
@@ -69,7 +69,7 @@ div h3:hover{
 .slider{
     position: relative;
     width: 100%;
-    height: 8vh;
+    height: 5vh;
     display: flex;
     
     justify-content: center;
@@ -133,8 +133,8 @@ div h3:hover{
     padding: 10px;
        overflow: hidden;
        transition: .5s;
-       margin: 3% 2%;
-       line-height: 2.5;
+       margin: 0;
+       padding-left: 30px ;
        width:120%;
        height: 80%;
        
@@ -145,7 +145,7 @@ div h3:hover{
        width: 100%;
        height: 100%;
        object-fit: cover;
-       padding:  10px;
+       padding:  10px ;
        border-radius: 10px;
    
    
@@ -153,43 +153,46 @@ div h3:hover{
    
    
    .slide-show-slider  h1{
-       font-size: .8rem;
-   }
-   
-    .slider div{
-       display: flex;
-       margin: 0;
-       color:var(--bg-green-color);
+       width: 100%;
        font-size: 1rem;
-       padding-right: 0px;
-       margin: 0px; 
-    }
+       margin: 0;
+       padding:0 20px;
+   }
+.slider
+{
+    margin: 0;
+    padding: 10px;
+}   
+
        
    
     .slide-show-slider  div h3{
    padding-right: 40px;
    font-size: 1rem;
+   margin: 0;
+   padding: 0 10px;
    }
    
-   .slider  div h3:hover{
+   .slider h3:hover{
        color: var(--text-light-color);
    
    }
-   .slider{
-       position: relative;
-       width: 100%;
-       height: 5vh;
-       display: flex;
-       justify-content: center;
-       align-content: center;
-       padding:10px 25px;
+   .slider{       
+    color: coral;
+       height: 3vh;
+
+       font-size: 1rem;
+       
+       padding:10px 5px 0 5px;
    }
    
-   .right-arrow{
+
+   
+  .slider >.right-arrow{
        position: absolute;
        top:0;
-       right: 45%;
-       font-size: 1.2rem;
+       right: 50%;
+       font-size: 1rem;
        color: var(--text-light-color);
        z-index: 10;
        padding: 0px;
@@ -199,23 +202,21 @@ div h3:hover{
    
    
    }
-   .left-arrow{
-       position: absolute;
+   .slider .left-arrow{
+       
        top:0;
        left: 35%;
-       font-size: 1.2rem;
+       font-size: 1rem;
        color: var(--text-light-color);
-       z-index: 10;
-       cursor:pointer;
-       user-select: none;
-       border-radius:50%;
+
        padding: 0px ;
        
    
    }
-   .right-arrow:hover,
+   
+   .right-arrow:hover, 
    .left-arrow:hover{
-    color: var(--text-light-color);
+    color: var(--bg-green-color);
    }
    .slide{
 

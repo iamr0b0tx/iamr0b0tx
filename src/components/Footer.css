@@ -2,7 +2,7 @@
     width: 100%;
     color: var(--bg-green-color);
     min-height: 100vh;
-    margin-top:50px ;
+    margin:50px 0;
     background-color:var(--text-light-color);
 }
 .semicircle {
@@ -97,34 +97,34 @@ padding:1rem .5rem 0 .5rem;
     
 }
 .social li a:hover{
-    color: var(--bg-color);
-    font-size:3.5rem;
+    
     transition: .3s ease;
 }
 .nav-social{
     display: flex;
     justify-content:center ;
     align-content: center;
-    margin: 100px 80px 0 80px;
+    margin: 40px 80px 0 80px;
    font-size: 2rem;
 }
 .nav-social li{
-    padding : 1rem 2rem;
+    margin:0 .4rem;
     
 }
 .nav-social li a {
     color:var(--bg-color);
+    padding: .5rem;
 }
 .nav-social li a:hover{
-padding:0.5rem  1rem;
+transition: .4s ease-in-out;
 border: 3px solid var(--bg-color);
 color: var(--text-light-color);
 background-color: var(--bg-color);
 }
 
 .coder{
-    margin: 40px 0 20px 0;
-    padding: 20px;
+    margin: 40px 0 100px 0;
+    padding: 10px;
     text-align: center;
     background-color: var(--bg-color);
     
@@ -176,9 +176,10 @@ background-color: var(--bg-color);
 
     
     }.footer-nav{
-           padding: 20px;
+        width: 100%;
+           padding: 0;
         display: flex;
-        justify-content: space-around;
+        justify-items: center;
         align-items: center;
         
         
@@ -188,15 +189,11 @@ background-color: var(--bg-color);
     .social{
     flex-direction: column;
     margin: 0;
-    padding: 0;
+    padding: 1rem;
         
     
     }
-    .social li{
-        
-          
     
-    }
     .social li a{
         font-size: 3rem;
     padding:0.5rem;
@@ -212,15 +209,16 @@ background-color: var(--bg-color);
 
     .nav-social{
     flex-direction: column;
-    
+    padding: 1rem;
+    width: 100%;
        font-size: 1.5rem;
     }
     .nav-social li{
-        padding :1rem 0;
+        padding:1rem ;
     
     }
     .nav-social li a{
-        padding: .5rem 1rem;
+        padding: .5rem ;
     }
     .nav-social li a:hover{
         transition: 0.4s;
@@ -231,7 +229,7 @@ background-color: var(--bg-color);
     }
     .coder{
         margin: 20px 0;
-        padding: 20px;
+        padding: 10px 20px 10px 20px;
     }
     .coder .copy{
         font-size: 1.2rem;
@@ -239,5 +237,6 @@ background-color: var(--bg-color);
     }
     .coder .one{
         font-size: 1rem;
+        padding-bottom: 10px;
     }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ImageSlider.css"
-import { useState,  } from 'react'
+import { useState } from 'react'
 import ImageLog  from './ImageLog'
 import  ImageGuitar from './ImageGuitar'
 import { BiLeftArrow, BiRightArrow } from 'react-icons/bi'
@@ -10,7 +10,12 @@ import ImageTicket from './ImageTicket'
 
 
 const  ImageSlider = ({slides}) => {
-    const [load, setLoad] = useState(false);
+
+
+     
+     
+
+    
     const [guitar, setGuitar] = useState(0)
     const [log,setLog] = useState(0);
     const [ticket, setTicket] = useState(0);
@@ -51,23 +56,21 @@ const  ImageSlider = ({slides}) => {
         <div className='slide-container'>
         <div className='slide-show'>
             <div className='slide-show-slider'>
-               
+            
  {ImageLog.map((item, index) =>{
                   return(
-
+ 
                 <div className={index === log ? "slide active" : "slide"} key={index}>
                    
              {index ===log && (
-              <img key={index} src={item.image} alt="project" style={load ? {display: "block"}: {display: "none"}} onLoad={()=>{  
-                  setLoad(true)}}/>
+              <img key={index} src={item.image} alt="project" style={{width: "100%", height: "auto"}} />)} 
+                
                   
         
 
                   
-             )
-            
-
- }      
+             
+                
     
  </div>)
 })} 
@@ -76,12 +79,12 @@ const  ImageSlider = ({slides}) => {
               
             <div className='slider'>
                 
-            <div className="left-arrow">           
+            <div className=" arrow left-arrow">           
 
             <BiLeftArrow onClick={prevLogSlide}/>
               </div>
 
-            <div className='right-arrow'><BiRightArrow  onClick={nextLogSlide} />
+            <div className='arrow right-arrow'><BiRightArrow  onClick={nextLogSlide} />
                        </div>
             
 </div>
