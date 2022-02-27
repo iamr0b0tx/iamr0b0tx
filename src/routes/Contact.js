@@ -8,11 +8,14 @@ const Contact = ({text}) => {
              <Heading text={"Get In Touch"}/>
              <div className='contact-wrapper'>
              <form>
-              <input className="" type="text" placeholder='Abdulfatah Adeneye'/>
-              <label htmlFor='name'/>
-                <input type="email" placeholder='abdulfatahadeneye@gmail.com'/>
+                 
+              <input className=""  placeholder="Name"type="text"/>
+              <label htmlFor='name'></label>
+                <input type="email" placeholder='Email'/>
                 <label htmlFor="email"/>
                 <input type="text" placeholder='I would like to...'/>         
+                
+                
                 </form>
                 <div className='tertiary-button'>
                     <TertiaryButton text={"Submit"} />

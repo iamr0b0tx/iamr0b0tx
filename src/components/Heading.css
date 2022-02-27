@@ -29,7 +29,7 @@
     transform: translateY(-50%);
     background-color: var(--text-color);
 }
-  @media screen and (max-width:700px) {
+  @media screen and (max-width:764px) {
             .heading{
                 margin: 0 5px;
                 font-size: 2rem;

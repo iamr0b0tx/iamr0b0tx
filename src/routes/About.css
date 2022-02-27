@@ -2,55 +2,71 @@
     font-family: "Roboto", sans-serif;
     width:100%;
     min-height: 100vh;
+    animation: fadeUp 1.8s ease forwards .8s;
+
+    padding:100px;
+    visibility: hidden;
     color: var(--bg-color);
-    margin-top: 100px;
-    background-color: var(--bg-color);
+    background-color: var(--bg-body-color);
+}
+
+    
+
+@keyframes fadeUp {
+from {
+visibility: hidden;
+transform: translateY(300px);
+}
+to{
+visibility: visible;
+transform: translateY(0px);
+}
 }
 .landing-about{
-    margin: 150px ;
-    
     display:flex;
-    justify-items: space-between;
-    align-content: center;
-    width: 90%;
+    justify-content: center;
+    align-items: center;
+    padding:100px 2rem 0 2rem;
+
+     
+
     
 }
 
 .left-about{
-opacity: 0.7;
+    padding: 0;
+opacity: .8;
 color: var(--text-light-color);
-width:60%;
-padding: 0 100px;
-
 letter-spacing: 2px;
-line-height: 2;
+line-height: 1.8;
 
 }
-.img-box{
-    width:250px;
-    height: 250px;
+ .img-box{
+    width:300px;
+    height: 300px;
     border:1px solid var(--bg-green-color);
     position: relative;
     border-radius: 5px;
     z-index: 1;
     background-color: var(--bg-color);
+    top:-210px;
+    left:90px;
 }
-.image{
-    width: 250px;
+ .image{
+    width: 300px;
     border: 1px solid var(--text-light-color);
-    height: 250px;
+    height: 300px;
     position: relative;
     border-radius: 5px;
     z-index: 2;
-    top: -270px;
-    left: -27px;
+    
+    top: -470px;
+    left:70px;
 }
 
 .right-about{
-   
-   width: 30%;
 
-   
+padding:0 100px;
 
 
 }
@@ -58,20 +74,16 @@ line-height: 2;
     color: var(--text-color);
     font-size: 1.4rem;
 }
-hr{
-    width: 30%;
-    margin: 10px 50px 0 0;
-}
 .about-fatah{
     text-transform: none;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     opacity: 0.8;
 
 }
 .skills{
-    margin-top: 3rem;
+    margin-top: 1rem;
 
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 .skillset{
     display: flex;
@@ -89,30 +101,30 @@ hr{
 .skillset li{
     font-size: 1rem;    
 
-}
-.image-box{
-    width:500px;
-    height: 50%; 
+
     
 }
 @media screen and (max-width:700px) {
     .about{
+margin: 0px;
+padding: 2rem;
         flex-direction: column;
     }
     .landing-about{
-    
+    width: auto;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-    padding: 0;
-    margin: 0;
+    margin-top: 100px ;
+    padding: 100px 0;
         
 }
 .left-about{
-padding:2rem 1rem;
-width: 100%;
-margin: 0;
+padding: auto 0;
+margin: auto 0;
+
+
 
 
     
@@ -125,9 +137,10 @@ margin: 0;
 }
 
 .right-about{
-width: 100%;
-    padding: 150px 0 0 4rem;
-    height: 450px;
+margin-bottom: 0;
+padding-left: 0;
+    height: 300px;
+    width: auto;
     
 }
 .skills{

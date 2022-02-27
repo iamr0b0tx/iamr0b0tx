@@ -1,5 +1,6 @@
 import React from 'react'
-import { AiFillFacebook, AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiFillInstagram, AiFillRedditCircle } from 'react-icons/ai'
+import {FiFacebook,FiTwitter,FiGithub,FiInstagram,FiLinkedin,} from "react-icons/fi";
+import { AiOutlineReddit } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import Button from '../routes/Button'
 import "./Footer.css"
@@ -18,12 +19,12 @@ const Footer = ({text}) => {
     </section>
     <div className='footer-nav'>
     <ul className='social'>
-            <li><a href='https://www.reddit.com/uiser/amr0b0tx'><AiFillRedditCircle/></a></li>
-             <li><a href="https://twitter.com/iamr0b0tx"><AiFillTwitterCircle/></a></li>
-             <li><a href="https://web.facebook.com/abduladeneye"><AiFillFacebook/></a></li>
-            <li><a href="https://www.github.com/iamr0b0tx"><AiFillGithub/></a></li>
-           <li> <a href="https://www.linkedin.com/in/abduladeneye/"><AiFillLinkedin/></a></li>
-            <li><a href='https://www.instagram.com/iamr0b0tx/'><AiFillInstagram/></a></li>
+            <li><a href='https://www.reddit.com/uiser/amr0b0tx'><AiOutlineReddit/></a></li>
+             <li><a href="https://twitter.com/iamr0b0tx"><FiTwitter/></a></li>
+             <li><a href="https://web.facebook.com/abduladeneye"><FiFacebook/></a></li>
+            <li><a href="https://www.github.com/iamr0b0tx"><FiGithub/></a></li>
+           <li> <a href="https://www.linkedin.com/in/abduladeneye/"><FiLinkedin/></a></li>
+            <li><a href='https://www.instagram.com/iamr0b0tx/'><FiInstagram/></a></li>
             </ul>
     <ul className='nav-social'>
         <li> <Link to="/">Home</Link></li>

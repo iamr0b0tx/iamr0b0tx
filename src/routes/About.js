@@ -12,12 +12,13 @@ const About = ({text}) => {
             <Heading text={"About Me"}/>
             <div className='landing-about'>
                <div className='left-about'>
-        <p className='fatah'>Hi, my name is Abdulfatah. 
+        <p className='fatah'>Hi, my name is Abdulfatah. A software developer based in Lagos.
         <br/>I am very meticulous about my work, I like to understand the most fundamental details about any project that I could work on to deliver a successful result. I am very interested in technology trends and things cutting edge to stay on top like blockchain, quantum computing, and Artificial intelligence.
+       <br/> I am very meticulous about my work, I like to understand the most fundamental details about any project that I could work on to deliver a successful result.
 
 </p>
     
-            <p class="skills">I am familiar with </p>         
+            <p class="skills">Few technologies I am familiar with </p>         
             <div className='skillset'>
                 <Accordion/>
             </div>

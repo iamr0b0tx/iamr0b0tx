@@ -15,9 +15,6 @@ import ticket6 from "../assets/noc-monitor-for-tracking-tickets-and-reports6.png
     
     {
         image:`${ticket}`,
-        heading:"NOC-Monitor for Tracking Reports and Tickets",
-         github:<AiFillGithub/>,
-        arrow:<CgArrowsExpandUpRight/>,
     },
  {
     image:`${ticket1}`

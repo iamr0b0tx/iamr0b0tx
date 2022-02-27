@@ -27,12 +27,12 @@ function App() {
         loading ? <Loader/>
       :
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="/experience" element={<Experience/>}/>
-        <Route path="/contact" element={<Contact/>}/>
-        <Route path="/work" element={<Work/>}/>
-      <Route path="/notfound" element={<NotFound/>}/>
+        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/about" element={<About/>}/>
+        <Route exact path="/experience" element={<Experience/>}/>
+        <Route exact path="/contact" element={<Contact/>}/>
+        <Route exact path="/work" element={<Work/>}/>
+      <Route component={<NotFound/>}/>
       </Routes>
 
 }

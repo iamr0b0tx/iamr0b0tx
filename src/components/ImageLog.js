@@ -1,5 +1,3 @@
-import { AiFillGithub } from "react-icons/ai"
-import { CgArrowsExpandUpRight } from "react-icons/cg"
 
 import livestocklog from "../assets/livestocklog-for-livestock-mgt10.png"
 import livestocklog1 from "../assets/livestocklog-for-livestock-mgt2.jpg"
@@ -14,9 +12,7 @@ import livestocklog7 from "../assets/livestocklog-for-livestock-mgt.jpg"
  const ImageLog= [
     {
         image:`${livestocklog}`,
-        heading:"Livestock Log for Livestock Management",
-         github:<AiFillGithub/>,
-        arrow:<CgArrowsExpandUpRight/>,
+         
     },
  {
     image:`${livestocklog1}`

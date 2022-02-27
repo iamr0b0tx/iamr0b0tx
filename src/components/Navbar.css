@@ -3,7 +3,6 @@
     position:fixed;
     width: 100%;
     top:0;
-    
     height: 100px;
 display:flex;
 justify-content:space-between;
@@ -15,15 +14,13 @@ z-index: 10;
     background-color: rgba(26,36,60,1)
 }
 .letter{
-    margin-left: 20px;
     border: 1px solid var(--bg-green-color);
-    margin-top: 5px;
-    padding: .1rem;
+    margin: 5px 0;
+    padding: 1rem;
 }
 
 .letter-fa{
-    
-    padding: 5px;
+    padding: .5rem;
     font-weight: 300;
     font-size: 3.0rem;
     color:var(--bg-green-color);
@@ -34,6 +31,7 @@ z-index: 10;
 .navbar >.nav{
     display:flex;
     position: absolute;
+    transition: .6s ease;
     
 
     
@@ -94,8 +92,9 @@ z-index: 10;
 
 }
 .letter{
-    padding: 0 .1rem;
-
+    padding: 0;
+    margin: 0;
+    
 }
 .nav li a:hover{
 
@@ -141,12 +140,12 @@ border: none;
     
     }
     .letter{
-        margin-top: 10px;
-        padding: 5px;
+        margin-top: 5px;
+        padding: 0;
     }
     .letter-fa{
         color: var(--text-light-color);
-        margin-left: 1px;
+        margin-left: 0;
         
     }
     .nav li{
@@ -201,7 +200,7 @@ border: none;
     }
     .letter{
         padding: 0;
-        margin-top: 20px;
+        
     }
     .letter-fa{
         margin: 50px;

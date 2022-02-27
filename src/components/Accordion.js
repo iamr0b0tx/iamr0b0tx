@@ -5,6 +5,7 @@ import { BiDownArrow,BiUpArrow} from 'react-icons/bi'
 import Skill from './Skill'
 
 
+
  
 const Accordion = () => {
     const [clicked, setClicked] = useState(false)

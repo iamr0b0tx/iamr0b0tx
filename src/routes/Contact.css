@@ -1,7 +1,7 @@
 .contact{
     width:100%;
     min-height: 100vh;
-    margin-top: 100px;
+    padding: 100px 0;
 }
 .contact-wrapper{
     margin: 150px 200px 0 200px;
@@ -15,9 +15,9 @@ form{
     justify-content:space-around;
     align-content: center;
     font-size: 3rem;
-    padding: 40px 10px;
+    padding: 40px 0;
     height: 100%;
-    margin: 150px 0 0 200px;
+    margin: 150px  auto 0 auto;
 
 }
 label{
@@ -26,11 +26,11 @@ label{
     
 }
 input{
-    width:80%;
+    width:auto;
     font-size: 1.5rem;
     color: var(--text-light-color);
     height:30px;
-    padding: 20px 10px;
+    padding: 20px auto;
     background: none;
     border: none;
     outline: none;
@@ -44,17 +44,18 @@ input::placeholder{
     font-size: 1.5rem;
 }
 .tertiary-button{
-    text-align: center;
-    margin: 50px 0;
+    display: grid;
+    place-content: center;
+    
 }
 @media screen and (max-width:700px){
     .contact{
-        width:85%;
-        margin: 100px 30px;
+        
+        padding: 100px 40px;
         
     }
     .contact-wrapper{
-        margin: 150px 0;
+        margin: 150px 0 0 0;
     }
    form{ 
        width:100%;
@@ -64,7 +65,7 @@ input::placeholder{
 input{
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     
 }
 input::placeholder{

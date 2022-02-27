@@ -16,7 +16,7 @@
 
      .say-hello .tertiary:hover{
         background-color:var(--bg-color);
-        transition:all ease 0.4s;
+
         border: 1px solid  var(--bg-green-color);
         
     }

@@ -1,14 +1,13 @@
 .footer{
     width: 100%;
     color: var(--bg-green-color);
-    min-height: 100vh;
-    margin:50px 0;
+padding:  0;
     background-color:var(--text-light-color);
 }
 .semicircle {
     position: relative;
     background: var(--bg-color);
-    height: 50vh;
+    height: 40vh;
   }
   
   .semicircle::before {
@@ -44,18 +43,6 @@ color:var(--text-light-color);
     align-content: center;
     margin: 30px 80px 0 80px;
     color: var(--text-light-color);
-    
-
-}
-.email-un{
-    padding-right: 100px;
-    font-size: 1.4rem;
-    opacity: 0.8;
-}
-.email-do{
-    padding-left: 100px;
-    font-size: 1.4rem;
-    opacity: 0.8;
 }
 .footer-nav{
     width: 100%;
@@ -97,33 +84,35 @@ padding:1rem .5rem 0 .5rem;
     
 }
 .social li a:hover{
-    
-    transition: .3s ease;
+    color: var(--bg-green-color);
+    transition: 1s ease;
 }
 .nav-social{
     display: flex;
     justify-content:center ;
     align-content: center;
-    margin: 40px 80px 0 80px;
+    margin: 40px 80px 20px 80px;
    font-size: 2rem;
 }
 .nav-social li{
-    margin:0 .4rem;
+    margin:0 1rem;
+    padding: auto;
     
 }
 .nav-social li a {
     color:var(--bg-color);
-    padding: .5rem;
+    padding: 1rem 2rem;
+    transition: .2s ease;
 }
 .nav-social li a:hover{
-transition: .4s ease-in-out;
-border: 3px solid var(--bg-color);
+
+border: 1px solid var(--bg-color);
 color: var(--text-light-color);
 background-color: var(--bg-color);
 }
 
 .coder{
-    margin: 40px 0 100px 0;
+    margin: 40px 0 0px 0;
     padding: 10px;
     text-align: center;
     background-color: var(--bg-color);
@@ -136,13 +125,14 @@ background-color: var(--bg-color);
 @media screen  and (max-width:700px){
     .footer{
     margin: 0;
+    padding: 0;
         
     }
 
     .semicircle {
         position: relative;
         background: var(--bg-color);
-        height: 50vh;
+        height: 40vh;
       }
       
       .semicircle::before {

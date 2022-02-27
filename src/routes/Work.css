@@ -1,8 +1,12 @@
 .work{
+    min-height: 100vh;
     font-family: inherit;
     width: 100%;
-    margin-top: 100px;
-    min-height: 100vh;
+    padding: 100px ;
+    background-color: var(--bg-body-color);
+    transition: 1s ease;
+
+
 }
 
 
