@@ -41,6 +41,7 @@ input:focus{
     border-bottom: 1px solid var(--bg-green-color);
 }
 input::placeholder{
+    color:var(--text-dark-color);
     font-size: 1.5rem;
 }
 .tertiary-button{
@@ -48,10 +49,10 @@ input::placeholder{
     place-content: center;
     
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:768px){
     .contact{
-        
-        padding: 100px 40px;
+        width: 100%;
+        padding: 100px 50px;
         
     }
     .contact-wrapper{
@@ -69,9 +70,10 @@ input{
     
 }
 input::placeholder{
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 .tertiary-button{
-    margin: 50px 0;
+    margin: 0;
+    padding: 0;
 }
 }

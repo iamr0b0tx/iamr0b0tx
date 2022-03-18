@@ -32,10 +32,13 @@ function App() {
         <Route exact path="/experience" element={<Experience/>}/>
         <Route exact path="/contact" element={<Contact/>}/>
         <Route exact path="/work" element={<Work/>}/>
-      <Route component={<NotFound/>}/>
+        <Route  path="*" element={<NotFound/>}/>
+
       </Routes>
+      
 
 }
+
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .primary{
-    padding: .7rem 1.5rem;
-    margin-left: 30px;
-      font-size: 1rem;
+    padding: .9rem 1.5rem;
+    margin-left: 50px;
+      font-size: 1.2rem;
       text-transform: uppercase;
       font-weight: 500;
     background-color: var(--bg-body-color);
@@ -12,12 +12,21 @@
       border:  1px solid var(--bg-body-color);
     }
       .primary:hover{
-        border: 1px solid var(--bg-body-color) ;
+        border: 1px solid var(--bg-darkgreen-color) ;
         background-color: var(--bg-color);
-        transition: ease-in-out 0.6s;
+        transition: ease 0.6s;
       }
-    @media screen and (max-width: 700px){
-    .primary{font-size:1.0rem;
+      @media screen and (max-width:500px) {
+          .primary{
+            margin-left: 20px;
+            font-size: .6rem;
+            padding: .6rem .8rem;
+          }
+        
+      }
+    @media screen and (max-width: 768px){
+    .primary{
+      font-size:1rem;
       padding: .8rem 1rem;
     
       

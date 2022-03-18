@@ -1,12 +1,12 @@
 
 
-.secondary{
-padding: .7rem 1.5rem;
-  font-size: 1.0rem;
-  margin-right:10px;
+ .secondary{
+padding: .9rem 1.5rem;
+  font-size: 1.2rem;
+  margin-right:40px;
   text-transform: uppercase;
   font-weight: 500;
-background-color: var(--bg-green-color);
+background-color: var(--bg-darkgreen-color);
   letter-spacing: 1px;
   border-radius: 5px;
   outline:none;
@@ -16,7 +16,7 @@ opacity: .8 ;
 }
   .secondary:hover{
   background-color:transparent;
-    transition: ease 0.2s;
+    transition: ease 0.6s;
     
     border: 1px solid var(--bg-green-color);
     
@@ -26,8 +26,16 @@ opacity: .8 ;
 .secondary a:visited{
 color:var(--text-light-color);
 opacity: 1;
+margin-right: 10px;
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width:500px) {
+   .secondary{
+    font-size: .6rem;
+    padding: .6rem .8rem;
+    
+  }
+}
+@media screen and (max-width: 768px){
 .secondary{font-size:1.0rem;
   padding: .8rem 1rem;
 }

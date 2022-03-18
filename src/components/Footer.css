@@ -48,19 +48,12 @@ color:var(--text-light-color);
     width: 100%;
 
 }
-.footer-menu{
-    width: 1000px;
-    display: flex;
-    flex-direction: column;
-    margin: 50px 250px;
-    justify-content:space-around ;
-    align-items: center;
-}
+
 .social{
     display: flex;
     justify-content:center ;
     align-content: center;
-    margin: 100px 80px 0 80px;
+    margin: 100px 80px 20px 80px;
    font-size: 1.2rem;
     
 
@@ -91,24 +84,32 @@ padding:1rem .5rem 0 .5rem;
     display: flex;
     justify-content:center ;
     align-content: center;
-    margin: 40px 80px 20px 80px;
+    width: 100%;
+    height: 80px;
    font-size: 2rem;
+   
 }
 .nav-social li{
-    margin:0 1rem;
-    padding: auto;
+    padding: 20px;
+
+    
     
 }
-.nav-social li a {
+.nav-social  a {
     color:var(--bg-color);
-    padding: 1rem 2rem;
-    transition: .2s ease;
+    margin: 0 2rem;
+    font-weight: 500;
+    font-size: 2rem;
+    
+    
 }
 .nav-social li a:hover{
 
-border: 1px solid var(--bg-color);
+
 color: var(--text-light-color);
+
 background-color: var(--bg-color);
+
 }
 
 .coder{
@@ -122,9 +123,23 @@ background-color: var(--bg-color);
     color:var(--text-dark-color);
     font-size: 1.5rem;
 }
-@media screen  and (max-width:700px){
+@media  screen and (max-width:500px ){
+    .footer-nav{
+        display: flex;
+        align-items: center;
+    justify-content: center;
+
+    }
+    .nav-social{
+        flex-direction: column;
+    }
+    .social{
+        flex-direction: column;
+    }
+}
+@media screen  and (max-width:768px){
     .footer{
-    margin: 0;
+    
     padding: 0;
         
     }
@@ -132,7 +147,7 @@ background-color: var(--bg-color);
     .semicircle {
         position: relative;
         background: var(--bg-color);
-        height: 40vh;
+        height: 50vh;
       }
       
       .semicircle::before {
@@ -166,7 +181,7 @@ background-color: var(--bg-color);
 
     
     }.footer-nav{
-        
+        margin: 0;
            padding: 0;
         display: flex;
         justify-items: center;
@@ -177,16 +192,16 @@ background-color: var(--bg-color);
     }
     
     .social{
-    flex-direction: column;
+
     margin: 0;
-    padding: 1rem;
+    padding: 0;
         
     
     }
     
     .social li a{
         font-size: 3rem;
-    padding:0.5rem;
+    padding:0.25rem;
     color: var(--bg-color);
         
     }
@@ -196,10 +211,13 @@ background-color: var(--bg-color);
         background-color: var(--text-light-color);
     }
     
-
+.social li a:hover{
+    color:var(--bg-green-color);
+    transition: .5 ease;
+}
     .nav-social{
     flex-direction: column;
-    padding: 1rem ;
+    margin: 0;
        font-size: 1.5rem;
     }
     .nav-social li{

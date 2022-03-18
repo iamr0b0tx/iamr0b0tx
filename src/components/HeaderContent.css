@@ -172,16 +172,87 @@ border-right: 5px solid var(--text-dark-color);
 }
 
 .btn{
-    
-    margin:80px 0 0 0px;
+    width: 100%;
+    margin:80px 0 40px 0px;
     padding: 0;
     display: flex;
     justify-items:center ;
-    align-content: center;
+    align-items: center;
     animation: fadeUp 1.8s ease forwards .8s;
 
 }
-@media screen and (max-width:764px){
+@media screen and (max-width:500px){
+    .landing{
+        padding: 0;
+        margin: 100px 0;
+    flex-direction:column;   
+
+
+ }
+ .left{
+padding:4rem 0;
+margin-bottom: 10px;
+
+ }
+
+ 
+ .small{
+     font-size: 1rem
+ }
+ .big{
+     font-size: 2.5rem;
+ }
+ .medium{
+     font-size: 2rem;
+     
+ }
+ .para{
+     margin-top: 20px;
+     padding: .5rem 0;
+     font-size: 1rem;
+ }
+ .btn{
+     
+     margin:60px 0 0 0px;
+ }
+ .right{
+     
+padding: 1rem 1rem;
+margin-bottom: 60px;
+width:100%;
+animation: fadeUp 3s ease-in forwards .8;
+ }
+ .quote{
+     width: 30px;
+     height:30px;
+     padding: 0px;
+    
+     
+ }
+ 
+ .quote-fatah{
+     
+     margin: 5px  0px;
+     padding:0;  
+ }
+ .quote::before{
+border-top:1px solid var(--bg-green-color) ;
+border-left:1px solid var(--bg-green-color) ;
+width: 15px;
+height: 15px;
+ }
+ .quote::after{
+    border-bottom:1px solid var(--text-dark-color) ;
+    border-right:1px solid var(--text-dark-color);
+width: 15px;
+height: 15px;
+ }
+
+ .quote-fatah > p{
+     font-size: .8rem;
+ }
+}
+@media screen and (max-width:768px){
     .landing{
         padding: 0;
         margin: 100px 0;
@@ -218,13 +289,12 @@ width: 100%;
  .right{
      
 padding: 1rem 1rem;
-margin-bottom: 50px;
-width: 100%;
+margin-bottom: 60px;
 
 animation: fadeUp 3s ease-in forwards .8;
  }
  .quote{
-     width: 300px;
+     width: 500px;
      height:auto;
      padding: 0px;
     

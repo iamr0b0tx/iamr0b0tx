@@ -9,6 +9,7 @@ import Accordion from '../components/Accordion';
 const About = ({text}) => {
     return (
         <div className='about'>
+            
             <Heading text={"About Me"}/>
             <div className='landing-about'>
                <div className='left-about'>

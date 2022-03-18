@@ -14,33 +14,33 @@
     height: 700px;
     width: 100%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
-
-    
+transition: 1s ease-in-out;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     
+    }
 
-
-}
 .arrow{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-
     color: var(--text-dark-color);
     
 }
 .arrow .left-arrow{
     margin-right: 20px;
 padding: 10px;
+font-size:2rem;
 }
 
 .arrow .right-arrow{
     margin-left: 20px;
 padding: 10px;
+font-size:2rem;
+
 }
 .arrow .left-arrow:hover{
     color: var(--bg-color);
@@ -80,16 +80,98 @@ padding: 0 20px 0 0;
 .slide-content .p-file{
     color: var(--text-dark-color);
     display: flex;
-    
-
     align-items:center ;
 }
-@media screen and (max-width:700px) {
-    .slider{
-        width: 600px;
+@media screen and (max-width:768px) {
+.slider{
+    margin: 2rem;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    
+}
+.slide-show{
+    border-radius: 10px;
+    height: 270px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+transition: 1s ease-in-out;
+    
+    background-repeat: no-repeat;
+    flex-direction: column;
+    
+    
+
+
+}
+@keyframes opac {
+    0%{
+        opacity: 0;
     }
-    .slide-show{
-        width: 100%;
+    100%{
+        opacity: 1;
     }
 }
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding:0;
+
+}
+.arrow 
+.left-arrow{
+    margin-right: 5px;
+padding-top: 10px;
+color: var(--bg-green-color);
+font-size: 25px
+
+
+}
+
+.arrow
+.right-arrow{
+    margin-left: 5px;
+padding-top: 10px;
+font-size: 25px;
+color: var(--bg-green-color);
+}
+
+.arrow .left-arrow:hover{
+    color: var(--bg-green-color);
+}
+.arrow .right-arrow:hover{
+    color: var(--bg-green-color);
+}
+.slide-content{
+margin: 0;    
+padding:0;
+
+}
+.slide-content h2{
+    padding: 0;
+    color: var(--text-dark-color);
+    font-size: 22px;
+
+}
+.slide-content 
+.p-file li{
+padding: 0 20px 0 0;
+font-size: 11px;
+
+}
+ .slide-content
+ .p-file{
+    color: var(--text-dark-color);
+    display: flex;
     
+font-size: 1rem;
+    align-items:center ;
+}
+}
+    
+

@@ -12,3 +12,8 @@
     border: 1px solid red;
 
 }
+@media screen and (max-width: 768px) {
+    .slide-container{
+        padding: 1rem;
+    }
+}

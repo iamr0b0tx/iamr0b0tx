@@ -2,7 +2,7 @@ import { useState,useEffect } from "react";
 import "./ImageGuitar.css"
 import ImageTicket from "./ImageTicket";
 import {CgArrowsExpandUpRight} from "react-icons/cg"
-import { FiGithub } from "react-icons/fi";
+import { FiGithub, FiLoader } from "react-icons/fi";
 import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
 
 
@@ -26,19 +26,21 @@ const ImageTicketSlider = () => {
 
  return (
  <div className="slider">
+     
      <div className="slide-show" style={{backgroundImage:`url(${ImageTicket[current].image})`}}>
+    <FiLoader/>
      </div>
      <div className="arrow">
-     <div className="left-arrow" style={{fontSize:"2rem"}}>
+     <div className="left-arrow" >
      <BiLeftArrow onClick={prevSlide}/>
 </div>
-<div className="right-arrow" style={{fontSize:"2rem"}}>
+<div className="right-arrow" >
 <BiRightArrow onClick={nextSlide}/>
 </div>
 </div>
 
      <div className="slide-content">
-         <h2>NOC-Monitor for Tracking Reports and Tickets</h2>
+         <h2>NOC-Monitor for Tracking Reports</h2>
          
          <ul className="p-file">
              <li><FiGithub style={{fontSize:"2rem"}}/></li>

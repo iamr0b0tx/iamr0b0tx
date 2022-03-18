@@ -8,8 +8,8 @@
     top:10px;
     
 }
-    @media screen and (max-width:700px) {
+    @media screen and (max-width:768px) {
         .dot{
-            left:0;
+            left:0px;
     }
 }

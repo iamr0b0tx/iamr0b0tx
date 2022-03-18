@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root{
-  --bg-body-color:#2e4c6d;
-  --bg-color:#1a243c;
+  --bg-body-color:#1d566e;
+  --bg-color:#163a5f;
   
-  --bg-green-color:#00ff00;
-  --text-light-color:#f9f9f9;
-  --text-dark-color:#a8b2d1;
-  --bg-indigo-color:#6807f9;
+  --bg-green-color:#45eba5;
+  --text-light-color:#fff;
+  --text-dark-color:#e3f6f5;
+  --bg-darkgreen-color:#21aba5;
   
   
 

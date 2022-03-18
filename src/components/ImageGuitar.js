@@ -9,13 +9,13 @@ import guitar5 from "../assets/detect-guiter--notes-using-ML1.jpg"
 
 
 
-
  const ImageGuitar = [
     
     {
-        image:`${guitar}`,
-         
+        image:`${guitar}`
+   
     },
+   
  {
     image:`${guitar1}`
  },

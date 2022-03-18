@@ -5,7 +5,7 @@
       color: var(--bg-color);
       text-transform: uppercase;
       font-weight: 500;
-    background-color: var(--bg-green-color);
+    background-color: transparent;
       letter-spacing: 1px;
       border-radius: 5px;
       outline:none;
@@ -14,7 +14,7 @@
       border: 1px solid var(--bg-green-color);
     }
 
-     .say-hello .tertiary:hover{
+     .say-hello:hover{
         background-color:var(--bg-color);
 
         border: 1px solid  var(--bg-green-color);

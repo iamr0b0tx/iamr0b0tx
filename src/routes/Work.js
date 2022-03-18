@@ -6,6 +6,7 @@ import ImageLog from '../components/ImageLog';
 
 import ImageSlider from '../components/ImageSlider';
 import ImageTicket from '../components/ImageTicket';
+import Navbar from '../components/Navbar';
 
 import "./Work.css";
 
@@ -14,6 +15,7 @@ const Work = ({text}) => {
 
     return (
         <div className='work'>
+
             <Heading text={"Projects"}/>  
             <ImageSlider/>
         

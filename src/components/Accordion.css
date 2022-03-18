@@ -6,7 +6,7 @@
     justify-content: center;
     position: relative;
     min-height: 75vh;
-    width: 100%;
+    width: auto;
     background-color: var(--bg-body-color);
 }
 .accordion .container{
@@ -14,7 +14,7 @@
     top:3%;
     left: 0;
     box-shadow: 2px 10px 35px 1px rgba(0, 0, 0, .8);
-width:100%;
+width:1000px;
 
 }
 .container .item{
@@ -55,16 +55,43 @@ width:100%;
     max-height: 9999px;
     transition: all .5s cubic-bezier(1, 0, 1, 0);
 }
-@media screen and (max-width:700px) {
-    
+@media screen  and (max-width:500px){
+     
     .accordion{
-        min-height: 65vh;
-        
-    }.accordion .container{
-        width:auto;
+        position: relative;
+        width:200px;
+        min-height: 75vh;
+    }
+     .container{
+        width:100%;
+        position: absolute;
         
     }
+.container .wrap{
+    width: 30%;
+}
+.wrap h2{
+font-size: .6rem;
+}
 
+.dropdown p{
+    font-size: .6rem;
+}
+}
+@media screen  and (max-width:768px) {
+    
+    .accordion{
+        width:100%;
+        min-height: 75vh;
+        
+    }.accordion 
+    .container{
+        width:500px;
+        
+    }
+.container .wrap{
+    width: 100%;
+}
 .wrap h2{
 font-size: 1rem;
 }

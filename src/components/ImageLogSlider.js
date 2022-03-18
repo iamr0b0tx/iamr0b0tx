@@ -30,10 +30,10 @@ const ImageLogSlider = () => {
      <div className="slide-show" style={{backgroundImage:`url(${ImageLog[current].image})`}}>
      </div>
      <div className="arrow">
-     <div className="left-arrow" style={{fontSize:"2rem"}}>
+     <div className="left-arrow" >
      <BiLeftArrow onClick={prevSlide}/>
 </div>
-<div className="right-arrow" style={{fontSize:"2rem"}}>
+<div className="right-arrow" >
 <BiRightArrow onClick={nextSlide}/>
 </div>
 </div>
