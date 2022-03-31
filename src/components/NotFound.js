@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes } from 'react-router-dom';
+
 import Navbar from './Navbar';
 import './NotFound.css'
 

@@ -2,8 +2,9 @@ import {useState,useEffect } from "react";
 import "./ImageGuitar.css"
 import  ImageGuitar from "./ImageGuitar";
 import {CgArrowsExpandUpRight} from "react-icons/cg"
-import { FiGithub, FiLoader } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
+import Loader from "./Loader";
 
 
 
@@ -21,16 +22,22 @@ const ImageGuitarSlider = () => {
     }
     useEffect(() => {
       setCurrent(0);
+    
 
     },[])
     
-  
+    useEffect(() => {
+        setLoading(true);
+        setTimeout(() =>{
+        setLoading(false)
+        }, 4000)
+        }, [])
 
  return(
      <div className="slider">  
-       <div style={{display:"flex", alignItems:"center",justifyContent:"center",width:"900px",height:"500px"}}>
-<div className="slide-show" style={{ backgroundImage:`url(${ImageGuitar[current].image})`,zIndex:"2", width:"900px", height:"500px" }}/>
-<img src={require("../assets/adeneye-abdulfatah.jpg")} style={{zIndex:"1"}}/>
+       <div style={{width:"900px",height:"500px"}}>
+{loading ? <div className="slide-show" style={{ backgroundImage:`url(${ImageGuitar[current].image})`,zIndex:"2", width:"900px", height:"500px" }}/>
+: <Loader/>}
 </div>
      <div className="arrow">
      <div className="left-arrow" >

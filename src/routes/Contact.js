@@ -2,7 +2,7 @@ import React from 'react'
 import "./Contact.css"
 import Heading from '../components/Heading'
 import TertiaryButton from './TertiaryButton'
-import Navbar from '../components/Navbar'
+
 const Contact = ({text}) => {
     return (
         <div className='contact'>

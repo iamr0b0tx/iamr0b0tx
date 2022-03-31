@@ -1,12 +1,7 @@
 import React from 'react'
 import Heading from '../components/Heading';
-import ImageGuitar from '../components/ImageGuitar';
-import ImageLog from '../components/ImageLog';
-
-
 import ImageSlider from '../components/ImageSlider';
-import ImageTicket from '../components/ImageTicket';
-import Navbar from '../components/Navbar';
+
 
 import "./Work.css";
 

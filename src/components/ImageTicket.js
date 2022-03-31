@@ -1,5 +1,4 @@
-import { AiFillGithub } from "react-icons/ai"
-import { CgArrowsExpandUpRight } from "react-icons/cg"
+
 import ticket from "../assets/noc-monitor-for-tracking-tickets-and-reports.jpg"
 import ticket1 from "../assets/noc-monitor-for-tracking-tickets-and-reports1.jpg"
 import ticket2 from "../assets/noc-monitor-for-tracking-tickets-and-reports2.jpg"

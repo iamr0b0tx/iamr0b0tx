@@ -93,23 +93,25 @@ padding: 100px;
 }
 .quote{
     position: relative;
-    width: 400px;
-    height: auto;
+    width: 300px;
+    height: 300px;
     padding: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: black;
+    background: var(--bg-color);
+    box-shadow: 16px 14px 20px #000;
+    border-radius: 10px;
 
     
 }
 
 .quote::before{
 content: "";
-width:50px;
-height: 50px;
+width: 100%;
+height: 100%;
 position: absolute;
-background: lightcoral;
+background-image: conic-gradient(#000 20deg, transparent 120deg);
 animation:rotate 4s linear infinite ;
 }
 @keyframes rotate{
@@ -118,19 +120,23 @@ animation:rotate 4s linear infinite ;
         transform: rotate(0deg);
     }
     to{
-        transform:rotate(100deg)
+        transform:rotate(90deg)
     }
 }
 .quote::after{
     display: block;
     content: "";
-    width: 50px;
-    height: 50px;
+    width: 5px;
+    height: 100px;
     inset:4px;
     position: absolute;
-    
-    
+border-radius: 10px;
     background: var(--bg-green-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation:rotate 4s linear infinite ;
+
 }
 
 .quote-fatah > p{

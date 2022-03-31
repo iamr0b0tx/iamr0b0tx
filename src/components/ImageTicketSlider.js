@@ -2,7 +2,7 @@ import { useState,useEffect } from "react";
 import "./ImageGuitar.css"
 import ImageTicket from "./ImageTicket";
 import {CgArrowsExpandUpRight} from "react-icons/cg"
-import { FiGithub, FiLoader } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
 
 

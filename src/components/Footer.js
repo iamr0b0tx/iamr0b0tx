@@ -2,7 +2,6 @@ import React from 'react'
 import {FiFacebook,FiTwitter,FiGithub,FiInstagram,FiLinkedin,} from "react-icons/fi";
 import { AiOutlineReddit } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
-import Button from '../routes/Button'
 import "./Footer.css"
 
 const today = new Date()
