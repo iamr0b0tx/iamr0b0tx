@@ -1,34 +1,38 @@
 .primary{
     padding: .9rem 1.5rem;
-    margin-left: 50px;
-      font-size: 1.2rem;
+    margin-left: 40px;
+      font-size: 14px;
       text-transform: uppercase;
       font-weight: 500;
-    background-color: var(--bg-body-color);
+    background-color: var(--bg-color);
       letter-spacing: 1px;
       border-radius: 5px;
       outline:none;
       cursor:pointer;
-      border:  1px solid var(--bg-body-color);
+      border:  3px solid var(--bg-body-color);
     }
       .primary:hover{
-        border: 1px solid var(--bg-darkgreen-color) ;
-        background-color: var(--bg-color);
+
+
+        background-color: var(--text-light-color);
         transition: ease 0.6s;
       }
-      @media screen and (max-width:500px) {
-          .primary{
-            margin-left: 20px;
-            font-size: .6rem;
-            padding: .6rem .8rem;
-          }
-        
-      }
-    @media screen and (max-width: 768px){
+      @media screen and (min-width:768px)  and (max-width:1023px){
+.primary
+{font-size: 14px;
+  padding: .8rem 1rem;
+      }}
+    @media screen and (max-width: 767px){
     .primary{
-      font-size:1rem;
-      padding: .8rem 1rem;
+      font-size:12px;
+      font-weight:300;
+      padding: .6rem 1rem;
+      border: 1px solid var();
+      
     
       
+    }
+    .primary:hover{
+      border:1px solid var();
     }
     }

@@ -28,10 +28,10 @@ const ImageGuitarSlider = () => {
 
  return(
      <div className="slider">  
-       
-<div className="slide-show" style={{ backgroundImage:`url(${ImageGuitar[current].image})`}}></div>
-
-   
+       <div style={{display:"flex", alignItems:"center",justifyContent:"center",width:"900px",height:"500px"}}>
+<div className="slide-show" style={{ backgroundImage:`url(${ImageGuitar[current].image})`,zIndex:"2", width:"900px", height:"500px" }}/>
+<img src={require("../assets/adeneye-abdulfatah.jpg")} style={{zIndex:"1"}}/>
+</div>
      <div className="arrow">
      <div className="left-arrow" >
       <BiLeftArrow onClick={prevSlide }/>
@@ -45,11 +45,11 @@ const ImageGuitarSlider = () => {
 </div>
 
      <div className="slide-content">
-         <h2>Guitar Audio Sample Recognizer</h2>
+         <h3>Guitar Audio Sample Recognizer</h3>
          
          <ul className="p-file">
-             <li><FiGithub style={{fontSize:"2rem"}}/></li>
-             <li><CgArrowsExpandUpRight style={{fontSize:"2rem"}}/></li>
+             <li><FiGithub/></li>
+             <li><CgArrowsExpandUpRight/></li>
          </ul>
          
      </div>

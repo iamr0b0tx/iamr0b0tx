@@ -1,41 +1,20 @@
 .landing{
+    height: 630px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
-    padding:140px 0;
+padding: 50px 0;
     letter-spacing: 3px;
     overflow: hidden;
     transition: all .1s ease;
     background-color: var(--bg-color) ;
-   
 }
-@keyframes fade {
-    from {
-        opacity: 0;
-        visibility: hidden;
-        
-    }
-    to{
-        opacity: 1;
-        visibility: visible;
-    
-    }
-}
-@keyframes fadeUp {
-from {
-    visibility: hidden;
-    transform: translateY(300px);
-}
-to{
-    visibility: visible;
-    transform: translateY(0px);
-}
-}
+
 .left{
-    width: 60%;
+    width: 55%;
     padding: 100px 0;
-    visibility: hidden;
+    letter-spacing: 3px;
     
     
     
@@ -45,55 +24,46 @@ to{
     
 }
 .small{
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight:500 ;
-    margin:0 0 18px 7px;
-    transform:  translateY(500px);
-    animation: fadeUp .3s ease forwards .8s;
-
-
-
+    padding:0 0 14px 7px;
 
 
 }
 
     .big{
-        font-size: 4.5rem;
+        font-size: 56px;
         font-weight: 300;
-        margin:0 0 10px 0;
+        padding:0 0 14px 0;
+        letter-spacing: .3rem;
         
-        animation: fadeUp .8s ease-in-out forwards .8s;
     
     }
     span{
         color: var(--bg-green-color);
     }
     .medium{
-    
-        font-size: 3.5rem;
-        opacity: 0.5;
+    padding:  0  0 14px 0px;
+        font-size: 36px;
+        opacity: 0.9;
         font-weight: 300;
-        animation: fadeUp 1.2s ease forwards .8s;
+
 
         
     }
     .para{
-        font-size: 1.5rem;
-    visibility: hidden;
-        opacity: .6;
-    padding: 10px 0;
-    animation: fadeUp 1.6s ease forwards .8s;
-
+        font-weight: 300;
+        font-size: 22px;
+    
+        opacity: .7;
+    padding:  0 0 14px 0;
+    
     }
-    .arrow{
-        font-size: 10px;
-        color: var(--bg-green-color);
-    }
+    
 
 .right{
     width: 30%;
 padding: 100px;
-    animation: fade 6s ease;
     
 
 
@@ -102,7 +72,7 @@ padding: 100px;
     border-radius: 50%;
     width: 80px;
     height: 80px;
-    margin: 20px 40px;
+    margin: 50px 40px;
     display: flex;
     padding: 10px;
     justify-content: center;
@@ -123,45 +93,51 @@ padding: 100px;
 }
 .quote{
     position: relative;
-    width: 500px;
+    width: 400px;
     height: auto;
-    padding: 50px;
-    
-    
-    background-color: transparent;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
 
     
 }
 
 .quote::before{
-display: block;
 content: "";
 width:50px;
 height: 50px;
 position: absolute;
-top: 5px;
-left:5px;
-border-top: 5px solid var(--bg-green-color);
-border-left: 5px solid var(--bg-green-color);
+background: lightcoral;
+animation:rotate 4s linear infinite ;
+}
+@keyframes rotate{
+
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(100deg)
+    }
 }
 .quote::after{
     display: block;
     content: "";
     width: 50px;
     height: 50px;
-    
+    inset:4px;
     position: absolute;
-    bottom:5px;
-    right:5px;
-    border-bottom: 5px solid var(--text-dark-color);
-border-right: 5px solid var(--text-dark-color);      
+    
+    
+    background: var(--bg-green-color);
 }
 
 .quote-fatah > p{
     padding: 50px;
 
-
-    font-size: 2rem;
+font-weight: 300;
+    font-size: 22px;
     
     
     
@@ -173,15 +149,21 @@ border-right: 5px solid var(--text-dark-color);
 
 .btn{
     width: 100%;
-    margin:80px 0 40px 0px;
+    margin:50px 0;
     padding: 0;
     display: flex;
     justify-items:center ;
     align-items: center;
-    animation: fadeUp 1.8s ease forwards .8s;
+    
 
 }
-@media screen and (max-width:500px){
+@media screen and (min-width:1024px){ 
+    .landing{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px)  and (max-width:1023px){
     .landing{
         padding: 0;
         margin: 100px 0;
@@ -190,8 +172,10 @@ border-right: 5px solid var(--text-dark-color);
 
  }
  .left{
+
 padding:4rem 0;
 margin-bottom: 10px;
+word-wrap: break-word;
 
  }
 
@@ -200,16 +184,17 @@ margin-bottom: 10px;
      font-size: 1rem
  }
  .big{
-     font-size: 2.5rem;
+     font-size: 2rem;
  }
  .medium{
-     font-size: 2rem;
+     font-size: 1.5rem;
      
  }
  .para{
      margin-top: 20px;
      padding: .5rem 0;
-     font-size: 1rem;
+     font-size: .8rem;
+     word-wrap: break-word;
  }
  .btn{
      
@@ -220,7 +205,7 @@ margin-bottom: 10px;
 padding: 1rem 1rem;
 margin-bottom: 60px;
 width:100%;
-animation: fadeUp 3s ease-in forwards .8;
+
  }
  .quote{
      width: 30px;
@@ -238,25 +223,30 @@ animation: fadeUp 3s ease-in forwards .8;
  .quote::before{
 border-top:1px solid var(--bg-green-color) ;
 border-left:1px solid var(--bg-green-color) ;
-width: 15px;
-height: 15px;
+width: 30px;
+height: 30px;
+
  }
  .quote::after{
     border-bottom:1px solid var(--text-dark-color) ;
     border-right:1px solid var(--text-dark-color);
-width: 15px;
-height: 15px;
+width: 30px;
+height: 30px;
  }
 
  .quote-fatah > p{
      font-size: .8rem;
  }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .landing{
-        padding: 0;
-        margin: 100px 0;
-    flex-direction:column;   
+        width: 100%;
+        padding: 0 24px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        
+    
 
 
  }
@@ -268,33 +258,32 @@ width: 100%;
 
  
  .small{
-     font-size: 1rem
+     font-size: 18px;
  }
  .big{
-     font-size: 2.5rem;
+     font-size: 36px;
  }
  .medium{
-     font-size: 2rem;
+     font-size: 26px;
      
  }
  .para{
-     margin-top: 20px;
+     margin-top: 5px;
      padding: .5rem 0;
-     font-size: 1rem;
+     font-size: 18px;
  }
  .btn{
      
      margin:60px 0 0 0px;
  }
  .right{
-     
+     width: 100%;
 padding: 1rem 1rem;
 margin-bottom: 60px;
 
-animation: fadeUp 3s ease-in forwards .8;
  }
  .quote{
-     width: 500px;
+     width: 90%;
      height:auto;
      padding: 0px;
     
@@ -310,6 +299,7 @@ animation: fadeUp 3s ease-in forwards .8;
 border-top:2px solid var(--bg-green-color) ;
 border-left:2px solid var(--bg-green-color) ;
 
+
  }
  .quote::after{
     border-bottom:2px solid var(--text-dark-color) ;
@@ -318,6 +308,6 @@ border-left:2px solid var(--bg-green-color) ;
  }
 
  .quote-fatah > p{
-     font-size: 1rem;
+     font-size: 18px;
  }
 }

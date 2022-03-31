@@ -27,8 +27,8 @@ const ImageTicketSlider = () => {
  return (
  <div className="slider">
      
-     <div className="slide-show" style={{backgroundImage:`url(${ImageTicket[current].image})`}}>
-    <FiLoader/>
+     <div className="slide-show" style={{backgroundImage:`url(${ImageTicket[current].image})`, width:"100%", height:"500px"}}>
+
      </div>
      <div className="arrow">
      <div className="left-arrow" >
@@ -40,11 +40,11 @@ const ImageTicketSlider = () => {
 </div>
 
      <div className="slide-content">
-         <h2>NOC-Monitor for Tracking Reports</h2>
+         <h3>NOC-Monitor for Tracking Reports</h3>
          
          <ul className="p-file">
-             <li><FiGithub style={{fontSize:"2rem"}}/></li>
-             <li><CgArrowsExpandUpRight style={{fontSize:"2rem"}}/></li>
+             <li><FiGithub /></li>
+             <li><CgArrowsExpandUpRight /></li>
          </ul>
          
      </div>

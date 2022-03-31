@@ -8,7 +8,7 @@ import Accordion from '../components/Accordion';
 
 const About = ({text}) => {
     return (
-        <div className='about'>
+        <div id='about'>
             
             <Heading text={"About Me"}/>
             <div className='landing-about'>
@@ -18,11 +18,9 @@ const About = ({text}) => {
        <br/> I am very meticulous about my work, I like to understand the most fundamental details about any project that I could work on to deliver a successful result.
 
 </p>
-    
-            <p class="skills">Few technologies I am familiar with </p>         
-            <div className='skillset'>
-                <Accordion/>
-            </div>
+     <p className="skills">Few technologies I am familiar with </p>         
+            <Accordion/>
+            
             </div>
         
         

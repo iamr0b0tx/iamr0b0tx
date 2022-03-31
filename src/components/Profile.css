@@ -1,26 +1,33 @@
 .profile{
     margin:0;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 .title-head{
     font-size:22px;
+    font-weight: 300;
     text-transform:capitalize;
     margin:5px 0 5px 0;
     color:var(--bg-green-color);
+
 }
 .place{
-    font-size:15px;
+    font-weight: 400;
+    font-size:14px;
     color: var(--text-light-color);
     text-transform:capitalize;
     margin:10px 0; 
 }
 .article{
     font-size:18px;
-    font-weight:800;
+    font-weight:300;
 color: var(--text-light-color)
+
 }
 p{
     list-style-type:none;
-    font-size:15px;
+    font-size:14px;
+    font-weight: 200;
     padding: 5px 0;
     
 }

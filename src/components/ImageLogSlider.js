@@ -27,7 +27,7 @@ const ImageLogSlider = () => {
 
  return (
  <div className="slider">
-     <div className="slide-show" style={{backgroundImage:`url(${ImageLog[current].image})`}}>
+     <div className="slide-show" style={{backgroundImage:`url(${ImageLog[current].image})`, width:"100%", height:"500px"}}>
      </div>
      <div className="arrow">
      <div className="left-arrow" >
@@ -39,11 +39,11 @@ const ImageLogSlider = () => {
 </div>
 
      <div className="slide-content">
-         <h2>Livestock Log for Livestock Management</h2>
+         <h3>Livestock Log for Livestock Management</h3>
          
          <ul className="p-file">
-             <li><FiGithub style={{fontSize:"2rem"}}/></li>
-             <li><CgArrowsExpandUpRight style={{fontSize:"2rem"}}/></li>
+             <li><FiGithub /></li>
+             <li><CgArrowsExpandUpRight /></li>
          </ul>
          
      </div>

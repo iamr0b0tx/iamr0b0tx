@@ -12,10 +12,7 @@ const Footer = ({text}) => {
         <div className='footer'>
     <section class="semicircle">
     <h1 className='connect'>Let's connect</h1>
- <p className='para-connect'>Would you like to stay connected, feel free to message me.</p>
- <div className='email'>
-     <Button text={"Say hello"}/>
-     </div>
+ <p className='para-connect'>Would you like to stay connected, feel free to link up on social media.</p>
     </section>
     <div className='footer-nav'>
     <ul className='social'>

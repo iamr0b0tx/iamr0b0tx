@@ -48,24 +48,25 @@
     background-color: var(--bg-body-color);
     padding: 30px;
     border-radius:15px;
+    font-weight: 100;
     color: var(--text-dark-color);
     border: 1px solid var(--bg-green-color);
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .experience-items:before{
-    left: 7px;
+    left: 0px;
 }
 .experience-items{
     
-    width:85%;
+    width:80%;
 }
 .experience-item:nth-child(odd){
-padding-left:35px;
+padding-left:30px;
         padding-right:0;
         text-align:left;
     }
     .experience-item:nth-child(even){
-    padding-left:35px;
+    padding-left:30px;
 }
 
 }

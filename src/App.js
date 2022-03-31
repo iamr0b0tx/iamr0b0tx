@@ -23,23 +23,21 @@ function App() {
   }, [])
   return (
     <div className="app">
-      {
+     
+
+ {
         loading ? <Loader/>
       :
-      <Routes>
-        <Route exact path="/" element={<Home/>}/>
-        <Route exact path="/about" element={<About/>}/>
-        <Route exact path="/experience" element={<Experience/>}/>
-        <Route exact path="/contact" element={<Contact/>}/>
-        <Route exact path="/work" element={<Work/>}/>
-        <Route  path="*" element={<NotFound/>}/>
+      <Home/>
+ }
+ <Routes>
+   <Route path="/" component={<NotFound/>}/>
+   
+ </Routes>
 
-      </Routes>
-      
-
-}
 
     </div>
+    
   );
 }
 

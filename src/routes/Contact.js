@@ -15,7 +15,7 @@ const Contact = ({text}) => {
               <label htmlFor='name'></label>
                 <input type="email" placeholder='Email'/>
                 <label htmlFor="email"/>
-                <input type="text" placeholder='Leave a messsage...'/>         
+                <input type="text" placeholder='Leave a message...'/>         
                 
                 
                 </form>

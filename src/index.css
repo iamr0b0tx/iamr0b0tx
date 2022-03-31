@@ -19,10 +19,6 @@
   text-decoration:none;
   font-family:"Roboto", calibar;
 }
-html{
-  scroll-behavior: smooth;
-}
-
 body{
   
   background-color: var(--bg-color);
@@ -48,5 +44,8 @@ ul{
    list-style-type: none;
 }
 a:link{
-  color: var(--text-light-color);
+color: #000;
+}
+button{
+  outline: nonr;
 }

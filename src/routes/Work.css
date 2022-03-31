@@ -2,13 +2,13 @@
     min-height: 100vh;
     font-family: inherit;
     width: 100%;
-    padding: 100px ;
-    background-color: var(--bg-body-color);
+    padding: 100px 0;
+    background-color: var(--bg-color);
     transition: 1s ease;
 
 
 }
 
 
-@media screen and(max-width:700px){
+@media screen and(max-width:767px){
 }

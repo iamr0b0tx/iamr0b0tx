@@ -1,13 +1,13 @@
 .footer{
+    margin-top: 50px; 
     width: 100%;
     color: var(--bg-green-color);
-padding:  0;
     background-color:var(--text-light-color);
 }
 .semicircle {
     position: relative;
     background: var(--bg-color);
-    height: 40vh;
+    height: 25vh;
   }
   
   .semicircle::before {
@@ -23,17 +23,19 @@ padding:  0;
     bottom: 0px;
   }
 .connect{
-margin-top: 50px;
+padding: 20px;
 text-align: center;
-font-size: 4rem;
+font-size: 46px;
+font-weight: 300;
 letter-spacing: 3px;
 color:var(--text-light-color);
 
 }
 .para-connect{
-    margin-top: 50px;
+    
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 22px;
+    font-weight: 300;
     letter-spacing: 3px;
     color: var(--text-dark-color);
 }
@@ -53,8 +55,8 @@ color:var(--text-light-color);
     display: flex;
     justify-content:center ;
     align-content: center;
-    margin: 100px 80px 20px 80px;
-   font-size: 1.2rem;
+    margin: 50px 0 0 0;
+
     
 
 }
@@ -66,8 +68,9 @@ color:var(--text-light-color);
 
 }
 .social li a{
-    font-size: 3rem;
+    font-size: 32px;
 padding:1rem .5rem 0 .5rem;
+
                             
 
     
@@ -78,33 +81,34 @@ padding:1rem .5rem 0 .5rem;
 }
 .social li a:hover{
     color: var(--bg-green-color);
-    transition: 1s ease;
+    transition: 2s ease;
 }
 .nav-social{
     display: flex;
     justify-content:center ;
     align-content: center;
     width: 100%;
-    height: 80px;
-   font-size: 2rem;
+
+   
    
 }
 .nav-social li{
-    padding: 20px;
+    padding: 10px 0;
 
     
     
 }
-.nav-social  a {
+.nav-social li a {
     color:var(--bg-color);
     margin: 0 2rem;
-    font-weight: 500;
-    font-size: 2rem;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 10px ;
     
     
 }
 .nav-social li a:hover{
-
+transition: 1s ease;
 
 color: var(--text-light-color);
 
@@ -121,33 +125,25 @@ background-color: var(--bg-color);
 }
 .coder .copy{
     color:var(--text-dark-color);
-    font-size: 1.5rem;
+    font-size: 18px;
+    font-weight: 300;
 }
-@media  screen and (max-width:500px ){
-    .footer-nav{
-        display: flex;
-        align-items: center;
-    justify-content: center;
 
-    }
-    .nav-social{
-        flex-direction: column;
-    }
-    .social{
-        flex-direction: column;
-    }
-}
-@media screen  and (max-width:768px){
+@media screen  and (max-width:767px){
     .footer{
+        width: 100%;
+    margin-top:20px ;
     
-    padding: 0;
+    
+    
         
     }
 
     .semicircle {
         position: relative;
         background: var(--bg-color);
-        height: 50vh;
+        height: 25vh;
+        
       }
       
       .semicircle::before {
@@ -163,44 +159,46 @@ background-color: var(--bg-color);
         
       }
     .connect{
-    margin-top: 50px;
+    padding-top: 0px;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 36px;
     letter-spacing: 3px;
     color:var(--text-light-color);
     
     }
     .para-connect{
-        margin-top: 40px;
+        padding: 0 20px ;
         text-align: center;
-        font-size: .8rem;
+        font-size: 14px;
         letter-spacing: 3px;
         color: var(--text-dark-color);
         
 
 
     
-    }.footer-nav{
-        margin: 0;
-           padding: 0;
+    }
+    .footer-nav{
+        width: 100%;
         display: flex;
-        justify-items: center;
+        justify-content: center;
         align-items: center;
+        
+
         
         
         
     }
     
     .social{
-
-    margin: 0;
-    padding: 0;
+        width: 100%;
+padding-left:100px;
+flex-direction: column;
         
     
     }
     
     .social li a{
-        font-size: 3rem;
+        font-size: 30px;
     padding:0.25rem;
     color: var(--bg-color);
         
@@ -216,16 +214,20 @@ background-color: var(--bg-color);
     transition: .5 ease;
 }
     .nav-social{
-    flex-direction: column;
-    margin: 0;
-       font-size: 1.5rem;
+        width: 100%;
+
+flex-direction: column;
+padding-top: 50px;
+    
+       
     }
     .nav-social li{
-        padding:1rem 0 ;
+padding:16px 0px;
     
     }
     .nav-social li a{
-        padding: .5rem ;
+        font-size: 22px;
+        
     }
     .nav-social li a:hover{
         transition: 0.4s;
@@ -235,15 +237,15 @@ background-color: var(--bg-color);
 
     }
     .coder{
-        margin: 20px 0;
+    
         padding: 10px 20px 5px 20px;
     }
     .coder .copy{
-        font-size: 1.2rem;
+        font-size: 14px;
     
     }
     .coder .one{
-        font-size: 1rem;
+        font-size: 12px;
         padding-bottom: 5px;
     }
 }

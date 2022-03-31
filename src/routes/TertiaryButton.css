@@ -1,9 +1,9 @@
 
 .tertiary{
-    padding: .9rem 3rem;
-      font-size: 1.0rem;
+    padding: .9rem 1.8rem;
+      font-size: 14px;
       text-transform: uppercase;
-      font-weight: 500;
+      font-weight: 300;
     background-color: var(--bg-green-color);
       letter-spacing: 1px;
       border-radius: 5px;
@@ -19,10 +19,11 @@
         border: 1px solid  var(--bg-green-color);
         color: var(--bg-green-color);
     }
-    @media screen and (max-width: 700px){
-    .tertiary{font-size:1.0rem;
-      margin-top: 0px;
-      padding: .9rem 1rem;
+    @media screen and (max-width: 767px){
+    .tertiary{
+      font-weight: 300;
+      font-size:14px;
+      padding: .6rem .8rem;
 
     }
     }

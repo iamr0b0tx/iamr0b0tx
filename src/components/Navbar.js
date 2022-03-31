@@ -1,5 +1,5 @@
 import React, {useState}from 'react'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { FaTimes} from "react-icons/fa"
 import {AiOutlineMenu} from "react-icons/ai"
 import "./Navbar.css";
@@ -26,19 +26,24 @@ setClick(!click);
             <div className='letter'>
                 <Link to='/'>
         <h1 className="letter-fa">A</h1>
-            </Link></div>
+            </Link>
+            </div>
 <ul className={click ? "nav active" : "nav"}>
-    <li>
-        <Link to="/about" className='active' >About</Link>
+    
+<li>
+        <Link to="/home" className="home_link">Home</Link>
     </li>
     <li>
-        <Link to="/experience">Experience</Link>
+        <Link to="about" className="about_link">About</Link>
+    </li>
+    <li>
+        <Link to="experience">Experience</Link>
         </li>
     <li>
-        <Link to="/work">Work</Link>
+        <Link to="work">Work</Link>
     </li>
         <li>
-        <Link to="/contact">Contact</Link>
+        <Link to="contact">Contact</Link>
         </li>
 </ul>
 <div className='hamburger-menu' onClick={handleClick}>
