@@ -8,7 +8,7 @@
 
 }
 form{
-    width: 80%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -22,7 +22,7 @@ form{
 }
 label{
     color: var(--text-light-color);
-    margin-top: 100px;
+    margin-top: 80px;
     font-size: 22px;
     font-weight: 100;
 
@@ -50,6 +50,7 @@ input::placeholder{
 }
 .tertiary-button{
     display: grid;
+    margin: 60px 0;
     place-content: center;
     
 }
@@ -82,5 +83,34 @@ input::placeholder{
 .tertiary-button{
     margin: 0;
     padding: 40px 0;
+}
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+.contact{
+    width: 100%;
+
+}
+.contact-wrapper{
+    width: 100%;
+    margin: 0;
+}
+input{
+    width: 100%;
+    margin: 0;
+}
+}
+
+@media screen and (min-width:1024px) {
+
+.contact{
+    width: 100%;
+}
+.contact-wrapper{
+    width: 100%;
+    margin: 0;
+}
+input{
+    width: 100%;
+    
 }
 }

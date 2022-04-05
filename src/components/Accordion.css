@@ -6,7 +6,7 @@
     justify-content: center;
     position: relative;
     min-height: 80vh;
-
+width: 100%;
     background-color: var(--bg-color);
 }
 .accordion .container{
@@ -80,4 +80,8 @@ font-size: 18px;
     font-size: 18px;
 }
 }
-    
+@media screen and (min-width:768px) and (max-width:1023px){
+.accordion{
+    width: 100%;
+}
+}

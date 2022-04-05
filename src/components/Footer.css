@@ -131,7 +131,7 @@ background-color: var(--bg-color);
 
 @media screen  and (max-width:767px){
     .footer{
-        width: 100%;
+width: 100%;
     margin-top:20px ;
     
     
@@ -248,4 +248,9 @@ background-color: var(--bg-color);
         font-size: 12px;
         padding-bottom: 5px;
     }
+}
+@media screen and (min-width:768px)  and (max-width:1023px){
+.footer{
+    width: 100%;
+}
 }

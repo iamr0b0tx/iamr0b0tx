@@ -29,18 +29,20 @@
     transform: translateY(-50%);
     background-color: var(--text-color);
 }
-@media screen and (max-width:1023px) and(min-width:768px){ 
-.heading{
-    font-size: 22px;
-}
 
-}
+
   @media screen and (max-width:767px) {
             .heading{
                 margin: 0 ;
-                font-size: 32px;
+                font-size: 30px;
                 padding: 0 ;
                 font-weight: 300;
                 
         }
     }
+@media screen and (min-width:768px)  and (max-width:1023px){
+    
+        .heading{
+            font-size: 36px;
+        }
+    }        

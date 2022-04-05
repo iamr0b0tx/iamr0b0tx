@@ -6,7 +6,7 @@ import Experience from "./Experience"
 import Navbar from '../components/Navbar'
 import "./Home.css"
 import About from './About'
-import Work from './Work'
+
 import Contact from "./Contact"
 
 
@@ -17,7 +17,7 @@ const Home = () => {
             <HeaderContent/>
             <About/>
 <Experience/>
-<Work/>
+
 <Contact/>
 <Footer/>            
 

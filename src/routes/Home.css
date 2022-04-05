@@ -3,3 +3,16 @@
     height: 100vh;
     
 }
+@media screen and (max-width:767px){
+    .home{
+        width: 100%;
+        display: flex;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .home{
+        width: 100%;
+    }
+}

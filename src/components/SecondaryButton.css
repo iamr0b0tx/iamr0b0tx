@@ -11,12 +11,12 @@ background-color: var(--bg-green-color);
   border-radius: 5px;
   outline:none;
   cursor:pointer;
-opacity: .8 ;
-  border: 3px solid var(--bg-green-color);
+  
 }
   .secondary:hover{
   background-color:var(--text-light-color);
     transition: ease 0.6s;
+    
     
     
 
@@ -24,7 +24,7 @@ opacity: .8 ;
 
 .secondary a:visited{
 color:var(--text-light-color);
-opacity: 1;
+
 margin-right: 10px;
 
 }

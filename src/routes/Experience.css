@@ -6,3 +6,8 @@ color: var(--text-light-color);
 animation: fadeUp 1.8s ease forwards .8s;
 
 }
+@media screen and (max-width:767px){
+    .experience{
+        width: 100%;
+    }
+}

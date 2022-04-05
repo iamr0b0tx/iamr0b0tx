@@ -12,5 +12,7 @@
 
 }
 @media screen and (max-width: 767px) {
-    
+    .slide-container{
+        width: 90%;
+    }
 }

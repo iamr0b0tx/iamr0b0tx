@@ -38,9 +38,9 @@ overflow-wrap: break-word;
     position: relative;
     border-radius: 5px;
     z-index: 1;
-    background-color: var(--bg-color);
+    background-color: var(--bg-body-color);
     top:-100px;
-    left:90px;
+    left:70px;
 }
  .image{
     width: 350px;
@@ -51,7 +51,7 @@ overflow-wrap: break-word;
     z-index: 2;
     
     top: -420px;
-    left:70px;
+    left:90px;
 }
 
 .right-about{
@@ -77,20 +77,22 @@ width: 450px;
 @media screen and (max-width:767px) {
     .about{
         width: 100%;
-
+        min-height: 100vh;
         flex-direction: column;
+        margin: 200px;
     }
     .landing-about{
-    width: 100%;
+    width: 90%;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-    margin-top: 20px;
+    margin-top: 100px;
     padding: 100px 0;
         
 }
 .left-about{
+    
 padding:0 24px;
 width: 100%;
 
@@ -108,22 +110,24 @@ width: 100%;
 }
 
 .right-about{
-margin: 0;
-padding: 0px 24px;
-width: 100%;
+margin: 0;padding:0 24px;
+align-content: center;
+width: auto;
 height: 300px;
+
+
     
     
 }.img-box{
     top:-60px;
-    left:90px;
+    left:20px;
     width: 250px;
     height: 250px;
 }
 .image{
     width: 250px;
     height: 250px;
-    left:70px;
+    left:40px;
     top: -290px;
 }
 .skills{
@@ -132,3 +136,82 @@ height: 300px;
 }
 }
 
+@media screen and (min-width:768px)  and (max-width:1023px){
+
+.about{
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 200px;
+
+}
+    .landing-about{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    margin-top: 80px;
+    padding: 100px 30px ;
+        
+}
+.left-about{
+        
+padding:0 24px;
+width: 90%;
+
+
+
+}
+.fatah{
+    font-size: 18px; 
+ }
+ .right-about{
+     align-content: center;
+    margin: 0;
+    padding:50px 100px;
+    width: 90%;
+    height: 350px;
+    
+
+
+}.img-box{
+    top:-90px;
+    left:120px;
+    width: 300px;
+    border: 1px solid var(--bg-green-color);
+
+    background-color: var(--bg-body-color);
+    height: 300px;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    left:140px;
+    top: -370px;
+    border: 1px solid var(--bg-green-color);
+}
+.skills{
+    font-size: 18px;
+    
+}
+
+}
+@media screen and (min-width:1024px){ 
+    .about{
+        width: 100%;
+    }
+    
+    .landing-about{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    margin-top: 80px;
+    padding: 100px 32px;
+}
+.left-about{
+padding:0 24px;
+width: 90%;
+   
+}}

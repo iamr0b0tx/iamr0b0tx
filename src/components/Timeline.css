@@ -53,6 +53,9 @@
     border: 1px solid var(--bg-green-color);
 }
 @media screen and (max-width:767px) {
+    .timeline{
+        width: 90%;
+    }
     .experience-items:before{
     left: 0px;
 }
@@ -69,4 +72,30 @@ padding-left:30px;
     padding-left:30px;
 }
 
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .timeline{
+        width: 100%;
+    }
+    .experience-items:before{
+    left: 0px;
+}
+.experience-items{
+    
+    width:80%;
+}
+.experience-item:nth-child(odd){
+padding-left:30px;
+        padding-right:0;
+        text-align:left;
+    }
+    .experience-item:nth-child(even){
+    padding-left:30px;
+}
+
+}
+@media screen and (min-width:1024px) {
+    .experience-items{
+        width: 80%;
+    }
 }
