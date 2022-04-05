@@ -15,14 +15,7 @@ padding: 100px 0;
     width: 850px;
     
     letter-spacing: 3px;
-    
 
-
-    
-
- 
- 
-    
 }
 .small{
     font-size: 18px;
@@ -67,99 +60,68 @@ padding: 100px 0;
 
 .right{
     width: 450px;
+    padding-left: 100px;
 
     
 
 
 }
-.bigger{
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    margin: 50px 40px;
+.blockquote-wrapper{
+width:350px;
     display: flex;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--bg-green-color);
+height:300px;
+padding: 0 20px;
+
+
+
 
     
     
     
     
 }
-.bigger span{
-    color: rgb(14, 11, 11);
-    font-size: 50px;
-    font-weight: 500;
-
-
-}
-.quote{
+.blockquote{
+    border: 2px solid var(--bg-green-color);
     position: relative;
-    width: 300px;
-    height: 300px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:var(--bg-body-color) ;
-    
-    border-radius: 10px;
-    overflow: hidden;
+    padding: 50px;
+    background-color: var(--bg-body-color);
+
+    animation: shadows 2s ease infinite alternate;
 
     
+
 }
-
-.quote::before{
-content:  "";
-width: 150%;
-height: 150%;
-position: absolute;
-background-image: conic-gradient(#000 20deg, var(--bg-green-color) 120deg);
-animation: rotate 2s linear infinite;
-}
-
-.quote::after{
+.blockquote h1{
+    
+    line-height: 1.2;
     display: block;
-    content: "I usually know what I am doing until I don't, And then...I do";
-    width: 290px;
-    height: 290px;
-    background:var(--bg-color);
-    position: absolute;
-border-radius: 5px;
-letter-spacing: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 22px;
-    color:#000;
-
+    font-style: italic;
+    border-radius: 10px;
     
+position: relative;
+font-weight: 200;
+font-size: 24px;
 
 }
-@keyframes rotate{
+cite{
+    font-size: 14px;
+    padding: 10px;
+    display: block;
+    text-align: right;
+}
+cite::before{
+    content:"- ";
+}
+@keyframes shadows{
 
     0%{
-        transform: rotate(0deg);
-    }
+        box-shadow: 0 2px 4px -2px rgba(0,0,0,0.25);
+        transform: scale(.95);
+        }
     100%{
-        transform:rotate(-360deg)
+        box-shadow: 0 0 4px 2px rgba(0,0,0,0.25);
+        transform: scale(1);
     }
-}
-
-.quote-fatah  p{
-    padding: 50px;
-font-weight: 300;
-    font-size: 22px;
-
-    
-    
-    
-
-}
-.quote-fatah > hr{
-    width: 200px;
 }
 
 .btn{
@@ -174,14 +136,15 @@ font-weight: 300;
 }
 @media screen and (max-width:767px){
     .landing{
+        height: 900px;
         width: 100%;
-        padding: 0px 0 0  32px;
+        padding:0;
         display: flex;
         flex-direction: column;
 
  }
  .left{
-padding:0px 32px;
+padding:30px 52px;
 margin-bottom: 50px;
 width: 100%;
  }
@@ -209,24 +172,9 @@ width: 100%;
  .right{
      
      width: 100%;
-padding: 1rem 1rem;
+padding:20px 32px;
 margin-bottom: 50px;
 
- }
- .quote{
-    width: 300px;
-     height:auto;
-     padding: 0px;
- }
- 
- .quote-fatah{
-     
-     margin: 40px  0px;
-     padding:0;  
-}
-
- .quote-fatah  p{
-     font-size: 18px;
  }
 }
 

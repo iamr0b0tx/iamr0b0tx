@@ -1,9 +1,10 @@
 .contact{
     width:100%;
     min-height: 100vh;
-    padding: 100px 0;
+    padding-top: 100px;
 }
 .contact-wrapper{
+    padding: 20px 0;
     margin: 150px 200px 0 200px;
 
 }
@@ -61,7 +62,7 @@ input::placeholder{
         
     }
     .contact-wrapper{
-        margin: 100px 0 0 0;
+        margin: 0;
     }
    form{ 
        width:100%;

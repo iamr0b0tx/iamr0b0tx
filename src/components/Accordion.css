@@ -6,8 +6,8 @@
     justify-content: center;
     position: relative;
     min-height: 80vh;
-width: 100%;
-    background-color: var(--bg-color);
+width: 1000px;
+    background-color: var(--bg-body-color);
 }
 .accordion .container{
     position: absolute;
@@ -73,15 +73,18 @@ min-height: 65vh;
     width: 0px;
 }
 .wrap h2{
-font-size: 18px;
+font-size: 16px;
 }
 
 .dropdown p{
-    font-size: 18px;
+    font-size: 16px;
 }
 }
 @media screen and (min-width:768px) and (max-width:1023px){
 .accordion{
     width: 100%;
+}
+.accordion .container{
+    width: 600px;
 }
 }

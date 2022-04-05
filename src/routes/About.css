@@ -1,9 +1,8 @@
 .about{
     font-family: "Roboto", sans-serif;
     width:100%;
-height: 1300px;
-
-    padding:100px ;
+min-height: 100vh;
+    padding-top: 100px;
     
     color: var(--bg-color);
     background-color: var(--bg-body-color);
@@ -14,7 +13,7 @@ height: 1300px;
     display:flex;
     justify-content: center;
     align-items: center;
-    padding:100px  0 ;
+    padding:20px  0 ;
 
      
 
@@ -79,7 +78,8 @@ width: 450px;
         width: 100%;
         min-height: 100vh;
         flex-direction: column;
-        margin: 200px;
+        
+        
     }
     .landing-about{
     width: 100%;
@@ -87,7 +87,7 @@ width: 450px;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-    margin-top: 100px;
+    margin-top: 80px;
     padding: 100px 0;
         
 }
@@ -110,7 +110,8 @@ width: 100%;
 }
 
 .right-about{
-margin: 0;padding:0 24px;
+margin: 0;
+padding:0 10px;
 align-content: center;
 width: auto;
 height: 300px;
@@ -120,14 +121,14 @@ height: 300px;
     
 }.img-box{
     top:-60px;
-    left:20px;
+    left:10px;
     width: 250px;
     height: 250px;
 }
 .image{
     width: 250px;
     height: 250px;
-    left:40px;
+    left:-10px;
     top: -290px;
 }
 .skills{
@@ -142,7 +143,7 @@ height: 300px;
     width: 100%;
     min-height: 100vh;
     flex-direction: column;
-    margin: 200px;
+
 
 }
     .landing-about{
@@ -158,7 +159,7 @@ height: 300px;
 .left-about{
         
 padding:0 24px;
-width: 90%;
+width: 100%;
 
 
 
@@ -170,14 +171,14 @@ width: 90%;
      align-content: center;
     margin: 0;
     padding:50px 100px;
-    width: 90%;
+    width: auto;
     height: 350px;
     
 
 
 }.img-box{
     top:-90px;
-    left:120px;
+    left:10px;
     width: 300px;
     border: 1px solid var(--bg-green-color);
 
@@ -187,7 +188,7 @@ width: 90%;
 .image{
     width: 300px;
     height: 300px;
-    left:140px;
+    left:-10px;
     top: -370px;
     border: 1px solid var(--bg-green-color);
 }
@@ -203,7 +204,7 @@ width: 90%;
     }
     
     .landing-about{
-        width: 90%;
+        width: auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -211,7 +212,10 @@ width: 90%;
     padding: 100px 32px;
 }
 .left-about{
-padding:0 24px;
-width: 90%;
+    
+    justify-content: center;
+    align-items: center;
+    padding:20px  0 ;
+
    
 }}

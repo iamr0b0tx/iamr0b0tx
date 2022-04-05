@@ -23,7 +23,13 @@ const HeaderContent = () => {
             </div>
             
             <div className='right'>
+                <div className='blockquote-wrapper'>
+                <div className='blockquote'>
+                    <h1>"I usually know what I am doing until I don't, 
+                        And then...I do."</h1>
                 
+                <cite>Abdulfatah</cite></div>
+                </div>
             
             
             </div>

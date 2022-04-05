@@ -19,6 +19,9 @@
         border: 1px solid  var(--bg-green-color);
         color: var(--bg-green-color);
     }
+    .tertiary a:link{
+      color: var(--text-light-color);
+    }
     @media screen and (max-width: 767px){
     .tertiary{
       font-weight: 300;

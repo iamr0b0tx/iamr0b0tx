@@ -61,7 +61,7 @@
 }
 .experience-items{
     
-    width:80%;
+    width:90%;
 }
 .experience-item:nth-child(odd){
 padding-left:30px;
@@ -82,7 +82,7 @@ padding-left:30px;
 }
 .experience-items{
     
-    width:80%;
+    width:90%;
 }
 .experience-item:nth-child(odd){
 padding-left:30px;
@@ -96,6 +96,6 @@ padding-left:30px;
 }
 @media screen and (min-width:1024px) {
     .experience-items{
-        width: 80%;
+        width: 90%;
     }
 }
