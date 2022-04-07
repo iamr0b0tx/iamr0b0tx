@@ -1,7 +1,8 @@
 .landing{
-    height: 630px;
+    height: 570px;
     width: 100%;
     display: flex;
+    margin-top: 100px;
     justify-content: center;
     align-content: center;
 padding: 100px 0;
@@ -183,7 +184,8 @@ margin-bottom: 50px;
 @media screen and (min-width:768px) and (max-width:1023px){
     .landing{
         width: 100%;
-        padding: 0 0 0  16px;
+        height: 900px;
+        padding: 50px 0 0  32px;
         flex-direction: column;
         display: flex;
         margin: 0;
@@ -219,8 +221,8 @@ margin-bottom: 50px;
  
  .right{
      
-     padding: 0 32px;
-     width: 90%;
+     padding: 30px 16px;
+     width: auto;
  }
 }
 @media screen and (min-width:1024px){ 

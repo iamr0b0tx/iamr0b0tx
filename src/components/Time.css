@@ -2,7 +2,8 @@
 {
 font-size:20px;
 font-weight:300;
-color:var(--text-light-color);
+color:var(--text-dark-color);
 background-color:transparent;
+
 margin:5px 0 20px 0;
 }

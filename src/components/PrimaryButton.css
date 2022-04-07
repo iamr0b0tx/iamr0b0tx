@@ -4,13 +4,14 @@
       font-size: 14px;
       text-transform: uppercase;
       font-weight: 500;
-    background-color: var(--bg-body-color);
+    background-color: #60656f;
       letter-spacing: 1px;
       border-radius: 5px;
       outline:none;
       cursor:pointer;
       border: 1px solid var(--bg-body-color);
-      
+      box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.2);
+
     }
       .primary:hover{
 
@@ -18,6 +19,7 @@
         background-color: transparent;
         transition: ease 0.6s;
       border: 1px solid var(--bg-green-color);
+
 
       }
       .primary a:link{

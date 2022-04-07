@@ -11,6 +11,7 @@
       cursor:pointer;
       transition: 0.4s ease-in-out ;
       border: 1px solid var(--bg-green-color);
+      box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.2);
     }
     
       .tertiary:hover{

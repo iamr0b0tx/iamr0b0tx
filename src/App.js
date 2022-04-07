@@ -1,10 +1,16 @@
 import React from "react"
-import { Route, Routes } from "react-router-dom";
+
 import './App.css';
 import Home from "./routes/Home";
 import { useState, useEffect} from "react"
 import Loader from "./components/Loader";
-import NotFound from "./components/NotFound";
+
+import About from "./routes/About";
+import Experience from "./routes/Experience";
+import Work from "./routes/Work";
+import Contact from "./routes/Contact";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 
 
@@ -24,13 +30,17 @@ function App() {
  {
         loading ? <Loader/>
       :
+      <>
+      <Navbar/>
       <Home/>
+      <About/>
+      <Experience/>
+      <Work/>
+      <Contact/>
+      <Footer/>
+</>
  }
- <Routes>
-   <Route path="notFound" component={<NotFound/>}/>
-   
- </Routes>
-
+ 
 
     </div>
     

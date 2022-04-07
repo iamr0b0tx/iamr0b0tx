@@ -46,6 +46,7 @@ input:focus{
 }
 input::placeholder{
     color:var(--text-dark-color);
+    padding: 20px 10px 0 10px;
     font-size: 20px;
     font-weight: 300;
 }
@@ -95,8 +96,12 @@ input::placeholder{
     width: 100%;
     margin: 0;
 }
+form{
+    width: 70%;
+}
 input{
-    width: 100%;
+    width: auto;
+    
     margin: 0;
 }
 }

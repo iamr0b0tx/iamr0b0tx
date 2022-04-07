@@ -1,13 +1,13 @@
 .slide-container{
     width: 100%;
     min-height: 100vh;
-    margin-top: 100px;
+
     display: flex;
-    font-size: inherit;
+    
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background-color: var(--bg-color);
+    
     border: 1px solid red;
 
 }

@@ -3,21 +3,21 @@ import "./ImageGuitar.css"
 import  ImageGuitar from "./ImageGuitar";
 import {CgArrowsExpandUpRight} from "react-icons/cg"
 import { FiGithub } from "react-icons/fi";
-import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
+import { BsFillArrowLeftSquareFill, BsFillArrowRightSquareFill} from "react-icons/bs";
 
 
 
 
-const ImageGuitarSlider = () => {
+const ImageGuitarSlider = ({slides}) => {
     const [current, setCurrent] = useState(0)
-    const slideLength = ImageGuitar.length;
+    const Length = slides.length;
 
     const nextSlide = () =>{
-        setCurrent (current === slideLength - 1 ? 0 :current + 1)
+        setCurrent (current === Length - 1 ? 0 :current + 1)
     
     }
     const prevSlide = () =>{
-     setCurrent(current === 0 ? slideLength - 1 : current - 1)
+     setCurrent(current === 0 ? Length - 1 : current - 1)
     }
     useEffect(() => {
       setCurrent(0);
@@ -26,35 +26,52 @@ const ImageGuitarSlider = () => {
     },[])
     
     
-
+if(!Array.isArray(slides) || slides.length <= 0){
+    return null;
+}
  return(
-     <div className="slider">  
-       <div style={{width:"900px",height:"500px"}}>
-<div className="slide-show" style={{ backgroundImage:`url(${ImageGuitar[current].image})`,zIndex:"2", width:"900px", height:"500px" }}/>
-    <div className="arrow">
-     <div className="left-arrow" >
-      <BiLeftArrow onClick={prevSlide }/>
-</div>
- 
-<div className="right-arrow" >
-<BiRightArrow  onClick={nextSlide}/>
-
-</div>
-
-</div>
-
+     <div className="slider"> 
+     
      <div className="slide-content">
-         <h3>Guitar Audio Sample Recognizer</h3>
+         
+         <p>Guitar Audio Recognizer</p>
+         
          
          <ul className="p-file">
              <li><FiGithub/></li>
              <li><CgArrowsExpandUpRight/></li>
          </ul>
-         
-     </div>
+         </div>
+     
+     <section className="slide-show">
+       {ImageGuitar.map((slide, index)=>{
+           <FiGithub/>
+        return (
+         <div className={index === current ? "slide active" : "slide"} key={index}>
+       {index ===current && <img src={slide.image} alt="work" className="project"/>}
+       
+       </div>
+       
+        )
+})}  
+ <div className="arrow">
+     <div className="left-arrow" >
+      <BsFillArrowLeftSquareFill onClick={prevSlide }/>
+</div>
+ 
+<div className="right-arrow" >
+<BsFillArrowRightSquareFill  onClick={nextSlide}/>
+
+</div>
+
+</div>
+</section>
+   
+
+     
     </div>
      
-     </div>
+    
  )
  } 
 export default ImageGuitarSlider

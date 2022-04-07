@@ -3,8 +3,12 @@
     font-family: inherit;
     width: 100%;
     padding: 100px 0;
-    background-color: var(--bg-color);
-    transition: 1s ease;
+display: grid;
+place-content: center;
+    background-color: var(--bg-body-color);
+    
+    
+
 
 
 }
@@ -13,5 +17,6 @@
 @media screen and(max-width:767px){
     .work {
         width:100%;
+        
 }
 }

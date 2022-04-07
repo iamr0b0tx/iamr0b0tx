@@ -1,4 +1,8 @@
 import React from 'react'
+import { useEffect } from "react"
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 import {FiFacebook,FiTwitter,FiGithub,FiInstagram,FiLinkedin,} from "react-icons/fi";
 import { AiOutlineReddit } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
@@ -6,8 +10,11 @@ import "./Footer.css"
 
 const today = new Date()
 const Footer = ({text}) => {
+    useEffect(() => {
+        Aos.init({duration:2000})
+    }, [])
     return(
-        
+        <div data-aos="fade-up" className='home' >
         <div className='footer'>
     <section class="semicircle">
     <h1 className='connect'>Let's connect</h1>
@@ -33,10 +40,10 @@ const Footer = ({text}) => {
     <div className='coder'>
         <p className='copy'>&copy; Abdulfatah Adeneye {today.getFullYear()}
         </p>
-        <p className='copy one'> Designed and coded by motuncoded</p>
+        <p className='copy one'> Designed and coded by motuncoded <FiGithub/></p>
     </div>
             </div>
-        
+        </div>
             
     )
 }

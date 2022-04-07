@@ -24,14 +24,14 @@ setClick(!click);
     return (
         <div className={color ?"navbar navbar-bg" :"navbar"} onClick={handleColor}>
             <div className='letter'>
-                <Link to='/'>
+                <Link to='home'>
         <h1 className="letter-fa">A</h1>
             </Link>
             </div>
 <ul className={click ? "nav active" : "nav"}>
     
 <li>
-        <Link to="/home" className="home_link">Home</Link>
+        <Link to="home" className="home_link">Home</Link>
     </li>
     <li>
         <Link to="about" className="about_link">About</Link>
