@@ -1,8 +1,8 @@
 .footer{
     margin-top: 50px; 
     width: 100%;
-    color: var(--bg-green-color);
-    background-color:var(--text-light-color);
+    
+    background-color: var(--text-light-color);
 }
 .semicircle {
     position: relative;
@@ -255,5 +255,30 @@ background-color: var(--bg-color);
 @media screen and (min-width:768px)  and (max-width:1023px){
 .footer{
     width: 100%;
+margin-top:10px;
+    padding: 0;
+
 }
+.semicircle{
+    height: 15vh;
+}
+.para-connect{
+    padding: 24px;
+}
+.footer-nav{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+}
+@media screen and (min-width:1024px){ 
+    .footer{
+        width: 100%;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .semicircle{
+height: 30vh;
+    
+    }
 }

@@ -1,16 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-import "./PrimaryButton.css"
+import './PrimaryButton.css';
 
-const PrimaryButton = ({name}) => {
-    return (
-        <div>
-        <button className='primary'>
-        <a href="mailto:abdulfatahadeneye@gmail.com">{name}
-        </a>
-         </button>   
-        </div>
-    )
-}
+const PrimaryButton = ({ name }) => {
+	return (
+		<div>
+			<button className='primary'>
+				<a href='mailto:abdulfatahadeneye@gmail.com'>{name}</a>
+			</button>
+		</div>
+	);
+};
 
-export default PrimaryButton
+export default PrimaryButton;

@@ -1,12 +1,9 @@
+import reg from '../assets/regressioh-krigging-for-geodata.jpg';
 
-import reg from "../assets/regressioh-krigging-for-geodata.jpg"
-
-const ImageReg = [{
-    image:`${reg}`
-}]
-
-
-
-
+const ImageReg = [
+	{
+		image: `${reg}`,
+	},
+];
 
 export default ImageReg;

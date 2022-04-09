@@ -1,47 +1,40 @@
-
- .secondary{
-padding: .9rem 1.5rem;
-  font-size: 14px;
-  margin-right:40px;
-  text-transform: uppercase;
-  font-weight: 500;
-background-color: #00a6a6;
-  letter-spacing: 1px;
-  border-radius: 5px;
-  outline:none;
-  cursor:pointer;
-  border: 1px solid var(--bg-green-color);      box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.2);
-
-
-  
+.secondary {
+	padding: 0.9rem 1.5rem;
+	font-size: 14px;
+	margin-right: 40px;
+	text-transform: uppercase;
+	font-weight: 500;
+	background-color: #00a6a6;
+	letter-spacing: 1px;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid var(--bg-green-color);
+	box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.2);
 }
-  .secondary:hover{
-  background-color:transparent;
-    transition: ease 0.6s;
-    color: #000;
-  
-    
-
+.secondary:hover {
+	background-color: transparent;
+	transition: ease 0.6s;
+	color: #000;
 }
 
-.secondary a:link{
-color:var(--text-light-color);
-
-
+.secondary a:link {
+	color: var(--text-light-color);
 }
-@media screen and (min-width:768px)  and (max-width:1023px){
-  .secondary
-  {font-size: 14px;
-    padding: .8rem 1rem;
-  }}
-@media screen and (max-width: 767px){
-.secondary{
-  font-size: 12px;
-  font-weight: 300;
-  padding: .6rem 1rem;
-  border: 1px solid var();
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.secondary {
+		font-size: 14px;
+		padding: 0.8rem 1rem;
+	}
 }
-.secondary:hover{
-  border: 1px solid var();
-}
+@media screen and (max-width: 767px) {
+	.secondary {
+		font-size: 12px;
+		font-weight: 300;
+		padding: 0.6rem 1rem;
+		border: 1px solid var();
+	}
+	.secondary:hover {
+		border: 1px solid var();
+	}
 }

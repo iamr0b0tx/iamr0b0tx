@@ -1,13 +1,23 @@
-.experience{
-width:100%;
-padding-top: 100px;
-background-color: transparent;
-color: var(--text-light-color);
-
-
+.experience {
+	width: 100%;
+	padding-top: 100px;
+	background-color: transparent;
+	color: var(--text-light-color);
+	min-height: 100vh;
 }
-@media screen and (max-width:767px){
-    .experience{
-        width: 100%;
-    }
+@media screen and (max-width: 767px) {
+	.experience {
+		width: 100%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.experience {
+		width: 100%;
+		padding-top: 100px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.experience {
+		width: 100%;
+	}
 }

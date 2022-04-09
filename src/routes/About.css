@@ -1,250 +1,209 @@
-.about{
-    font-family: "Roboto", sans-serif;
-    width:100%;
-min-height: 100vh;
-    padding-top: 100px;
-    
-    color: var(--bg-color);
-    background-color: var(--bg-body-color);
+.about {
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	min-height: 100vh;
+	padding-top: 100px;
+	font-family: inherit;
+	color: var(--bg-color);
+	background-color: var(--bg-body-color);
 }
 
-
-.landing-about{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding:20px  0 ;
-
-     
-
-    
+.landing-about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
 }
 
-.left-about{
-    width: 850px;
-    
-opacity: .8;
-color: var(--text-light-color);
-letter-spacing: 2px;
-line-height: 1.8;
-overflow-wrap: break-word;
+.left-about {
+	width: 850px;
 
+	opacity: 0.8;
+	color: var(--text-light-color);
+	letter-spacing: 2px;
+	line-height: 1.8;
+	overflow-wrap: break-word;
 }
- .img-box{
-    width:350px;
-    height: 350px;
-    border:1px solid var(--bg-green-color);
-    position: relative;
-    border-radius: 5px;
-    z-index: 1;
-    background-color: var(--bg-body-color);
-    top:-100px;
-    left:70px;
+.img-box {
+	width: 350px;
+	height: 350px;
+	border: 1px solid var(--bg-green-color);
+	position: relative;
+	border-radius: 5px;
+	z-index: 1;
+	background-color: var(--bg-body-color);
+	top: -100px;
+	left: 70px;
 }
- .image{
-    width: 350px;
-    border: 1px solid var(--text-light-color);
-    height: 350px;
-    position: relative;
-    border-radius: 5px;
-    z-index: 2;
-    
-    top: -420px;
-    left:90px;
-}
+.image {
+	width: 350px;
+	border: 1px solid var(--text-light-color);
+	height: 350px;
+	position: relative;
+	border-radius: 5px;
+	z-index: 2;
 
-.right-about{
-width: 450px;
-
-
-
-}
-.fatah{
-    font-weight: 300;
-    color: var(--text-light-color);
-    font-size: 20px;
+	top: -420px;
+	left: 90px;
 }
 
-.skills{
-    margin-top: 16px;
-    font-size:20px;
-    font-weight: 300;
-
-    
+.right-about {
+	width: 450px;
+}
+.fatah {
+	font-weight: 300;
+	color: var(--text-light-color);
+	font-size: 20px;
 }
 
-@media screen and (max-width:767px) {
-    .about{
-        width: 100%;
-        
-        min-height: 100vh;
-        flex-direction: column;
-        
-        
-    }
-    .landing-about{
-    width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-    margin-top: 80px;
-    padding: 100px 0;
-        
-}
-.left-about{
-    
-padding:0 24px;
-width: 100%;
-
-
-
-
-
-    
-}
-.fatah{
-   font-size: 16px; 
-}
-.about-fatah{
-    font-size: 18px;
+.skills {
+	margin-top: 16px;
+	font-size: 20px;
+	font-weight: 300;
 }
 
-.right-about{
-margin: 0;
-padding:0 10px;
-align-content: center;
-width: auto;
-height: 300px;
+@media screen and (max-width: 767px) {
+	.about {
+		width: 100%;
 
+		min-height: 100vh;
+		flex-direction: column;
+	}
+	.landing-about {
+		width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		margin-top: 80px;
+		padding: 100px 0;
+	}
+	.left-about {
+		padding: 0 32px;
+		width: 100%;
+	}
+	.fatah {
+		font-size: 16px;
+	}
+	.about-fatah {
+		font-size: 18px;
+	}
 
-    
-    
-}.img-box{
-    top:-60px;
-    left:10px;
-    width: 250px;
-    height: 250px;
-}
-.image{
-    width: 250px;
-    height: 250px;
-    left:-10px;
-    top: -290px;
-}
-.skills{
-    font-size: 16px;
-    
-}
-}
-
-@media screen and (min-width:768px)  and (max-width:1023px){
-
-.about{
-    width: 100%;
-    min-height: 100vh;
-    flex-direction: column;
-
-
-}
-    .landing-about{
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-    margin-top: 80px;
-    padding: 100px 32px ;
-        
-}
-.left-about{
-        
-padding:0 32px;
-width: 100%;
-
-
-
-}
-.fatah{
-    font-size: 18px; 
- }
- .right-about{
-     align-content: center;
-    margin: 0;
-    padding:50px 0px;
-    width: 100%;
-    height: 350px;
-    
-
-
-}.img-box{
-    top:-90px;
-    left:280px;
-    width: 300px;
-    border: 1px solid var(--bg-green-color);
-
-    background-color: var(--bg-body-color);
-    height: 300px;
-}
-.image{
-    width: 300px;
-    height: 300px;
-    left:260px;
-    top: -370px;
-    border: 1px solid var(--bg-green-color);
-}
-.skills{
-    font-size: 18px;
-    
+	.right-about {
+		margin: 0;
+		padding: 0 10px;
+		align-content: center;
+		width: auto;
+		height: 300px;
+	}
+	.img-box {
+		top: -60px;
+		left: 10px;
+		width: 250px;
+		height: 250px;
+	}
+	.image {
+		width: 250px;
+		height: 250px;
+		left: -10px;
+		top: -290px;
+	}
+	.skills {
+		font-size: 16px;
+	}
 }
 
-}
-@media screen and (min-width:1024px){ 
-    .about{
-        width: 100%;
-    }
-    
-    .landing-about{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    margin-top: 40px;
-    padding: 100px 50px;
-}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.about {
+		width: 100%;
+		flex-direction: column;
+	}
+	.landing-about {
+		width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		margin-top: 80px;
+		padding: 100px 40px 0 40px;
+	}
+	.left-about {
+		padding: 0 40px;
+		width: 100%;
+	}
+	.fatah {
+		font-size: 18px;
+	}
+	.right-about {
+		align-content: center;
+		margin: 0;
+		padding: 50px 0px;
+		width: 100%;
+		height: 350px;
+	}
+	.img-box {
+		top: -90px;
+		left: 210px;
+		width: 300px;
+		border: 1px solid var(--bg-green-color);
 
-    
-
-.fatah{
-   font-size: 18px; 
+		background-color: var(--bg-body-color);
+		height: 300px;
+	}
+	.image {
+		width: 300px;
+		height: 300px;
+		left: 190px;
+		top: -370px;
+		border: 1px solid var(--bg-green-color);
+	}
+	.skills {
+		font-size: 18px;
+	}
 }
-.about-fatah{
-    font-size: 20px;
+@media screen and (min-width: 1024px) {
+	.about {
+		width: 100%;
+		padding: 100px 80px;
+	}
+
+	.landing-about {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 40px;
+		padding: 100px 0px;
+	}
+
+	.fatah {
+		font-size: 18px;
+	}
+	.about-fatah {
+		font-size: 20px;
+	}
+	.left-about {
+		padding-right: 16px;
+	}
+
+	.right-about {
+		padding-left: 16px;
+
+		height: 300px;
+	}
+	.img-box {
+		top: -340px;
+		left: 20px;
+		width: 280px;
+		height: 280px;
+	}
+	.image {
+		width: 280px;
+		height: 280px;
+		left: 0px;
+		top: -590px;
+	}
+	.skills {
+		font-size: 16px;
+	}
 }
-
-.right-about{
-
-
-height: 300px;
-
-
-    
-    
-}.img-box{
-    top:-310px;
-    left:70px;
-    width: 300px;
-    height: 300px;
-}
-.image{
-    width: 300px;
-    height: 300px;
-    left:50px;
-    top: -590px;
-}
-.skills{
-    font-size: 16px;
-    
-}
-}
-

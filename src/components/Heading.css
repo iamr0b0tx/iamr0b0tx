@@ -1,61 +1,54 @@
-.title{
-    width: 100%;
-    display:flex;
-    justify-content: space-around;
-    align-content: center;
+.title {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
 }
-.heading{
-    position: relative;
-    margin: 0 10px 0 20px;
-    color: var(--text-dark-color);
-    font-size:46px;
-        font-weight:400;
-        
-        
-       }
-       .heading::before{
-           position: absolute;
-         top:calc(100% + 10px);
-         left:0;
-         width: 100%;  
-         height: 3px;
-         background-color: var(--bg-green-color);
-           content: "";
-       }
-.heading::after{
-    content: "";
-    position: absolute;
-    top:100%;
-    left: 50%;
-    transform: translateY(-50%);
-    
+.heading {
+	position: relative;
+	margin: 0 10px 0 20px;
+	color: var(--text-dark-color);
+	font-size: 46px;
+	font-weight: 400;
+}
+.heading::before {
+	position: absolute;
+	top: calc(100% + 10px);
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: var(--bg-green-color);
+	content: '';
+}
+.heading::after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateY(-50%);
 }
 
-
-  @media screen and (max-width:767px) {
-           .title{
-               width: 100%;
-           }
-    .heading{
-                
-                margin: 0 ;
-                font-size: 30px;
-                padding: 0 ;
-                font-weight: 300;
-                
-        }
-    }
-@media screen and (min-width:768px)  and (max-width:1023px){
-    .title{
-        width: 100%;
-    }
-        .heading{
-            font-size: 36px;
-        }
-    }        
-    @media screen and (min-width:1024px){ 
-  .title{
-      width: 100%;
-  }
-  
-    }
+@media screen and (max-width: 767px) {
+	.title {
+		width: 100%;
+	}
+	.heading {
+		margin: 0;
+		font-size: 30px;
+		padding: 0;
+		font-weight: 300;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.title {
+		width: 100%;
+	}
+	.heading {
+		font-size: 36px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.title {
+		width: 100%;
+	}
+}

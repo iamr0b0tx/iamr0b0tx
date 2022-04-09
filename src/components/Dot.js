@@ -1,11 +1,8 @@
-import React from 'react'
-import "./Dot.css"
+import React from 'react';
+import './Dot.css';
 
 const Dot = () => {
-    return (
-        <div className='dot'>
-        </div>
-    )
-}
+	return <div className='dot'></div>;
+};
 
-export default Dot
+export default Dot;

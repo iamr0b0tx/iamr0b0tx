@@ -1,14 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 import SecondaryButton from './SecondaryButton'
 import "./HeaderContent.css"
-import PrimaryButton from "./PrimaryButton"
+import PrimaryButton from "./PrimaryButton";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 
 const HeaderContent = () => {
+    useEffect(() => {
+        Aos.init({duration:4000})
+    }, [])
     return ( 
-        <div className='landing'>
-            <div className='left'>
+        <div data-aos="fade-in" className='landing'>
+            <div  className='left'>
             <h1 className='small'>Hi, my name is </h1>
             <h2 className='big'> <span>Abdulfatah</span> Adeneye.</h2>
             <h3 className='medium'>Software developer.</h3>

@@ -1,51 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-:root{
-  --bg-body-color:#1d566e;
-  --bg-color:#163a5f;
-  --bg-green-color:#21d19f;
-  --text-light-color:#fff;
-  --text-dark-color:#e3f6f5;
-  --bg-darkgreen-color:#21aba5;
-  
-  
-  
-
+:root {
+	--bg-body-color: #1d566e;
+	--bg-color: #163a5f;
+	--bg-green-color: #21d19f;
+	--text-light-color: #fff;
+	--text-dark-color: #e3f6f5;
+	--bg-darkgreen-color: #21aba5;
 }
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  list-style-type:none;
-  text-decoration:none;
-  font-family:"Roboto", calibar;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: 'Roboto', calibar;
 }
-body{
-  
-  background-color: var(--bg-color);
-  color:var(--text-light-color);
-  font-size:1.2rem;
-  font-family:"Roboto", calibar;
-  
+body {
+	background-color: var(--bg-color);
+	color: var(--text-light-color);
+	font-size: 1.2rem;
+	font-family: 'Roboto', calibar;
 }
-body::-webkit-scrollbar{
-  display: none;
+body::-webkit-scrollbar {
+	display: none;
 }
-a, li{
-  text-decoration: none;
+a,
+li {
+	text-decoration: none;
 }
 
-p{
-  color:var(--text-color);
-  
-
-
+p {
+	color: var(--text-color);
 }
-ul{
-   list-style-type: none;
+ul {
+	list-style-type: none;
 }
-a:link{
-color: #000;
+a:link {
+	color: #000;
 }
-button{
-  outline: nonr;
+button {
+	outline: nonr;
 }

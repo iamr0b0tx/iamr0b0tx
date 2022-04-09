@@ -1,9 +1,8 @@
-.time
-{
-font-size:20px;
-font-weight:300;
-color:var(--text-dark-color);
-background-color:transparent;
+.time {
+	font-size: 20px;
+	font-weight: 300;
+	color: var(--text-dark-color);
+	background-color: transparent;
 
-margin:5px 0 20px 0;
+	margin: 5px 0 20px 0;
 }
