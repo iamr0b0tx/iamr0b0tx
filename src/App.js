@@ -28,7 +28,7 @@ function App() {
 				<Loader />
 			) : (
 				<>
-					<Navbar />
+					<Navbar/>
 					<Home />
 					<About />
 					<Experience />

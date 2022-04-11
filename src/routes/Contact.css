@@ -101,6 +101,7 @@ input::placeholder {
 @media screen and (min-width: 1024px) {
 	.contact {
 		width: 100%;
+        
 	}
 	.contact-wrapper {
 		width: 100%;
@@ -114,4 +115,7 @@ input::placeholder {
 	input {
 		width: 100%;
 	}
+    .tertiary-button{
+        margin-top: 100px;
+    }
 }

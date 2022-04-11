@@ -25,7 +25,7 @@ const Navbar = () => {
 	const handleClick = () => setClick(!click);
 	return (
 		<div
-			data-aos='fade-down'
+			data-aos='fade-in'
 			className={color ? 'navbar navbar-bg' : 'navbar'}
 			onClick={handleColor}
 		>

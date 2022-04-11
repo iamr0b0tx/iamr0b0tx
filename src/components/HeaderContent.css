@@ -9,7 +9,7 @@ padding: 100px 0;
     letter-spacing: 3px;
     overflow: hidden;
     transition: all .1s ease;
-    background-color: var(--bg-color) ;
+
 }
 
 .left{
@@ -31,11 +31,9 @@ padding: 100px 0;
         font-weight: 300;
         padding:0 0 16px 0;
         letter-spacing: .3rem;
-        
-    
-    }
-    span{
-        color: var(--bg-green-color);
+            background-image:linear-gradient(to right top, #051937, #21aba5, #008793, #00bf72, #a8eb12) ;
+                background-clip: text;
+                color: transparent;
     }
     span:hover{
         background: linear-gradient(var(--bg-body-color) 120deg, var(--text-light-color) 20deg);
@@ -156,6 +154,7 @@ width: 100%;
  }
  .big{
      font-size: 38px;
+
  }
  .medium{
      font-size: 26px;

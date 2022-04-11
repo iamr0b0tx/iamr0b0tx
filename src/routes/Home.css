@@ -1,6 +1,7 @@
 .home {
 	width: 100%;
 	padding-top: 30px;
+
 }
 @media screen and (max-width: 767px) {
 	.home {

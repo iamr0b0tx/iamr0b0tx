@@ -17,11 +17,10 @@
 
 .left-about {
 	width: 850px;
-
 	opacity: 0.8;
 	color: var(--text-light-color);
-	letter-spacing: 2px;
 	line-height: 1.8;
+	letter-spacing: 1px;
 	overflow-wrap: break-word;
 }
 .img-box {
@@ -32,8 +31,8 @@
 	border-radius: 5px;
 	z-index: 1;
 	background-color: var(--bg-body-color);
-	top: -100px;
-	left: 70px;
+	top: -130px;
+	left: 110px;
 }
 .image {
 	width: 350px;
@@ -43,7 +42,7 @@
 	border-radius: 5px;
 	z-index: 2;
 
-	top: -420px;
+	top: -470px;
 	left: 90px;
 }
 
@@ -57,8 +56,9 @@
 }
 
 .skills {
+    
 	margin-top: 16px;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 300;
 }
 
@@ -192,18 +192,18 @@
 		height: 300px;
 	}
 	.img-box {
-		top: -340px;
-		left: 20px;
-		width: 280px;
-		height: 280px;
+		top: -270px;
+		left: 140px;
+		width: 300px;
+		height: 300px;
 	}
 	.image {
-		width: 280px;
-		height: 280px;
-		left: 0px;
-		top: -590px;
+		width: 300px;
+		height: 300px;
+		left: 120px;
+		top: -530px;
 	}
 	.skills {
-		font-size: 16px;
+		font-size: 20px;
 	}
 }

@@ -42,7 +42,8 @@ const ImageGuitarSlider = ({ slides }) => {
 
 			<section className='slide-show'>
 				{ImageGuitar.map((slide, index) => {
-					<FiGithub />;
+								
+					
 					return (
 						<div
 							className={index === current ? 'slide active' : 'slide'}
@@ -50,7 +51,10 @@ const ImageGuitarSlider = ({ slides }) => {
 						>
 							{index === current && (
 								<img src={slide.image} alt='work' className='project' />
+								
 							)}
+								
+
 						</div>
 					);
 				})}

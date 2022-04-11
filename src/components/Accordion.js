@@ -22,7 +22,7 @@ const Accordion = () => {
 							<div className='wrap' onClick={() => toggle(index)}>
 								<h2>{item.heading}</h2>
 								<span className='span-div'>
-									{clicked === index ? <BiDownArrow /> : <BiUpArrow />}
+									{clicked === index ? <BiDownArrow  /> : <BiUpArrow />}
 								</span>
 							</div>
 							{clicked === index ? (

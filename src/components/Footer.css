@@ -1,284 +1,227 @@
-.footer{
-    margin-top: 50px; 
-    width: 100%;
-    
-    background-color: var(--text-light-color);
+.footer {
+	margin-top: 50px;
+	width: 100%;
+
+	background-color: var(--text-light-color);
 }
 .semicircle {
-    position: relative;
-    background: var(--bg-color);
-    height: 25vh;
-  }
-  
-  .semicircle::before {
-    position: absolute;
-    content: '';
-    left: 50%;
-    z-index: 10;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: var(--bg-color);
-    transform: translateX(-50%) translateY(50%);
-    bottom: 0px;
-  }
-.connect{
-padding: 20px;
-text-align: center;
-font-size: 46px;
-font-weight: 300;
-letter-spacing: 3px;
-color:var(--text-light-color);
-
-}
-.para-connect{
-    
-    text-align: center;
-    font-size: 22px;
-    font-weight: 300;
-    letter-spacing: 3px;
-    color: var(--text-dark-color);
-}
-.email{
-    display: flex;
-    justify-content:center ;
-    align-content: center;
-    margin: 30px 80px 0 80px;
-    color: var(--text-light-color);
-}
-.footer-nav{
-    width: 100%;
-
+	position: relative;
+	background: var(--bg-color);
+	height: 25vh;
 }
 
-.social{
-    display: flex;
-    justify-content:center ;
-    align-content: center;
-    margin: 50px 0 0 0;
-
-    
-
+.semicircle::before {
+	position: absolute;
+	content: '';
+	left: 50%;
+	z-index: 10;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: var(--bg-color);
+	transform: translateX(-50%) translateY(50%);
+	bottom: 0px;
 }
-.social li{
-    margin: 10px 20px; 
-    
-    
-                           
-
+.connect {
+	padding: 20px;
+	text-align: center;
+	font-size: 46px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	color: var(--text-dark-color);
 }
-.social li a{
-    font-size: 32px;
-padding:1rem .5rem 0 .5rem;
-
-
-
-                            
-
-    
+.para-connect {
+	text-align: center;
+	font-size: 22px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	color: var(--text-dark-color);
 }
-.social li a:link, .social li a:visited{
-    color: var(--bg-color);
-    
+.footer-nav {
+	width: 100%;
 }
-.social li a:hover{
-    color: var(--bg-green-color);
-    transition: 2s ease;
-}
-.nav-social{
-    display: flex;
-    justify-content:center ;
-    align-content: center;
-    width: 100%;
 
-   
-   
+.social {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 50px 0 0 0;
 }
-.nav-social li{
-    padding: 10px 0;
-
-    
-    
+.social li {
+	margin: 10px 20px;
+}
+.social li a {
+	font-size: 32px;
+	padding: 1rem 0.5rem 0 0.5rem;
+}
+.social li a:link,
+.social li a:visited {
+	color: var(--bg-color);
+}
+.social li a:hover {
+	color: var(--bg-green-color);
+	transition: 2s ease;
+}
+.nav-social {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+}
+.nav-social li {
+	padding: 10px 0;
 }
 .nav-social li a {
-    color:var(--bg-color);
-    margin: 0 2rem;
-    font-weight: 400;
-    font-size: 22px;
-    padding: 10px ;
-    
-    
+	color: var(--bg-color);
+	margin: 0 2rem;
+	font-weight: 400;
+	font-size: 22px;
+	padding: 10px;
 }
-.nav-social li a:hover{
-transition: 1s ease;
+.nav-social li a:hover {
+	transition: 1s ease;
 
-color: var(--text-light-color);
+	color: var(--text-light-color);
 
-background-color: var(--bg-color);
-
+	background-color: var(--bg-color);
 }
 
-.coder{
-    margin: 40px 0 0px 0;
-    padding: 10px;
-    text-align: center;
-    background-color: var(--bg-color);
-    
+.coder {
+	margin: 40px 0 0px 0;
+	padding: 10px;
+	text-align: center;
+	background-color: var(--bg-color);
 }
-.coder .copy{
-    color:var(--text-dark-color);
-    font-size: 18px;
-    font-weight: 300;
+.coder .copy {
+	color: var(--text-dark-color);
+	font-size: 18px;
+	font-weight: 300;
 }
 
-@media screen  and (max-width:767px){
-    .footer{
-width: 100%;
-    margin-top:20px ;
-    
-    
-    
-        
-    }
+@media screen and (max-width: 767px) {
+	.footer {
+		width: 100%;
+		margin-top: 20px;
+	}
 
-    .semicircle {
-        position: relative;
-        background: var(--bg-color);
-        height: 25vh;
-        
-      }
-      
-      .semicircle::before {
-        position: absolute;
-        content: '';
-        left: 50%;
-        z-index: 10;
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        background: var(--bg-color);
-        transform: translateX(-50%) translateY(50%);
-        
-      }
-    .connect{
-    padding-top: 0px;
-    text-align: center;
-    font-size: 36px;
-    letter-spacing: 3px;
-    color:var(--text-light-color);
-    
-    }
-    .para-connect{
-        padding: 0 20px ;
-        text-align: center;
-        font-size: 14px;
-        letter-spacing: 3px;
-        color: var(--text-dark-color);
-        
+	.semicircle {
+		position: relative;
+		background: var(--bg-color);
+		height: 25vh;
+	}
 
+	.semicircle::before {
+		position: absolute;
+		content: '';
+		left: 50%;
+		z-index: 10;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		background: var(--bg-color);
+		transform: translateX(-50%) translateY(50%);
+	}
+	.connect {
+		padding-top: 0px;
+		text-align: center;
+		font-size: 36px;
+		letter-spacing: 3px;
+		color: var(--text-light-color);
+	}
+	.para-connect {
+		padding: 0 20px;
+		text-align: center;
+		font-size: 14px;
+		letter-spacing: 3px;
+		color: var(--text-dark-color);
+	}
+	.footer-nav {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
 
-    
-    }
-    .footer-nav{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        
+	.social {
+		width: 100%;
+		padding-left: 80px;
+		flex-direction: column;
+	}
 
-        
-        
-        
-    }
-    
-    .social{
-        width: 100%;
-padding-left:50px;
-flex-direction: column;
-        
-    
-    }
-    
-    .social li a{
-        font-size: 30px;
-    padding:0.25rem;
-    color: var(--bg-color);
-    
-        
-    }
-    .social li a:visited, .social li a:link{
-    
-        color: var(--bg-color);
-        background-color: var(--text-light-color);
-    }
-    
-.social li a:hover{
-    color:var(--bg-green-color);
-    transition: .5 ease;
-}
-    .nav-social{
-        width: 100%;
-padding-left: 50px;
-flex-direction: column;
-padding-top: 50px;
-    
-       
-    }
-    .nav-social li{
-padding:16px 0px;
-    
-    }
-    .nav-social li a{
-        font-size: 22px;
-        
-    }
-    .nav-social li a:hover{
-        transition: 0.4s;
- color: var(--text-light-color);
-background-color: var(--bg-color);
-      
+	.social li a {
+		font-size: 30px;
+		padding: 0.25rem;
+		color: var(--bg-color);
+	}
+	.social li a:visited,
+	.social li a:link {
+		color: var(--bg-color);
+		background-color: var(--text-light-color);
+	}
 
-    }
-    .coder{
-    
-        padding: 10px 20px 0px 20px;
-    }
-    .coder .copy{
-        font-size: 14px;
-    
-    }
-    .coder .one{
-        font-size: 14px;
-        padding-bottom: 10px;
-    }
+	.social li a:hover {
+		color: var(--bg-green-color);
+		transition: 0.5 ease;
+	}
+	.nav-social {
+		width: 100%;
+		padding-left: 80px;
+		flex-direction: column;
+		padding-top: 50px;
+	}
+	.nav-social li {
+		padding: 16px 0px;
+	}
+	.nav-social li a {
+		font-size: 22px;
+	}
+	.nav-social li a:hover {
+		transition: 0.4s;
+		color: var(--text-light-color);
+		background-color: var(--bg-color);
+	}
+	.coder {
+		padding: 10px 20px 0px 20px;
+	}
+	.coder .copy {
+		font-size: 14px;
+	}
+	.coder .one {
+		font-size: 14px;
+		padding-bottom: 10px;
+	}
 }
-@media screen and (min-width:768px)  and (max-width:1023px){
-.footer{
-    width: 100%;
-margin-top:10px;
-    padding: 0;
-
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.footer {
+		position: absolute;
+		width: 100%;
+		margin-top: 50px;
+		padding-top: 0;
+		
+	}
+	.semicircle {
+		position: relative;
+		height: 30vh;
+	}
+	.connect {
+		padding: 10px;
+	}
+	.para-connect {
+		padding: 24px;
+	}
+	.footer-nav {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
 }
-.semicircle{
-    height: 15vh;
-}
-.para-connect{
-    padding: 24px;
-}
-.footer-nav{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-}
-@media screen and (min-width:1024px){ 
-    .footer{
-        width: 100%;
-        margin-top: 30px;
-        padding: 0;
-    }
-    .semicircle{
-height: 30vh;
-    
-    }
+@media screen and (min-width: 1024px) {
+	.footer {
+		width: 100%;
+		margin-top: 30px;
+		padding: 0;
+	}
+	.semicircle {
+		height: 30vh;
+	}
 }

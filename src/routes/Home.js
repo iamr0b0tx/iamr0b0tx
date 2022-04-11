@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import HeaderContent from '../components/HeaderContent';
 import './Home.css';
 
+
 const Home = () => {
 	useEffect(() => {
 		Aos.init({ duration: 4000 });
@@ -13,6 +14,7 @@ const Home = () => {
 
 	return (
 		<div data-aos='fade-up' className='home'>
+	
 			<HeaderContent />
 		</div>
 	);

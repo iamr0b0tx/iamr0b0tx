@@ -17,7 +17,7 @@ const Contact = ({ text }) => {
 		<div data-aos='fade-up' className='contact'>
 			<Heading text={'Get In Touch'} />
 			<div className='contact-wrapper'>
-				<form data-aos='fade-up'>
+				<form>
 					<input className='' placeholder='Name' type='text' />
 					<label htmlFor='name'></label>
 					<input type='email' placeholder='Email' />
