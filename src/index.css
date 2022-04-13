@@ -7,7 +7,8 @@
 	--text-dark-color: #e3f6f5;
 	--bg-darkgreen-color: #21aba5;
 }
-* {
+*{
+	
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -16,9 +17,12 @@
 	font-family: 'Roboto', calibar;
 }
 body {
+	
+	
 	background-color: var(--bg-color);
 	color: var(--text-light-color);
 	font-size: 1.2rem;
+	
 	font-family: 'Roboto', calibar;
 }
 body::-webkit-scrollbar {
@@ -39,5 +43,5 @@ a:link {
 	color: #000;
 }
 button {
-	outline: nonr;
+	outline: none;
 }

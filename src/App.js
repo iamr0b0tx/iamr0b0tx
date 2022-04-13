@@ -29,7 +29,7 @@ function App() {
 			) : (
 				<>
 					<Navbar/>
-					<Home />
+					<Home/>
 					<About />
 					<Experience />
 					<Work />

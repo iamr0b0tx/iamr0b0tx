@@ -64,14 +64,16 @@
 
 @media screen and (max-width: 767px) {
 	.about {
+		
+	
 		width: 100%;
-
 		min-height: 100vh;
 		flex-direction: column;
+		padding-top: 50px;
 	}
 	.landing-about {
 		width: 100%;
-		display: flex;
+		display:flex;
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;

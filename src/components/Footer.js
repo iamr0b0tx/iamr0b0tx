@@ -11,7 +11,7 @@ import {
 	FiLinkedin,
 } from 'react-icons/fi';
 import { AiOutlineReddit } from 'react-icons/ai';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import './Footer.css';
 
 const today = new Date();
@@ -65,20 +65,21 @@ const Footer = ({ text }) => {
 					</ul>
 					<ul className='nav-social'>
 						<li>
-							{' '}
-							<Link to='/'>Home</Link>
+							
+							<Link to='home'>Home</Link>
 						</li>
 						<li>
-							<Link to='/about'>About</Link>
+							<Link to='about'>About
+							</Link>
 						</li>
 						<li>
-							<Link to='/experience'>Experience</Link>
+							<Link to='experience'>Experience</Link>
 						</li>
 						<li>
-							<Link to='/work'>Work</Link>
+							<Link to='work'>Work</Link>
 						</li>
 						<li>
-							<Link to='/contact'>Contact</Link>
+							<Link to='contact'>Contact</Link>
 						</li>
 					</ul>
 				</div>

@@ -6,11 +6,11 @@
 	left: 0;
 	height: 80px;
 	display: flex;
+
 	justify-content: space-between;
 	align-items: center;
-	padding: 2rem 2rem;
+	padding: 2rem 1rem;
 	z-index: 10;
-	background-color: rgba(22, 58, 95, 0.9);
 }
 
 .nav.active {
@@ -58,18 +58,17 @@
 	letter-spacing: 1px;
 	border-radius: 3px;
 	padding: 8px;
-	transition: 0.2s ease-in-out;
 }
 .nav li a:hover {
 	border: 3px solid var(--bg-green-color);
-	transition: all 0.3s;
+
 	color: var(--bg--color);
 	background-color: var(--bg-green-color);
 }
 .home_link {
 	background-color: var(--bg-green-color);
 	padding: 10px;
-	color: var(--bg--color);
+	color: var(--text-light-color);
 	transition: all ease 0.2s;
 }
 .hamburger-menu {
@@ -82,12 +81,15 @@
 	font-size: 32px;
 	color: var(--bg-green-color);
 }
-
 @media screen and (max-width: 767px) {
 	.navbar {
+		position: fixed;
 		width: 100%;
+		display: flex;
+		justify-items: space-between;
+		align-items: center;
 		height: 70px;
-		padding: 1rem;
+		padding: 1rem .5rem;
 	}
 	.nav {
 		position: absolute;
@@ -98,7 +100,7 @@
 		left: -130%;
 		padding: 100px;
 		text-align: center;
-		width: 100%;
+		width: 100px;
 	}
 
 	.nav li {
@@ -110,10 +112,11 @@
 		position: absolute;
 		color: var(--text-light-color);
 		left: 0px;
-		width: 100%;
+		width: 80%;
 		height: 400px;
 	}
 	.letter {
+		margin: 0;
 		padding: 0;
 	}
 	.letter-fa {
@@ -144,10 +147,9 @@
 		top: 0px;
 		left: -100%;
 		text-align: center;
-		width: 100%;
+		width: 95%;
 		height: 100vh;
 
-		background-color: var(--bg-color);
 		transition: 0.5s;
 		z-index: 10;
 	}
@@ -168,7 +170,7 @@
 		font-size: 18px;
 	}
 	.nav li a:visited {
-		color: var(--bcolor);
+		color: var(--bg-color);
 	}
 	.nav.active {
 		top: 100%;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import './Accordion.css';
-import { BiDownArrow, BiUpArrow } from 'react-icons/bi';
+import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import Skill from './Skill';
 
 const Accordion = () => {
@@ -22,11 +22,11 @@ const Accordion = () => {
 							<div className='wrap' onClick={() => toggle(index)}>
 								<h2>{item.heading}</h2>
 								<span className='span-div'>
-									{clicked === index ? <BiDownArrow  /> : <BiUpArrow />}
+									{clicked === index ? <IoIosArrowDown/> : <IoIosArrowUp/>}
 								</span>
 							</div>
 							{clicked === index ? (
-								<div className='dropdown'>
+								<div className='dropdown'>I
 									<p>{item.skillset}</p>
 									<p>{item.skillset1}</p>
 									<p>{item.skillset2}</p>
