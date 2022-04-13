@@ -23,7 +23,7 @@ function App() {
 		}, 4000);
 	}, []);
 	return (
-		<div className='app'>
+		<div className='App'>
 			{loading ? (
 				<Loader />
 			) : (
@@ -34,7 +34,7 @@ function App() {
 					<Experience />
 					<Work />
 					<Contact />
-					<Footer />
+					<Footer/>
 				</>
 			)}
 			<Routes>

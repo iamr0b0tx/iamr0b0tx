@@ -20,8 +20,8 @@ const Footer = ({ text }) => {
 		Aos.init({ duration: 2000 });
 	}, []);
 	return (
-		<div data-aos='fade-up' className='home'>
-			<div className='footer'>
+		
+		<div data-aos='fade-up' className="footer">
 				<section class='semicircle'>
 					<h1 className='connect'>Let's connect</h1>
 					<p className='para-connect'>
@@ -32,33 +32,33 @@ const Footer = ({ text }) => {
 				<div className='footer-nav'>
 					<ul className='social'>
 						<li>
-							<a href='https://www.reddit.com/uiser/amr0b0tx'>
+							<a href='https://www.reddit.com/uiser/amr0b0tx'target="_blank">
 								<AiOutlineReddit />
 							</a>
 						</li>
 						<li>
-							<a href='https://twitter.com/iamr0b0tx'>
+							<a href='https://twitter.com/iamr0b0tx'target="_blank">
 								<FiTwitter />
 							</a>
 						</li>
 						<li>
-							<a href='https://web.facebook.com/abduladeneye'>
+							<a href='https://web.facebook.com/abduladeneye' target="_blank">
 								<FiFacebook />
 							</a>
 						</li>
 						<li>
-							<a href='https://www.github.com/iamr0b0tx'>
+							<a href='https://www.github.com/iamr0b0tx' target="_blank">
 								<FiGithub />
 							</a>
 						</li>
 						<li>
 							{' '}
-							<a href='https://www.linkedin.com/in/abduladeneye/'>
+							<a href='https://www.linkedin.com/in/abduladeneye/' target="_blank">
 								<FiLinkedin />
 							</a>
 						</li>
 						<li>
-							<a href='https://www.instagram.com/iamr0b0tx/'>
+							<a href='https://www.instagram.com/iamr0b0tx/' target="_blank">
 								<FiInstagram />
 							</a>
 						</li>
@@ -66,20 +66,20 @@ const Footer = ({ text }) => {
 					<ul className='nav-social'>
 						<li>
 							
-							<Link to='home'>Home</Link>
+							<Link smooth={true}  to='home'>Home</Link>
 						</li>
 						<li>
-							<Link to='about'>About
+							<Link smooth={true}  to='about'>About
 							</Link>
 						</li>
 						<li>
-							<Link to='experience'>Experience</Link>
+							<Link smooth={true} to='experience'>Experience</Link>
 						</li>
 						<li>
-							<Link to='work'>Work</Link>
+							<Link smooth={true}  to='work'>Work</Link>
 						</li>
 						<li>
-							<Link to='contact'>Contact</Link>
+							<Link smooth={true}  to='contact'>Contact</Link>
 						</li>
 					</ul>
 				</div>
@@ -93,7 +93,7 @@ const Footer = ({ text }) => {
 					</p>
 				</div>
 			</div>
-		</div>
+	
 	);
 };
 

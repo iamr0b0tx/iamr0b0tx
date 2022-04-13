@@ -31,6 +31,7 @@
 	display: flex;
 	color: var(--bg-green-color);
 	font-size: 22px;
+
 }
 .slide.active {
 	animation: opac 5s ease linear;
@@ -93,7 +94,7 @@
 	font-size: 18px;
 	font-weight: 100;
 }
-.slide-content .p-file li:hover {
+.slide-content .p-file li a:hover {
 	color: var(--bg-green-color);
 }
 .slide-content .p-file li:nth-child(1) {
@@ -102,8 +103,8 @@
 .slide-content .p-file li:nth-child(2) {
 	margin-left: 20px;
 }
-.p-file li a:link {
-	color: var(--text-dark-color);
+.p-file li a:visited {
+	color:var(--text-light-color);
 }
 
 @media screen and (max-width: 767px) {

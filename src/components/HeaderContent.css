@@ -115,6 +115,8 @@ cite::before {
 	justify-items: center;
 	align-items: center;
 }
+
+
 @media screen and (max-width: 767px) {
 	.landing {
 		height: 900px;

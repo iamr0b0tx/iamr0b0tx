@@ -61,13 +61,16 @@
 	font-size: 18px;
 	font-weight: 300;
 }
+@media screen and (max-width: 400px) {
 
-@media screen and (max-width: 767px) {
+.about{
+width: 100%;
+}
+}
+@media screen and (max-width: 700px) {
 	.about {
-		
 	
-		width: 100%;
-		min-height: 100vh;
+		
 		flex-direction: column;
 		padding-top: 50px;
 	}

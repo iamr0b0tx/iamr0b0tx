@@ -32,9 +32,7 @@ const ImageRegSlider = ({ slides }) => {
 				<p>Regression Kriging</p>
 
 				<ul className='p-file'>
-					<li>
-						<FiGithub />
-					</li>
+					
 					<li>
 						<a href='http://regression-kriging.herokuapp.com'>
 							<CgArrowsExpandUpRight />

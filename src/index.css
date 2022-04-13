@@ -8,18 +8,18 @@
 	--bg-darkgreen-color: #21aba5;
 }
 *{
-	
-	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+	
 	list-style-type: none;
 	text-decoration: none;
 	font-family: 'Roboto', calibar;
 }
 body {
 	
-	
 	background-color: var(--bg-color);
+
 	color: var(--text-light-color);
 	font-size: 1.2rem;
 	

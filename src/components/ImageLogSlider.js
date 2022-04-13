@@ -32,12 +32,10 @@ const ImageLogSlider = ({ slides }) => {
 				<p>Livestock Log</p>
 
 				<ul className='p-file'>
+					
 					<li>
-						<FiGithub />
-					</li>
-					<li>
-						<CgArrowsExpandUpRight />
-					</li>
+						<a href="https://livestocklog.com/log-in?redirectTo=/herdsd/" target="_blank"><CgArrowsExpandUpRight />
+					</a></li>
 				</ul>
 			</div>
 			<section className='slide-show'>

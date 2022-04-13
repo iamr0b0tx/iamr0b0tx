@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './ImageGuitar.css';
 import ImageTicket from './ImageTicket';
 import { CgArrowsExpandUpRight } from 'react-icons/cg';
-import { FiGithub } from 'react-icons/fi';
+
 import {
 	BsFillArrowRightSquareFill,
 	BsFillArrowLeftSquareFill,
@@ -31,11 +31,9 @@ const ImageTicketSlider = ({ slides }) => {
 				<p>NOC Ticket Monitor</p>
 
 				<ul className='p-file'>
+				
 					<li>
-						<FiGithub />
-					</li>
-					<li>
-						<CgArrowsExpandUpRight />
+						<a href="https://noc-monitor-production.herokuapp.com/admin/login/?next=/dashboard/" target="_blank"><CgArrowsExpandUpRight /></a>
 					</li>
 				</ul>
 			</div>

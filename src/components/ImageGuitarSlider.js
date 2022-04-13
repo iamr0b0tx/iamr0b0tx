@@ -32,10 +32,12 @@ const ImageGuitarSlider = ({ slides }) => {
 
 				<ul className='p-file'>
 					<li>
-						<FiGithub />
+						
+						<a href="https://github.com/iamr0b0tx/guitar_audio_sample_recognizer" target="_blank">
+						<FiGithub/></a>
 					</li>
 					<li>
-						<CgArrowsExpandUpRight />
+						<a href="https://guitar-audio-sample-recognizer.herokuapp.com/" target="_blank"><CgArrowsExpandUpRight /></a>
 					</li>
 				</ul>
 			</div>

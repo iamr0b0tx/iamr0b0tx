@@ -7,8 +7,13 @@ import Heading from '../components/Heading';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import TertiaryButton from '../components/TertiaryButton';
+import Footer from '../components/Footer';
 
 const Contact = ({ text }) => {
+		function sendMail(){
+			
+		}
+
 	useEffect(() => {
 		Aos.init({ duration: 4000 });
 	}, []);
@@ -28,6 +33,7 @@ const Contact = ({ text }) => {
 					<TertiaryButton text={'Submit'} />
 				</div>
 			</div>
+			
 		</div>
 	);
 };

@@ -36,23 +36,23 @@ const Navbar = () => {
 			</div>
 			<ul className={click ? 'nav active' : 'nav'}>
 				<li>
-					<Link to='home' className='home_link'>
+					<Link smooth={true}  to='home' className='home_link'>
 						Home
 					</Link>
 				</li>
 				<li>
-					<Link to='about' className='about_link'>
+					<Link smooth={true}  to='about' className='about_link'>
 						About
 					</Link>
 				</li>
 				<li>
-					<Link to='experience'>Experience</Link>
+					<Link smooth={true}  to='experience'>Experience</Link>
 				</li>
 				<li>
-					<Link to='work'>Work</Link>
+					<Link smooth={true}  to='work'>Work</Link>
 				</li>
 				<li>
-					<Link to='contact'>Contact</Link>
+					<Link smooth={true} to='contact'>Contact</Link>
 				</li>
 			</ul>
 			<div className='hamburger-menu' onClick={handleClick}>

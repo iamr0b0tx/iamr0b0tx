@@ -1,9 +1,9 @@
 .footer {
 	margin-top: 50px;
 	width: 100%;
-
 	background-color: var(--text-light-color);
 }
+
 .semicircle {
 	position: relative;
 	background: var(--bg-color);
@@ -39,10 +39,13 @@
 }
 .footer-nav {
 	width: 100%;
+	
+	
 }
 
 .social {
 	display: flex;
+width: 100%;
 	justify-content: center;
 	align-content: center;
 	margin: 50px 0 0 0;
@@ -101,9 +104,11 @@
 
 @media screen and (max-width: 767px) {
 	.footer {
-		width: 100%;
+
+	max-width: 1000px;
 		margin-top: 20px;
 	}
+
 
 	.semicircle {
 		position: relative;
@@ -145,7 +150,7 @@
 
 	.social {
 		width: 100%;
-		padding-left: 80px;
+		padding-left: 50px;
 		flex-direction: column;
 	}
 
@@ -166,7 +171,7 @@
 	}
 	.nav-social {
 		width: 100%;
-		padding-left: 80px;
+		padding-left: 40px;
 		flex-direction: column;
 		padding-top: 50px;
 	}
@@ -190,11 +195,13 @@
 	.coder .one {
 		font-size: 14px;
 		padding-bottom: 10px;
-	}
+	
 }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.footer {
-		position: absolute;
+		
 		width: 100%;
 		margin-top: 50px;
 		padding-top: 0;
@@ -202,7 +209,7 @@
 	}
 	.semicircle {
 		position: relative;
-		height: 30vh;
+		height: 20vh;
 	}
 	.connect {
 		padding: 10px;
