@@ -1,45 +1,38 @@
 .footer {
-	margin-top: 50px;
-	width: 100%;
-	background-color: var(--text-light-color);
-}
-
-.semicircle {
 	position: relative;
-	background: var(--bg-color);
-	height: 25vh;
+	margin-top: 150px;
+	width: 100%;
+	
+
 }
 
-.semicircle::before {
-	position: absolute;
-	content: '';
-	left: 50%;
-	z-index: 10;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	background: var(--bg-color);
-	transform: translateX(-50%) translateY(50%);
-	bottom: 0px;
-}
+
+
 .connect {
-	padding: 20px;
+	padding-bottom: 10px;
 	text-align: center;
 	font-size: 46px;
 	font-weight: 300;
 	letter-spacing: 3px;
+	
+
 	color: var(--text-dark-color);
 }
 .para-connect {
+	padding-bottom: 0px;
+
 	text-align: center;
 	font-size: 22px;
 	font-weight: 300;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
 	color: var(--text-dark-color);
 }
 .footer-nav {
 	width: 100%;
+	background-color: var(--text-dark-color);
 	
+
+
 	
 }
 
@@ -48,7 +41,7 @@
 width: 100%;
 	justify-content: center;
 	align-content: center;
-	margin: 50px 0 0 0;
+	margin: 20px 0 0 0;
 }
 .social li {
 	margin: 10px 20px;
@@ -90,7 +83,7 @@ width: 100%;
 }
 
 .coder {
-	margin: 40px 0 0px 0;
+	margin: 10px 0 0px 0;
 	padding: 10px;
 	text-align: center;
 	background-color: var(--bg-color);
@@ -106,7 +99,7 @@ width: 100%;
 	.footer {
 
 	max-width: 1000px;
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 
 
@@ -135,7 +128,7 @@ width: 100%;
 		color: var(--text-light-color);
 	}
 	.para-connect {
-		padding: 0 20px;
+		padding: 10px 20px;
 		text-align: center;
 		font-size: 14px;
 		letter-spacing: 3px;
@@ -146,6 +139,7 @@ width: 100%;
 		display: flex;
 		justify-content: center;
 		align-content: center;
+		
 	}
 
 	.social {
@@ -162,7 +156,7 @@ width: 100%;
 	.social li a:visited,
 	.social li a:link {
 		color: var(--bg-color);
-		background-color: var(--text-light-color);
+		
 	}
 
 	.social li a:hover {

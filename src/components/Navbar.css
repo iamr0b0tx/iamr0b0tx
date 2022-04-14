@@ -22,7 +22,7 @@
 	background-color: var(--text-light-color);
 }
 .navbar-bg {
-	background-color: rgba(22, 58, 100);
+	background-color: #2e4756;
 }
 .letter {
 	padding: 1rem 2rem;
@@ -58,8 +58,8 @@
 }
 .nav li a:hover {
 	border: 3px solid var(--bg-green-color);
-
-	color: var(--bg--color);
+transition:.4s ease-in;
+	color: var(--bg-color);
 	background-color: var(--bg-green-color);
 }
 .home_link {
@@ -70,12 +70,13 @@
 }
 .hamburger-menu {
 	display: none;
+	transition: 4s ease;
 }
 .times,
 .menu {
 	transition: 0.4s ease-in;
 	font-weight: 100;
-	font-size: 32px;
+	font-size: 35px;
 	color: var(--bg-green-color);
 }
 @media screen and (max-width: 300px) {
@@ -115,9 +116,9 @@
 		background-color: var(--bg-color);
 		position: absolute;
 		color: var(--text-light-color);
-		left: 0px;
+		left:100px;
 		width: 80%;
-		height: 400px;
+		height: 500px;
 	}
 	.letter {
 		margin: 0;
@@ -133,7 +134,7 @@
 	}
 	.menu,
 	.times {
-		font-size: 20px;
+		font-size: 30px;
 		
 	}
 }

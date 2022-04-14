@@ -4,9 +4,9 @@
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	min-height: 80vh;
-	width: 1000px;
-	background-color: var(--bg-body-color);
+	min-height: 65vh;
+	width: 100px;
+	background-color: var(--bg-color);
 }
 .accordion .container {
 	position: absolute;
@@ -46,6 +46,8 @@
 	font-weight: 200;
 }
 .dropdown {
+	border: 3px solid var(--bg-body-color);
+
 	overflow: hidden;
 	transition: all 0.5s cubic-bezier(0, 1, 0, 1);
 }

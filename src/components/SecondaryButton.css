@@ -1,15 +1,15 @@
 .secondary {
 	padding: 0.9rem 1.5rem;
-	font-size: 14px;
+	font-size: 18px;
 	margin-right: 40px;
-	text-transform: uppercase;
-	font-weight: 500;
-	background-color: #00a6a6;
-	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-weight: 300;
+	background-color: var(--bg-body-color);
 	border-radius: 5px;
+	letter-spacing: 1px;
 	outline: none;
 	cursor: pointer;
-	border: 1px solid var(--bg-green-color);
+	border: 3px solid var(--bg-body-color);
 	box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.2);
 }
 .secondary:hover {
@@ -23,15 +23,15 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.secondary {
-		font-size: 14px;
-		padding: 0.8rem 1rem;
+		font-size: 18px;
+		
 	}
 }
 @media screen and (max-width: 767px) {
 	.secondary {
-		font-size: 12px;
+		font-size: 16px;
 		font-weight: 300;
-		padding: 0.6rem 1rem;
+		
 		border: 1px solid var();
 	}
 	.secondary:hover {

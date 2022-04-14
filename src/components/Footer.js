@@ -21,14 +21,13 @@ const Footer = ({ text }) => {
 	}, []);
 	return (
 		
-		<div data-aos='fade-up' className="footer">
-				<section class='semicircle'>
+		<div data-aos='fade-in' className="footer">
 					<h1 className='connect'>Let's connect</h1>
 					<p className='para-connect'>
 						Would you like to stay connected, feel free to link up on social
 						media.
 					</p>
-				</section>
+		
 				<div className='footer-nav'>
 					<ul className='social'>
 						<li>

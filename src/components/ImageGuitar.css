@@ -3,20 +3,21 @@
 	background-color: transparent;
 	display: grid;
 	place-items: center;
-	width: 100%;
+	width: 800px;
 	height: 500px;
-	padding: 0;
+	
 }
 .slide-show {
 	position: absolute;
 	width: 800px;
 	display: grid;
 	place-items: center;
-	background-color: var(--bg-color);
+	background-color: #2e4756;
 	box-shadow: 20px 11px 12px rgba(0, 0, 0, 0.2);
 	z-index: 1;
 	padding: 20px 0;
 	border-radius: 16px;
+	border: 3px solid var(--bg-body-color);
 }
 
 .project {
@@ -68,7 +69,7 @@
 	background-color: var(--bg-color);
 	border-radius: 16px;
 	backdrop-filter: blur(0px);
-	border: 1px solid rgba(29, 86, 110, 0.02);
+	border: 3px solid var(--bg-body-color);
 	padding: 10px 10px;
 	letter-spacing: 2px;
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

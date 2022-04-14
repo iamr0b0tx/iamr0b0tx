@@ -1,21 +1,21 @@
 .primary {
 	padding: 0.9rem 1.5rem;
 	margin-left: 40px;
-	font-size: 14px;
-	text-transform: uppercase;
-	font-weight: 500;
-	background-color: #60656f;
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: 300;
+	background-color: #9fa2b2;
 	letter-spacing: 1px;
 	border-radius: 5px;
 	outline: none;
 	cursor: pointer;
-	border: 1px solid var(--bg-body-color);
+	border: 3px solid #9fa2b2;
 	box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.2);
 }
 .primary:hover {
 	background-color: transparent;
 	transition: ease 0.6s;
-	border: 1px solid var(--bg-green-color);
+	
 }
 .primary a:link {
 	color: var(--text-light-color);
@@ -23,18 +23,18 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.primary {
-		font-size: 14px;
-		padding: 0.8rem 1rem;
+		font-size: 18px;
+	
 	}
 }
 @media screen and (max-width: 767px) {
 	.primary {
-		font-size: 12px;
+		font-size: 16px;
 		font-weight: 300;
-		padding: 0.6rem 1rem;
-		border: 1px solid var();
+		
+	
 	}
 	.primary:hover {
-		border: 1px solid var();
+	
 	}
 }

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import { FaTimes } from 'react-icons/fa';
-import { AiOutlineMenu } from 'react-icons/ai';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import './Navbar.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -57,7 +56,7 @@ const Navbar = () => {
 			</ul>
 			<div className='hamburger-menu' onClick={handleClick}>
 				{click ? (
-					<FaTimes className='times' />
+					<AiOutlineClose className='times' />
 				) : (
 					<AiOutlineMenu className='menu' />
 				)}

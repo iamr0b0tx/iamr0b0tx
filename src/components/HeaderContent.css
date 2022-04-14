@@ -7,7 +7,7 @@
 	justify-content: center;
 	align-content: center;
 	padding: 100px 0;
-	letter-spacing: 3px;
+
 	overflow: hidden;
 	transition: all 0.1s ease;
 }
@@ -29,12 +29,8 @@
 	padding: 0 0 16px 0;
 	letter-spacing: 0.3rem;
 	background-image: linear-gradient(
-		to right top,
-		#051937,
-		#21d19f,
-		#21aba5,
-		#00bf72,
-		#a8eb12
+		to right top,#539987,
+		#52ffb3
 	);
 	background-clip: text;
 	color: transparent;
@@ -70,22 +66,22 @@ span:hover {
 	padding: 10px 20px;
 }
 .blockquote {
-	border: 2px solid var(--bg-green-color);
+	border: 2px solid var(--bg-body-color);
 	position: relative;
 	padding: 50px;
-	background-color: var(--bg-body-color);
+	background-color: var(--bg-color);
 
 	animation: shadows 2s ease infinite alternate;
 }
 .blockquote h1 {
-	line-height: 1.2;
+	line-height: 1.4;
 	display: block;
 	font-style: italic;
 	border-radius: 10px;
-
+color: #dbc2cf;
 	position: relative;
 	font-weight: 200;
-	font-size: 24px;
+	font-size: 26px;
 }
 cite {
 	font-size: 14px;
@@ -121,13 +117,13 @@ cite::before {
 	.landing {
 		height: 900px;
 		width: 100%;
-		padding-top: 100px;
+		margin-top: 10px;
 		display: flex;
 		flex-direction: column;
 		padding-left: 10px;
 	}
 	.left {
-		padding: 30px 52px;
+		padding: 30px 32px;
 		margin-bottom: 50px;
 		width: 100%;
 	}
@@ -151,7 +147,7 @@ cite::before {
 	}
 	.right {
 		width: 100%;
-		padding: 20px 32px;
+		padding: 20px 24px;
 		margin-bottom: 50px;
 	}
 	.blockquote {

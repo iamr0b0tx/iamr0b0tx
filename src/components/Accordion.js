@@ -26,7 +26,7 @@ const Accordion = () => {
 								</span>
 							</div>
 							{clicked === index ? (
-								<div className='dropdown'>I
+								<div className='dropdown'>
 									<p>{item.skillset}</p>
 									<p>{item.skillset1}</p>
 									<p>{item.skillset2}</p>

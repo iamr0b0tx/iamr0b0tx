@@ -1,6 +1,7 @@
 .contact {
 	width: 100%;
 	min-height: 100vh;
+	margin: 100px 0;
 	padding-top: 100px;
 }
 .contact-wrapper {
@@ -44,7 +45,7 @@ input::placeholder {
 	padding: 20px 10px 0 10px;
 	font-size: 20px;
 	font-weight: 300;
-	font-style: italic;
+	
 }
 .tertiary-button {
 	display: grid;
@@ -54,12 +55,15 @@ input::placeholder {
 @media screen and (max-width: 767px) {
 	.contact {
 		width: 100%;
-		padding: 100px 40px;
+		padding: 10px 40px;
+		
+		margin: 0;
 	}
 	.contact-wrapper {
 		margin: 0;
 	}
 	form {
+
 		width: 100%;
 
 		padding: 5px 0;

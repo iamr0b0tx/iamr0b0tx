@@ -28,7 +28,7 @@ const About = ({ text }) => {
 						most fundamental details about any project that I could work on to
 						deliver a successful result.
 					</p>
-					<p className='skills'>Few technologies I am familiar with </p>
+					<p className='skills'>Here are few technologies that I am familiar with </p>
 					<Accordion />
 				</div>
 
