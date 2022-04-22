@@ -13,10 +13,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
 	list-style-type: none;
 	text-decoration: none;
 	font-family: 'Roboto', calibar;
+
+}
+html{
+	font-size: 62.5%;
 }
 body {
 	
@@ -46,4 +49,11 @@ a:link {
 }
 button {
 	outline: none;
+}
+@media screen and (max-width:21.875em){
+html{
+	font-size: 50%;
+}
+
+	
 }

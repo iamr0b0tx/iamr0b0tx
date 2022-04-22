@@ -7,6 +7,9 @@ import {
 	BsFillArrowLeftSquareFill,
 	BsFillArrowRightSquareFill,
 } from 'react-icons/bs';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
 
 const ImageRegSlider = ({ slides }) => {
 	const [current, setCurrent] = useState(0);
@@ -22,17 +25,18 @@ const ImageRegSlider = ({ slides }) => {
 	useEffect(() => {
 		setCurrent(0);
 	}, []);
+	useEffect(() => {
+		Aos.init({ duration: 2000 });
+	}, []);
 
 	if (!Array.isArray(slides) || slides.length <= 0) {
 		return null;
 	}
 	return (
-		<div className='slider'>
+		<div data-aos="fade-up" className='slider'>
 			<div className='slide-content'>
 				<p>Regression Kriging</p>
-
 				<ul className='p-file'>
-					
 					<li>
 						<a href='http://regression-kriging.herokuapp.com'>
 							<CgArrowsExpandUpRight />
@@ -46,8 +50,7 @@ const ImageRegSlider = ({ slides }) => {
 					return (
 						<div
 							className={index === current ? 'slide active' : 'slide'}
-							key={index}
-						>
+							key={index}>
 							{index === current && (
 								<img src={slide.image} alt='work' className='project' />
 							)}

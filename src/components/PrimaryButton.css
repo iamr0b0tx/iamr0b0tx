@@ -1,6 +1,6 @@
 .primary {
 	padding: 0.9rem 1.5rem;
-	margin-left: 40px;
+	margin-left: 4rem;
 	font-size: 18px;
 	text-transform: capitalize;
 	font-weight: 300;
@@ -23,18 +23,23 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.primary {
-		font-size: 18px;
+		font-size: 1.8rem;
 	
 	}
 }
 @media screen and (max-width: 767px) {
 	.primary {
-		font-size: 16px;
+		font-size: 1.6rem;
 		font-weight: 300;
+		margin-left: 2rem;
+
 		
 	
 	}
-	.primary:hover {
 	
-	}
+}
+@media screen and (max-width:21.875em){
+.primary{
+	margin-left: 1rem;
+}
 }

@@ -1,6 +1,6 @@
 .footer {
 	position: relative;
-	margin-top: 150px;
+	margin-top: 15rem;
 	width: 100%;
 	
 
@@ -9,20 +9,19 @@
 
 
 .connect {
-	padding-bottom: 10px;
+	padding-bottom: 1rem;
 	text-align: center;
-	font-size: 46px;
+	font-size: 4.6rem;
 	font-weight: 300;
 	letter-spacing: 3px;
 	
-
 	color: var(--text-dark-color);
 }
 .para-connect {
 	padding-bottom: 0px;
 
 	text-align: center;
-	font-size: 22px;
+	font-size: 2.6rem;
 	font-weight: 300;
 	letter-spacing: 1px;
 	color: var(--text-dark-color);
@@ -41,13 +40,13 @@
 width: 100%;
 	justify-content: center;
 	align-content: center;
-	margin: 20px 0 0 0;
+	margin: 2rem 0 0 0;
 }
 .social li {
-	margin: 10px 20px;
+	margin: 1rem 2rem;
 }
 .social li a {
-	font-size: 32px;
+	font-size: 3.6rem;
 	padding: 1rem 0.5rem 0 0.5rem;
 }
 .social li a:link,
@@ -59,20 +58,21 @@ width: 100%;
 	transition: 2s ease;
 }
 .nav-social {
+	padding-bottom: 1rem;
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	width: 100%;
 }
 .nav-social li {
-	padding: 10px 0;
+	padding: 1rem 0;
 }
 .nav-social li a {
 	color: var(--bg-color);
 	margin: 0 2rem;
 	font-weight: 400;
-	font-size: 22px;
-	padding: 10px;
+	font-size: 2.8rem;
+	padding: 1rem;
 }
 .nav-social li a:hover {
 	transition: 1s ease;
@@ -83,55 +83,42 @@ width: 100%;
 }
 
 .coder {
-	margin: 10px 0 0px 0;
-	padding: 10px;
+	margin: 1rem 0 0 0;
+	padding: 1rem;
 	text-align: center;
 	background-color: var(--bg-color);
 }
 .coder .copy {
 	color: var(--text-dark-color);
-	font-size: 18px;
+	font-size: 2rem;
 	font-weight: 300;
 }
 
 
 @media screen and (max-width: 767px) {
 	.footer {
-
-	max-width: 1000px;
-		margin-top: 0px;
+		margin-top: 0;
 	}
 
 
 	.semicircle {
 		position: relative;
-		background: var(--bg-color);
 		height: 25vh;
 	}
 
-	.semicircle::before {
-		position: absolute;
-		content: '';
-		left: 50%;
-		z-index: 10;
-		width: 100px;
-		height: 100px;
-		border-radius: 50%;
-		background: var(--bg-color);
-		transform: translateX(-50%) translateY(50%);
-	}
+	
 	.connect {
-		padding-top: 0px;
+		padding-top: 0;
 		text-align: center;
-		font-size: 36px;
-		letter-spacing: 3px;
+		font-size: 3.6rem;
+		letter-spacing: 1px;
 		color: var(--text-light-color);
 	}
 	.para-connect {
-		padding: 10px 20px;
+		padding: 2rem;
 		text-align: center;
-		font-size: 14px;
-		letter-spacing: 3px;
+		font-size: 1.8rem;
+		letter-spacing: 1px;
 		color: var(--text-dark-color);
 	}
 	.footer-nav {
@@ -144,12 +131,12 @@ width: 100%;
 
 	.social {
 		width: 100%;
-		padding-left: 50px;
+		padding-left: 5rem;
+		padding-right: 0;
 		flex-direction: column;
 	}
 
 	.social li a {
-		font-size: 30px;
 		padding: 0.25rem;
 		color: var(--bg-color);
 	}
@@ -165,65 +152,132 @@ width: 100%;
 	}
 	.nav-social {
 		width: 100%;
-		padding-left: 40px;
+		padding-left: 0rem;
 		flex-direction: column;
-		padding-top: 50px;
+		padding-top: 5rem;
 	}
 	.nav-social li {
-		padding: 16px 0px;
+		padding: 2rem 0;
 	}
-	.nav-social li a {
-		font-size: 22px;
-	}
+
 	.nav-social li a:hover {
 		transition: 0.4s;
 		color: var(--text-light-color);
 		background-color: var(--bg-color);
 	}
 	.coder {
-		padding: 10px 20px 0px 20px;
+		padding: 1rem 2rem 0 2rem;
 	}
 	.coder .copy {
-		font-size: 14px;
+		font-size: 1.6rem;
 	}
 	.coder .one {
-		font-size: 14px;
-		padding-bottom: 10px;
+		font-size: 1.4rem;
+		padding-bottom: 1rem;
 	
 }
 }
-
+@media screen and (max-width:21.875em){
+	.footer {
+		margin-left: 0;
+			margin-top: 0;
+		}
+	
+	
+		.semicircle {
+			position: relative;
+			background: var(--bg-color);
+			height: 25vh;
+		}
+	
+		
+		.connect {
+			padding-top: 0;
+			text-align: center;
+			font-size: 3.6rem;
+			letter-spacing: 1px;
+			color: var(--text-light-color);
+		}
+		.para-connect {
+			padding: 2rem 2rem;
+			text-align: center;
+			font-size: 1.4rem;
+			letter-spacing: 1px;
+			color: var(--text-dark-color);
+		}
+		.footer-nav {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			
+		}
+	
+		.social {
+			width: 100%;
+			padding-left: 0rem;
+			padding-right: 0;
+			flex-direction: column;
+		}
+	
+		.social li a {
+			padding: 0.25rem;
+			color: var(--bg-color);
+		}
+		.social li a:visited,
+		.social li a:link {
+			color: var(--bg-color);
+			
+		}
+	
+		.social li a:hover {
+			color: var(--bg-green-color);
+			transition: 0.5 ease;
+		}
+		.nav-social {
+			width: 100%;
+			padding-left: 4rem;
+			flex-direction: column;
+			padding-top: 5rem;
+		}
+		.nav-social li {
+			padding: 2rem 0;
+		}
+		
+		.nav-social li a:hover {
+			transition: 0.4s;
+			color: var(--text-light-color);
+			background-color: var(--bg-color);
+		}
+		.coder {
+			padding: 1rem 2rem 0 2rem;
+		}
+		.coder .copy {
+			font-size: 1.6rem;
+		}
+		.coder .one {
+			font-size: 1.4rem;
+			padding-bottom: 1rem;
+		
+	}
+}
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-	.footer {
-		
-		width: 100%;
-		margin-top: 50px;
-		padding-top: 0;
-		
-	}
-	.semicircle {
-		position: relative;
-		height: 20vh;
-	}
-	.connect {
-		padding: 10px;
-	}
-	.para-connect {
-		padding: 24px;
-	}
-	.footer-nav {
-		width: 100%;
-		margin: 0;
-		padding: 0;
+
+.footer
+{
+	margin-top: 0;
+}	.connect{
+	font-size: 4rem;
+}
+.para-connect{
+	font-size: 2.2rem;
+}
+
+}
+@media screen and (min-width: 1024){
+	.footer{
+		margin-top: 0;
 	}
 }
-@media screen and (min-width: 1024px) {
-	.footer {
-		width: 100%;
-		margin-top: 30px;
-		padding: 0;
-	}
-	.semicircle {
-		height: 30vh;
-	}
-}
+
+

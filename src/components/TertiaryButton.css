@@ -1,12 +1,12 @@
 
 .tertiary{
     padding: .9rem 1.8rem;
-      font-size: 14px;
+      font-size: 1.4rem;
       text-transform: uppercase;
       font-weight: 300;
     background-color: var(--bg-green-color);
       letter-spacing: 1px;
-      border-radius: 5px;
+      border-radius: .5rem;
       outline:none;
       cursor:pointer;
       transition: 0.4s ease-in-out ;
@@ -23,11 +23,4 @@
     .tertiary a:link{
       color: var(--text-light-color);
     }
-    @media screen and (max-width: 767px){
-    .tertiary{
-      font-weight: 300;
-      font-size:14px;
-      padding: .6rem .8rem;
-
-    }
-    }
+  

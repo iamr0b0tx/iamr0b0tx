@@ -5,7 +5,7 @@
 	justify-content: center;
 	position: relative;
 	min-height: 65vh;
-	width: 100px;
+	width: 10rem;
 	background-color: var(--bg-color);
 }
 .accordion .container {
@@ -14,7 +14,7 @@
 	left: 0;
 }
 .container .item {
-	margin-bottom: 2px;
+	margin-bottom: 0.2rem;
 	background-color: var(--bg-color);
 	border-radius: 10px;
 }
@@ -26,19 +26,19 @@
 	justify-content: space-between;
 	border: 3px solid var(--bg-body-color);
 }
-.wrap h2 {
-	font-size: 18px;
+.wrap p {
+	font-size: 1.8rem;
 	font-weight: 300;
 	padding: 1rem 2rem;
 }
 .wrap .span-div {
 	padding: 0rem 1rem;
-	font-size: 16px;
+	font-size: 1.8rem;
 	color: var(--bg-green-color);
 }
 .dropdown p {
 	color: var(--bg-green-color);
-	font-size: 18px;
+	font-size: 1.8rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -58,24 +58,15 @@
 @media screen and (max-width: 767px) {
 	.accordion {
 		width: 100%;
-		min-height: 70vh;
 	}
 	.container {
 		width: 85%;
-	}
-
-	.wrap h2 {
-		font-size: 16px;
-	}
-
-	.dropdown p {
-		font-size: 16px;
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.accordion {
 		width: 100%;
-		min-height: 55vh;
+		min-height: 50vh;
 	}
 	.accordion .container {
 		width: 80%;
@@ -84,7 +75,7 @@
 @media screen and (min-width: 1024px) {
 	.accordion {
 		width: 100%;
-		min-height: 75vh;
+		min-height: 45vh;
 	}
 	.accordion .container {
 		width: 80%;

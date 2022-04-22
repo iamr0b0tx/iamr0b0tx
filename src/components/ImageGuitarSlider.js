@@ -7,6 +7,9 @@ import {
 	BsFillArrowLeftSquareFill,
 	BsFillArrowRightSquareFill,
 } from 'react-icons/bs';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 const ImageGuitarSlider = ({ slides }) => {
 	const [current, setCurrent] = useState(0);
@@ -22,27 +25,32 @@ const ImageGuitarSlider = ({ slides }) => {
 		setCurrent(0);
 	}, []);
 
+	useEffect(() => {
+		Aos.init({ duration: 2000 });
+	}, []);
+
 	if (!Array.isArray(slides) || slides.length <= 0) {
 		return null;
 	}
 	return (
-		<div className='slider'>
+		<div data-aos="fade-up"className='slider'>
 			<div className='slide-content'>
 				<p>Guitar Audio Recognizer</p>
 
 				<ul className='p-file'>
 					<li>
 						
-						<a href="https://github.com/iamr0b0tx/guitar_audio_sample_recognizer" target="_blank">
+						<a href="https://github.com/iamr0b0tx/guitar_audio_sample_recognizer">
 						<FiGithub/></a>
 					</li>
 					<li>
-						<a href="https://guitar-audio-sample-recognizer.herokuapp.com/" target="_blank"><CgArrowsExpandUpRight /></a>
+						<a href="https://guitar-audio-sample-recognizer.herokuapp.com/" ><CgArrowsExpandUpRight /></a>
 					</li>
 				</ul>
 			</div>
 
 			<section className='slide-show'>
+				
 				{ImageGuitar.map((slide, index) => {
 								
 					

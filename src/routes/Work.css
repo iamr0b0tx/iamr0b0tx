@@ -2,16 +2,9 @@
 	min-height: 100vh;
 	font-family: inherit;
 	width: 100%;
-	
-	padding-top: 100px;
+	padding: 10rem 0;
 	display: grid;
-	place-content: center;
-	background-color: var(--bg-color);
+	place-items: center;
 }
 
-@media screen and(max-width:767px) {
-	.work {
-		width: 100%;
-	}
-}
 

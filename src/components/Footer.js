@@ -31,33 +31,33 @@ const Footer = ({ text }) => {
 				<div className='footer-nav'>
 					<ul className='social'>
 						<li>
-							<a href='https://www.reddit.com/uiser/amr0b0tx'target="_blank">
+							<a href='https://www.reddit.com/uiser/amr0b0tx'>
 								<AiOutlineReddit />
 							</a>
 						</li>
 						<li>
-							<a href='https://twitter.com/iamr0b0tx'target="_blank">
+							<a href='https://twitter.com/iamr0b0tx'>
 								<FiTwitter />
 							</a>
 						</li>
 						<li>
-							<a href='https://web.facebook.com/abduladeneye' target="_blank">
+							<a href='https://web.facebook.com/abduladeneye'>
 								<FiFacebook />
 							</a>
 						</li>
 						<li>
-							<a href='https://www.github.com/iamr0b0tx' target="_blank">
+							<a href='https://www.github.com/iamr0b0tx'>
 								<FiGithub />
 							</a>
 						</li>
 						<li>
 							{' '}
-							<a href='https://www.linkedin.com/in/abduladeneye/' target="_blank">
-								<FiLinkedin />
+							<a href='https://www.linkedin.com/in/abduladeneye/'>
+							<FiLinkedin />
 							</a>
 						</li>
 						<li>
-							<a href='https://www.instagram.com/iamr0b0tx/' target="_blank">
+							<a href='https://www.instagram.com/iamr0b0tx/'>
 								<FiInstagram />
 							</a>
 						</li>
@@ -88,7 +88,7 @@ const Footer = ({ text }) => {
 					</p>
 					<p className='copy one'>
 						{' '}
-						Designed and coded by motuncoded <FiGithub />
+						Designed and Coded by Motunrayo Adeneye
 					</p>
 				</div>
 			</div>

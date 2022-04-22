@@ -2,12 +2,13 @@ import { useState, useEffect } from 'react';
 import './ImageGuitar.css';
 
 import { CgArrowsExpandUpRight } from 'react-icons/cg';
-import { FiGithub } from 'react-icons/fi';
 import {
 	BsFillArrowLeftSquareFill,
 	BsFillArrowRightSquareFill,
 } from 'react-icons/bs';
 import ImageLog from './ImageLog';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 const ImageLogSlider = ({ slides }) => {
 	const [current, setCurrent] = useState(0);
@@ -22,19 +23,22 @@ const ImageLogSlider = ({ slides }) => {
 	useEffect(() => {
 		setCurrent(0);
 	}, []);
+	useEffect(() => {
+		Aos.init({ duration: 2000 });
+	}, []);
 
 	if (!Array.isArray(slides) || slides.length <= 0) {
 		return null;
 	}
 	return (
-		<div className='slider'>
+		<div data-aos="fade-up"className='slider'>
 			<div className='slide-content'>
 				<p>Livestock Log</p>
 
 				<ul className='p-file'>
 					
 					<li>
-						<a href="https://livestocklog.com/log-in?redirectTo=/herdsd/" target="_blank"><CgArrowsExpandUpRight />
+						<a href="https://livestocklog.com/log-in?redirectTo=/herdsd/"><CgArrowsExpandUpRight />
 					</a></li>
 				</ul>
 			</div>

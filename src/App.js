@@ -23,7 +23,7 @@ function App() {
 		}, 4000);
 	}, []);
 	return (
-		<div className='App'>
+		<div className='app'>
 			{loading ? (
 				<Loader />
 			) : (

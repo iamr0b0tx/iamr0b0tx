@@ -1,10 +1,10 @@
 .timeline {
-	padding: 100px 15px;
+	padding: 10rem 1.5rem;
 	width: 100%;
-	margin: 100px 0;
+	margin: 10rem  0;
 }
 .experience-items {
-	max-width: 1000px;
+	max-width: 100rem;
 	margin: auto;
 
 	justify-content: center;
@@ -14,23 +14,23 @@
 .experience-items:before {
 	content: '';
 	position: absolute;
-	width: 1px;
+	width: .1rem;
 	height: 100%;
 	background-color: var(--bg-green-color);
-	left: calc(50% - 1px);
+	left: calc(50% - 0.1rem);
 }
 .experience-item {
-	margin-bottom: 40px;
+	margin-bottom: 4rem;
 	width: 100%;
 	position: relative;
 }
 
 .experience-item:nth-child(odd) {
-	padding-right: calc(50% + 30px);
+	padding-right: calc(50% + 3rem);
 	text-align: right;
 }
 .experience-item:nth-child(even) {
-	padding-left: calc(50% + 30px);
+	padding-left: calc(50% + 3rem);
 }
 .experience-item:last-child {
 	margin-bottom: 0;
@@ -42,8 +42,8 @@
 
 .experience-content {
 	background-color: var(--bg-body-color);
-	padding: 30px;
-	border-radius: 15px;
+	padding: 3rem;
+	border-radius: 1.5rem;
 	font-weight: 100;
 	color: var(--text-dark-color);
 	border: 1px solid var(--bg-green-color);
@@ -51,10 +51,11 @@
 @media screen and (max-width: 767px) {
 	.timeline {
 		margin: 0;
+		padding: 10rem 0;
 		width: 100%;
 	}
 	.experience-items:before {
-		left: 0px;
+		left: 0;
 	}
 	.experience-items {
 		width: 90%;
@@ -63,22 +64,48 @@
 		width: 90%;
 	}
 	.experience-item:nth-child(odd) {
-		padding-left: 30px;
+		padding-left: 3rem;
 		padding-right: 0;
 		text-align: left;
 	}
 	.experience-item:nth-child(even) {
-		padding-left: 30px;
+		padding-left: 3rem;
 		text-align: left;
 	}
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width:21.875em){
 	.timeline {
-		padding-top: 100px;
+		margin: 0;
+		padding: 10rem 0;
 		width: 100%;
 	}
 	.experience-items:before {
-		left: 0px;
+		left: 0;
+	}
+	.experience-items {
+		width: 90%;
+	}
+	.experience-content {
+		width: 90%;
+	}
+	.experience-item:nth-child(odd) {
+		padding-left: 3rem;
+		padding-right: 0;
+		text-align: left;
+	}
+	.experience-item:nth-child(even) {
+		padding-left: 3rem;
+		text-align: left;
+	
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.timeline {
+		padding-top: 5rem;
+		width: 100%;
+	}
+	.experience-items:before {
+		left: 0;
 	}
 	.experience-items {
 		width: 90%;
@@ -87,12 +114,12 @@
 		width: 85%;
 	}
 	.experience-item:nth-child(odd) {
-		padding-left: 30px;
+		padding-left: 3rem;
 		padding-right: 0;
 		text-align: left;
 	}
 	.experience-item:nth-child(even) {
-		padding-left: 30px;
+		padding-left: 3rem;
 		text-align: left;
 	}
 }

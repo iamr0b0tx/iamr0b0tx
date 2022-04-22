@@ -2,7 +2,7 @@
 	font-family: 'Roboto', sans-serif;
 	width: 100%;
 	min-height: 50vh;
-	padding-top: 100px;
+	padding-top: 50rem;
 	font-family: inherit;
 	color: var(--bg-color);
 	background-color: var(--bg-color);
@@ -12,11 +12,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 0;
+	padding: 2rem 0;
 }
 
 .left-about {
-	width: 850px;
 	opacity: 0.8;
 	color: var(--text-light-color);
 	line-height: 1.8;
@@ -24,54 +23,47 @@
 	overflow-wrap: break-word;
 }
 .img-box {
-	width: 350px;
-	height: 350px;
-	border: 1px solid var(--bg-body-color);
+	width: 35rem;
+	height: 35rem;
 	position: relative;
-	border-radius: 5px;
+	border-radius: .5rem;
 	z-index: 1;
-	background-color: var(--bg-body-color);
+	border: 10px solid var(--bg-body-color);
 	top: -130px;
-	left: 110px;
+	left:110px;
 	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);
 
 }
 .image {
 	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);
-
-	width: 350px;
-	border: 1px solid var(--bg-color);
-	height: 350px;
+	width: 35rem;
+	border: 1px solid var(--bg-body-color);
+	height: 35rem;
 	position: relative;
-	border-radius: 5px;
+	border-radius: .5rem;
 	z-index: 2;
 	top: -460px;
 	left: 90px;
 }
 
-.right-about {
-	width: 450px;
-}
 .fatah {
 	font-weight: 300;
 	color: var(--text-light-color);
-	font-size: 20px;
+	font-size: 2rem;
 }
 
 .skills {
     
-	margin-top: 16px;
-	font-size: 20px;
+	margin-top: 1.6rem;
+	font-size: 2rem;
 	font-weight: 300;
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
 	.about {
-	
-		
 		flex-direction: column;
-		padding-top: 50px;
+		padding-top: 10rem;
 	}
 	.landing-about {
 		width: 100%;
@@ -79,46 +71,47 @@
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
-		margin-top: 80px;
-		padding: 100px 0;
+		margin-top: 8rem;
+		padding: 10rem 0;
 	}
 	.left-about {
-		padding: 0 32px;
+		padding: 0 3.2rem;
 		width: 100%;
 	}
 	.fatah {
-		font-size: 16px;
+		font-size: 1.6rem;
 	}
 	.about-fatah {
-		font-size: 18px;
+		font-size: 1.8rem;
 	}
 
 	.right-about {
 		margin: 0;
-		padding: 0 10px;
+		padding: 0 1rem;
 		align-content: center;
 		width: auto;
 		height: 300px;
 	}
 	.img-box {
-		top: -60px;
-		left: 10px;
-		width: 250px;
-		height: 250px;
+		top: -3rem;
+		left: -1rem;
+		width: 25rem;
+		height: 25rem;
 	}
 	.image {
-		width: 250px;
-		height: 250px;
-		left: -10px;
-		top: -290px;
+		width: 25rem;
+		height: 25rem;
+		left:1rem;
+		top: -30rem;
 	}
 	.skills {
-		font-size: 16px;
+		font-size: 1.6rem;
 	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.about {
+		padding-top:8rem;
 		width: 100%;
 		flex-direction: column;
 	}
@@ -128,47 +121,43 @@
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
-		margin-top: 80px;
-		padding: 100px 40px 0 40px;
+		margin-top: 10rem;
+		padding: 5rem 4rem 0 4rem;
 	}
 	.left-about {
-		padding: 0 40px;
 		width: 100%;
+		padding: 0 4rem;
 	}
 	.fatah {
-		font-size: 18px;
+		font-size: 2rem;
 	}
 	.right-about {
-		align-content: center;
-		margin: 0;
-		padding: 50px 0px;
-		width: 100%;
-		height: 350px;
+
+		padding: 5rem 0;
+		height: 35rem;
+		
 	}
 	.img-box {
-		top: -90px;
-		left: 210px;
-		width: 300px;
-		border: 1px solid var(--bg-green-color);
+		top: -3rem;
+		left: -1rem;
+		width: 30rem;
 
-		background-color: var(--bg-body-color);
-		height: 300px;
+		height: 30rem;
 	}
 	.image {
-		width: 300px;
-		height: 300px;
-		left: 190px;
-		top: -370px;
-		border: 1px solid var(--bg-green-color);
+		width: 30rem;
+		height: 30rem;
+		left: 1rem;
+		top: -35rem;
 	}
 	.skills {
-		font-size: 18px;
+		font-size: 2rem;
 	}
 }
 @media screen and (min-width: 1024px) {
 	.about {
 		width: 100%;
-		padding: 100px 80px;
+		padding: 10rem  4rem  4rem;
 	}
 
 	.landing-about {
@@ -176,38 +165,27 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin-top: 40px;
-		padding: 100px 0px;
+		margin-top: 4rem;
+		padding: 10rem 4rem;
 	}
 
-	.fatah {
-		font-size: 18px;
-	}
-	.about-fatah {
-		font-size: 20px;
-	}
-	.left-about {
-		padding-right: 16px;
-	}
 
-	.right-about {
-		padding-left: 16px;
 
-		height: 300px;
-	}
+.right-about{
+	padding: 0 5rem;
+}
+
 	.img-box {
-		top: -270px;
-		left: 140px;
-		width: 300px;
+		top: -3rem;
+		left: -1rem;
+		width: 30rem;
 		height: 300px;
 	}
 	.image {
-		width: 300px;
-		height: 300px;
-		left: 120px;
-		top: -530px;
+		width: 30rem;
+		height: 30rem;
+		left: 1rem;
+		top: -35rem;
 	}
-	.skills {
-		font-size: 20px;
-	}
+	
 }

@@ -20,7 +20,7 @@ const Accordion = () => {
 					return (
 						<div className='item'>
 							<div className='wrap' onClick={() => toggle(index)}>
-								<h2>{item.heading}</h2>
+								<p>{item.heading}</p>
 								<span className='span-div'>
 									{clicked === index ? <IoIosArrowDown/> : <IoIosArrowUp/>}
 								</span>

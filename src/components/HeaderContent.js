@@ -6,7 +6,6 @@ import './HeaderContent.css';
 import PrimaryButton from './PrimaryButton';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Navbar from './Navbar';
 
 const HeaderContent = () => {
 	useEffect(() => {
@@ -15,9 +14,9 @@ const HeaderContent = () => {
 	return (
 		<div data-aos='fade-up' className='landing'>
 			<div className='left'>
-				<h1 className='small'>Hi, my name is </h1>
-				<h2 className='big'> Abdulfatah Adeneye.</h2>
-				<h3 className='medium'>Software developer.</h3>
+				<p className='small'>Hi, my name is </p>
+				<h1 className='big'> Abdulfatah Adeneye.</h1>
+				<p className='medium'>Software developer.</p>
 
 				<p className='para'>
 					A Solution hacker that is enthusiastic about technology.
@@ -32,9 +31,9 @@ const HeaderContent = () => {
 			<div className='right'>
 				<div className='blockquote-wrapper'>
 					<div className='blockquote'>
-						<h1>
+						<p>
 							"I usually know what I am doing until I don't, And then...I do."
-						</h1>
+						</p>
 
 						<cite>Abdulfatah</cite>
 					</div>

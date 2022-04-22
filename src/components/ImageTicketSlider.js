@@ -7,6 +7,8 @@ import {
 	BsFillArrowRightSquareFill,
 	BsFillArrowLeftSquareFill,
 } from 'react-icons/bs';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 const ImageTicketSlider = ({ slides }) => {
 	const [current, setCurrent] = useState(0);
@@ -21,19 +23,22 @@ const ImageTicketSlider = ({ slides }) => {
 	useEffect(() => {
 		setCurrent(0);
 	}, []);
+	useEffect(() => {
+		Aos.init({ duration: 2000 });
+	}, []);
 
 	if (!Array.isArray(slides) || slides.length <= 0) {
 		return null;
 	}
 	return (
-		<div className='slider'>
+		<div data-aos="fade-up" className='slider'>
 			<div className='slide-content'>
 				<p>NOC Ticket Monitor</p>
 
 				<ul className='p-file'>
 				
 					<li>
-						<a href="https://noc-monitor-production.herokuapp.com/admin/login/?next=/dashboard/" target="_blank"><CgArrowsExpandUpRight /></a>
+						<a href="https://noc-monitor-production.herokuapp.com/admin/login/?next=/dashboard/"><CgArrowsExpandUpRight /></a>
 					</li>
 				</ul>
 			</div>

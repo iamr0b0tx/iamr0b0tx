@@ -1,39 +1,51 @@
 .landing {
-	height: 570px;
-
 	width: 100%;
 	display: flex;
-	margin-top: 100px;
+	margin-top: 5rem;
 	justify-content: center;
 	align-content: center;
-	padding: 100px 0;
-
+	padding: 10rem 5rem;
 	overflow: hidden;
 	transition: all 0.1s ease;
 }
 
 .left {
-	width: 850px;
 
-	letter-spacing: 3px;
+padding-right: 5rem;
+	letter-spacing: .3rem;
 }
 .small {
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 200;
-	padding: 0 0 16px 7px;
+	padding: 0 0 1.6rem 0rem;
 }
 
 .big {
-	font-size: 56px;
+	font-size: 5.6rem;
 	font-weight: 300;
-	padding: 0 0 16px 0;
+	padding: 0 0 1.6rem 0rem;
 	letter-spacing: 0.3rem;
 	background-image: linear-gradient(
-		to right top,#539987,
-		#52ffb3
+		to right top, var(--bg-body-color),
+		#52ffb3, #539987, var(--text-light-color)
 	);
 	background-clip: text;
+	background-size:400% ;
 	color: transparent;
+	animation: animate 5s infinite alternate;
+}
+@keyframes animate {
+	0%{
+		background-position: 0% 50%;
+
+	}
+	100%{
+		background-position: 100% 50%;
+
+	
+	
+	}
+
 }
 span:hover {
 	background: linear-gradient(
@@ -42,38 +54,38 @@ span:hover {
 	);
 }
 .medium {
-	padding: 0 0 16px 0px;
-	font-size: 36px;
+	padding: 0 0 1.6rem 0px;
+	font-size: 3.6rem;
 	opacity: 0.9;
 	font-weight: 300;
 }
 .para {
 	font-weight: 300;
-	font-size: 22px;
-
+	font-size: 2.2rem;
 	opacity: 0.7;
-	padding: 0 0 16px 0;
+	padding: 0 0 1.6rem 0;
 }
 
 .right {
-	width: 450px;
-	padding-left: 100px;
+	
+	padding-left: 15rem;
+
 }
 .blockquote-wrapper {
-	width: 350px;
+	width: 35rem;
 	display: flex;
-	height: 300px;
-	padding: 10px 20px;
+	height: 30rem;
+	padding: 1rem 2rem;
 }
 .blockquote {
 	border: 2px solid var(--bg-body-color);
 	position: relative;
-	padding: 50px;
+	padding: 5rem;
 	background-color: var(--bg-color);
 
 	animation: shadows 2s ease infinite alternate;
 }
-.blockquote h1 {
+.blockquote p {
 	line-height: 1.4;
 	display: block;
 	font-style: italic;
@@ -81,10 +93,10 @@ span:hover {
 color: #dbc2cf;
 	position: relative;
 	font-weight: 200;
-	font-size: 26px;
+	font-size: 2.6rem;
 }
 cite {
-	font-size: 14px;
+	font-size: 1.4rem;
 	padding: 10px;
 	display: block;
 	text-align: right;
@@ -105,7 +117,7 @@ cite::before {
 
 .btn {
 	width: 100%;
-	margin: 50px 0;
+	margin: 5rem 0;
 	padding: 0;
 	display: flex;
 	justify-items: center;
@@ -115,108 +127,112 @@ cite::before {
 
 @media screen and (max-width: 767px) {
 	.landing {
-		height: 900px;
+		height: 100rem;
 		width: 100%;
-		margin-top: 10px;
 		display: flex;
 		flex-direction: column;
-		padding-left: 10px;
+		padding-left:1rem;
 	}
 	.left {
-		padding: 30px 32px;
-		margin-bottom: 50px;
+		padding: 3rem 3.2rem;
+		margin-bottom: 5rem;
 		width: 100%;
 	}
 
-	.small {
-		font-size: 18px;
+	.big{
+		font-size: 4.2rem;
 	}
-	.big {
-		font-size: 38px;
-	}
-	.medium {
-		font-size: 26px;
-	}
+	
+	
 	.para {
-		margin-top: 5px;
-		padding: 0.5rem 0;
-		font-size: 16px;
+		margin-top: 1rem;
+		padding: 0;
+		font-size: 1.6rem;
 	}
-	.btn {
-		margin: 60px 0 0 0px;
-	}
+	
 	.right {
 		width: 100%;
-		padding: 20px 24px;
-		margin-bottom: 50px;
+		padding: 2rem 2.4rem;
+		margin-bottom: 5rem;
+		margin-left: 0;
 	}
 	.blockquote {
-		width: 250px;
-		height: 250px;
+		
+		width: 25rem;
+		height: 25rem;
 	}
-	.blockquote h1 {
-		font-size: 20px;
+	.blockquote p {
+		font-size: 2.0rem;
 	}
 }
+@media screen and (max-width:21.875em){
+	.landing{
+		
+		margin-top: 5rem;
+	}
+.left{
+	padding: 3rem 2rem;
+}
+.right{
+padding: 2rem 2rem;
+}
+.blockquote-wrapper {
+	width: 25rem;
+	display: flex;
+	height: 25rem;
+	padding: 1rem 1rem;
+}
+.blockquote {
+		
+	width: 25rem;
+	height: 25rem;
+}
 
+}
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.landing {
+
+		height: 100rem;
 		width: 100%;
-		height: 900px;
-		padding: 100px 0 0 40px;
 		flex-direction: column;
 		display: flex;
-		margin: 0;
+		margin-bottom: 0;
+		
 		justify-content: center;
 		align-content: center;
 	}
 	.left {
-		width: 90%;
-		padding: 0 32px 32px 32px;
-	}
-	.small {
-		font-size: 18px;
-	}
-	.big {
-		font-size: 36px;
-	}
-	.medium {
-		font-size: 30px;
+		padding: 0 3.2rem 3.2rem 3.2rem;
 	}
 	.para {
 		padding: 0.5rem 0;
-		font-size: 16px;
-		word-wrap: break-word;
 	}
 
 	.right {
-		padding: 30px 16px;
-		width: auto;
+	
+			width: 100%;
+			padding: 2rem 2.4rem;
+			margin-bottom: 2rem;
+			margin-left: 0;
 	}
-	.blockquote {
-		font-size: 16px;
-	}
-	cite {
-		font-size: 16px;
-	}
+	
+	
 }
 @media screen and (min-width: 1024px) {
 	.landing {
-		padding: 100px 50px;
+		padding: 10rem 5rem;
 		width: 100%;
 	}
 	.small {
-		font-size: 18px;
+		font-size: 1.8rem;
 	}
 	.big {
-		font-size: 50px;
+		font-size: 6rem;
 	}
 	.medium {
-		font-size: 40px;
+		font-size: 4.5rem;
 	}
 	.para {
 		padding: 0.5rem 0;
-		font-size: 18px;
-		word-wrap: break-word;
-	}
+		font-size: 1.8rem}
 }

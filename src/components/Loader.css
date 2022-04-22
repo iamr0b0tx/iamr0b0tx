@@ -10,8 +10,8 @@
 }
 .load li {
 	list-style: none;
-	width: 50px;
-	height: 50px;
+	width: 5rem;
+	height: 5rem;
 	background-color: var(--bg-green-color);
 	border-radius: 50%;
 	animation: glow 1.6s ease-in-out infinite;
@@ -28,21 +28,21 @@
 }
 .load li:nth-child(1) {
 	animation-delay: -1.4s;
-	box-shadow: 0 0 50px var(--bg-green-color);
+	box-shadow: 0 0 5rem var(--bg-green-color);
 }
 .load li:nth-child(2) {
 	animation-delay: -1.2s;
 	background-color: var(--bg-body-color);
-	box-shadow: 0 0 50px var(--bg-body-color);
+	box-shadow: 0 0 5rem var(--bg-body-color);
 }
 .load li:nth-child(3) {
 	animation-delay: -1s;
-	box-shadow: 0 0 50px var(--bg-body-color);
+	box-shadow: 0 0 5rem var(--bg-body-color);
 	background-color: var(--text-dark-color);
 }
 .load li:nth-child(4) {
 	animation-delay: -0.8s;
-	box-shadow: 0 0 50px var(--text-light-color);
+	box-shadow: 0 0 5rem var(--text-light-color);
 	background-color: var(--text-light-color);
 }
 .load li:nth-child(5) {
