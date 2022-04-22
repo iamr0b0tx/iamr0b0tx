@@ -35,6 +35,10 @@
 		opacity: 0;
 		backdrop-filter: blur(0px);
 	}
+	50%{
+		opacity: 1;
+		backdrop-filter: blur(5px);
+	}
 	100% {
 		opacity: 1;
 		backdrop-filter: blur(5px);

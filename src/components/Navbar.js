@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import { Link } from 'react-scroll';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import './Navbar.css';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+
 
 const Navbar = () => {
 	//for menu
@@ -18,13 +17,11 @@ const Navbar = () => {
 		}
 	};
 	window.addEventListener('scroll', handleColor);
-	useEffect(() => {
-		Aos.init({ duration: 2000 });
-	}, []);
+	
 	const handleClick = () => setClick(!click);
 	return (
 		<div
-			data-aos='fade-down'
+			
 			className={color ? 'navbar navbar-bg' : 'navbar'}
 			onClick={handleColor}
 		>

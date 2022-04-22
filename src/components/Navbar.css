@@ -8,7 +8,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 2rem 1rem;
+	padding: 2rem;
 	z-index: 10;
 }
 
@@ -21,7 +21,7 @@
 	top: 90%;
 	left: -110%;
 	transition: 1s ease;
-	background-color: var(--text-light-color);
+	background-color: var(--text-dark-color);
 }
 .navbar-bg {
 	background-color: #2e4756;
@@ -84,9 +84,6 @@
 
 
 @media screen and (max-width: 767px) {
-.navbar{
-	padding: 2rem 1rem;
-}
 	.nav {
 		position: absolute;
 		top: 80px;
@@ -106,11 +103,10 @@
 	}
 	.nav.active {
 		top: 100%;
-		background-color: var(--text-light-color);
 		position: absolute;
 		color: var(--bg-color);
-		left: 15%;
-		width: 30rem;
+		left: 0;
+		width: 100%;
 		height: 35rem;
 	}
 	
@@ -121,6 +117,7 @@
 
 	}
 	.letter-fa {
+		font-size: 3.5rem;
 		color: var(--bg-green-color);
 		padding: 1rem;
 	}
@@ -134,10 +131,10 @@
 }
 @media screen and (max-width:21.875em){
 	.navbar{
-		width: 100%;
-		padding: 2rem .5rem;
+		padding: 1rem;
+	}
 
-	}.nav {
+	.nav {
 		position: absolute;
 		top: 80px;
 		left: -100%;
@@ -154,8 +151,8 @@
 		top: 100%;
 		position: absolute;
 		color: var(--bg-color);
-		left: 10%;
-		width: 30rem;
+		left: 0;
+		width: 100%;
 		height: 35rem
 	}
 	.nav li a:visited {
@@ -170,6 +167,7 @@
 	.letter-fa {
 		color: var(--bg-green-color);
 		padding:  1rem;
+		font-size: 3rem;
 	}
 	.hamburger-menu {
 		display: block;
@@ -182,10 +180,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-.navbar{
-	width: 100%;
-	padding: 2rem 1rem;
-}
+
 	
 	.nav {
 		position: absolute;
@@ -209,15 +204,17 @@
 		left:50%;
 		height: 35rem;
 		width: 35rem;
-		background-color: var(--text-light-color);
+		background-color: var(--text-dark-color);
 	}
 	.letter {
 		margin: 0;
 padding: 0;	}
 
 	.letter-fa {
+
 		color: var(--bg-green-color);
 		padding: 1rem;
+		font-size: 3.5rem;
 
 	}
 
@@ -234,10 +231,8 @@ padding: 0;	}
 }
 
 @media screen and (min-width: 1024px) {
-	.navbar {
-		width: 100%;
-		padding: 1rem;
-	}
+
+	
 	.nav {
 		position: absolute;
 		top: 40%;

@@ -62,6 +62,16 @@
 	.container {
 		width: 85%;
 	}
+	.wrap p {
+		font-size: 1.6rem;
+	}
+	.wrap .span-div {
+		font-size: 1.6rem;
+	}
+	.dropdown p {
+		font-size: 1.6rem;
+		
+	}
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.accordion {

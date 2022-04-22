@@ -51,11 +51,11 @@
 @media screen and (max-width: 767px) {
 	.timeline {
 		margin: 0;
-		padding: 10rem 0;
+		padding: 8rem 0;
 		width: 100%;
 	}
 	.experience-items:before {
-		left: 0;
+		left: 1.4rem;
 	}
 	.experience-items {
 		width: 90%;
@@ -76,11 +76,11 @@
 @media screen and (max-width:21.875em){
 	.timeline {
 		margin: 0;
-		padding: 10rem 0;
+		padding: 8rem 0;
 		width: 100%;
 	}
 	.experience-items:before {
-		left: 0;
+		left: 1.4rem;
 	}
 	.experience-items {
 		width: 90%;

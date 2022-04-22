@@ -27,6 +27,7 @@ label {
 	font-weight: 100;
 }
 input {
+	font-weight: 100;
 	width: auto;
 	font-size: 2.6rem;
 	color: var(--text-light-color);
@@ -41,14 +42,14 @@ input:focus {
 	border-bottom: 1px solid var(--bg-green-color);
 }
 input::placeholder {
-	color: var(--text-dark-color);
+	color: var(--text-light-color);
 	padding: 2rem 1rem ;
-	font-size: 2rem;
-	font-weight: 300;
+	font-size: 2.6rem;
+	font-weight: 100;
 	
 }
 input:focus::placeholder{
-	padding: 2rem 1rem ;
+	padding: 2rem 0rem ;
 
 	transition: opacity .5s .5s ease;
 	opacity: 0;
@@ -78,12 +79,10 @@ input:focus::placeholder{
 	input {
 		width: 100%;
 		margin: 0;
-		font-size: 2rem;
+		font-size: 1.8rem;
 	}
 	input::placeholder {
-		font-size: 2rem;
-		padding: 0;
-		margin: 0;
+		font-size: 1.8rem;
 	}
 	
 }
@@ -103,9 +102,14 @@ input:focus::placeholder{
 	}
 	input {
 		width: auto;
-
+			font-size: 2rem;
 		margin: 0;
 	}
+	input::placeholder{
+	
+		font-size: 2rem;
+	}
+
 }
 
 @media screen and (min-width: 1024px) {

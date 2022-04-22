@@ -20,8 +20,8 @@ const Contact = ({ text }) => {
 		<div data-aos='fade-up' className='contact'>
 			<Heading text={'Get In Touch'} />
 			<div className='contact-wrapper'>
-				<form action="https://getform.io/f/1090c17c-5cbb-4893-aadd-597f20390e38"method="POST">
-					<input className=''name='name' placeholder='Name' type='text' />
+				<form action="https://getform.io/f/1090c17c-5cbb-4893-aadd-597f20390e38" method="POST">
+					<input name='name' placeholder='Name' type='text' />
 					<label htmlFor='name'></label>
 					<input type='email' name="email" placeholder='Email' />
 					<label htmlFor='email' />
