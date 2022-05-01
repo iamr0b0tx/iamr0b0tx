@@ -18,16 +18,16 @@ function App() {
 	
 	return (
 		<div className='app'>
-		
 				<>
-					<Navbar/>
+				<Navbar/>
+
 					<Routes>
+
 					<Route path='/' index element={
 					<React.Suspense fallback={<Loader/>}>
 					<Home/>
 					</React.Suspense>
 			}/>
-					
 					<Route path='/about' element={<About/>}/>
 					<Route path='/experience' element={<Experience/>}/>
 					<Route path='/work' element={<Work/>}/>

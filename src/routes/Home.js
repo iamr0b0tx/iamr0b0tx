@@ -2,7 +2,6 @@ import React from 'react';
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
 import HeaderContent from '../components/HeaderContent';
 import './Home.css';
 import About from './About';
@@ -19,7 +18,6 @@ const Home = () => {
 
 	return (
 		<div name="home"  className='home'>
-
 			<HeaderContent data-aos='fade-up' />
 			<About/>
 			<Experience/>
