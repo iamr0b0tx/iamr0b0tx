@@ -4,14 +4,13 @@
 	margin-top: 5rem;
 	justify-content: center;
 	align-content: center;
-	padding: 10rem 5rem;
 	overflow: hidden;
 	transition: all 0.1s ease;
 }
 
 .left {
 
-padding-right: 5rem;
+padding-right: 15rem;
 	letter-spacing: .3rem;
 }
 .small {
@@ -27,7 +26,7 @@ padding-right: 5rem;
 	letter-spacing: 0.3rem;
 	background-image: linear-gradient(
 		to right top, var(--bg-body-color),
-		#52ffb3, #539987, var(--text-light-color)
+		#52ffb3, #539987
 	);
 	background-clip: text;
 	background-size:400% ;
@@ -47,12 +46,7 @@ padding-right: 5rem;
 	}
 
 }
-span:hover {
-	background: linear-gradient(
-		var(--bg-body-color) 120deg,
-		var(--text-light-color) 20deg
-	);
-}
+
 .medium {
 	padding: 0 0 1.6rem 0px;
 	font-size: 3.6rem;
@@ -89,7 +83,7 @@ span:hover {
 	display: block;
 	font-style: italic;
 	border-radius: 10px;
-color: #dbc2cf;
+color: var(--text-dark-color);
 	position: relative;
 	font-weight: 200;
 	font-size: 2.6rem;

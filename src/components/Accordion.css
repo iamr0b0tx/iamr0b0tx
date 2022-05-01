@@ -4,7 +4,7 @@
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	min-height: 65vh;
+	min-height: 70vh;
 	width: 10rem;
 	background-color: var(--bg-color);
 }
@@ -58,6 +58,7 @@
 @media screen and (max-width: 767px) {
 	.accordion {
 		width: 100%;
+		min-height: 55vh;
 	}
 	.container {
 		width: 85%;
@@ -85,7 +86,6 @@
 @media screen and (min-width: 1024px) {
 	.accordion {
 		width: 100%;
-		min-height: 45vh;
 	}
 	.accordion .container {
 		width: 80%;

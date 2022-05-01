@@ -31,17 +31,9 @@ const ImageLogSlider = ({ slides }) => {
 		return null;
 	}
 	return (
-		<div data-aos="fade-up"className='slider'>
-			<div className='slide-content'>
-				<p>Livestock Log</p>
-
-				<ul className='p-file'>
-					
-					<li>
-						<a href="https://livestocklog.com/log-in?redirectTo=/herdsd/"><CgArrowsExpandUpRight />
-					</a></li>
-				</ul>
-			</div>
+		<div  className='slider'>
+			
+			
 			<section className='slide-show'>
 				{ImageLog.map((slide, index) => {
 					return (
@@ -64,6 +56,23 @@ const ImageLogSlider = ({ slides }) => {
 						<BsFillArrowRightSquareFill onClick={nextSlide} />
 					</div>
 				</div>
+				<div className='slide-content'>
+				<p>Livestock Log</p>
+				<p>A backend service that can tell ifan audio sample matches a pre-uploaded sample in the dataase  </p>
+				<ul className='slide-skills'>
+					<li>Python 3</li>
+					<li>Keras</li>
+					<li>Machine Learning</li>
+					<li>Pandas</li>
+				</ul>
+
+				<ul className='p-file'>
+					
+					<li>
+						<a href="https://livestocklog.com/log-in?redirectTo=/herdsd/"><CgArrowsExpandUpRight />
+					</a></li>
+				</ul>
+			</div>
 			</section>
 		</div>
 	);

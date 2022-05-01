@@ -8,20 +8,12 @@
 
 
 
-.connect {
-	padding-bottom: 1rem;
-	text-align: center;
-	font-size: 4.6rem;
-	font-weight: 300;
-	letter-spacing: 3px;
-	
-	color: var(--text-dark-color);
-}
+
 .para-connect {
 	padding-bottom: 0px;
 
 	text-align: center;
-	font-size: 2.6rem;
+	font-size: 1.8rem;
 	font-weight: 300;
 	letter-spacing: 1px;
 	color: var(--text-dark-color);
@@ -46,15 +38,15 @@ width: 100%;
 	margin: 1rem 2rem;
 }
 .social li a {
-	font-size: 3.6rem;
+	font-size: 2.6rem;
 	padding: 1rem 0.5rem 0 0.5rem;
 }
 .social li a:link,
 .social li a:visited {
-	color: var(--bg-color);
+	color: var(--bg-body-color);
 }
 .social li a:hover {
-	color: var(--bg-body-color);
+	color: var(--bg-darkgreen-color);
 	transition: 2s ease;
 }
 .nav-social {
@@ -89,7 +81,7 @@ width: 100%;
 }
 .coder .copy {
 	color: var(--text-dark-color);
-	font-size: 2rem;
+	font-size: 1.6rem;
 	font-weight: 300;
 }
 
@@ -107,7 +99,8 @@ width: 100%;
 		color: var(--text-light-color);
 	}
 	.para-connect {
-		padding: 2rem;
+		
+		padding: .5rem;
 		text-align: center;
 		font-size: 1.8rem;
 		letter-spacing: 1px;
@@ -115,7 +108,7 @@ width: 100%;
 	}
 	.footer-nav {
 		margin: 0;
-		padding:.1rem 0 ;
+		padding:0rem 0 ;
 		width: 100%;
 	
 		
@@ -126,12 +119,13 @@ width: 100%;
 	
 	}
 	.social li{
+padding: .5rem 0;
 		margin: 0;
 	}
 
 	.social li a {
 		font-size: 2.4rem;
-		padding: 0.5rem 1rem;
+		padding: 0rem 1rem;
 		color: var(--bg-color);
 	}
 	.social li a:visited,
@@ -168,6 +162,7 @@ font-size: 1.8rem;
 		font-size: 1.6rem;
 	}
 	.coder .one {
+		padding: 0;
 		font-size: 1.4rem;
 	
 }
@@ -194,7 +189,8 @@ font-size: 1.8rem;
 			color: var(--text-light-color);
 		}
 		.para-connect {
-			padding: 2rem 2rem;
+			padding: 1rem ;
+			margin: 0;
 			text-align: center;
 			font-size: 1.4rem;
 			letter-spacing: 1px;

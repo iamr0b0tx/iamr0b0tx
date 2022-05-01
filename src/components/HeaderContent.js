@@ -32,7 +32,7 @@ const HeaderContent = () => {
 				<div className='blockquote-wrapper'>
 					<div className='blockquote'>
 						<p>
-							"I usually know what I am doing until I don't, And then...I do."
+							<span>"</span>I usually know what I am doing until I don't, And then...I do.<span>"</span>
 						</p>
 
 						<cite>Abdulfatah</cite>

@@ -5,9 +5,7 @@ import './NotFound.css'
 
 const NotFound = () => {
   return <div className="notFound">
-    
-    <Navbar/>
-    <h1 className='notHeading'>404 Page</h1>
+        <h4 className='notHeading'>404 Page</h4>
     <p className='notParagraph'>The page you are looking doesn't exist</p>
       </div>;
 };

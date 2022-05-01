@@ -4,7 +4,7 @@ import "./TertiaryButton.css"
 const TertiaryButton = ({text}) => {
     return (
         <div>
-            <button type='button' className='tertiary'>{text}</button>
+            <button type='submit' className='tertiary'>{text}</button>
         </div>
     )
 }

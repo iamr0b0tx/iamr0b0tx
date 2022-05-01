@@ -1,31 +1,32 @@
 .slider {
-	margin-top: 5rem;
-	width: 65rem;
-	height: 65rem;
+	width: 30rem;
 }
+.sliders{
+	width: 30rem;
+	height: 20rem;
+}
+
+
 .slide-show {
-	margin-top: 1rem;
+margin-top: 1rem;
+width: 30rem;
 	position: absolute;
-	width: 60rem;
 	background-color: var(--bg-color);
-	box-shadow: 20px 11px 12px rgba(0, 0, 0, 0.2);
-	z-index: 1;
-	padding: 4rem 0 0 0;
-	border-radius: 1.6rem;
-	border: 3px solid var(--bg-body-color);
+	box-shadow: 0 0 30px #000;
+	border-radius: 1rem;
 }
 
 .project {
-	width: 75rem;
-	height: 50rem;
+	width: 100%;
+	height: 20rem;
 	background-color: var(--bg-body-color);
-	border-radius: 0.5rem;
 }
 
 .arrow {
 	display: flex;
+	justify-content: center;
 	color: var(--bg-green-color);
-	font-size: 2.6rem;
+	font-size: 2rem;
 }
 .slide.active {
 	animation: opac 5s ease-in-out;
@@ -58,49 +59,53 @@
 	color: var(--text-dark-color);
 }
 .slide-content {
-	top: 8rem;
-	line-height: 1;
-	width: 22.5rem;
-	position: absolute;
-	left: 100%;
-	height: 10rem;
-	z-index: 2;
-	background-color: var(--bg-body-color);
+	padding: .5rem ;
 	border-radius: 1rem;
-	backdrop-filter: blur(0px);
-	border: 3px solid var(--bg-body-color);
-	padding: 1rem;
 	letter-spacing: 1px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
-.slide-content p {
+.slide-content p:nth-child(1) {
 	color: var(--bg-green-color);
 	font-size: 1.8rem;
 	font-weight: 100;
 
-	padding: 1rem;
+	padding: 1rem .5rem;
 }
-.slide-content p:nth-child(1) {
+.slide-content p:nth-child(2) {
 	padding: .5rem;
+	font-family: 100;
+	font-size: 1.2rem;
+
+
 }
 .slide-skills {
-	display: inline-flex;
+	display: flex;
+	padding: 1rem .5rem;
+	
+
+}
+.slide-skills li{
+	margin-right: 1rem;
+	padding: .5rem ;
+	font-size: 1rem;
+	background-color: var(--bg-body-color);
+	border-radius:5px ;
 }
 .slide-content .p-file li a {
 	color: #dbc2cf;
+	
 }
 .slide-content .p-file {
 	color: #dbc2cf;
 	display: flex;
-	padding: 5px 0 0 2px;
-	font-size: 18px;
+	padding: .5rem ;
+	font-size: 1.2rem;
 	font-weight: 100;
 }
 .slide-content .p-file li a:hover {
 	color: var(--bg-green-color);
 }
 .slide-content .p-file li:nth-child(1) {
-	margin-right: 20px;
+	margin-right: .2rem;
 }
 .slide-content .p-file li:nth-child(2) {
 	margin-left: 20px;
@@ -111,67 +116,85 @@
 
 @media screen and (max-width: 767px) {
 	.slider {
-		width: 30rem;
-		height: 30rem;
+		width: 10rem;
+		margin-top: 0rem;
+	}
+	.sliders{
+		width: 10rem;
+		height: 1rem;
+
 	}
 	.slide-show {
-		width: 30rem;
-		padding: 3rem 2rem 0 2rem;
+		width: 10rem;
 	}
 
 	.project {
-		padding: 0;
-		width: 25rem;
-		height: 20rem;
+		width: 100%;
+		height: 7rem;
 	}
 
 	.arrow {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 2rem;
+		font-size: 1rem;
+		margin-bottom: 0;
+		
 	}
 
 	.arrow .left-arrow {
-		padding: 1rem;
+		padding: .5rem;
 	}
 
 	.arrow .right-arrow {
-		padding: 1rem;
+		padding: .5rem;
 	}
 
 	.slide-content {
-		top: 10rem;
-		width: 15rem;
-		left: 0rem;
-		height: 10rem;
-		padding: 1rem;
+		margin-top: 0;
+		padding: .5rem;
+		
 	}
 	.slide-content p {
 		font-weight: 100;
-		padding: 0rem;
+		padding: 0;
+		margin-top: 0;
+		height: 32px;
+
 	}
 	.slide-content p:nth-child(1) {
-		padding: .5rem;
+		padding: .1rem;
+		font-size:.8rem ;
+
 	}
-	.slide-skills {
-		display: inline-flex;
+	.slide-content p:nth-child(2){
+		padding: 0.1rem;
+		font-size: .6rem;
+	}
+	.slide-skills{
+		display: none;
+		padding:.2rem .5rem;
+	}
+	.slide-skills li {
+		margin: .5rem 0;
+		padding: .5rem .25rem;
+		font-size: .6rem;
 	}
 
 	.slide-content .p-file {
 		display: flex;
-		padding: 0.5rem 0 0 0.2rem;
-		font-size: 1.8rem;
+		padding: 0.5rem 0 0 .5rem;
+		font-size: .6rem;
 		font-weight: 100;
 	}
 	.slide-content .p-file li a:hover {
 		color: var(--bg-green-color);
 	}
 	.slide-content .p-file li:nth-child(1) {
-		margin-right: 2rem;
+		margin-right: .5rem;
 	}
 	.slide-content .p-file li:nth-child(2) {
-		margin-left: 2rem;
+		margin-left: .5rem;
 	}
 	.p-file li a:visited {
 		color: var(--text-light-color);
@@ -181,18 +204,17 @@
 	.slider {
 		margin-top: 15rem;
 
-		width: 25rem;
-		height: 20rem;
+		width: 15rem;
+		height: 5rem;
 	}
 	.slide-show {
-		width: 25rem;
+		width: 20rem;
 		padding: 2rem 2rem 0 2rem;
 	}
 
 	.project {
 		padding: 0;
-		width: 20rem;
-		height: 20rem;
+		width: 100%;
 	}
 
 	.arrow {
@@ -210,16 +232,10 @@
 		padding: 1rem;
 	}
 
-	.slide-content {
-		width: 15rem;
-		left: 0;
-		height: 10rem;
-		padding: 1rem;
-	}
+
 	.slide-content p {
 		font-weight: 100;
 
-		padding: 1rem;
 	}
 	.slide-content p:nth-child(1) {
 		padding: 0.5rem;
@@ -250,8 +266,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.slider {
-		display: grid;
-		place-items: center;
+	
+margin-top: 10rem;
 		height: 55rem;
 	}
 	.slide-show {
@@ -262,7 +278,7 @@
 	.project {
 		padding: 0;
 
-		width: 45rem;
+		width: 100%;
 		height: 40rem;
 	}
 
@@ -281,19 +297,16 @@
 	}
 
 	.slide-content {
-		top: 21rem;
-		width: 15rem;
-		left: 7.5rem;
-		height: 10rem;
-		padding: 1rem;
+		padding: 0;
+	
 	}
 	.slide-content p {
 		font-weight: 100;
 
-		padding: 10px;
+		padding: 1rem;
 	}
 	.slide-content p:nth-child(1) {
-		padding: 5px;
+		padding: .5rem;
 	}
 	.slide-skills {
 		display: inline-flex;
@@ -319,71 +332,5 @@
 	}
 }
 @media screen and (min-width: 1024px) {
-	.slider {
-		margin: 12rem 0;
-		height: 55rem;
-	}
-	.slide-show {
-		width: 60rem;
-		padding: 2rem 2rem 0 2rem;
-	}
 
-	.project {
-		padding: 0;
-
-		width: 55rem;
-		height: 40rem;
-	}
-
-	.arrow {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.arrow .left-arrow {
-		padding: 1rem;
-	}
-
-	.arrow .right-arrow {
-		padding: 1rem;
-	}
-
-	.slide-content {
-		top: 20rem;
-		width: 15rem;
-		left: -15rem;
-		height: 10rem;
-		padding: 1rem;
-	}
-	.slide-content p {
-		font-weight: 100;
-
-		padding: 10px;
-	}
-	.slide-content p:nth-child(1) {
-		padding: 5px;
-	}
-	.slide-skills {
-		display: inline-flex;
-	}
-
-	.slide-content .p-file {
-		display: flex;
-		padding: 5px 0 0 2px;
-		font-size: 18px;
-		font-weight: 100;
-	}
-	.slide-content .p-file li a:hover {
-		color: var(--bg-green-color);
-	}
-	.slide-content .p-file li:nth-child(1) {
-		margin-right: 20px;
-	}
-	.slide-content .p-file li:nth-child(2) {
-		margin-left: 20px;
-	}
-	.p-file li a:visited {
-		color: var(--text-light-color);
-	}
 }

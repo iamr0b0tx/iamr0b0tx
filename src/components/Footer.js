@@ -22,7 +22,6 @@ const Footer = ({ text }) => {
 	return (
 		
 		<div data-aos='fade-in' className="footer">
-					<h1 className='connect'>Let's connect</h1>
 					<p className='para-connect'>
 						Would you like to stay connected, feel free to link up on social
 						media.
@@ -62,25 +61,7 @@ const Footer = ({ text }) => {
 							</a>
 						</li>
 					</ul>
-					<ul className='nav-social'>
-						<li>
-							
-							<Link smooth={true}  to='home'>Home</Link>
-						</li>
-						<li>
-							<Link smooth={true}  to='about'>About
-							</Link>
-						</li>
-						<li>
-							<Link smooth={true} to='experience'>Experience</Link>
-						</li>
-						<li>
-							<Link smooth={true}  to='work'>Work</Link>
-						</li>
-						<li>
-							<Link smooth={true}  to='contact'>Contact</Link>
-						</li>
-					</ul>
+					
 				</div>
 				<div className='coder'>
 					<p className='copy'>

@@ -33,17 +33,8 @@ const ImageRegSlider = ({ slides }) => {
 		return null;
 	}
 	return (
-		<div data-aos="fade-up" className='slider'>
-			<div className='slide-content'>
-				<p>Regression Kriging</p>
-				<ul className='p-file'>
-					<li>
-						<a href='http://regression-kriging.herokuapp.com'>
-							<CgArrowsExpandUpRight />
-						</a>
-					</li>
-				</ul>
-			</div>
+		<div className='slider'>
+			
 			<section className='slide-show'>
 				{ImageReg.map((slide, index) => {
 					<FiGithub />;
@@ -66,6 +57,23 @@ const ImageRegSlider = ({ slides }) => {
 						<BsFillArrowRightSquareFill onClick={nextSlide} />
 					</div>
 				</div>
+				<div className='slide-content'>
+				<p>R-Kriging</p>
+				<p>A web application that is capable of collecting location data. </p>
+				<ul className='slide-skills'>
+					<li>Python 3</li>
+					<li>Keras</li>
+					<li>Machine Learning</li>
+					<li>Pandas</li>
+				</ul>
+				<ul className='p-file'>
+					<li>
+						<a href='http://regression-kriging.herokuapp.com'>
+							<CgArrowsExpandUpRight />
+						</a>
+					</li>
+				</ul>
+			</div>
 			</section>
 		</div>
 	);

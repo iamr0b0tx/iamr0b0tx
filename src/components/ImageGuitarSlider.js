@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React,{ useState, useEffect } from 'react';
 import './ImageGuitar.css';
 import ImageGuitar from './ImageGuitar';
 import { CgArrowsExpandUpRight } from 'react-icons/cg';
@@ -11,8 +11,10 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 
+
 const ImageGuitarSlider = ({ slides }) => {
 	const [current, setCurrent] = useState(0);
+
 	const Length = slides.length;
 
 	const nextSlide = () => {
@@ -24,6 +26,11 @@ const ImageGuitarSlider = ({ slides }) => {
 	useEffect(() => {
 		setCurrent(0);
 	}, []);
+	useEffect(()=>{
+		setTimeout(()=>{
+			<ImageGuitar/>
+		},[1000])
+	},[])
 
 	useEffect(() => {
 		Aos.init({ duration: 2000 });
@@ -33,22 +40,8 @@ const ImageGuitarSlider = ({ slides }) => {
 		return null;
 	}
 	return (
-		<div data-aos="fade-up"className='slider'>
-			<div className='slide-content'>
-				<p>Guitar Audio Recognizer</p>
-
-				<ul className='p-file'>
-					<li>
-						
-						<a href="https://github.com/iamr0b0tx/guitar_audio_sample_recognizer">
-						<FiGithub/></a>
-					</li>
-					<li>
-						<a href="https://guitar-audio-sample-recognizer.herokuapp.com/" ><CgArrowsExpandUpRight /></a>
-					</li>
-				</ul>
-			</div>
-
+		<div className='slider'>
+			
 			<section className='slide-show'>
 				
 				{ImageGuitar.map((slide, index) => {
@@ -60,6 +53,7 @@ const ImageGuitarSlider = ({ slides }) => {
 							key={index}
 						>
 							{index === current && (
+								
 								<img src={slide.image} alt='work' className='project' />
 								
 							)}
@@ -77,7 +71,33 @@ const ImageGuitarSlider = ({ slides }) => {
 						<BsFillArrowRightSquareFill onClick={nextSlide} />
 					</div>
 				</div>
+				<div className='slide-content'>
+				<p>Guitar Audio Sample Recognizer</p>				
+				<p>A backend service that can tell if an audio matches a pre-uploaded audio </p>
+				<ul className='slide-skills'>
+					<li>Python 3</li>
+					<li>Keras</li>
+					<li>Machine Learning</li>
+					<li>Pandas</li>
+
+
+
+				</ul>
+
+				<ul className='p-file'>
+					<li>
+						
+						<a href="https://github.com/iamr0b0tx/guitar_audio_sample_recognizer">
+						<FiGithub/></a>
+					</li>
+					<li>
+						<a href="https://guitar-audio-sample-recognizer.herokuapp.com/" ><CgArrowsExpandUpRight /></a>
+					</li>
+				</ul>
+			</div>
+
 			</section>
+			
 		</div>
 	);
 };

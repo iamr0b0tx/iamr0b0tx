@@ -1,45 +1,43 @@
 import React from 'react';
 
 import './App.css';
-import Home from './routes/Home';
-import { useState, useEffect } from 'react';
+import { useState,  } from 'react';
 import Loader from './components/Loader';
 import About from './routes/About';
 import Experience from './routes/Experience';
 import Work from './routes/Work';
 import Contact from './routes/Contact';
-import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import NotFound from './components/NotFound';
 
-function App() {
-	const [loading, setLoading] = useState(false);
+const Home = React.lazy(()=> import ('./routes/Home'));
 
-	useEffect(() => {
-		setLoading(true);
-		setTimeout(() => {
-			setLoading(false);
-		}, 1500);
-	}, []);
+
+function App() {
+
+	
 	return (
 		<div className='app'>
-			{loading ? (
-				<Loader />
-			) : (
+		
 				<>
 					<Navbar/>
+					<Routes>
+					<Route path='/' index element={
+					<React.Suspense fallback={<Loader/>}>
 					<Home/>
-					<About />
-					<Experience />
-					<Work />
-					<Contact />
-					<Footer/>
+					</React.Suspense>
+			}/>
+					
+					<Route path='/about' element={<About/>}/>
+					<Route path='/experience' element={<Experience/>}/>
+					<Route path='/work' element={<Work/>}/>
+					<Route path='/contact' element={<Contact/>}/>
+					<Route path="*" element={<NotFound/>}/>
+					</Routes>
 				</>
-			)}
-			<Routes>
-				<Route path='notfound' element={<NotFound />}></Route>
-			</Routes>
+				
+			
 		</div>
 	);
 }

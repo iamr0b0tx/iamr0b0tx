@@ -1,12 +1,12 @@
 .contact {
 	width: 100%;
-	min-height: 100vh;
-	margin: 10rem 0;
-	padding-top: 10rem;
+
+	margin-top: 1rem ;
+	padding-top:2rem;
 }
 .contact-wrapper {
 	padding: 2rem 0;
-	margin: 15rem 20rem 0 20rem;
+	margin: 10rem 20rem 0 20rem;
 }
 form {
 	width: 60%;
@@ -15,39 +15,60 @@ form {
 	text-align: center;
 	justify-content: space-around;
 	align-content: center;
-	font-size: 2.6rem;
-	padding: 4rem 0;
-	height: 100%;
-	margin: 15rem auto 0 auto;
+	font-size: 1.8rem;
+	padding: 2rem 0;
+	margin: 10rem auto 0 auto;
 }
 label {
 	color: var(--text-light-color);
-	margin-top: 8rem;
-	font-size: 2.6rem;
+	margin: 3rem 0;
+	font-size: 1.8rem;
 	font-weight: 100;
 }
 input {
 	font-weight: 100;
 	width: auto;
-	font-size: 2.6rem;
+	font-size: 1.8rem;
 	color: var(--text-light-color);
 	height: 3rem;
 	padding: 2rem auto;
 	background: none;
 	border: none;
+	cursor: pointer;
 	outline: none;
-	border-bottom: 3px solid var(--bg-body-color);
+	border-bottom: 0.2rem solid var(--bg-body-color);
+}
+textarea{
+	background-color: transparent;
+	color: var(--text-light-color);
+	font-size: 1.8rem;
+	font-weight: 100;
+	border: none;
+	outline: none;
+	border: 0.2rem solid var(--bg-body-color);
+	margin: 2rem 0;
+	padding: 1rem .5rem;
+	cursor: pointer;
+
+
+
+
+}
+textarea:focus{
+	border: 1px solid var(--bg-green-color);
 }
 input:focus {
 	border-bottom: 1px solid var(--bg-green-color);
 }
-input::placeholder {
+input::placeholder,
+textarea::placeholder{
 	color: var(--text-light-color);
-	padding: 2rem 1rem ;
-	font-size: 2.6rem;
+	padding: .5rem .5rem ;
+	font-size: 1.8rem;
 	font-weight: 100;
 	
 }
+
 input:focus::placeholder{
 	padding: 2rem 0rem ;
 
@@ -56,15 +77,14 @@ input:focus::placeholder{
 }
 .tertiary-button {
 	display: grid;
-	margin: 6rem 0;
+	margin: 2rem 0;
 	place-content: center;
 }
 @media screen and (max-width: 767px) {
 	.contact {
 		width: 100%;
 	
-		padding:1rem 4rem;
-		min-height: 60vh;
+		min-height: 40vh;
 
 		
 	}
@@ -72,43 +92,38 @@ input:focus::placeholder{
 		margin: 0;
 	}
 	form {
-			margin-top: 10rem;
-		width: 100%;
+			margin-top: 8rem;
+		width: 80%;
 		padding:  0;
 	}
 	input {
 		width: 100%;
 		margin: 0;
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 	}
 	input::placeholder {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 	}
 	
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.contact {
-		padding-top: 10rem;
-		min-height: 80vh;
+		min-height: 40vh;
 		width: 100%;
 	}
 	.contact-wrapper {
 		width: 100%;
 		margin: 0;
-		padding: 0;
 	}
 	form {
-		width: 70%;
+		padding: 0;
+		width: 80%;
 	}
 	input {
 		width: auto;
-			font-size: 2rem;
 		margin: 0;
 	}
-	input::placeholder{
-	
-		font-size: 2rem;
-	}
+
 
 }
 
@@ -131,6 +146,6 @@ input:focus::placeholder{
 		width: 100%;
 	}
     .tertiary-button{
-        margin-top: 100px;
+        margin-top: 5rem;
     }
 }

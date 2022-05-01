@@ -1,5 +1,5 @@
 .timeline {
-	padding: 10rem 1.5rem;
+	padding:2rem 1.5rem;
 	width: 100%;
 	margin: 10rem  0;
 }
@@ -14,9 +14,9 @@
 .experience-items:before {
 	content: '';
 	position: absolute;
-	width: .1rem;
+	width: .2rem;
 	height: 100%;
-	background-color: var(--bg-green-color);
+	background-color: var(--bg-darkgreen-color);
 	left: calc(50% - 0.1rem);
 }
 .experience-item {
@@ -41,12 +41,11 @@
 }
 
 .experience-content {
-	background-color: var(--bg-body-color);
 	padding: 3rem;
 	border-radius: 1.5rem;
 	font-weight: 100;
 	color: var(--text-dark-color);
-	border: 1px solid var(--bg-green-color);
+	border: .2rem solid var(--bg-darkgreen-color);
 }
 @media screen and (max-width: 767px) {
 	.timeline {

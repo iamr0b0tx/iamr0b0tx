@@ -12,7 +12,7 @@
 }
 .place {
 	font-weight: 400;
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 	color: var(--text-light-color);
 	text-transform: capitalize;
 	margin: 10px 0;
@@ -20,11 +20,11 @@
 .article {
 	font-size: 1.8rem;
 	font-weight: 300;
-	color: var(--text-light-color);
+	color: var(--bg-green-color);
 }
 p {
 	list-style-type: none;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	font-weight: 100;
 	padding: .5rem 0;
 }

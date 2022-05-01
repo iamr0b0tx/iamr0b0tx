@@ -26,29 +26,29 @@ const Navbar = () => {
 			onClick={handleColor}
 		>
 			<div className='letter'>
-				<Link to='home'>
+				<a href='home'>
 					<h1 className='letter-fa'>A</h1>
-				</Link>
+				</a>
 			</div>
 			<ul className={click ? 'nav active' : 'nav'}>
 				<li>
-					<Link smooth={true}  to='home' className='home_link'>
+					<a href="/" className='home_link'>
 						Home
-					</Link>
+					</a>
 				</li>
 				<li>
-					<Link smooth={true}  to='about' className='about_link'>
+					<a href='/about'  className='about_link'>
 						About
-					</Link>
+					</a>
 				</li>
 				<li>
-					<Link smooth={true}  to='experience'>Experience</Link>
+					<a href='/experience'>Experience</a>
 				</li>
 				<li>
-					<Link smooth={true}  to='work'>Work</Link>
+					<a href='/work'>Work</a>
 				</li>
 				<li>
-					<Link smooth={true} to='contact'>Contact</Link>
+					<a href='/contact'>Contact</a>
 				</li>
 			</ul>
 			<div className='hamburger-menu' onClick={handleClick}>

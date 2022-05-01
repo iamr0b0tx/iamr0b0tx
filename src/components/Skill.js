@@ -22,7 +22,7 @@ const Skill = [
 		heading: 'Backend',
 		skillset: 'Python-Flask',
 		skillset1: 'Python-Django',
-		skillset2: 'DRF',
+		skillset2: 'Django REST Framework (DRF)',
 		skillset3: 'ExpressJs',
 		skillset4: 'Kubernetes',
 		skillset5: 'Docker',
@@ -31,7 +31,7 @@ const Skill = [
 		heading: 'Database',
 		skillset: 'MySQL',
 		skillset1: 'PostgreSQL',
-		skillset2: 'MongeD',
+		skillset2: 'MongeDB',
 		skillset3: 'Redis',
 	},
 ];

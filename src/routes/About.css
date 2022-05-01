@@ -1,8 +1,8 @@
 .about {
 	font-family: 'Roboto', sans-serif;
 	width: 100%;
-	min-height: 50vh;
-	padding-top: 50rem;
+	min-height: 100vh;
+	padding: 2rem;
 	font-family: inherit;
 	color: var(--bg-color);
 	background-color: var(--bg-color);
@@ -12,7 +12,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 2rem 0;
 }
 
 .left-about {
@@ -28,9 +27,9 @@
 	position: relative;
 	border-radius: .5rem;
 	z-index: 1;
-	border: 10px solid var(--bg-body-color);
+	border: 3px solid var(--bg-body-color);
 	top: -130px;
-	left:110px;
+	left:130px;
 	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);
 
 }
@@ -42,28 +41,32 @@
 	position: relative;
 	border-radius: .5rem;
 	z-index: 2;
-	top: -460px;
-	left: 90px;
+	top: -40px;
+	left: 110px;
 }
 
 .fatah {
 	font-weight: 300;
 	color: var(--text-light-color);
-	font-size: 2rem;
+	font-size: 1.8rem;
 }
 
 .skills {
     
 	margin-top: 1.6rem;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	font-weight: 300;
+}
+span{
+	color: var(--bg-green-color);
+	
 }
 
 
 @media screen and (max-width: 767px) {
 	.about {
 		flex-direction: column;
-		padding-top: 10rem;
+		padding-top: 5rem;
 	}
 	.landing-about {
 		width: 100%;
@@ -154,7 +157,6 @@
 @media screen and (min-width: 1024px) {
 	.about {
 		width: 100%;
-		padding: 10rem  4rem  4rem;
 	}
 
 	.landing-about {
@@ -163,26 +165,26 @@
 		justify-content: center;
 		align-items: center;
 		margin-top: 4rem;
-		padding: 10rem 4rem;
+		padding: 5rem 4rem;
 	}
 
 
 
 .right-about{
-	padding: 0 5rem;
+	padding: 0 3rem;
 }
 
 	.img-box {
-		top: -3rem;
-		left: -1rem;
+		top:-5rem;
+		left: 1rem;
 		width: 30rem;
 		height: 300px;
 	}
 	.image {
 		width: 30rem;
 		height: 30rem;
-		left: 1rem;
-		top: -35rem;
+		left: 3rem;
+		top: -37rem;
 	}
 	
 }
