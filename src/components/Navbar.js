@@ -1,5 +1,4 @@
 import React, { useState} from 'react';
-import { Link } from 'react-scroll';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import './Navbar.css';
 

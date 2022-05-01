@@ -46,16 +46,18 @@
 }
 
 .fatah {
-	font-weight: 300;
+	font-weight: 200;
 	color: var(--text-light-color);
 	font-size: 1.8rem;
+	font-family: inherit;
 }
 
 .skills {
     
 	margin-top: 1.6rem;
 	font-size: 1.8rem;
-	font-weight: 300;
+	font-weight: 200;
+	font-family: inherit;
 }
 span{
 	color: var(--bg-green-color);

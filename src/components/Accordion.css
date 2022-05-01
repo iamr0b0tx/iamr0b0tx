@@ -20,6 +20,7 @@
 }
 .container .wrap {
 	display: flex;
+
 	width: 100%;
 	cursor: pointer;
 	align-items: center;
@@ -30,9 +31,13 @@
 	font-size: 1.8rem;
 	font-weight: 300;
 	padding: 1rem 2rem;
+	font-weight: 200;
+	font-family: inherit;
 }
 .wrap .span-div {
 	padding: 0rem 1rem;
+	font-weight: 200;
+	font-family: inherit;
 	font-size: 1.8rem;
 	color: var(--bg-green-color);
 }

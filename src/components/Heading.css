@@ -9,7 +9,7 @@
 	margin: 0 1rem 0 2rem;
 	color: var(--text-dark-color);
 	font-size: 3.5rem;
-	font-weight: 200;
+	font-weight: 300;
 }
 .heading::before {
 	position: absolute;

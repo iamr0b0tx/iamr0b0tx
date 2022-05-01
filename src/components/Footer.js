@@ -11,7 +11,6 @@ import {
 	FiLinkedin,
 } from 'react-icons/fi';
 import { AiOutlineReddit } from 'react-icons/ai';
-import { Link } from 'react-scroll';
 import './Footer.css';
 
 const today = new Date();

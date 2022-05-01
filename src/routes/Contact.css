@@ -77,7 +77,7 @@ input:focus::placeholder{
 }
 .tertiary-button {
 	display: grid;
-	margin: 2rem 0;
+	margin: 2rem 0 5rem 0;
 	place-content: center;
 }
 @media screen and (max-width: 767px) {

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import './ImageGuitar.css';
 import { CgArrowsExpandUpRight } from 'react-icons/cg';
 import { FiGithub } from 'react-icons/fi';

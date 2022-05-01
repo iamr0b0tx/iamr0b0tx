@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './App.css';
-import { useState,  } from 'react';
 import Loader from './components/Loader';
 import About from './routes/About';
 import Experience from './routes/Experience';
