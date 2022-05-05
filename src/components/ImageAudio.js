@@ -17,13 +17,13 @@ const ImageAudio = () => {
 	return (
 		<div  className='sliders'>
 			
-			<section className='slide-show'>
+			<section className='slide-shows'>
 				
 				<div className='slide-content'>
 				<p>Audio Files Repository API</p>				
 				<p>A CRUD API for managing an audio files repository</p>
 				<ul className='slide-skills'>
-					<li>Python 3</li>
+					<li>Python </li>
 					<li>Flask</li>
 					<li>PostgreSQL</li>
 					<li>JSON</li>

@@ -1,6 +1,6 @@
 .navbar {
 	font-family: 'Roboto', sans-serif;
-	position: fixed;
+	position: sticky;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -11,7 +11,9 @@
 	padding: 2rem;
 	z-index: 10;
 }
-
+#home, #about{
+	background-color: var(--bg-green-color) !important;
+}
 .nav.active {
 	border-radius: 5px;
 	cursor: pointer;
@@ -65,7 +67,6 @@
 	background-color: var(--bg-green-color);
 }
 .home_link {
-	background-color: var(--bg-green-color);
 	padding: 1rem;
 	color: var(--text-light-color);
 	transition: all ease 0.2s;

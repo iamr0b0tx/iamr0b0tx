@@ -17,11 +17,11 @@ const ImageYoutube = () => {
 	return (
 		<div className='sliders'>
 			
-			<section className='slide-show'>
+			<section className='slide-shows'>
 				
 				<div className='slide-content'>
 				<p>Youtube API Search</p>				
-				<p> This searches youtube API for related videos. </p>
+				<p> This searches youtube API for related videos matching a search query. </p>
 				<ul className='slide-skills'>
 					<li>HTML</li>
 					<li>CSS</li>

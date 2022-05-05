@@ -2,7 +2,6 @@
 	font-family: 'Roboto', sans-serif;
 	width: 100%;
 	min-height: 100vh;
-	margin-top: 8rem;
 	padding: 2rem;
 	font-family: inherit;
 	color: var(--bg-color);
@@ -69,7 +68,7 @@ span{
 @media screen and (max-width: 767px) {
 	.about {
 		flex-direction: column;
-		padding-top: 5rem;
+		padding-top: 2rem;
 	}
 	.landing-about {
 		width: 100%;
@@ -114,7 +113,7 @@ span{
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.about {
-		padding-top:8rem;
+		padding-top:2rem;
 		width: 100%;
 		flex-direction: column;
 	}

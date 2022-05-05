@@ -1,7 +1,6 @@
 .contact {
 	width: 100%;
 
-	margin-top: 8rem ;
 	padding-top:2rem;
 }
 .contact-wrapper {
@@ -69,8 +68,8 @@ textarea::placeholder{
 	
 }
 
-input:focus::placeholder{
-	padding: 2rem 0rem ;
+input:focus::placeholder, textarea:focus::placeholder{
+	padding: .5rem 0rem ;
 
 	transition: opacity .5s .5s ease;
 	opacity: 0;

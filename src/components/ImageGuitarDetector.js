@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import './ImageGuitar.css';
 import { CgArrowsExpandUpRight } from 'react-icons/cg';
 import { FiGithub } from 'react-icons/fi';
@@ -17,17 +17,16 @@ const ImageAudio = () => {
 	return (
 		<div className='sliders'>
 			
-			<section className='slide-show'>
+			<section className='slide-shows'>
 				
 				<div className='slide-content'>
-				<p>Audio Files Repository API</p>				
-				<p>A CRUD API for managing an audio files repository</p>
+				<p>Guitar Audio Sample Detection</p>				
+				<p>A Jupyter Notebook that tell if an audio sample matches a predefined sample</p>
 				<ul className='slide-skills'>
-					<li>Python 3</li>
-					<li>Flask</li>
-					<li>PostgreSQL</li>
-					<li>JSON</li>
-                    <li>SQL</li>
+					<li>Python</li>
+					<li>Keras</li>
+					<li>Pandas</li>
+					<li>ML</li>
 </ul>
 
 				<ul className='p-file'>

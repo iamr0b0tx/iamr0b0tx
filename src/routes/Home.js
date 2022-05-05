@@ -18,7 +18,7 @@ const Home = () => {
 
 	return (
 		<div name="home"  className='home'>
-			<HeaderContent data-aos='fade-up' />
+			<HeaderContent  />
 			<About/>
 			<Experience/>
 			<Work/>

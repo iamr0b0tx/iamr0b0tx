@@ -1,3 +1,5 @@
+import { Suspense } from "react";
+
 const Skill = [
 	{
 		heading: 'Data Science with Python',

@@ -1,4 +1,4 @@
-import React,{ useState, useEffect } from 'react';
+import React,{ useState, useEffect,Suspense } from 'react';
 import './ImageGuitar.css';
 import ImageGuitar from './ImageGuitar';
 import { CgArrowsExpandUpRight } from 'react-icons/cg';
@@ -52,14 +52,16 @@ const ImageGuitarSlider = ({ slides }) => {
 							className={index === current ? 'slide active' : 'slide'}
 							key={index}
 						>
+<Suspense fallback={"loading..."}>
 							{index === current && (
 								
 								<img src={slide.image} alt='work' className='project' />
 								
 							)}
 								
-
+								</Suspense>
 						</div>
+					
 					);
 				})}
 				<div className='arrow'>
@@ -72,16 +74,13 @@ const ImageGuitarSlider = ({ slides }) => {
 					</div>
 				</div>
 				<div className='slide-content'>
-				<p>Guitar Audio Sample Recognizer</p>				
+				<p>Guitar Sample Recognizer</p>				
 				<p>A backend service that can tell if an audio matches a pre-uploaded audio </p>
 				<ul className='slide-skills'>
-					<li>Python 3</li>
+					<li>Python</li>
 					<li>Keras</li>
-					<li>Machine Learning</li>
 					<li>Pandas</li>
-
-
-
+					<li>DRF</li>
 				</ul>
 
 				<ul className='p-file'>

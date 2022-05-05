@@ -12,7 +12,7 @@ const HeaderContent = () => {
 		Aos.init({ duration: 4000 });
 	}, []);
 	return (
-		<div data-aos='fade-up' className='landing'>
+		<div  className='landing'>
 			<div className='left'>
 				<p className='small'>Hi, my name is </p>
 				<h1 className='big'> Abdulfatah Adeneye.</h1>

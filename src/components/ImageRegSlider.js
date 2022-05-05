@@ -61,10 +61,12 @@ const ImageRegSlider = ({ slides }) => {
 				<p>R-Kriging</p>
 				<p>A web application that is capable of collecting location data. </p>
 				<ul className='slide-skills'>
-					<li>Python 3</li>
-					<li>Keras</li>
-					<li>Machine Learning</li>
-					<li>Pandas</li>
+					<li>Python </li>
+					<li>Django</li>
+					<li>ML</li>
+					<li>SQL</li>
+
+
 				</ul>
 				<ul className='p-file'>
 					<li>

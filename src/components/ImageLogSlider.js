@@ -58,11 +58,10 @@ const ImageLogSlider = ({ slides }) => {
 				</div>
 				<div className='slide-content'>
 				<p>Livestock Log</p>
-				<p>A backend service that can tell ifan audio sample matches a pre-uploaded sample in the dataase  </p>
+				<p>This service that can tell if an audio sample matches a pre-uploaded sample.  </p>
 				<ul className='slide-skills'>
-					<li>Python 3</li>
+					<li>Python</li>
 					<li>Keras</li>
-					<li>Machine Learning</li>
 					<li>Pandas</li>
 				</ul>
 

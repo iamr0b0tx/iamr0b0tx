@@ -10,11 +10,15 @@ import ImageLog from '../components/ImageLog';
 import ImageReg from '../components/ImageReg';
 import ImageAudio from '../components/ImageAudio';
 import ImageYoutube from '../components/ImageYoutube';
+import ImageGuitarDetector from "../components/ImageGuitarDetector"
 import Image from '../components/Image';
 import ImageEyewitness from '../components/ImageEyewitness';
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import ImageBackground from '../components/ImageBackground';
+import ImageSentiment from '../components/ImageSentiment';
+import ImageVoice from '../components/ImageVoice';
 
 
 const Work = ({ text, slides }) => {
@@ -29,28 +33,41 @@ const Work = ({ text, slides }) => {
 			<Heading text={'Projects'} />
 
 			<div data-aos="fade-up" className='featured-container'>
-			<p className='project-heading'>Featured projects</p>
 			<div className='featured-wrapper'>
-				<div className='block-1'>
-					<div className='box-1'><ImageGuitarSlider slides={ImageGuitar}/></div>
-					<div className='box-2'><ImageLogSlider slides={ImageLog}/></div>
-					<div className='box-3'><ImageRegSlider slides={ImageReg}/></div>
+					<div className='block-1'>
+						
+						<div><ImageGuitarSlider slides={ImageGuitar}/></div>
+					<div><ImageLogSlider slides={ImageLog}/></div>
+					<div><ImageRegSlider slides={ImageReg}/></div>
 					</div>
-				<div className='block-2'>
-					<div className='box-4'><ImageAudio/></div>
-					<div className='box-5'><ImageYoutube/></div>
-					<div className='box-6'><ImageEyewitness/></div>
+					<div className='block-2'>
+					<div><ImageAudio/></div>
+					<div><Image/></div>
 					</div>
-				<div className='block-3'>
-				<div className='box-7'><Image/></div>
-					<div className='box-8'><Image/></div>
-					<div className='box-9'><Image/></div>
-				</div>
-
+					<div className='block-2'>
+					<div><ImageEyewitness/></div>
+					<div><ImageGuitarDetector/></div>
+					</div>
+					<div className='block-2'>
+					<div><ImageYoutube/></div>
+					<div><ImageSentiment/></div>
+					</div>
+					<div className='block-2'>
+					<div><ImageBackground/></div>
+					<div><ImageVoice/></div>
+					</div>
 				
+
+
+
+
+					
+				
+
 				</div>
 				</div>
 				</div>
+				
 			
 		
 		

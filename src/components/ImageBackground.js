@@ -1,4 +1,4 @@
-import {  useEffect } from 'react';
+import { useEffect } from 'react';
 import './ImageGuitar.css';
 import { CgArrowsExpandUpRight } from 'react-icons/cg';
 import { FiGithub } from 'react-icons/fi';
@@ -7,7 +7,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 
-const Image = () => {
+const ImageBackground = () => {
 	
 	useEffect(() => {
 		Aos.init({ duration: 2000 });
@@ -16,16 +16,16 @@ const Image = () => {
 
 	return (
 		<div  className='sliders'>
+			
 			<section className='slide-shows'>
+				
 				<div className='slide-content'>
-				<p>Image Repository API</p>				
-				<p>A CRUD API for managing an image file repository</p>
+				<p>Background Removal API</p>				
+				<p>This helps to remove the background of an uploaded image</p>
 				<ul className='slide-skills'>
-					<li>Python 3</li>
-					<li>DRF</li>
-					<li>DjangoL</li>
-					<li>JSON</li>
-                    <li>SQL</li>
+					<li>Python </li>
+					<li>PyTorch</li>
+					<li>ML</li>
 </ul>
 
 				<ul className='p-file'>
@@ -45,4 +45,4 @@ const Image = () => {
 		</div>
 	);
 };
-export default Image;
+export default ImageBackground;
