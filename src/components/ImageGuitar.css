@@ -13,14 +13,14 @@
 border: 1px solid var(--bg-body-color);
 width: 30rem;
 	position: absolute;
-	background-color: var(--bg-color);
+	background-color: #222f43;
 }
 .slide-shows {
 	border: 1px solid var(--bg-body-color);
 
 	width: 30rem;
 		position: absolute;
-		background-color: var(--bg-color);
+		background-color: #222f43;
 		border-radius: .1rem;
 	}
 .project {

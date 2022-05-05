@@ -43,6 +43,8 @@
 .experience-content {
 	padding: 3rem;
 	border-radius: 1.5rem;
+	background-color: #222f43;
+
 	font-weight: 100;
 	color: var(--text-dark-color);
 	border: .2rem solid var(--bg-darkgreen-color);
