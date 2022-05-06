@@ -73,7 +73,7 @@ const ImageGuitarSlider = ({ slides }) => {
 						<BsFillArrowRightSquareFill onClick={nextSlide} />
 					</div>
 				</div>
-				<div className='slide-content'>
+				<div className='slide-content-one'>
 				<p>Guitar Sample Recognizer</p>				
 				<p>A backend service that can tell if an audio matches a pre-uploaded audio </p>
 				<ul className='slide-skills'>

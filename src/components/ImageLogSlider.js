@@ -56,7 +56,7 @@ const ImageLogSlider = ({ slides }) => {
 						<BsFillArrowRightSquareFill onClick={nextSlide} />
 					</div>
 				</div>
-				<div className='slide-content'>
+				<div className='slide-content-one'>
 				<p>Livestock Log</p>
 				<p>This service that can tell if an audio sample matches a pre-uploaded sample.  </p>
 				<ul className='slide-skills'>

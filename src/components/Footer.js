@@ -10,7 +10,7 @@ import {
 	FiInstagram,
 	FiLinkedin,
 } from 'react-icons/fi';
-import { AiOutlineReddit } from 'react-icons/ai';
+import { ImReddit } from 'react-icons/im';
 import './Footer.css';
 
 const today = new Date();
@@ -30,7 +30,7 @@ const Footer = ({ text }) => {
 					<ul className='social'>
 						<li>
 							<a href='https://www.reddit.com/uiser/amr0b0tx'>
-								<AiOutlineReddit />
+								<ImReddit />
 							</a>
 						</li>
 						<li>

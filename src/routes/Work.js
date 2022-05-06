@@ -34,12 +34,14 @@ const Work = ({ text, slides }) => {
 
 			<div data-aos="fade-up" className='featured-container'>
 			<div className='featured-wrapper'>
+				<p className='project-heading'>Featured projects</p>
 					<div className='block-1'>
-						
-						<div><ImageGuitarSlider slides={ImageGuitar}/></div>
+					<div><ImageGuitarSlider slides={ImageGuitar}/></div>
 					<div><ImageLogSlider slides={ImageLog}/></div>
 					<div><ImageRegSlider slides={ImageReg}/></div>
 					</div>
+					
+					<p className='project-title'>Other projects</p>
 					<div className='block-2'>
 					<div><ImageAudio/></div>
 					<div><Image/></div>
@@ -56,7 +58,7 @@ const Work = ({ text, slides }) => {
 					<div><ImageBackground/></div>
 					<div><ImageVoice/></div>
 					</div>
-				
+				</div>
 
 
 
@@ -64,7 +66,6 @@ const Work = ({ text, slides }) => {
 					
 				
 
-				</div>
 				</div>
 				</div>
 				

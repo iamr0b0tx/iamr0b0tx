@@ -57,7 +57,7 @@ const ImageRegSlider = ({ slides }) => {
 						<BsFillArrowRightSquareFill onClick={nextSlide} />
 					</div>
 				</div>
-				<div className='slide-content'>
+				<div className='slide-content-one'>
 				<p>R-Kriging</p>
 				<p>A web application that is capable of collecting location data. </p>
 				<ul className='slide-skills'>

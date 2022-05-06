@@ -88,6 +88,9 @@ color: var(--text-dark-color);
 	font-weight: 200;
 	font-size: 2.6rem;
 }
+span{
+	font-size: 0=9rem;
+}
 cite {
 	font-size: 1.4rem;
 	font-weight: 100;
