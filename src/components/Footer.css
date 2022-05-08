@@ -2,12 +2,7 @@
 	position: relative;
 	margin-top: 15rem;
 	width: 100%;
-	
-
 }
-
-
-
 
 .para-connect {
 	padding-bottom: 0px;
@@ -21,15 +16,11 @@
 .footer-nav {
 	width: 100%;
 	background-color: var(--text-dark-color);
-	
-
-
-	
 }
 
 .social {
 	display: flex;
-width: 100%;
+	width: 100%;
 	justify-content: center;
 	align-content: center;
 	margin: 2rem 0 0 0;
@@ -75,7 +66,7 @@ width: 100%;
 }
 
 .coder {
-	padding: .5rem;
+	padding: 0.5rem;
 	text-align: center;
 	background-color: var(--bg-color);
 }
@@ -85,12 +76,11 @@ width: 100%;
 	font-weight: 300;
 }
 
-
 @media screen and (max-width: 767px) {
 	.footer {
 		margin-top: 0;
 	}
-	
+
 	.connect {
 		padding-top: 0;
 		text-align: center;
@@ -99,8 +89,7 @@ width: 100%;
 		color: var(--text-light-color);
 	}
 	.para-connect {
-		
-		padding: .5rem;
+		padding: 0.5rem;
 		text-align: center;
 		font-size: 1.8rem;
 		letter-spacing: 1px;
@@ -108,18 +97,15 @@ width: 100%;
 	}
 	.footer-nav {
 		margin: 0;
-		padding:0rem 0 ;
+		padding: 0rem 0;
 		width: 100%;
-	
-		
 	}
 
 	.social {
 		width: 100%;
-	
 	}
-	.social li{
-padding: .5rem 0;
+	.social li {
+		padding: 0.5rem 0;
 		margin: 0;
 	}
 
@@ -131,7 +117,6 @@ padding: .5rem 0;
 	.social li a:visited,
 	.social li a:link {
 		color: var(--bg-color);
-		
 	}
 
 	.social li a:hover {
@@ -139,17 +124,15 @@ padding: .5rem 0;
 	}
 	.nav-social {
 		width: 100%;
-		padding: .5rem;
-		
+		padding: 0.5rem;
 	}
 	.nav-social li {
-		
 		padding: 1rem 0;
 	}
-	.nav-social li a{
+	.nav-social li a {
 		margin: 0;
 		padding: 1rem;
-font-size: 1.8rem;
+		font-size: 1.8rem;
 	}
 
 	.nav-social li a:hover {
@@ -157,88 +140,80 @@ font-size: 1.8rem;
 		color: var(--text-light-color);
 		background-color: var(--bg-color);
 	}
-	
+
 	.coder .copy {
 		font-size: 1.6rem;
 	}
 	.coder .one {
 		padding: 0;
 		font-size: 1.4rem;
-	
+	}
 }
-}
-@media screen and (max-width:21.875em){
+@media screen and (max-width: 21.875em) {
 	.footer {
 		margin-left: 0;
-			margin-top: 0;
-		}
-	
-	
-		.semicircle {
-			position: relative;
-			background: var(--bg-color);
-			height: 25vh;
-		}
-	
-		
-		.connect {
-			padding-top: 0;
-			text-align: center;
-			font-size: 3.6rem;
-			letter-spacing: 1px;
-			color: var(--text-light-color);
-		}
-		.para-connect {
-			padding: 1rem ;
-			margin: 0;
-			text-align: center;
-			font-size: 1.4rem;
-			letter-spacing: 1px;
-			color: var(--text-dark-color);
-		}
-		.footer-nav{
-			margin: 0;
-		}
-		.social li a{
-			font-size: 1.8rem;
-		}
-		.nav-social li{
-			padding: 1rem 0;
-		}
-		.nav-social li a{
-			padding: 0.7rem;
-			font-size: 1.6rem;
-		}
-	
-		.coder {
-			padding: 1rem 2rem 0 2rem;
-		}
-		.coder .copy {
-			font-size: 1.6rem;
-		}
-		.coder .one {
-			font-size: 1.4rem;
-			padding-bottom: 1rem;
-		
+		margin-top: 0;
+	}
+
+	.semicircle {
+		position: relative;
+		background: var(--bg-color);
+		height: 25vh;
+	}
+
+	.connect {
+		padding-top: 0;
+		text-align: center;
+		font-size: 3.6rem;
+		letter-spacing: 1px;
+		color: var(--text-light-color);
+	}
+	.para-connect {
+		padding: 1rem;
+		margin: 0;
+		text-align: center;
+		font-size: 1.4rem;
+		letter-spacing: 1px;
+		color: var(--text-dark-color);
+	}
+	.footer-nav {
+		margin: 0;
+	}
+	.social li a {
+		font-size: 1.8rem;
+	}
+	.nav-social li {
+		padding: 1rem 0;
+	}
+	.nav-social li a {
+		padding: 0.7rem;
+		font-size: 1.6rem;
+	}
+
+	.coder {
+		padding: 1rem 2rem 0 2rem;
+	}
+	.coder .copy {
+		font-size: 1.6rem;
+	}
+	.coder .one {
+		font-size: 1.4rem;
+		padding-bottom: 1rem;
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
-.footer
-{
-	margin-top: 0;
-}	.connect{
-	font-size: 4rem;
+	.footer {
+		margin-top: 0;
+	}
+	.connect {
+		font-size: 4rem;
+	}
+	.para-connect {
+		font-size: 2.2rem;
+	}
 }
-.para-connect{
-	font-size: 2.2rem;
-}
-
-}
-@media screen and (min-width: 1024px){
-	.footer{
+@media screen and (min-width: 1024px) {
+	.footer {
 		margin-top: 0;
 	}
 }
-
-

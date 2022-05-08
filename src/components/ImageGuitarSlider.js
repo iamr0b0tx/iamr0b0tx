@@ -1,4 +1,4 @@
-import React,{ useState, useEffect,Suspense } from 'react';
+import React, { useState, useEffect } from 'react';
 import './ImageGuitar.css';
 import ImageGuitar from './ImageGuitar';
 import { CgArrowsExpandUpRight } from 'react-icons/cg';
@@ -9,8 +9,6 @@ import {
 } from 'react-icons/bs';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
-
 
 const ImageGuitarSlider = ({ slides }) => {
 	const [current, setCurrent] = useState(0);
@@ -26,11 +24,7 @@ const ImageGuitarSlider = ({ slides }) => {
 	useEffect(() => {
 		setCurrent(0);
 	}, []);
-	useEffect(()=>{
-		setTimeout(()=>{
-			<ImageGuitar/>
-		},[1000])
-	},[])
+	
 
 	useEffect(() => {
 		Aos.init({ duration: 2000 });
@@ -41,27 +35,17 @@ const ImageGuitarSlider = ({ slides }) => {
 	}
 	return (
 		<div className='slider'>
-			
 			<section className='slide-show'>
-				
 				{ImageGuitar.map((slide, index) => {
-								
-					
 					return (
 						<div
 							className={index === current ? 'slide active' : 'slide'}
-							key={index}
-						>
-<Suspense fallback={"loading..."}>
-							{index === current && (
+							key={index}>
+							
+								{index === current && (
+									<img src={slide.image} alt='work' className='project' />)}
 								
-								<img src={slide.image} alt='work' className='project' />
-								
-							)}
-								
-								</Suspense>
 						</div>
-					
 					);
 				})}
 				<div className='arrow'>
@@ -74,29 +58,32 @@ const ImageGuitarSlider = ({ slides }) => {
 					</div>
 				</div>
 				<div className='slide-content-one'>
-				<p>Guitar Sample Recognizer</p>				
-				<p>A backend service that can tell if an audio matches a pre-uploaded audio </p>
-				<ul className='slide-skills'>
-					<li>Python</li>
-					<li>Keras</li>
-					<li>Pandas</li>
-					<li>DRF</li>
-				</ul>
+					<p>Guitar Sample Recognizer</p>
+					<p>
+						A backend service that can tell if an audio matches a pre-uploaded
+						audio{' '}
+					</p>
+					<ul className='slide-skills'>
+						<li>Python</li>
+						<li>Keras</li>
+						<li>Pandas</li>
+						<li>DRF</li>
+					</ul>
 
-				<ul className='p-file'>
-					<li>
-						
-						<a href="https://github.com/iamr0b0tx/guitar_audio_sample_recognizer">
-						<FiGithub/></a>
-					</li>
-					<li>
-						<a href="https://guitar-audio-sample-recognizer.herokuapp.com/" ><CgArrowsExpandUpRight /></a>
-					</li>
-				</ul>
-			</div>
-
+					<ul className='p-file'>
+						<li>
+							<a href='https://github.com/iamr0b0tx/guitar_audio_sample_recognizer'>
+								<FiGithub />
+							</a>
+						</li>
+						<li>
+							<a href='https://guitar-audio-sample-recognizer.herokuapp.com/'>
+								<CgArrowsExpandUpRight />
+							</a>
+						</li>
+					</ul>
+				</div>
 			</section>
-			
 		</div>
 	);
 };

@@ -37,17 +37,15 @@ height: 150px;
 	font-size: 2rem;
 }
 .slide.active {
-	animation: opac .5s ease-in-out;
+	content: "sdfghjkl";
+	animation: opac 1s ease-in-out;
 }
 @keyframes opac {
 	0% {
 		opacity: 0;
 		backdrop-filter: blur(0px);
 	}
-	50%{
-		opacity: 1;
-		backdrop-filter: blur(5px);
-	}
+
 	100% {
 		opacity: 1;
 		backdrop-filter: blur(5px);

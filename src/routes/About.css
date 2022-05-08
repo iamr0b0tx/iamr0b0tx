@@ -25,13 +25,12 @@
 	width: 35rem;
 	height: 35rem;
 	position: relative;
-	border-radius: .5rem;
+	border-radius: 0.5rem;
 	z-index: 1;
 	border: 3px solid var(--bg-body-color);
 	top: -130px;
-	left:130px;
+	left: 130px;
 	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);
-
 }
 .image {
 	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);
@@ -39,7 +38,7 @@
 	border: 1px solid var(--bg-body-color);
 	height: 35rem;
 	position: relative;
-	border-radius: .5rem;
+	border-radius: 0.5rem;
 	z-index: 2;
 	top: -40px;
 	left: 110px;
@@ -53,17 +52,14 @@
 }
 
 .skills {
-    
 	margin-top: 1.6rem;
 	font-size: 1.8rem;
 	font-weight: 200;
 	font-family: inherit;
 }
-span{
+span {
 	color: var(--bg-green-color);
-	
 }
-
 
 @media screen and (max-width: 767px) {
 	.about {
@@ -72,7 +68,7 @@ span{
 	}
 	.landing-about {
 		width: 100%;
-		display:flex;
+		display: flex;
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
@@ -103,7 +99,7 @@ span{
 	.image {
 		width: 25rem;
 		height: 25rem;
-		left:1rem;
+		left: 1rem;
 		top: -30rem;
 	}
 	.skills {
@@ -113,7 +109,7 @@ span{
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.about {
-		padding-top:2rem;
+		padding-top: 2rem;
 		width: 100%;
 		flex-direction: column;
 	}
@@ -134,10 +130,8 @@ span{
 		font-size: 2rem;
 	}
 	.right-about {
-
 		padding: 5rem 0;
 		height: 35rem;
-		
 	}
 	.img-box {
 		top: -3rem;
@@ -170,14 +164,12 @@ span{
 		padding: 5rem 4rem;
 	}
 
-
-
-.right-about{
-	padding: 0 3rem;
-}
+	.right-about {
+		padding: 0 3rem;
+	}
 
 	.img-box {
-		top:-5rem;
+		top: -5rem;
 		left: 1rem;
 		width: 30rem;
 		height: 300px;
@@ -188,5 +180,4 @@ span{
 		left: 3rem;
 		top: -37rem;
 	}
-	
 }
