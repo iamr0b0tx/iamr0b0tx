@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 
 import { BrowserRouter } from 'react-router-dom';
-import { StrictMode } from 'react/cjs/react.production.min';
 
 ReactDOM.render(
 	<BrowserRouter forceRefresh={true}>
