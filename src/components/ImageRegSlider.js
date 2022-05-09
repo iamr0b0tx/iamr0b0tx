@@ -8,8 +8,7 @@ import {
 	BsFillArrowRightSquareFill,
 } from 'react-icons/bs';
 import Aos from 'aos';
-import 'aos/dist/aos.css'
-
+import 'aos/dist/aos.css';
 
 const ImageRegSlider = ({ slides }) => {
 	const [current, setCurrent] = useState(0);
@@ -34,14 +33,14 @@ const ImageRegSlider = ({ slides }) => {
 	}
 	return (
 		<div className='slider'>
-			
 			<section className='slide-show'>
 				{ImageReg.map((slide, index) => {
 					<FiGithub />;
 					return (
 						<div
 							className={index === current ? 'slide active' : 'slide'}
-							key={index}>
+							key={index}
+						>
 							{index === current && (
 								<img src={slide.image} alt='work' className='project' />
 							)}
@@ -58,24 +57,22 @@ const ImageRegSlider = ({ slides }) => {
 					</div>
 				</div>
 				<div className='slide-content-one'>
-				<p>R-Kriging</p>
-				<p>A web application that is capable of collecting location data. </p>
-				<ul className='slide-skills'>
-					<li>Python </li>
-					<li>Django</li>
-					<li>ML</li>
-					<li>SQL</li>
-
-
-				</ul>
-				<ul className='p-file'>
-					<li>
-						<a href='http://regression-kriging.herokuapp.com'>
-							<CgArrowsExpandUpRight />
-						</a>
-					</li>
-				</ul>
-			</div>
+					<p>R-Kriging</p>
+					<p>A web application that is capable of collecting location data. </p>
+					<ul className='slide-skills'>
+						<li>Python </li>
+						<li>Django</li>
+						<li>ML</li>
+						<li>SQL</li>
+					</ul>
+					<ul className='p-file'>
+						<li>
+							<a href='http://regression-kriging.herokuapp.com'>
+								<CgArrowsExpandUpRight />
+							</a>
+						</li>
+					</ul>
+				</div>
 			</section>
 		</div>
 	);

@@ -24,7 +24,6 @@ const ImageGuitarSlider = ({ slides }) => {
 	useEffect(() => {
 		setCurrent(0);
 	}, []);
-	
 
 	useEffect(() => {
 		Aos.init({ duration: 2000 });
@@ -40,11 +39,11 @@ const ImageGuitarSlider = ({ slides }) => {
 					return (
 						<div
 							className={index === current ? 'slide active' : 'slide'}
-							key={index}>
-							
-								{index === current && (
-									<img src={slide.image} alt='work' className='project' />)}
-								
+							key={index}
+						>
+							{index === current && (
+								<img src={slide.image} alt='work' className='project' />
+							)}
 						</div>
 					);
 				})}

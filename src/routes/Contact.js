@@ -1,22 +1,20 @@
-import React,{useState} from 'react';
+import React,{useEffect} from 'react';
 import '../components/TertiaryButton.css';
 import './Contact.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import Heading from '../components/Heading';
-import { Navigate } from 'react-router-dom';
 
 const Contact = () => {
-const [goHome, SetGoHome]= useState(false);
-if(goHome){
-	return <Navigate to="/"/>
-}
+	useEffect(() => {
+		Aos.init({ duration: 4000 });
+	}, []);
 
 	return (
-		<div className='contact' onLoad={()=>{
-			SetGoHome(true)
-		}}>
-			{" "}
+		<div className='contact'>
+			
 			<Heading text={'Get In Touch'} />
-			<div className='contact-wrapper'>
+			<div data-aos="fade-up" className='contact-wrapper'>
 				<form
 					action='https://getform.io/f/1090c17c-5cbb-4893-aadd-597f20390e38'
 					method='POST'

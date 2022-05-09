@@ -8,7 +8,7 @@ import {
 } from 'react-icons/bs';
 import ImageLog from './ImageLog';
 import Aos from 'aos';
-import 'aos/dist/aos.css'
+import 'aos/dist/aos.css';
 
 const ImageLogSlider = ({ slides }) => {
 	const [current, setCurrent] = useState(0);
@@ -31,9 +31,7 @@ const ImageLogSlider = ({ slides }) => {
 		return null;
 	}
 	return (
-		<div  className='slider'>
-			
-			
+		<div className='slider'>
 			<section className='slide-show'>
 				{ImageLog.map((slide, index) => {
 					return (
@@ -57,21 +55,25 @@ const ImageLogSlider = ({ slides }) => {
 					</div>
 				</div>
 				<div className='slide-content-one'>
-				<p>Livestock Log</p>
-				<p>This service that can tell if an audio sample matches a pre-uploaded sample.  </p>
-				<ul className='slide-skills'>
-					<li>Python</li>
-					<li>Keras</li>
-					<li>Pandas</li>
-				</ul>
+					<p>Livestock Log</p>
+					<p>
+						This service that can tell if an audio sample matches a pre-uploaded
+						sample.{' '}
+					</p>
+					<ul className='slide-skills'>
+						<li>Python</li>
+						<li>Keras</li>
+						<li>Pandas</li>
+					</ul>
 
-				<ul className='p-file'>
-					
-					<li>
-						<a href="https://livestocklog.com/log-in?redirectTo=/herdsd/"><CgArrowsExpandUpRight />
-					</a></li>
-				</ul>
-			</div>
+					<ul className='p-file'>
+						<li>
+							<a href='https://livestocklog.com/log-in?redirectTo=/herdsd/'>
+								<CgArrowsExpandUpRight />
+							</a>
+						</li>
+					</ul>
+				</div>
 			</section>
 		</div>
 	);

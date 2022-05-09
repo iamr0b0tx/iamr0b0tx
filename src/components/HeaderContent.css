@@ -134,12 +134,15 @@ cite::before {
 		padding: 3rem 3.2rem;
 		margin-bottom: 5rem;
 		width: 100%;
+	}.small {
+		font-size: 1.6rem;
 	}
-
-	.big{
-		font-size: 4.2rem;
+	.big {
+		font-size: 3.5rem;
 	}
-	
+	.medium {
+		font-size: 2.5rem;
+	}
 	
 	.para {
 		margin-top: 1rem;
@@ -170,6 +173,18 @@ cite::before {
 .left{
 	padding: 3rem 2rem;
 }
+.small {
+	font-size: 1.4rem;
+}
+.big {
+	font-size: 3rem;
+}
+.medium {
+	font-size: 2.5rem;
+}
+.para {
+	padding: 0rem 0;
+	font-size: 1.4rem}
 .right{
 padding: 2rem 2rem;
 }
@@ -201,9 +216,20 @@ padding: 2rem 2rem;
 	.left {
 		padding: 0 3.2rem 3.2rem 3.2rem;
 	}
+	.small {
+		font-size: 1.8rem;
+	}
+	.big {
+		font-size: 5rem;
+	}
+	.medium {
+		font-size: 3.5rem;
+	}
 	.para {
 		padding: 0.5rem 0;
-	}
+		font-size: 1.8rem}
+	
+
 
 	.right {
 	

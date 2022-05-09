@@ -13,7 +13,7 @@ const About = ({ text }) => {
 	return (
 		<div name='about' className='about'>
 			<Heading text={'About Me'} />
-			<div data-aos='fade-up' className='landing-about'>
+			<div data-aos="fade-up"  className='landing-about'>
 				<div className='left-about'>
 					<p className='fatah'>
 						Hi, my name is Abdulfatah Adeneye. A software developer based in

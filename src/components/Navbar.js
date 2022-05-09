@@ -1,7 +1,6 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import './Navbar.css';
-
 
 const Navbar = () => {
 	//for menu
@@ -16,11 +15,10 @@ const Navbar = () => {
 		}
 	};
 	window.addEventListener('scroll', handleColor);
-	
+
 	const handleClick = () => setClick(!click);
 	return (
 		<div
-			
 			className={color ? 'navbar navbar-bg' : 'navbar'}
 			onClick={handleColor}
 		>
@@ -31,7 +29,7 @@ const Navbar = () => {
 			</div>
 			<ul className={click ? 'nav active' : 'nav'}>
 				<li>
-					<a href="/" className='home_link'>
+					<a href='/' className='home_link'>
 						Home
 					</a>
 				</li>

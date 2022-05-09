@@ -12,8 +12,8 @@ const Experience = ({ text }) => {
 		Aos.init({ duration: 2000 });
 	}, []);
 	return (
-		<div data-aos='fade-up' className='experience'>
-			<Heading text={'Where I have worked'} />
+		<div  className='experience'>
+			<Heading data-aos="fade-up"text={'Where I have worked'} />
 			<Timeline />
 		</div>
 	);

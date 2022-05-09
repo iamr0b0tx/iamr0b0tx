@@ -19,60 +19,51 @@ const Footer = ({ text }) => {
 		Aos.init({ duration: 2000 });
 	}, []);
 	return (
-		
-		<div data-aos='fade-in' className="footer">
-					<p className='para-connect'>
-						Would you like to stay connected, feel free to link up on social
-						media.
-					</p>
-		
-				<div className='footer-nav'>
-					<ul className='social'>
-						<li>
-							<a href='https://www.reddit.com/uiser/amr0b0tx'>
-								<ImReddit />
-							</a>
-						</li>
-						<li>
-							<a href='https://twitter.com/iamr0b0tx'>
-								<FiTwitter />
-							</a>
-						</li>
-						<li>
-							<a href='https://web.facebook.com/abduladeneye'>
-								<FiFacebook />
-							</a>
-						</li>
-						<li>
-							<a href='https://www.github.com/iamr0b0tx'>
-								<FiGithub />
-							</a>
-						</li>
-						<li>
-							{' '}
-							<a href='https://www.linkedin.com/in/abduladeneye/'>
-							<FiLinkedin />
-							</a>
-						</li>
-						<li>
-							<a href='https://www.instagram.com/iamr0b0tx/'>
-								<FiInstagram />
-							</a>
-						</li>
-					</ul>
-					
-				</div>
-				<div className='coder'>
-					<p className='copy'>
-						&copy; Abdulfatah Adeneye {today.getFullYear()}
-					</p>
-					<p className='copy one'>
+		<div data-aos='fade-in' className='footer'>
+			<p className='para-connect'>
+				Would you like to stay connected, feel free to link up on social media.
+			</p>
+
+			<div className='footer-nav'>
+				<ul className='social'>
+					<li>
+						<a href='https://www.reddit.com/uiser/amr0b0tx'>
+							<ImReddit />
+						</a>
+					</li>
+					<li>
+						<a href='https://twitter.com/iamr0b0tx'>
+							<FiTwitter />
+						</a>
+					</li>
+					<li>
+						<a href='https://web.facebook.com/abduladeneye'>
+							<FiFacebook />
+						</a>
+					</li>
+					<li>
+						<a href='https://www.github.com/iamr0b0tx'>
+							<FiGithub />
+						</a>
+					</li>
+					<li>
 						{' '}
-						Designed and Coded by Motunrayo Adeneye
-					</p>
-				</div>
+						<a href='https://www.linkedin.com/in/abduladeneye/'>
+							<FiLinkedin />
+						</a>
+					</li>
+					<li>
+						<a href='https://www.instagram.com/iamr0b0tx/'>
+							<FiInstagram />
+						</a>
+					</li>
+				</ul>
 			</div>
-	
+			<div className='coder'>
+				<p className='copy'>&copy; Abdulfatah Adeneye {today.getFullYear()}</p>
+				<p className='copy one'> Designed and Coded by Motunrayo Adeneye</p>
+			</div>
+		</div>
 	);
 };
 
