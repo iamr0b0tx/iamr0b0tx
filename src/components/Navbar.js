@@ -23,7 +23,7 @@ const Navbar = () => {
 			onClick={handleColor}
 		>
 			<div className='letter'>
-				<a href='home'>
+				<a href='/'>
 					<h1 className='letter-fa'>A</h1>
 				</a>
 			</div>
