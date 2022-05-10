@@ -8,5 +8,5 @@ I'm a software developer enthusiastic about machine learning and artificial inte
 
 I like to learn about why and how things work.
 
-![top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iamr0b0tx&hide=jupyter%20notebook,html&langs_count=3)
+![top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iamr0b0tx&hide=html&langs_count=3)
 ![repo stats](https://github-readme-stats.vercel.app/api?username=iamr0b0tx&show_icons=true&line_height=27)
