@@ -61,7 +61,7 @@ const Footer = ({ text }) => {
 			</div>
 			<div className='coder'>
 				<p className='copy'>&copy; Abdulfatah Adeneye {today.getFullYear()}</p>
-				<p className='copy one'> Designed and Coded by Motunrayo Adeneye</p>
+				<p className='copy one'> Designed and Coded by<a href="https://github.com/motuncoded"> Motunrayo Adeneye</a></p>
 			</div>
 		</div>
 	);

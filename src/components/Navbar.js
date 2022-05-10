@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import './Navbar.css';
 
@@ -29,9 +30,9 @@ const Navbar = () => {
 			</div>
 			<ul className={click ? 'nav active' : 'nav'}>
 				<li>
-					<a href='/' className='home_link'>
+					<Link to='/' className='home_link'>
 						Home
-					</a>
+					</Link>
 				</li>
 				<li>
 					<a href='/about' className='about_link'>

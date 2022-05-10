@@ -75,6 +75,14 @@
 	font-size: 1.6rem;
 	font-weight: 300;
 }
+.coder a{
+	color: var(--bg-green-color);
+
+}
+.coder a:link{
+	color: var(--bg-green-color);
+
+}
 
 @media screen and (max-width: 767px) {
 	.footer {

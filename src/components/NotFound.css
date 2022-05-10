@@ -15,7 +15,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 1.8rem;
     font-weight: 200;
     opacity: 0.4;
+}
+.notFounda:link{
+    color: var(--text-dark-color);
 }
