@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/iamr0b0tx/static/css/main.4feee6e3.css",
-    "main.js": "/iamr0b0tx/static/js/main.ba924cb1.js",
+    "main.js": "/iamr0b0tx/static/js/main.a6c34116.js",
     "static/css/217.dfe304ce.chunk.css": "/iamr0b0tx/static/css/217.dfe304ce.chunk.css",
     "static/js/217.ccc958d8.chunk.js": "/iamr0b0tx/static/js/217.ccc958d8.chunk.js",
     "static/css/342.7224fb9f.chunk.css": "/iamr0b0tx/static/css/342.7224fb9f.chunk.css",
@@ -36,7 +36,7 @@
     "static/media/regression-krigging-for-geodata.jpg": "/iamr0b0tx/static/media/regression-krigging-for-geodata.38a712d5d7027cc756b7.jpg",
     "index.html": "/iamr0b0tx/index.html",
     "main.4feee6e3.css.map": "/iamr0b0tx/static/css/main.4feee6e3.css.map",
-    "main.ba924cb1.js.map": "/iamr0b0tx/static/js/main.ba924cb1.js.map",
+    "main.a6c34116.js.map": "/iamr0b0tx/static/js/main.a6c34116.js.map",
     "217.dfe304ce.chunk.css.map": "/iamr0b0tx/static/css/217.dfe304ce.chunk.css.map",
     "217.ccc958d8.chunk.js.map": "/iamr0b0tx/static/js/217.ccc958d8.chunk.js.map",
     "342.7224fb9f.chunk.css.map": "/iamr0b0tx/static/css/342.7224fb9f.chunk.css.map",
@@ -55,6 +55,6 @@
   },
   "entrypoints": [
     "static/css/main.4feee6e3.css",
-    "static/js/main.ba924cb1.js"
+    "static/js/main.a6c34116.js"
   ]
 }
