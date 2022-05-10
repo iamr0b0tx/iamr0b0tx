@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/iamr0b0tx/static/css/main.fc7681af.css",
-    "main.js": "/iamr0b0tx/static/js/main.fdccc84e.js",
+    "main.css": "/iamr0b0tx/static/css/main.4feee6e3.css",
+    "main.js": "/iamr0b0tx/static/js/main.ba924cb1.js",
     "static/css/217.dfe304ce.chunk.css": "/iamr0b0tx/static/css/217.dfe304ce.chunk.css",
     "static/js/217.ccc958d8.chunk.js": "/iamr0b0tx/static/js/217.ccc958d8.chunk.js",
     "static/css/342.7224fb9f.chunk.css": "/iamr0b0tx/static/css/342.7224fb9f.chunk.css",
@@ -35,8 +35,8 @@
     "static/media/livestocklog-for-livestock-mgt2.jpg": "/iamr0b0tx/static/media/livestocklog-for-livestock-mgt2.4941f99d6372a5724390.jpg",
     "static/media/regression-krigging-for-geodata.jpg": "/iamr0b0tx/static/media/regression-krigging-for-geodata.38a712d5d7027cc756b7.jpg",
     "index.html": "/iamr0b0tx/index.html",
-    "main.fc7681af.css.map": "/iamr0b0tx/static/css/main.fc7681af.css.map",
-    "main.fdccc84e.js.map": "/iamr0b0tx/static/js/main.fdccc84e.js.map",
+    "main.4feee6e3.css.map": "/iamr0b0tx/static/css/main.4feee6e3.css.map",
+    "main.ba924cb1.js.map": "/iamr0b0tx/static/js/main.ba924cb1.js.map",
     "217.dfe304ce.chunk.css.map": "/iamr0b0tx/static/css/217.dfe304ce.chunk.css.map",
     "217.ccc958d8.chunk.js.map": "/iamr0b0tx/static/js/217.ccc958d8.chunk.js.map",
     "342.7224fb9f.chunk.css.map": "/iamr0b0tx/static/css/342.7224fb9f.chunk.css.map",
@@ -54,7 +54,7 @@
     "215.bfb20f4a.chunk.js.map": "/iamr0b0tx/static/js/215.bfb20f4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc7681af.css",
-    "static/js/main.fdccc84e.js"
+    "static/css/main.4feee6e3.css",
+    "static/js/main.ba924cb1.js"
   ]
 }
