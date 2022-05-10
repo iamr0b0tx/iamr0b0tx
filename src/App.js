@@ -27,7 +27,7 @@ function App() {
 							<Route path='/work' element={<Work />} />
 							<Route path='/contact' element={<Contact />} />
 							<Route path='*' element={<NotFound />} />
-							<Route  path='/' element={<Home />} />
+							<Route  path='/iamr0b0tx' element={<Home />} />
 
 						</Routes>
 				</Suspense>
