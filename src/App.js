@@ -4,7 +4,7 @@ import './App.css';
 import Loader from './components/Loader';
 
 import Navbar from './components/Navbar';
-import { Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import NotFound from './components/NotFound';
 import { Suspense } from 'react/cjs/react.production.min';
 
@@ -16,23 +16,26 @@ const Contact = React.lazy(() => import('./routes/Contact'));
 
 function App() {
 	return (
+<HashRouter>
 		<div className='app'>
 		
 			<>
 				<Suspense fallback={<Loader />}>
 					<Navbar />
 						<Routes>
+						<Route  path='/' element={<Home />} />
+
 							<Route path='/about' element={<About />} />
 							<Route path='/experience' element={<Experience />} />
 							<Route path='/work' element={<Work />} />
 							<Route path='/contact' element={<Contact />} />
 							<Route path='*' element={<NotFound />} />
-							<Route  path='/' element={<Home />} />
 
 						</Routes>
 				</Suspense>
 			</>
 		</div>
+		</HashRouter>
 	);
 }
 

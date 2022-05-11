@@ -24,9 +24,9 @@ const Navbar = () => {
 			onClick={handleColor}
 		>
 			<div className='letter'>
-				<a href='/'>
+				<Link to='/'>
 					<h1 className='letter-fa'>A</h1>
-				</a>
+				</Link>
 			</div>
 			<ul className={click ? 'nav active' : 'nav'}>
 				<li>
@@ -35,18 +35,18 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li>
-					<a href='/about' className='about_link'>
+					<Link to='/about' className='about_link'>
 						About
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href='/experience'>Experience</a>
+					<Link to='/experience'>Experience</Link>
 				</li>
 				<li>
-					<a href='/work'>Work</a>
+					<Link to='/work'>Work</Link>
 				</li>
 				<li>
-					<a href='/contact'>Contact</a>
+					<Link to='/contact'>Contact</Link>
 				</li>
 			</ul>
 			<div className='hamburger-menu' onClick={handleClick}>

@@ -2,6 +2,7 @@ import React from 'react';
 import "./TertiaryButton.css"
 import "../routes/Contact.css"
 import './NotFound.css'
+import { Link } from 'react-router-dom';
 
 const NotFound = () => {
   return <div className="notFound">
@@ -9,7 +10,7 @@ const NotFound = () => {
     <p className='notParagraph'>The page you are looking doesn't exist</p>
     <div className='tertiary-button'>
     <button type='submit' className='tertiary'>
-      <a href="/">return to Home</a></button>
+      <Link to="/">return to Home</Link></button>
      
      </div> </div>;
 };
