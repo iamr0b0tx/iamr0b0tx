@@ -9,7 +9,6 @@ import {
 } from 'react-icons/bs';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Loader from './Loader';
 
 
 const ImageGuitarSlider = ({ slides }) => {
@@ -27,9 +26,7 @@ const ImageGuitarSlider = ({ slides }) => {
 	useEffect(() => {
 		setCurrent(0);
 	}, []);
-	useEffect(()=>{
-setTimeout(setLoaded,800,true)	}
-,[slide])
+	
 
 	useEffect(() => {
 		Aos.init({ duration: 2000 });
@@ -50,7 +47,6 @@ setTimeout(setLoaded,800,true)	}
 							{index === current && (
 								<img src={slide.image} alt='work' className='project' />
 							)}
-														{!loaded && <p>loading</p>}
 
 						</div>
 					);
