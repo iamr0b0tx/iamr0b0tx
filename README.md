@@ -8,4 +8,4 @@ I'm a software developer enthusiastic about machine learning and artificial inte
 ![top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iamr0b0tx&hide=html&langs_count=3)
 ![repo stats](https://github-readme-stats.vercel.app/api?username=iamr0b0tx&show_icons=true&line_height=27)
 
-This profile was inspired and derived from [TessFerrandez's Profile](https://github.com/TessFerrandez)
+This profile was inspired by and derived from [TessFerrandez's Profile](https://github.com/TessFerrandez)
