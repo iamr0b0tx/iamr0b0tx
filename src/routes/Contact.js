@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react';
-import '../components/TertiaryButton.css';
-import './Contact.css';
+import '../styles/TertiaryButton.css';
+import '../styles/Contact.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Heading from '../components/Heading';
@@ -12,7 +12,7 @@ const Contact = () => {
 
 	return (
 		<div className='contact'>
-			
+			<div>
 			<Heading text={'Get In Touch'} />
 			<div data-aos="fade-up" className='contact-wrapper'>
 				<form
@@ -52,6 +52,8 @@ const Contact = () => {
 						</button>
 					</div>
 				</form>
+			</div>
+			
 			</div>
 		</div>
 	);

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Profile.css';
+import '../styles/Profile.css';
 
 const Profile = ({ title, place, article, list }) => {
 	return (

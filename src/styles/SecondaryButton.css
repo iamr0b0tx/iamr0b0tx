@@ -1,37 +1,38 @@
-.primary {
+.secondary {
 	padding: 0.9rem 1.5rem;
-	margin-left: 4rem;
 	font-size: 18px;
+	margin-right: 4rem;
 	text-transform: capitalize;
-	font-weight: 300;
-	background-color: #9fa2b2;
-	letter-spacing: 1px;
+	font-weight: 400;
+	background-color: var(--bg-body-color);
 	border-radius: 5px;
+	letter-spacing: 1px;
 	outline: none;
 	cursor: pointer;
-	border: 3px solid #9fa2b2;
+	border: 3px solid var(--bg-body-color);
 	box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.2);
 }
-.primary:hover {
+.secondary:hover {
 	background-color: transparent;
 	transition: ease 0.6s;
-	
-}
-.primary a:link {
-	color: var(--text-light-color);
+	color: #000;
 }
 
+.secondary a:link {
+	color: var(--text-light-color);
+}
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-	.primary {
+	.secondary {
 		font-size: 1.8rem;
-	
+		
 	}
 }
+
 @media screen and (max-width: 767px) {
-	.primary {
+	.secondary {
 		font-size: 1.6rem;
 		font-weight: 300;
-		margin-left: 2rem;
+		margin-right: 2rem ;
 
 		
 	
@@ -39,7 +40,7 @@
 	
 }
 @media screen and (max-width:21.875em){
-.primary{
-	margin-left: 1rem;
+.secondary{
+	margin-right: 1rem ;
 }
 }

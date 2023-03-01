@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 import SecondaryButton from './SecondaryButton';
-import './HeaderContent.css';
+import '../styles/HeaderContent.css';
 
 import PrimaryButton from './PrimaryButton';
 import Aos from 'aos';
@@ -14,6 +14,7 @@ const HeaderContent = () => {
 	return (
 		<div  className='landing'>
 			<div className='left'>
+				<div>
 				<p className='small'>Hi, my name is </p>
 				<h1 className='big'> Abdulfatah Adeneye.</h1>
 				<p className='medium'>Software developer.</p>
@@ -21,7 +22,7 @@ const HeaderContent = () => {
 				<p className='para'>
 					A Solution hacker that is enthusiastic about technology.
 				</p>
-
+				</div>
 				<div className='btn'>
 					<SecondaryButton name={'Resume'} />
 					<PrimaryButton name={'Contact'} />
@@ -29,7 +30,7 @@ const HeaderContent = () => {
 			</div>
 
 			<div className='right'>
-				<div className='blockquote-wrapper'>
+			<div className='blockquote-wrapper'>
 					<div className='blockquote'>
 						<p>
 							<span>"</span>I usually know what I am doing until I don't, And then...I do.<span>"</span>
@@ -37,7 +38,7 @@ const HeaderContent = () => {
 
 						<cite>Abdulfatah</cite>
 					</div>
-				</div>
+	</div>
 			</div>
 		</div>
 	);

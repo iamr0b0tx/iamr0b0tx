@@ -9,14 +9,14 @@
 	margin: 0 1rem 0 2rem;
 	color: var(--text-dark-color);
 	font-size: 3.5rem;
-	font-weight: 300;
+	font-weight: 400;
 }
 .heading::before {
 	position: absolute;
 	top: calc(100% + 1rem);
 	left: 25%;
 	width: 50%;
-	height: .1rem;
+	height: .25rem;
 	background-color: var(--bg-green-color);
 	text-align: center;
 	content: '';

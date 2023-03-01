@@ -9,11 +9,9 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 2rem;
-	z-index: 10;
+	z-index: 1;
 }
-#home, #about{
-	background-color: var(--bg-green-color) !important;
-}
+
 .nav.active {
 	border-radius: 5px;
 	cursor: pointer;
@@ -28,49 +26,41 @@
 .navbar-bg {
 	background-color: rgba(10,25,47,.9);
 }
-.letter {
-	padding: 1rem 2rem;
-}
+
 
 .letter-fa {
-	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 	border: 2px solid var(--bg-green-color);
-	padding: 0.25rem 0.5rem;
-	font-weight: 300;
-	font-size: 4rem;
+	font-weight: 400;
+	font-size: clamp(4rem,4vw,2rem);
 	cursor: pointer;
+	color: var(--bg-green-color);
+	padding: clamp(1rem, 4vw, .5rem)
 }
 .nav {
-	left: 110%;
-	position: absolute;
-	transition: 0.6s ease;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 
 }
+.activeClass{
+	border-bottom: 3px solid var(--bg-green-color);
+  }
+  .inactiveClass{
+	opacity: .8;
+  }
 .nav li {
 	padding:  1rem;
 }
 
 .nav li a {
-	margin: 0 1.5rem;
 	font-size: 18px;
 	text-transform: capitalize;
-	font-weight: 500;
-	letter-spacing: 1px;
-	border-radius: .3rem;
+	font-weight: 400;
 	padding: .8rem;
+	color: #fff;
 }
-.nav li a:hover {
-	border: 3px solid var(--bg-green-color);
-	transition: 0.4s ease-in;
-	color: var(--bg-color);
-	background-color: var(--bg-green-color);
-}
-.home_link {
-	padding: 1rem;
-	color: var(--text-light-color);
-	transition: all ease 0.2s;
-}
+
 .hamburger-menu {
 	display: none;
 	transition: 4s ease;
@@ -78,13 +68,12 @@
 .times,
 .menu {
 	transition: 0.4s ease-in;
-	font-weight: 100;
 	font-size: 4rem;
 	color: var(--bg-green-color);
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 	.nav {
 		position: absolute;
 		top: 80px;
@@ -189,6 +178,7 @@
 		left: -120%;
 		text-align: center
 	}
+	
 	.nav li {
 		
 		padding: 1.5rem ;
@@ -205,7 +195,7 @@
 		left:50%;
 		height: 35rem;
 		width: 35rem;
-		background-color: var(--text-dark-color);
+		background-color: var(--text-light-color);
 	}
 	.letter {
 		margin: 0;
@@ -231,14 +221,16 @@ padding: 0;	}
 	
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
 	
 	.nav {
-		position: absolute;
-		top: 40%;
-		left: -90%;
+		display: flex;
+		flex-direction: column;
 		text-align: center;
+	}
+	.activeClass{
+		border-bottom:none ;
 	}
 	.nav li a:hover {
 		border: none;
@@ -253,10 +245,12 @@ padding: 0;	}
 
 	.nav.active {
 		top: 100%;
-		left: 70%;
-		width: 35rem;
+		left: 12%;
+		width: 40rem;
 		height: 35rem;
 		transition: 0.5s ease;
+		background-color: #fff;
+
 	}
 	.letter {
 		padding: 0;

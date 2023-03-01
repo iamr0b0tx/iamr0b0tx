@@ -11,7 +11,7 @@ import {
 	FiLinkedin,
 } from 'react-icons/fi';
 import { ImReddit } from 'react-icons/im';
-import './Footer.css';
+import '../styles/Footer.css';
 
 const today = new Date();
 const Footer = ({ text }) => {

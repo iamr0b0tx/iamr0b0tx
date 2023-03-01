@@ -4,7 +4,7 @@ import Heading from '../components/Heading';
 import ImageGuitarSlider from '../components/ImageGuitarSlider';
 import ImageGuitar from '../components/ImageGuitar';
 import ImageRegSlider from '../components/ImageRegSlider';
-import './Work.css';
+import '../styles/Work.css';
 import ImageLogSlider from '../components/ImageLogSlider';
 import ImageLog from '../components/ImageLog';
 import ImageReg from '../components/ImageReg';

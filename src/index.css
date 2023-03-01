@@ -7,6 +7,7 @@
 	--text-dark-color: #e3f6f5;
 	--bg-darkgreen-color: #3c7a89;
 	--bg-color:#0a192f;
+	--bg-white:#fff;
 	
 }
 *{
@@ -27,11 +28,14 @@ body {
 
 	color: var(--text-light-color);
 	font-size: 1.2rem;
-	
+	scroll-behavior: smooth;
+
 	font-family: 'Roboto', calibar;
 }
 body::-webkit-scrollbar {
-	display: none;
+background-color: transparent;}
+body::-webkit-scrollbar-thumb{
+	background-color: var(--bg-darkgreen-color);
 }
 a,
 li {

@@ -1,38 +1,38 @@
-.secondary {
+.primary {
 	padding: 0.9rem 1.5rem;
+	margin-left: 4rem;
 	font-size: 18px;
-	margin-right: 4rem;
 	text-transform: capitalize;
-	font-weight: 300;
-	background-color: var(--bg-body-color);
-	border-radius: 5px;
+	font-weight: 400;
+	background-color: transparent;
 	letter-spacing: 1px;
+	border-radius: 5px;
 	outline: none;
 	cursor: pointer;
+	color: var(--bg-body-color);
 	border: 3px solid var(--bg-body-color);
 	box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.2);
 }
-.secondary:hover {
+.primary:hover {
 	background-color: transparent;
 	transition: ease 0.6s;
-	color: #000;
+	
 }
-
-.secondary a:link {
+.primary a:link {
 	color: var(--text-light-color);
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-	.secondary {
+	.primary {
 		font-size: 1.8rem;
-		
+	
 	}
 }
-
 @media screen and (max-width: 767px) {
-	.secondary {
+	.primary {
 		font-size: 1.6rem;
 		font-weight: 300;
-		margin-right: 2rem ;
+		margin-left: 2rem;
 
 		
 	
@@ -40,7 +40,7 @@
 	
 }
 @media screen and (max-width:21.875em){
-.secondary{
-	margin-right: 1rem ;
+.primary{
+	margin-left: 1rem;
 }
 }

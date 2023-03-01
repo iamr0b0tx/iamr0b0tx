@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Timeline from '../components/Timeline';
-import './Experience.css';
+import '../styles/Experience.css';
 
 const Experience = ({ text }) => {
 	useEffect(() => {

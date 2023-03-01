@@ -1,4 +1,4 @@
-import './ImageGuitar.css';
+import '../styles/ImageGuitar.css';
 import { CgArrowsExpandUpRight } from 'react-icons/cg';
 import { FiGithub } from 'react-icons/fi';
 

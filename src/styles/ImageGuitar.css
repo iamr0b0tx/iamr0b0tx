@@ -37,7 +37,7 @@ height: 150px;
 	font-size: 2rem;
 }
 .slide.active {
-	content: "sdfghjkl";
+	content: "";
 	animation: opac 1s ease-in-out;
 }
 @keyframes opac {

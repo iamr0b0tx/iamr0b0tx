@@ -1,9 +1,30 @@
+.notFound{
+    font-family: inherit;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.notHeading{
+text-align: center;
+    font-size: clamp(4rem, 4vw, 8rem);
+    color: var(--text-dark-color);
+    font-weight: 400;
+}
+.notParagraph{
+    margin: 0;
+    font-size: clamp(1rem, 4vw, 1.8rem);
+    font-weight: 400;
+    opacity: 0.4;
+}
 
-.tertiary{
+ .tertiary{
     padding: .9rem 1.8rem;
-      font-size: 1.4rem;
+      font-size: clamp(1rem, 4vw, 1.5rem);
       text-transform: capitalize;
-      font-weight: 300;
+      font-weight: 400;
     background-color: var(--bg-green-color);
       letter-spacing: 1px;
       border-radius: .5rem;
@@ -23,4 +44,3 @@
     .tertiary a:visited{
       color: var(--text-dark-color);
     }
-  

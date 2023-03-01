@@ -1,5 +1,5 @@
 import React from 'react';
-import './Timeline.css';
+import '../styles/Timeline.css';
 import Dot from '../components/Dot';
 import Time from '../components/Time';
 import Profile from '../components/Profile';

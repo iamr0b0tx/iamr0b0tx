@@ -14,7 +14,7 @@
 }
 .block-1 {
 	display: flex;
-	height: 500px;
+	height: 400px;
 }
 .block-1 > div {
 	padding: 1rem;
@@ -40,7 +40,7 @@
 .project-heading {
 	margin: 2rem 0;
 	font-size: 3rem;
-	font-weight: 300;
+	font-weight: 400;
 	text-align: center;
 	letter-spacing: 3px;
 	background-image: linear-gradient(to right top, #52ffb3, #539987);
@@ -63,6 +63,7 @@
 
 .project-title {
 	margin: 2rem 0;
+	padding-top: 2rem;
 	font-size: 3rem;
 	font-weight: 300;
 	text-align: center;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import './Accordion.css';
+import '../styles/Accordion.css';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import Skill from './Skill';
 

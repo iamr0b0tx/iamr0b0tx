@@ -1,7 +1,7 @@
 import React from 'react';
 import Heading from '../components/Heading';
 import { useEffect } from 'react';
-import './About.css';
+import '../styles/About.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Accordion from '../components/Accordion';
@@ -12,6 +12,7 @@ const About = ({ text }) => {
 	}, []);
 	return (
 		<div name='about' className='about'>
+			
 			<Heading text={'About Me'} />
 			<div data-aos="fade-up"  className='landing-about'>
 				<div className='left-about'>

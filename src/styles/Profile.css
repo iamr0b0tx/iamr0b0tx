@@ -1,11 +1,11 @@
 .profile {
 	margin: 0;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: .2rem;
 }
 .title-head {
 	font-size: 2.2rem;
-	font-weight: 300;
+	font-weight: 400;
 	text-transform: capitalize;
 	margin: .5rem 0 .5rem 0;
 	color: var(--bg-green-color);
@@ -19,12 +19,12 @@
 }
 .article {
 	font-size: 1.8rem;
-	font-weight: 300;
+	font-weight: 400;
 	color: var(--bg-green-color);
 }
-p {
+.article>p {
 	list-style-type: none;
 	font-size: 1.2rem;
-	font-weight: 100;
+	font-weight: 400;
 	padding: .5rem 0;
 }

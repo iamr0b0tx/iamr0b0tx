@@ -1,5 +1,5 @@
 import React from 'react';
-import './Dot.css';
+import '../styles/Dot.css';
 
 const Dot = () => {
 	return <div className='dot'></div>;

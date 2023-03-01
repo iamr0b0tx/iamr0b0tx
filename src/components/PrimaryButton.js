@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './PrimaryButton.css';
+import '../styles/PrimaryButton.css';
 
 const PrimaryButton = ({ name }) => {
 	return (

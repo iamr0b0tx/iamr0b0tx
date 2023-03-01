@@ -1,27 +1,23 @@
 .landing {
 	width: 100%;
 	display: flex;
-	margin-top: 2rem;
-	justify-content: center;
-	align-content: center;
-	overflow: hidden;
-	transition: all 0.1s ease;
+	margin: 2rem 0;
+	transition: all 0.2s ease;
 }
 
 .left {
-
-padding-right: 15rem;
+	width: calc(100% - 4vw);
 	letter-spacing: .3rem;
 }
 .small {
-	font-size: 1.8rem;
-	font-weight: 200;
+	font-size: clamp(1rem, 4vw, 1.8rem);
+	font-weight: 400;
 	padding: 0 0 1.6rem 0rem;
 }
 
 .big {
 	font-size: 5.6rem;
-	font-weight: 300;
+	font-weight: 400;
 	padding: 0 0 1.6rem 0rem;
 	letter-spacing: 0.3rem;
 	background-image: linear-gradient(
@@ -49,20 +45,19 @@ padding-right: 15rem;
 
 .medium {
 	padding: 0 0 1.6rem 0px;
-	font-size: 3.6rem;
+	font-size: clamp(2rem, 4vw, 3.6rem);
 	opacity: 0.9;
-	font-weight: 300;
+	font-weight: 400;
 }
 .para {
 	font-size: 1.8rem;
-	font-weight: 200;
+	font-weight: 400;
 	padding: 0 0 1.6rem 0;
 }
 
 .right {
+	flex: 50%;
 	
-	padding-left: 15rem;
-
 }
 .blockquote-wrapper {
 	width: 35rem;
@@ -85,7 +80,7 @@ padding-right: 15rem;
 	border-radius: 10px;
 color: var(--text-dark-color);
 	position: relative;
-	font-weight: 200;
+	font-weight: 400;
 	font-size: 2.6rem;
 }
 span{
@@ -93,7 +88,7 @@ span{
 }
 cite {
 	font-size: 1.4rem;
-	font-weight: 100;
+	font-weight: 400;
 	padding: 10px;
 	display: block;
 	text-align: right;

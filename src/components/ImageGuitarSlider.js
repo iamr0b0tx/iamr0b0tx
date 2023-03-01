@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './ImageGuitar.css';
+import '../styles/ImageGuitar.css';
 import ImageGuitar from './ImageGuitar';
 import { CgArrowsExpandUpRight } from 'react-icons/cg';
 import { FiGithub } from 'react-icons/fi';
@@ -13,7 +13,6 @@ import 'aos/dist/aos.css';
 
 const ImageGuitarSlider = ({ slides }) => {
 	const [current, setCurrent] = useState(0);
-	const [loaded, setLoaded] = useState(false)
 
 	const Length = slides.length;
 

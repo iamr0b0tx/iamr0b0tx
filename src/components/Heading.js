@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Heading.css';
+import '../styles/Heading.css';
 const Heading = ({ text }) => {
 	return (
 		<div className='title'>

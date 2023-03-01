@@ -22,10 +22,10 @@ label {
 	color: var(--text-light-color);
 	margin: 3rem 0;
 	font-size: 1.8rem;
-	font-weight: 100;
+	font-weight: 400;
 }
 input {
-	font-weight: 100;
+	font-weight: 400;
 	width: auto;
 	font-size: 1.8rem;
 	color: var(--text-light-color);
@@ -41,7 +41,7 @@ textarea{
 	background-color: transparent;
 	color: var(--text-light-color);
 	font-size: 1.8rem;
-	font-weight: 100;
+	font-weight: 400;
 	border: none;
 	outline: none;
 	border: 0.2rem solid var(--bg-body-color);
@@ -64,7 +64,6 @@ textarea::placeholder{
 	color: var(--text-light-color);
 	padding: .5rem .5rem ;
 	font-size: 1.8rem;
-	font-weight: 100;
 	
 }
 

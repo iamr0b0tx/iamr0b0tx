@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 
 import './App.css';
 import Loader from './components/Loader';
@@ -6,22 +6,25 @@ import Loader from './components/Loader';
 import Navbar from './components/Navbar';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import NotFound from './components/NotFound';
-import { Suspense } from 'react/cjs/react.production.min';
-
-const Home = React.lazy(() => import('./routes/Home'));
-const About = React.lazy(() => import('./routes/About'));
-const Experience = React.lazy(() => import('./routes/Experience'));
-const Work = React.lazy(() => import('./routes/Work'));
-const Contact = React.lazy(() => import('./routes/Contact'));
+import Home from './routes/Home';
+import About from './routes/About';
+import Contact from './routes/Contact';
+import Experience from './routes/Experience';
+import Work from './routes/Work';
 
 function App() {
+	const [loading, setLoading] = useState(true)
+
+	
+	useEffect(() => {
+		setTimeout(() => setLoading(false), 3000)
+	}, [])
+
 	return (
 <HashRouter>
 		<div className='app'>
-		
-			<>
-				<Suspense fallback={<Loader />}>
-					<Navbar />
+			{!loading ? <Navbar/> : null}
+			{!loading ?  (
 						<Routes>
 						<Route  path='/' element={<Home />} />
 
@@ -32,8 +35,7 @@ function App() {
 							<Route path='*' element={<NotFound />} />
 
 						</Routes>
-				</Suspense>
-			</>
+			) :<Loader/>}
 		</div>
 		</HashRouter>
 	);

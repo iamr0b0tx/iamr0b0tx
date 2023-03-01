@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './ImageGuitar.css';
+import '../styles/ImageGuitar.css';
 
 import { CgArrowsExpandUpRight } from 'react-icons/cg';
 import {
