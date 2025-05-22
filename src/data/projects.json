@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Audio Files Repository API",
+    "description": "A CRUD API for managing an audio files repository with Django and Flask",
+    "techStack": [
+      "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
+      "/django.svg",
+      "/flask.svg",
+      "https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=for-the-badge"
+    ],
+    "githubLink": "https://github.com/iamr0b0tx/audio_files_api"
+  },
+  {
+    "title": "Sentiment Analysis",
+    "description": "FastAPI service for analyzing text sentiment with machine learning",
+    "techStack": [
+      "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
+      "/pandas.svg"
+    ],
+    "githubLink": "https://github.com/iamr0b0tx/sentiment_analyser_fastapi"
+  },
+  {
+    "title": "Guitar Sample Recognizer",
+    "description": "ML service that identifies matching guitar audio samples with Keras",
+    "techStack": [
+      "/pandas.svg",
+      "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
+      "/djangoRest.svg",
+      "https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=fff&style=for-the-badge"
+    ],
+    "githubLink": "https://github.com/iamr0b0tx/guitar_audio_sample_recognizer"
+  },
+  {
+    "title": "Livestock Log",
+    "description": "Livestock management system with data analytics capabilities",
+    "techStack": [
+      "/pandas.svg",
+      "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
+      "https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=fff&style=for-the-badge"
+    ]
+  },
+  {
+    "title": "R-Kriging",
+    "description": "Geospatial data collection and analysis web application",
+    "techStack": [
+      "/django.svg",
+      "https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=for-the-badge",
+      "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
+      "https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=for-the-badge"
+    ]
+  },
+  {
+    "title": "Guitar Audio Detection",
+    "description": "Jupyter Notebook for audio sample matching with ML models",
+    "techStack": [
+      "/flask.svg",
+      "https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=fff&style=for-the-badge",
+      "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
+      "/pandas.svg"
+    ],
+    "githubLink": "https://github.com/iamr0b0tx/guitar_audio_sample_detection"
+  },
+  {
+    "title": "YouTube API Search",
+    "description": "Web app for searching YouTube videos through their API",
+    "techStack": [
+      "/html.svg",
+      "/css.svg",
+      "/javascript.svg",
+      "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
+      "/django.svg"
+    ],
+    "githubLink": "https://github.com/iamr0b0tx/youtube-api-search"
+  },
+  {
+    "title": "YouTube API Search",
+    "description": "Web app for searching YouTube videos through their API",
+    "techStack": [
+      "/html.svg",
+      "/css.svg",
+      "/javascript.svg",
+      "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
+      "/django.svg"
+    ]
+  }
+
+]

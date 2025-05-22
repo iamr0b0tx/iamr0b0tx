@@ -1,0 +1,38 @@
+[
+  {
+    "date": "January, 2023 - Present",
+    "company": "Amazon",
+    "location": "Scotland, United Kingdom ·",
+    "role": "Software Engineer",
+    "description": "Developing and managing distributed systems that facilitate creation and management of catalog relationships"
+  },
+  {
+    "date": "July, 2021 - December, 2022",
+    "company": "TechGC",
+    "location": "New York, United States",
+    "role": "Senior Backend Engineer",
+    "description": "Oversee, design, develop the new TechGC platform."
+  },
+  {
+    "date": "November, 2021 - Present",
+    "company": "Robots Limited",
+    "location": "Lagos, Nigeria",
+    "role": "Head of Engineering",
+    "description": "Design and develop various projects."
+  },
+  {
+    "date": "April, 2020 - September, 2022",
+    "company": "Syslotus",
+    "location": "Lagos, Nigeria",
+    "role": "Lead Software Developer",
+    "description": "Developed a Livestock management application and integrated paid subscription to the platform."
+  },
+
+  {
+    "date": "July, 2019 - July, 2021",
+    "company": "Semicolon",
+    "location": "Lagos, Nigeria",
+    "role": "Software Engineering Facilitator",
+    "description": "Trained software engineers in Python programming, backend development with Django+Postgres and deployment."
+  }
+]
