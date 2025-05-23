@@ -19,7 +19,7 @@ const About = () => {
   };
 
   return (
-    <div className="p-6 min-h-[100vh] mb-20 max-w-7xl mx-auto">
+    <div className="p-6  my-20 max-w-7xl mx-auto">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -53,22 +53,15 @@ const About = () => {
 
         <motion.div variants={fadeInUp}>
           <h3>
-            Hi, my name is Abdulfatah Adeneye.
-            <br />A software developer based in Lagos, Nigeria. I am specialised
-            in <span className="text-green-400">backend</span> and{" "}
-            <span className="text-green-400">DevOps</span>. I have extensive
-            experience working with{" "}
-            <span className="text-green-400">Python </span>
-            for backend development using{" "}
-            <span className="text-green-400">Django</span>.
-            <br />I also have some experience using{" "}
-            <span className="text-green-400">
-              Python for machine learning
-            </span>{" "}
-            with <span className="text-green-400">NumPy</span>,{" "}
-            <span className="text-green-400">pandas</span>,{" "}
-            <span className="text-green-400">sklearn</span> and{" "}
-            <span className="text-green-400">Keras</span>.
+            Hi, my name is Abdulfatah.
+            <br />A software developer based in Scotland, UK. I specialise in{" "}
+            <span className="text-green-400">backend</span> development,
+            focusing on RESTful APIs that are secure, maintainable, and
+            high-performing. My expertise also lies in Machine Learning
+            Operation(<span className="text-green-400">MLOps</span>) which
+            involve the integration of machine learning models into real-world
+            applications.
+            <br />
           </h3>
         </motion.div>
 
@@ -80,10 +73,7 @@ const About = () => {
             experience working with and managing other engineers. I am good at
             understanding requirements, documenting them, and{" "}
             <span className="text-green-400">communicating</span> with
-            stakeholders about issues, solutions and progress. I am able to
-            document plans,{" "}
-            <span className="text-green-400">design high-level</span> solutions
-            and implement low-level tasks.
+            stakeholders about issues, solutions and progress.
           </h3>
         </motion.div>
       </motion.section>
@@ -96,18 +86,15 @@ const About = () => {
       >
         <h3 className="text-3xl mb-8">Skills</h3>
         <motion.div
-          className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6"
+          className=""
           variants={staggerContainer}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
         >
           {skills.map((skillCategory, index) => (
-            <div key={index} variants={fadeInUp} className=" p-4 rounded-lg ">
-              <h4 className="text-lg mb-4 font-medium">
-                {skillCategory.category}
-              </h4>
-              <div className="space-y-3">
+            <div key={index} variants={fadeInUp} className=" ">
+              <div className="space-y-3 grid grid-cols-5">
                 {skillCategory.items.map((skill, i) => (
                   <div key={i}>
                     <motion.img
