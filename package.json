@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
