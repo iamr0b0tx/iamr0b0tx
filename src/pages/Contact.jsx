@@ -4,7 +4,7 @@ import { FaCalendarAlt, FaExternalLinkAlt, FaPaperPlane } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <div id="contact" className="p-6 min-h-screen max-w-7xl mx-auto">
+    <div id="contact" className="p-6 min-h max-w-7xl mx-auto">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

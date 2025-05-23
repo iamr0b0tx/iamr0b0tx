@@ -8,14 +8,14 @@ function Hero() {
     setIsLoaded(true);
   }, []);
 
-  const text = "BACKEND ENGINEER";
+  const text = "SOFTWARE ENGINEER";
   const name = "Abdulfatah Adeneye".split("");
 
   return (
-    <div className="py-12 xl:py-20 min-h-[80vh] ">
+    <div className="my-12 ">
       <section className="mx-4 px-2 xl:px-4 py-6 flex flex-col justify-between border-b-2 border-green-800/60">
         <h2
-          className={`text-6xl  xl:text-[115px] max-w-xl md:max-w-2xl xl:max-w-2xl font-bold  xl:tracking-wider break-words`}
+          className={`text-6xl  xl:text-[100px] max-w-xl md:max-w-2xl xl:max-w-2xl font-bold  xl:tracking-wider break-words`}
         >
           {text.split("").map((letter, index) => (
             <span
@@ -61,8 +61,7 @@ function Hero() {
         <p className="my-4 xl:my-10 flex justify-end text-gray-400 xl:text-lg leading-relaxed ">
           Problem-solver driven by a passion for building scalable, secure
           systems. Expertise in server-side development, with a focus on APIs,
-          databases, and performance optimization — pushing boundaries behind
-          the scenes.
+          databases and data management — pushing boundaries behind the scenes.
         </p>
       </section>
     </div>

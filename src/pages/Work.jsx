@@ -14,12 +14,16 @@ function Work() {
     },
   };
   return (
-    <motion.div
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-      className="mb-16"
-    >
+    <div id="work" className="p-6 min-h-screen">
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="mb-16"
+      >
+        <h2 className="text-5xl md:text-7xl font-bold mb-4 text-white">Work</h2>
+        <div className="h-1 w-24 bg-gradient-to-r from-green-400 to-emerald-300 rounded-full" />
+      </motion.div>
       <motion.section
         variants={containerVariants}
         initial="hidden"
@@ -27,7 +31,7 @@ function Work() {
       >
         <Timeline />
       </motion.section>
-    </motion.div>
+    </div>
   );
 }
 
