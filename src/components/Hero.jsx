@@ -60,8 +60,8 @@ function Hero() {
         </h4>
         <p className="my-4 xl:my-10 flex justify-end text-gray-400 xl:text-lg leading-relaxed ">
           Problem-solver driven by a passion for building scalable, secure
-          systems. Expertise in server-side development, with a focus on APIs,
-          databases and data management — pushing boundaries behind the scenes.
+          systems. Expertise in server-side development, with a focus on APIs
+          and data management — pushing boundaries behind the scenes.
         </p>
       </section>
     </div>

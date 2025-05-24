@@ -14,7 +14,7 @@ function Work() {
     },
   };
   return (
-    <div id="work" className="p-6 min-h-screen">
+    <div id="work" className="p-6 my-20">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

@@ -4,7 +4,6 @@
     "description": "A CRUD API for managing an audio files repository with Django and Flask",
     "techStack": [
       "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
-      "/django.svg",
       "/flask.svg",
       "https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=for-the-badge"
     ],
@@ -34,9 +33,9 @@
     "title": "Livestock Log",
     "description": "Livestock management system with data analytics capabilities",
     "techStack": [
-      "/pandas.svg",
       "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
-      "https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=fff&style=for-the-badge"
+      "/django.svg",
+      "https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=for-the-badge"
     ]
   },
   {
@@ -46,7 +45,6 @@
       "/django.svg",
       "https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=for-the-badge",
       "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
-      "https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=for-the-badge"
     ]
   },
   {
@@ -64,23 +62,17 @@
     "title": "YouTube API Search",
     "description": "Web app for searching YouTube videos through their API",
     "techStack": [
-      "/html.svg",
-      "/css.svg",
-      "/javascript.svg",
+    
       "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
-      "/django.svg"
+      "/flask.svg"
     ],
     "githubLink": "https://github.com/iamr0b0tx/youtube-api-search"
   },
   {
-    "title": "YouTube API Search",
-    "description": "Web app for searching YouTube videos through their API",
+    "title": "feta-poc",
+    "description": "Federate user data while prioritising ownership and access",
     "techStack": [
-      "/html.svg",
-      "/css.svg",
-      "/javascript.svg",
-      "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
-      "/django.svg"
+      "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge"
     ]
   }
 ]
