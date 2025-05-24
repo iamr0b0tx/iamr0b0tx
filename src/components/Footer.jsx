@@ -1,4 +1,8 @@
 import { FaArrowUp } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
+
+
 
 function Footer() {
   const scrollToTop = () => {
@@ -14,15 +18,16 @@ function Footer() {
         />
       </div>
       <div className="flex justify-center  border-t-2 border-gray-600">
-        <p className="m-4">
+        <p className="m-4 flex items-center gap-2">
           Designed by{" "}
           <a
             href="www.github.com/motuncoded"
-            className="text-green-400 hover:underline"
+            className="text-green-400 hover:underline "
           >
             {" "}
             motuncoded
           </a>
+          <FaGithub className="group-hover:scale-110 transition-transform" />
         </p>
       </div>
     </footer>

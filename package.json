@@ -14,6 +14,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@formspree/react": "^3.0.0",
     "@tailwindcss/vite": "^4.1.5",
     "lucide-react": "^0.507.0",
     "motion": "^12.12.1",

@@ -1,10 +1,19 @@
 import React from "react";
 import { motion } from "motion/react";
 import { FaCalendarAlt, FaExternalLinkAlt, FaPaperPlane } from "react-icons/fa";
+import { useForm, ValidationError } from "@formspree/react";
 
 export default function Contact() {
+  const [state, handleSubmit] = useForm("xeogwvgb");
+  if (state.succeeded) {
+    return (<p>Thanks for connecting!</p>);
+  }
+  if (state.submitting) {
+    return <p>Sending...</p>;
+  }
+    
   return (
-    <div id="contact" className="p-6 min-h max-w-7xl mx-auto">
+    <div id="contact" className="p-6 my-20 max-w-7xl mx-auto">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -72,7 +81,7 @@ export default function Contact() {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
             className="flex flex-col gap-8"
-            action="https://formsubmit.co/your@email.com"
+            onSubmit={handleSubmit}
             method="POST"
           >
             <input type="hidden" name="_captcha" value="false" />

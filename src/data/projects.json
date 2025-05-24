@@ -44,7 +44,7 @@
     "techStack": [
       "/django.svg",
       "https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=for-the-badge",
-      "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
+      "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge"
     ]
   },
   {
@@ -73,6 +73,7 @@
     "description": "Federate user data while prioritising ownership and access",
     "techStack": [
       "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge"
-    ]
+    ],
+    "githubLink": "https://github.com/iamr0b0tx/guitar_audio_sample_detection"
   }
 ]
