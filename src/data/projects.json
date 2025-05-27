@@ -62,7 +62,6 @@
     "title": "YouTube API Search",
     "description": "Web app for searching YouTube videos through their API",
     "techStack": [
-    
       "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge",
       "/flask.svg"
     ],

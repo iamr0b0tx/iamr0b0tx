@@ -19,7 +19,7 @@ const About = () => {
   };
 
   return (
-    <div className="p-6 my-20 max-w-7xl mx-auto">
+    <div className="p-6 my-8 xl:my-10 max-w-7xl mx-auto">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -94,7 +94,7 @@ const About = () => {
         >
           {skills.map((skillCategory, index) => (
             <div key={index} variants={fadeInUp} className=" ">
-              <div className="space-y-3 grid grid-cols-6">
+              <div className="space-y-6 space-x-4 grid grid-cols-3 md:grid-cols-4 xl:grid-cols-6 ">
                 {skillCategory.items.map((skill, i) => (
                   <div key={i}>
                     <motion.img

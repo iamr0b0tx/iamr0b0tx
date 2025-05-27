@@ -8,14 +8,16 @@ function Hero() {
     setIsLoaded(true);
   }, []);
 
-  const text = "SOFTWARE ENGINEER";
+  const text = "SOFTWARE";
+  const text_two = "ENGINEER";
   const name = "Abdulfatah Adeneye".split("");
 
   return (
-    <div className="my-12 ">
+    <div className="my-8 xl:mb-12 ">
       <section className="mx-4 px-2 xl:px-4 py-6 flex flex-col justify-between border-b-2 border-green-800/60">
+        {/* Desktop */}
         <h2
-          className={`text-6xl  xl:text-[100px] max-w-xl md:max-w-2xl xl:max-w-2xl font-bold  xl:tracking-wider break-words`}
+          className={`text-5xl xl:text-[100px] max-w-xl md:max-w-2xl xl:max-w-2xl font-bold xl:tracking-wider break-normal`}
         >
           {text.split("").map((letter, index) => (
             <span
@@ -27,6 +29,26 @@ function Hero() {
               }`}
               style={{
                 transitionDelay: `${index * 0.05}s`,
+              }}
+            >
+              {letter === " " ? "\u00A0" : letter}
+            </span>
+          ))}
+        </h2>
+        <h2
+          className={`text-5xl xl:text-[100px] max-w-xl md:max-w-2xl xl:max-w-2xl font-bold xl:tracking-wider break-normal`}
+        >
+          {" "}
+          {text_two.split("").map((letter, index) => (
+            <span
+              key={index}
+              className={`inline-block text-white transform transition-all duration-700 ${
+                isLoaded
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-6"
+              }`}
+              style={{
+                transitionDelay: `${index * 0.07}s`,
               }}
             >
               {letter === " " ? "\u00A0" : letter}
@@ -54,7 +76,7 @@ function Hero() {
           ))}
         </h3>
       </section>
-      <section className="px-2 mx-4 xl:px-4 py-6 grid xl:grid-cols-2 ">
+      <section className="px-2 mx-4 my-10 xl:px-4  grid xl:grid-cols-2 ">
         <h4 className="text-2xl xl:text-3xl font-medium text-white">
           Scalable web solutions
         </h4>

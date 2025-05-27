@@ -1,9 +1,6 @@
 import { FaArrowUp } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
-
-
-
 function Footer() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });

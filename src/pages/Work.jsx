@@ -14,20 +14,21 @@ function Work() {
     },
   };
   return (
-    <div id="work" className="p-6 my-20">
+    <div className="p-6 my-8 xl:my-10">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         className="mb-16"
       >
-        <h2 className="text-5xl md:text-7xl font-bold mb-4 text-white">Work</h2>
+        <h2 className="text-5xl md:text-7xl font-bold  text-white">Work</h2>
         <div className="h-1 w-24 bg-gradient-to-r from-green-400 to-emerald-300 rounded-full" />
       </motion.div>
       <motion.section
         variants={containerVariants}
         initial="hidden"
         animate="visible"
+        className="mb-20"
       >
         <Timeline />
       </motion.section>

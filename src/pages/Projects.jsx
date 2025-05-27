@@ -27,7 +27,7 @@ const Projects = () => {
     },
   };
   return (
-    <div className="p-6  mb-20 max-w-7xl mx-auto">
+    <div className="p-6 my-8 xl:my-10 max-w-7xl mx-auto">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -43,7 +43,7 @@ const Projects = () => {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6"
+        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 my-20"
       >
         {projects.map((project, index) => (
           <motion.div key={index} variants={itemVariants}>
